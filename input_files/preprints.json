@@ -1,0 +1,285 @@
+{
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "preferences": {
+      "ascii": "",
+      "asciiBibLaTeX": false,
+      "asciiBibTeX": true,
+      "autoAbbrev": false,
+      "autoAbbrevStyle": "",
+      "autoExport": "immediate",
+      "autoExportDelay": 2,
+      "autoExportIdleWait": 10,
+      "autoExportPathReplaceDiacritics": false,
+      "autoExportPathReplaceDirSep": "-",
+      "autoExportPathReplaceSpace": " ",
+      "automaticTags": true,
+      "autoPinDelay": 0,
+      "auxImport": false,
+      "baseAttachmentPath": "",
+      "biblatexExtendedDateFormat": true,
+      "biblatexExtendedNameFormat": false,
+      "biblatexExtractEprint": true,
+      "bibtexParticleNoOp": false,
+      "bibtexURL": "off",
+      "cache": true,
+      "cacheFlushInterval": 5,
+      "charmap": "",
+      "citeCommand": "cite",
+      "citekeyFold": true,
+      "citekeyFormat": "auth.lower+\"_\"+shorttitle(1,1)+\"_\"+year",
+      "citekeyFormatBackup": "auth.lower+\"_\"+shorttitle(1,1)+\"_\"+year",
+      "citekeySearch": true,
+      "citekeyUnsafeChars": "\\\"#%'(),={}~",
+      "csquotes": "",
+      "DOIandURL": "both",
+      "exportBibTeXStrings": "off",
+      "exportBraceProtection": false,
+      "exportTitleCase": false,
+      "extraMergeCitekeys": true,
+      "extraMergeCSL": true,
+      "extraMergeTeX": true,
+      "git": "config",
+      "import": true,
+      "importBibTeXStrings": true,
+      "importCaseProtection": "as-needed",
+      "importCitationKey": true,
+      "importExtra": true,
+      "importJabRefAbbreviations": true,
+      "importJabRefStrings": true,
+      "importNoteToExtra": "",
+      "importSentenceCase": "on+guess",
+      "importUnknownTexCommand": "ignore",
+      "itemObserverDelay": 100,
+      "jabrefFormat": 0,
+      "jieba": false,
+      "keyConflictPolicy": "keep",
+      "keyScope": "global",
+      "kuroshiro": false,
+      "language": "langid",
+      "mapMath": "",
+      "mapText": "",
+      "mapUnicode": "conservative",
+      "parseParticles": true,
+      "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
+      "platform": "lin",
+      "postscript": "if (Translator.BetterCSL) {\n  csl.add({ name: 'keywords', value: zotero.tags, sep: ', ', enc: 'tags' });\n}\n",
+      "postscriptOverride": "",
+      "preferencesOverride": "",
+      "qualityReport": false,
+      "quickCopyEta": "",
+      "quickCopyMode": "latex",
+      "quickCopyOrgMode": "zotero",
+      "quickCopyPandocBrackets": false,
+      "quickCopySelectLink": "zotero",
+      "rawImports": false,
+      "rawLaTag": "#LaTeX",
+      "relativeFilePaths": false,
+      "retainCache": false,
+      "scrubDatabase": false,
+      "separatorList": "and",
+      "separatorNames": "and",
+      "skipFields": "abstract,file",
+      "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
+      "startupProgress": "popup",
+      "strings": "",
+      "stringsOverride": "",
+      "testing": false,
+      "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
+      "warnBulkModify": 10,
+      "warnTitleCased": false,
+      "texmap": {}
+    },
+    "options": {
+      "exportNotes": false,
+      "exportFileData": false,
+      "keepUpdated": false,
+      "worker": true
+    }
+  },
+  "version": {
+    "zotero": "6.0.22",
+    "bbt": "6.7.54"
+  },
+  "collections": {},
+  "items": [
+    {
+      "key": "EI4E4AMH",
+      "version": 21398,
+      "itemType": "preprint",
+      "url": "https://www.biorxiv.org/content/10.1101/2022.11.16.516813v1",
+      "rights": "\u00a9 2022, Posted by Cold Spring Harbor Laboratory. The copyright holder for this pre-print is the author. All rights reserved. The material may not be redistributed, re-used or adapted without the author's permission.",
+      "date": "2022 Nov 16",
+      "extra": "Pages: 2022.11.16.516813\nSection: New Results",
+      "DOI": "10.1101/2022.11.16.516813",
+      "accessDate": "2022-11-22T00:43:39Z",
+      "libraryCatalog": "bioRxiv",
+      "language": "en",
+      "abstractNote": "Significant recent advances in structural biology, particularly in the field of cryo-electron microscopy, have dramatically expanded our ability to create structural models of proteins and protein complexes. However, many proteins remain refractory to these approaches because of their low abundance, low stability or \u2013 in the case of complexes \u2013 simply not having yet been analysed. Here, we demonstrate the power of combining cross-linking mass spectrometry (XL-MS) with artificial intelligence-based structure prediction to discover and experimentally substantiate models for protein and protein complex structures at proteome scale. We present the deepest XL-MS dataset to date, describing 28,910 unique residue pairs captured across 4,084 unique human proteins and 2,110 unique protein-protein interactions. We show that integrative models of complexes driven by AlphaFold Multimer and inspired and corroborated by the XL-MS data offer new opportunities to deeply mine the structural proteome and interactome and reveal new mechanisms underlying protein structure and function.",
+      "title": "Cross-linking mass spectrometry discovers, evaluates, and validates the experimental and predicted structural proteome",
+      "creators": [
+        {
+          "firstName": "Tara K.",
+          "lastName": "Bartolec",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alexander",
+          "lastName": "Norman",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Clement",
+          "lastName": "Luong",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Richard J.",
+          "lastName": "Payne",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marc R.",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Joel P.",
+          "lastName": "Mackay",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jason K. K.",
+          "lastName": "Low",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2022-11-22T00:43:39Z",
+      "dateModified": "2023-02-16T04:03:08Z",
+      "uri": "http://zotero.org/users/152779/items/EI4E4AMH",
+      "itemID": 13032,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Bartolec et al_2022_Cross-linking mass spectrometry discovers, evaluates, and validates the.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-22T00:43:44Z",
+          "dateModified": "2022-11-22T00:43:45Z",
+          "uri": "http://zotero.org/users/152779/items/VP7CJYBL",
+          "path": "/home/xabi/Zotero/storage/VP7CJYBL/Bartolec et al_2022_Cross-linking mass spectrometry discovers, evaluates, and validates the.pdf",
+          "select": "zotero://select/library/items/VP7CJYBL"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-22T00:43:47Z",
+          "dateModified": "2022-11-22T00:43:47Z",
+          "uri": "http://zotero.org/users/152779/items/4ZCYY9AE",
+          "path": "/home/xabi/Zotero/storage/4ZCYY9AE/2022.11.16.516813v1.html",
+          "select": "zotero://select/library/items/4ZCYY9AE"
+        }
+      ],
+      "notes": [],
+      "citationKey": "bartolec_Crosslinking_2022",
+      "itemKey": "EI4E4AMH",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/EI4E4AMH",
+      "number": "2022.11.16.516813",
+      "publisher": "bioRxiv"
+    },
+    {
+      "key": "85IHMLEM",
+      "version": 21398,
+      "itemType": "preprint",
+      "url": "https://www.biorxiv.org/content/10.1101/2022.11.16.516518v1",
+      "rights": "\u00a9 2022, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "date": "2022 Nov 17",
+      "extra": "Pages: 2022.11.16.516518\nSection: New Results",
+      "DOI": "10.1101/2022.11.16.516518",
+      "accessDate": "2022-11-22T00:42:23Z",
+      "libraryCatalog": "bioRxiv",
+      "language": "en",
+      "abstractNote": "Recent discoveries of isoprene-metabolizing microorganisms suggest they might play an important role in the global isoprene budget. Under anoxic conditions, isoprene can be used as an electron acceptor and is reduced to methylbutene. This study describes the proteogenomic profiling of an isoprene-reducing bacterial culture to identify organisms and genes responsible for the isoprene hydrogenation reaction. A metagenome assembled genome (MAG) of the most abundant (89% rel. abundance) lineage in the enrichment, Acetobacterium wieringae, was obtained. Comparative proteogenomics and RT-PCR identified a putative five-gene operon from the A. wieringae MAG upregulated during isoprene reduction. The operon encodes a putative oxidoreductase, three pleiotropic nickel chaperones (2 x HypA-like, HypB-like) and one 4Fe-4S ferredoxin. The oxidoreductase is proposed as the putative isoprene reductase with a binding site for NADH, FAD and two pairs of [4Fe-4S]-clusters. Other known Acetobacterium strains do not encode the isoprene-regulated operon but encode, like many other bacteria, a homolog of the putative isoprene reductase (\u223c47\u201349% amino acid sequence identity). Uncharacterized homologs of the putative isoprene reductase are observed across the Firmicutes, Spirochaetes, Tenericutes, Actinobacteria, Chloroflexi, Bacteroidetes and Proteobacteria, suggesting the ability of biohydrogenation of unfunctionalized conjugated doubled bonds in other unsaturated hydrocarbons.\nImportance Isoprene was recently shown to act as an electron acceptor for a homoacetogenic bacterium. The focus of this study is the molecular basis for isoprene reduction. By comparing a genome from our isoprene reducing enrichment culture, dominated by Acetobacterium wieringae, with genomes of other Acetobacterium lineages that do not reduce isoprene, we shortlisted candidate genes for isoprene reduction. Using comparative proteogenomics and reverse transcription PCR we have identified a putative five-gene operon encoding an oxidoreductase referred to as putative isoprene reductase.",
+      "title": "Evidence for a putative isoprene reductase in <i>Acetobacterium wieringae</i>",
+      "creators": [
+        {
+          "firstName": "Miriam",
+          "lastName": "Kronen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marc R.",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew",
+          "lastName": "Lee",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Michael J.",
+          "lastName": "Manefield",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "cofirst"
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2022-11-22T00:42:23Z",
+      "dateModified": "2023-02-16T04:02:57Z",
+      "uri": "http://zotero.org/users/152779/items/85IHMLEM",
+      "itemID": 13029,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Kronen et al_2022_Evidence for a putative isoprene reductase in Acetobacterium wieringae.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-22T00:42:30Z",
+          "dateModified": "2022-11-22T00:42:32Z",
+          "uri": "http://zotero.org/users/152779/items/VJSEZTHF",
+          "path": "/home/xabi/Zotero/storage/VJSEZTHF/Kronen et al_2022_Evidence for a putative isoprene reductase in Acetobacterium wieringae.pdf",
+          "select": "zotero://select/library/items/VJSEZTHF"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-22T00:42:34Z",
+          "dateModified": "2022-11-22T00:42:34Z",
+          "uri": "http://zotero.org/users/152779/items/WFLES3J5",
+          "path": "/home/xabi/Zotero/storage/WFLES3J5/2022.11.16.516518v1.html",
+          "select": "zotero://select/library/items/WFLES3J5"
+        }
+      ],
+      "notes": [],
+      "citationKey": "kronen_Evidence_2022a",
+      "itemKey": "85IHMLEM",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/85IHMLEM",
+      "number": "2022.11.16.516518",
+      "publisher": "bioRxiv"
+    }
+  ]
+}

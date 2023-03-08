@@ -1,0 +1,399 @@
+---
+title: "Xabier Vázquez-Campos's CV"
+author: "`r paste0(params$author, ', ', params$author_title)`"
+date: "`r Sys.Date()`"
+params:
+  author: "Xabier Vázquez-Campos"
+  aliases: "aliases.txt"
+  author_title: "PhD"
+  position: "Computational biologist | Environmental microbiologist"
+  long_cv: TRUE
+  sheet_is_publicly_readable: true
+  data_location: "https://docs.google.com/spreadsheets/d/16xpf0YnVbZdzgDBwobBuidjpI7SW8jVQepWfpfql_pE/edit?usp=sharing"
+  repository: "https://github.com/xvazquezc/datadrivencv-academic"
+  pub_location: "./input_files/"
+  pdf_mode: TRUE
+output:
+  pagedown::html_resume:
+    css: 
+      - 'css/fontawesome-free-6.2.1-web/css/all.min.css'
+      - 'resume'
+      - 'css/dd_cv.css'
+      - 'https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css'
+    self_contained: true
+knit:
+  pagedown::chrome_print
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+
+library(magrittr) # For the pipe
+library(fontawesome)
+source("code/cv_printing_functions.R")
+
+# Read in all data and initialize a CV printer object
+CV <- create_CV_object(
+  data_location = params$data_location,  
+  pdf_mode = params$pdf_mode,
+  long_cv = params$long_cv
+)
+
+PUB <- create_PUB_object(
+  data_location = params$pub_location,
+  aliases = paste0(params$pub_location, params$aliases),
+  pdf_mode = params$pdf_mode,
+  long_cv = params$long_cv
+)
+```
+
+
+```{r pdf_eval}
+# When in pdf export mode the little dots are unaligned, so fix that with some conditional CSS.
+if(params$pdf_mode) {
+    cat("
+<style>
+:root{
+  --decorator-outer-offset-left: -6.5px;
+}
+</style>")
+}
+```
+
+
+Aside
+================================================================================
+
+```{r download_cv}
+if (params$long_cv == TRUE) {
+  glue::glue(
+    "[<i class='fas fa-download'></i> Download a PDF of this CV]({params$repository}/raw/master/cv_long.pdf)",
+    .open = "{{", .close = "}}")
+} else {
+  glue::glue(
+    "[<i class='fas fa-download'></i> Download the extended version of this CV]({params$repository}/raw/master/cv_long.pdf)",
+    .open = "{{", .close = "}}")
+  
+}
+```
+
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+```{r contact_info}
+CV %>% print_contact_info()
+```
+
+
+<!-- Skills {#skills} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+```{r skill_list}
+CV %>% print_skill_list("comp_bio")
+```
+
+
+```{r skill_coding}
+CV %>% print_skill_list("coding")
+```
+
+<!-- Language Skills {#skills} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- ```{r} -->
+<!-- CV %>% print_skill_bars() -->
+<!-- ``` -->
+
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+The source code is available on my [datadrivencv-academic repository](`r params$repository`).
+
+Last updated on `r Sys.Date()`.
+
+
+<!-- Second sidebar {.aside .extra-sidebar} -->
+<!-- ================================================================================ -->
+
+<!-- ::: aside -->
+<!-- ```{r skill_lang} -->
+<!-- CV %>% print_skill_list("language") -->
+<!-- ``` -->
+<!-- ::: -->
+
+
+Main
+================================================================================
+
+`r paste0(params$author, ', ', params$author_title)` {#title}
+--------------------------------------------------------------------------------
+
+### `r params$position`
+
+<!-- ```{r} -->
+<!-- # Note the special double pipe so we modify the CV object in place -->
+<!-- CV %<>% print_text_block("intro")  -->
+<!-- ``` -->
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r education}
+CV$entries_data %<>% print_section('education', glue_template = "default")
+```
+
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r research_positions}
+CV$entries_data %<>% print_section('research_positions', glue_template = "default")
+```
+
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+## Courses {data-icon=person-chalkboard #subtitle_teach_courses}
+
+<!-- ```{r} -->
+<!-- CV %<>% print_text_block('teaching_experience_aside') -->
+<!-- ``` -->
+
+```{r courses}
+CV$teaching %<>% print_section('courses', glue_template = "teaching")
+```
+
+
+## Invited lectures {data-icon=chalkboard-user #subtitle_teach_invited}
+
+```{r invited_lectures}
+CV$teaching %<>% print_section('invited_lectures', glue_template = "teaching")
+```
+
+
+## Workshops {data-icon="users-gear" #subtitle_teach_ws}
+
+```{r workshops}
+CV$teaching %<>% print_section('workshops', glue_template = "teaching")
+```
+
+
+## Supervision {data-icon=user-pen #subtitle_super}
+
+```{r supervision}
+CV$supervision %<>% print_section('formal', glue_template = "supervision")
+```
+
+```{r aside_supervision}
+CV %<>% print_text_block_aside("supervision")
+```
+
+
+Grants {data-icon=hand-holding-dollar}
+--------------------------------------------------------------------------------
+
+```{r grants}
+CV$grants_awards %<>% print_section('grants', glue_template = "grants")
+```
+
+
+Awards {data-icon=award}
+--------------------------------------------------------------------------------
+
+```{r awards}
+CV$grants_awards %<>% print_section('awards', glue_template = "grants")
+```
+
+
+
+```{r training_title, eval = (params$long_cv == TRUE), results = "asis"}
+glue::glue(
+  'Training and professional development {data-icon=user-plus}\n',
+  '--------------------------------------------------------------------------------',
+  .open = "{{", .close = "}}")
+```
+
+```{r training_summary, eval = (params$long_cv == TRUE)}
+CV %<>% print_text_block_aside("training")
+```
+
+```{r training_courses_title, eval = (params$long_cv == TRUE), results = "asis"}
+glue::glue(
+  '## Courses {data-icon=book-open-reader #subtitle_train_course}',
+  .open = "{{", .close = "}}")
+```
+
+```{r training_courses, eval = (params$long_cv == TRUE)}
+CV$training %<>% print_section('course', glue_template = "training")
+```
+
+```{r training_ws_title, eval = (params$long_cv == TRUE), results = "asis"}
+glue::glue(
+  '## Workshops {data-icon="user-gear" #subtitle_train_ws}',
+  .open = "{{", .close = "}}")
+```
+
+```{r training_workshops, eval = (params$long_cv == TRUE)}
+CV$training %<>% print_section('workshop', glue_template = "training")
+```
+
+```{r fix_paging, eval = (params$long_cv != TRUE), results = "asis"}
+glue::glue(
+  '\\newpage',
+  .open = "{{", .close = "}}")
+```
+
+
+Publications {data-icon="book"}
+--------------------------------------------------------------------------------
+
+```{r preprints_eval}
+# preprint section only if there is some active preprint AND it's long CV
+preprint_eval <- params$long_cv & !is.null(PUB[["preprints"]])
+```
+
+```{r preprints_title, eval = preprint_eval, results = "asis"}
+glue::glue(
+  '## <i class="ai ai-biorxiv"></i> Pre-prints {#subtitle_preprint}',
+  .open = "{{", .close = "}}")
+```
+
+```{r preprints, eval = preprint_eval}
+PUB$preprints %<>% print_section('preprints', glue_template = "preprints")
+```
+
+```{r under_review_eval}
+#only write section under_review if there is any paper in that biblio file AND it's long CV
+under_review_eval <- params$long_cv & !is.null(PUB[["under_review"]])
+```
+
+```{r under_review_title, eval = under_review_eval, results = "asis"}
+glue::glue(
+  '## Under review {data-icon=magnifying-glass-chart #subtitle_under_review}',
+  .open = "{{", .close = "}}")
+```
+
+```{r under_review, eval = under_review_eval}
+PUB$under_review %<>% print_section('under_review', glue_template = "under_review")
+```
+
+
+```{r journals_title, eval = (params$long_cv == TRUE), results = "asis"}
+glue::glue(
+  '## Journal articles {data-icon="file-alt" #subtitle_journals}',
+  .open = "{{", .close = "}}")
+```
+
+```{r peer_reviewed}
+if (params$long_cv != TRUE) {
+  #text block for short CV
+  CV %<>% print_text_block_aside("pubs_shortcv")
+}
+
+PUB$peer_reviewed %<>% print_section('peer_reviewed', glue_template = "pubs")
+```
+
+
+```{r reports_title, eval = (params$long_cv == TRUE), results = "asis"}
+glue::glue(
+  '## Technical Reports {data-icon="file-invoice" #subtitle_techrep}',
+  .open = "{{", .close = "}}")
+```
+
+```{r reports, eval = (params$long_cv == TRUE)}
+PUB$reports %<>% print_section('reports', glue_template = "reports")
+```
+
+
+Conference contributions {data-icon="users"}
+--------------------------------------------------------------------------------
+
+```{r conferences_shortcv, eval = (params$long_cv != TRUE)}
+#short conf contributions for short CV
+CV %<>% print_text_block_aside("conf_shortcv")
+
+PUB$conferences %<>% print_section('conferences', glue_template = "conferences")
+```
+
+
+```{r conf_oral_title, eval = (params$long_cv == TRUE), results = "asis"}
+glue::glue(
+  '## Oral presentations {data-icon=person-chalkboard #subtitle_oral}',
+  .open = "{{", .close = "}}")
+```
+
+```{r conf_oral, eval = (params$long_cv == TRUE)}
+PUB$conf_oral %<>% print_section('conf_oral', glue_template = "conferences")
+```
+
+
+```{r conf_poster_title, eval = (params$long_cv == TRUE), results = "asis"}
+glue::glue(
+  '## Posters {data-icon=clipboard-user #subtitle_posters}',
+  .open = "{{", .close = "}}")
+```
+
+```{r conf_poster, eval = (params$long_cv == TRUE)}
+PUB$conf_poster %<>% print_section('conf_poster', glue_template = "conferences")
+```
+
+
+```{r conf_coauth_title, eval = (params$long_cv == TRUE), results = "asis"}
+glue::glue(
+  '## Co-authored contributions {data-icon=handshake #subtitle_coauth}',
+  .open = "{{", .close = "}}")
+```
+
+```{r conf_coauth, eval = (params$long_cv == TRUE)}
+#aside
+CV %<>% print_text_block_aside("conf_coauth")
+#main
+PUB$conf_coauth %<>% print_section('conf_coauth', glue_template = "conferences")
+```
+
+
+```{r invited_talks_title, eval = (params$long_cv == TRUE), results = "asis"}
+glue::glue(
+  'Invited talks {data-icon=person-chalkboard}\n',
+  '--------------------------------------------------------------------------------',
+  .open = "{{", .close = "}}")
+```
+
+```{r invited_talks, eval = (params$long_cv == TRUE)}
+PUB$invited_talks %<>% print_section('invited_talks', glue_template = "invited_talks")
+```
+
+
+Service {data-icon=handshake-angle}
+--------------------------------------------------------------------------------
+
+```{r service}
+CV$service %<>% print_section('membership_inst', glue_template = "service_gen")
+CV$service %<>% print_section('membership_prof', glue_template = "service_gen")
+CV$service %<>% print_section('service_conf', glue_template = "service_gen")
+```
+
+
+```{r reviewer}
+CV$service %<>% print_section('reviews', glue_template = "reviews")
+```
+
+
+```{r aside_reviewer}
+CV %<>% print_text_block_aside("reviewer")
+```
+
+
+```{r}
+CV %<>% print_links()
+```

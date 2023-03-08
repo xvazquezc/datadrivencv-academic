@@ -1,0 +1,372 @@
+{
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "preferences": {
+      "ascii": "",
+      "asciiBibLaTeX": false,
+      "asciiBibTeX": true,
+      "autoAbbrev": false,
+      "autoAbbrevStyle": "",
+      "autoExport": "immediate",
+      "autoExportDelay": 2,
+      "autoExportIdleWait": 10,
+      "autoExportPathReplaceDiacritics": false,
+      "autoExportPathReplaceDirSep": "-",
+      "autoExportPathReplaceSpace": " ",
+      "automaticTags": true,
+      "autoPinDelay": 0,
+      "auxImport": false,
+      "baseAttachmentPath": "",
+      "biblatexExtendedDateFormat": true,
+      "biblatexExtendedNameFormat": false,
+      "biblatexExtractEprint": true,
+      "bibtexParticleNoOp": false,
+      "bibtexURL": "off",
+      "cache": true,
+      "cacheFlushInterval": 5,
+      "charmap": "",
+      "citeCommand": "cite",
+      "citekeyFold": true,
+      "citekeyFormat": "auth.lower+\"_\"+shorttitle(1,1)+\"_\"+year",
+      "citekeyFormatBackup": "auth.lower+\"_\"+shorttitle(1,1)+\"_\"+year",
+      "citekeySearch": true,
+      "citekeyUnsafeChars": "\\\"#%'(),={}~",
+      "csquotes": "",
+      "DOIandURL": "both",
+      "exportBibTeXStrings": "off",
+      "exportBraceProtection": false,
+      "exportTitleCase": false,
+      "extraMergeCitekeys": true,
+      "extraMergeCSL": true,
+      "extraMergeTeX": true,
+      "git": "config",
+      "import": true,
+      "importBibTeXStrings": true,
+      "importCaseProtection": "as-needed",
+      "importCitationKey": true,
+      "importExtra": true,
+      "importJabRefAbbreviations": true,
+      "importJabRefStrings": true,
+      "importNoteToExtra": "",
+      "importSentenceCase": "on+guess",
+      "importUnknownTexCommand": "ignore",
+      "itemObserverDelay": 100,
+      "jabrefFormat": 0,
+      "jieba": false,
+      "keyConflictPolicy": "keep",
+      "keyScope": "global",
+      "kuroshiro": false,
+      "language": "langid",
+      "mapMath": "",
+      "mapText": "",
+      "mapUnicode": "conservative",
+      "parseParticles": true,
+      "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
+      "platform": "lin",
+      "postscript": "if (Translator.BetterCSL) {\n  csl.add({ name: 'keywords', value: zotero.tags, sep: ', ', enc: 'tags' });\n}\n",
+      "postscriptOverride": "",
+      "preferencesOverride": "",
+      "qualityReport": false,
+      "quickCopyEta": "",
+      "quickCopyMode": "latex",
+      "quickCopyOrgMode": "zotero",
+      "quickCopyPandocBrackets": false,
+      "quickCopySelectLink": "zotero",
+      "rawImports": false,
+      "rawLaTag": "#LaTeX",
+      "relativeFilePaths": false,
+      "retainCache": false,
+      "scrubDatabase": false,
+      "separatorList": "and",
+      "separatorNames": "and",
+      "skipFields": "abstract,file",
+      "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
+      "startupProgress": "popup",
+      "strings": "",
+      "stringsOverride": "",
+      "testing": false,
+      "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
+      "warnBulkModify": 10,
+      "warnTitleCased": false,
+      "texmap": {}
+    },
+    "options": {
+      "exportNotes": false,
+      "exportFileData": false,
+      "keepUpdated": false,
+      "worker": true
+    }
+  },
+  "version": {
+    "zotero": "6.0.22",
+    "bbt": "6.7.54"
+  },
+  "collections": {},
+  "items": [
+    {
+      "key": "5QDATTTK",
+      "version": 21397,
+      "itemType": "conferencePaper",
+      "place": "Falmouth, UK",
+      "date": "2012 Jun 18-20",
+      "extra": "Citation Key: vazquez-campos_isolation_2012",
+      "DOI": "10.13140/2.1.2786.9762",
+      "conferenceName": "6th International Symposium on Biohydrometallurgy",
+      "abstractNote": "Although the presence of fungi in acidic mining systems has been widely established and attention paid to the problems created by their growth, limited consideration has been given to their role in community functioning. Seven acidophilic/acid-tolerant fungal strains were characterised from the process waters at one of Australia's largest uranium mines, the Ranger Mine in the Northern Territory. Process waters (raffinate) were typically very acidic (pH 1.7-1.8) and contained high concentrations of total dissolved/colloidal salts (~80-100 g/L). Fungal cultures were grown in raffinate and Mackintosh medium followed by enrichment in Mackintosh medium with glucose and yeast extract additions. Strains were isolated in potato dextrose agar at pH 3.0 and their characteristics examined in a synthetic medium similar in composition to their source environment. Isolates were identified by ribosomal ITS sequencing. This work provides important new insights into the occurrence of fungi in highly acidic environments, their dependence on other organisms and their potential role in the hydrometallurgical extraction of uranium.",
+      "title": "The isolation of fungi from low-pH, high ionic strength uranium mine process water",
+      "creators": [
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "A.S.",
+          "lastName": "Kinsela",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "B.A.",
+          "lastName": "Neilan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "R.N.",
+          "lastName": "Collins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "T.D.",
+          "lastName": "Waite",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "oral presentation"
+        },
+        {
+          "tag": "abstract"
+        }
+      ],
+      "relations": [
+        "http://zotero.org/users/152779/items/HKGGWN7P",
+        "http://zotero.org/users/152779/items/ZUPR9C8B"
+      ],
+      "dateAdded": "2012-07-16T03:25:33Z",
+      "dateModified": "2023-02-16T06:19:56Z",
+      "uri": "http://zotero.org/users/152779/items/5QDATTTK",
+      "itemID": 3016,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Fungi Isolation Conf Paper Draft April 2012 final.docx",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2013-04-10T06:24:06Z",
+          "dateModified": "2013-04-10T06:24:06Z",
+          "uri": "http://zotero.org/users/152779/items/MVVHQRM2",
+          "path": "/home/xabi/Zotero/storage/MVVHQRM2/Fungi Isolation Conf Paper Draft April 2012 final.docx",
+          "select": "zotero://select/library/items/MVVHQRM2"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Session 3 - Vazquez-Campos, X Biohydromet'12 presentation v4.1.pptx",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2016-07-11T05:08:41Z",
+          "dateModified": "2017-07-07T06:29:50Z",
+          "uri": "http://zotero.org/users/152779/items/X32N8CCF",
+          "path": "/home/xabi/Zotero/storage/X32N8CCF/Session 3 - Vazquez-Campos, X Biohydromet'12 presentation v4.1.pptx",
+          "select": "zotero://select/library/items/X32N8CCF"
+        },
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al. - 2012 - The isolation of fungi from low-pH, high ionic str.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2012-07-16T03:40:53Z",
+          "dateModified": "2012-07-16T03:41:26Z",
+          "uri": "http://zotero.org/users/152779/items/TPPRJB8A",
+          "path": "/home/xabi/Zotero/storage/TPPRJB8A/V\u00e1zquez-Campos et al. - 2012 - The isolation of fungi from low-pH, high ionic str.pdf",
+          "select": "zotero://select/library/items/TPPRJB8A"
+        }
+      ],
+      "notes": [
+        {
+          "key": "6FNSGMQ8",
+          "version": 9860,
+          "itemType": "note",
+          "parentItem": "5QDATTTK",
+          "note": "<p>Abstract + Oral presentation</p>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2017-05-30T06:51:54Z",
+          "dateModified": "2017-05-30T06:52:02Z",
+          "uri": "http://zotero.org/users/152779/items/6FNSGMQ8"
+        }
+      ],
+      "citationKey": "vazquez-campos_isolation_2012",
+      "itemKey": "5QDATTTK",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/5QDATTTK",
+      "publicationTitle": "Proceedings of the 6th International Symposium on Biohydrometallurgy"
+    },
+    {
+      "key": "8JCRUHQF",
+      "version": 21397,
+      "itemType": "conferencePaper",
+      "place": "Melbourne, VIC, Australia",
+      "date": "2017 Feb 13-15",
+      "extra": "Citation Key: vazquez-campos_metagenomic_2017",
+      "DOI": "10.6084/m9.figshare.9598733",
+      "conferenceName": "Australian Microbial Ecology Conference (AusME 2017)",
+      "abstractNote": "The rapid proliferation of the nuclear industry after World War II resulted in the generation of substantial volumes of radioactive waste. This material was often buried in shallow trenches, a standard practice at the time, of which the Little Forest Legacy Site near Sydney (Australia) is an example. It has been reported that during heavy rain, the trenches exhibit an overflowing effect, analogous to a bathtub. The aim of this work was to test the hypothesis that intense rainfall events, are likely to introduce oxygen, and will therefore have an effect on the biology and chemistry inside the trenches during a fill-drain cycle.\nShotgun metagenomics was performed on water samples collected from a sample trench in triplicate across four time points during a 47-day period after a heavy rainfall event. Chemical parameters were monitored as well.\nFunctional analysis of the metagenome shows clear differences between the initial sampling points characterised by higher gene frequencies related to aerobic heterotrophic metabolism such higher cytochrome-c oxidase and several sugar transporters. The maximum for these indicators is reached at day 4, matching a surge in the proportion of Proteobacteria (63.6% total prokaryotes). Conversely, anaerobic metabolism genes such those specific of methanogenesis or dissimilatory sulfate reduction, and anaerobic taxa such class Methanomicrobia, show a progressive increase over time with a maximum at the final sampling day. These changes coincided with an increased proportion in soluble Fe, Am, and Pu, supporting our hypothesis that rainfall events can induces transient aerobic conditions potentially altering radiochemical mobility.",
+      "title": "Metagenomic and geochemical changes following rainfall at a legacy radionuclide waste disposal site",
+      "creators": [
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew S.",
+          "lastName": "Kinsela",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Timothy E.",
+          "lastName": "Payne",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "T. David",
+          "lastName": "Waite",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "oral presentation"
+        },
+        {
+          "tag": "abstract"
+        },
+        {
+          "tag": "selected"
+        }
+      ],
+      "relations": [
+        "http://zotero.org/users/152779/items/JTKCRS3Z"
+      ],
+      "dateAdded": "2016-12-30T06:12:48Z",
+      "dateModified": "2023-02-28T05:14:35Z",
+      "uri": "http://zotero.org/users/152779/items/8JCRUHQF",
+      "itemID": 3017,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Vazquez-Campos - AusME2017 - final.pptx",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2018-06-04T06:02:22Z",
+          "dateModified": "2018-06-04T06:02:22Z",
+          "uri": "http://zotero.org/users/152779/items/BDMZ4KUM",
+          "path": "/home/xabi/Zotero/storage/BDMZ4KUM/Vazquez-Campos - AusME2017 - final.pptx",
+          "select": "zotero://select/library/items/BDMZ4KUM"
+        }
+      ],
+      "notes": [
+        {
+          "key": "8V4FK2TH",
+          "version": 9860,
+          "itemType": "note",
+          "parentItem": "8JCRUHQF",
+          "note": "<p>Abstract + Oral presentation</p>\n<p>\u00a0</p>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2017-05-30T06:51:09Z",
+          "dateModified": "2017-05-30T06:51:20Z",
+          "uri": "http://zotero.org/users/152779/items/8V4FK2TH"
+        }
+      ],
+      "citationKey": "vazquez-campos_metagenomic_2017",
+      "itemKey": "8JCRUHQF",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/8JCRUHQF"
+    },
+    {
+      "key": "ARYQFKHW",
+      "version": 21397,
+      "itemType": "conferencePaper",
+      "place": "Perth, WA, Australia",
+      "date": "2019 Feb 11-13",
+      "extra": "Citation Key: vazquez-campos_new_2018",
+      "DOI": "10.6084/m9.figshare.9598736",
+      "conferenceName": "Australian Microbial Ecology Conference (AusME 2019)",
+      "abstractNote": "During the 1960s, small quantities of radioactive materials were co-disposed with chemical waste\nat the Little Forest Legacy Site (Sydney, Australia) in three-metre-deep, unlined trenches. Prior\nresearch has investigated functional and population dynamics during a rainfall event using shotgun\nmetagenomics. This revealed a broad abundance of candidate and potentially undescribed taxa\nin this iron-rich, radionuclide-contaminated environment. Thus, we explored the same dataset\nthrough genomic reconstruction and phylogenomics but focusing specifically in Archaea.\nIn total, we recovered 318 refined bins with \u2265 50% completeness and \u2264 10% redundancy, 37 of\nwhich belonged to Archaea. A concatenated protein tree was constructed using 44 highly conserved\nuniversal or Archaea-specific ribosomal proteins extracted from the archaeal MAGs plus >200 nonredundant diverse genomes from public databases. Phylogenomic analysis revealed archaeal bins\ncorresponded to 10 different phyla, including 4 newly proposed lineages within the DPANN supergroup (LFWA-I to IV, 15 bins), Methanosaetaceae (3), Methanoperedenaceae (6), Thermoplasmata\n(1), Micrarchaeota s. stricto (1), Diapherotrites (2), Woesearchaeota (1), Pacearchaeota (6), Altiarchaeota (1) and Thaumarchaeota (1).\nWhile most of the new DPANN lineages show reduced genomes with limited central metabolism\nsimilar to other typical DPANN, the candidate species from the proposed LFWA-III lineage show\nsome unusual features.\n\u2022 First, they have complete de novo nucleotide biosynthesis pathways.\n\u2022 Second, they harbour all genes needed for the biosynthesis of both thiamine and riboflavin.\n\u2022 Third, they present a partial TCA cycle.\n\u2022 And most importantly, fourth, they contain highly connected amino acid pathways that can\nbe tracked all the way to carbon source assimilation.\nThese features may suggest a lesser dependence on a host or symbiotic partner. In addition,\nLFWA-III seems to be a diverse in the sampled trench with 11 MAGs suggested to belong to 10\ndifferent genera in a single family based on ANI/AAI relatedness.\nFuture research will attemp to discover the possible symbionts of the diverse DPANN organisms\npresent in the site.",
+      "title": "Unusual DPANN Archaea from a radioactive legacy site",
+      "creators": [
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew S.",
+          "lastName": "Kinsela",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mark W.",
+          "lastName": "Bligh",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marc R.",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Timothy E.",
+          "lastName": "Payne",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "T. David",
+          "lastName": "Waite",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "selected"
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2019-01-16T22:34:51Z",
+      "dateModified": "2023-02-28T05:14:15Z",
+      "uri": "http://zotero.org/users/152779/items/ARYQFKHW",
+      "itemID": 3018,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al_2018_Unusual DPANN Archaea from a radioactive legacy site.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2019-01-16T22:36:39Z",
+          "dateModified": "2019-01-16T22:36:40Z",
+          "uri": "http://zotero.org/users/152779/items/WSTIRUTN",
+          "path": "/home/xabi/Zotero/storage/WSTIRUTN/V\u00e1zquez-Campos et al_2018_Unusual DPANN Archaea from a radioactive legacy site.pdf",
+          "select": "zotero://select/library/items/WSTIRUTN"
+        }
+      ],
+      "notes": [],
+      "citationKey": "vazquez-campos_new_2018",
+      "itemKey": "ARYQFKHW",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/ARYQFKHW"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+[
+	{
+		"id": "vazquez-campos_isolation_2012",
+		"type": "paper-conference",
+		"abstract": "Although the presence of fungi in acidic mining systems has been widely established and attention paid to the problems created by their growth, limited consideration has been given to their role in community functioning. Seven acidophilic/acid-tolerant fungal strains were characterised from the process waters at one of Australia's largest uranium mines, the Ranger Mine in the Northern Territory. Process waters (raffinate) were typically very acidic (pH 1.7-1.8) and contained high concentrations of total dissolved/colloidal salts (~80-100 g/L). Fungal cultures were grown in raffinate and Mackintosh medium followed by enrichment in Mackintosh medium with glucose and yeast extract additions. Strains were isolated in potato dextrose agar at pH 3.0 and their characteristics examined in a synthetic medium similar in composition to their source environment. Isolates were identified by ribosomal ITS sequencing. This work provides important new insights into the occurrence of fungi in highly acidic environments, their dependence on other organisms and their potential role in the hydrometallurgical extraction of uranium.",
+		"container-title": "Proceedings of the 6th International Symposium on Biohydrometallurgy",
+		"DOI": "10/gftgvg",
+		"event-place": "Falmouth, UK",
+		"event-title": "6th International Symposium on Biohydrometallurgy",
+		"publisher-place": "Falmouth, UK",
+		"title": "The isolation of fungi from low-pH, high ionic strength uranium mine process water",
+		"author": [
+			{
+				"family": "Vázquez-Campos",
+				"given": "Xabier"
+			},
+			{
+				"family": "Kinsela",
+				"given": "A.S."
+			},
+			{
+				"family": "Neilan",
+				"given": "B.A."
+			},
+			{
+				"family": "Collins",
+				"given": "R.N."
+			},
+			{
+				"family": "Waite",
+				"given": "T.D."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					6,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "vazquez-campos_metagenomic_2017",
+		"type": "paper-conference",
+		"abstract": "The rapid proliferation of the nuclear industry after World War II resulted in the generation of substantial volumes of radioactive waste. This material was often buried in shallow trenches, a standard practice at the time, of which the Little Forest Legacy Site near Sydney (Australia) is an example. It has been reported that during heavy rain, the trenches exhibit an overflowing effect, analogous to a bathtub. The aim of this work was to test the hypothesis that intense rainfall events, are likely to introduce oxygen, and will therefore have an effect on the biology and chemistry inside the trenches during a fill-drain cycle.\nShotgun metagenomics was performed on water samples collected from a sample trench in triplicate across four time points during a 47-day period after a heavy rainfall event. Chemical parameters were monitored as well.\nFunctional analysis of the metagenome shows clear differences between the initial sampling points characterised by higher gene frequencies related to aerobic heterotrophic metabolism such higher cytochrome-c oxidase and several sugar transporters. The maximum for these indicators is reached at day 4, matching a surge in the proportion of Proteobacteria (63.6% total prokaryotes). Conversely, anaerobic metabolism genes such those specific of methanogenesis or dissimilatory sulfate reduction, and anaerobic taxa such class Methanomicrobia, show a progressive increase over time with a maximum at the final sampling day. These changes coincided with an increased proportion in soluble Fe, Am, and Pu, supporting our hypothesis that rainfall events can induces transient aerobic conditions potentially altering radiochemical mobility.",
+		"DOI": "10/gf793n",
+		"event-place": "Melbourne, VIC, Australia",
+		"event-title": "Australian Microbial Ecology Conference (AusME 2017)",
+		"publisher-place": "Melbourne, VIC, Australia",
+		"title": "Metagenomic and geochemical changes following rainfall at a legacy radionuclide waste disposal site",
+		"author": [
+			{
+				"family": "Vázquez-Campos",
+				"given": "Xabier"
+			},
+			{
+				"family": "Kinsela",
+				"given": "Andrew S."
+			},
+			{
+				"family": "Payne",
+				"given": "Timothy E."
+			},
+			{
+				"family": "Waite",
+				"given": "T. David"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					2,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "vazquez-campos_new_2018",
+		"type": "paper-conference",
+		"abstract": "During the 1960s, small quantities of radioactive materials were co-disposed with chemical waste\nat the Little Forest Legacy Site (Sydney, Australia) in three-metre-deep, unlined trenches. Prior\nresearch has investigated functional and population dynamics during a rainfall event using shotgun\nmetagenomics. This revealed a broad abundance of candidate and potentially undescribed taxa\nin this iron-rich, radionuclide-contaminated environment. Thus, we explored the same dataset\nthrough genomic reconstruction and phylogenomics but focusing specifically in Archaea.\nIn total, we recovered 318 refined bins with ≥ 50% completeness and ≤ 10% redundancy, 37 of\nwhich belonged to Archaea. A concatenated protein tree was constructed using 44 highly conserved\nuniversal or Archaea-specific ribosomal proteins extracted from the archaeal MAGs plus >200 nonredundant diverse genomes from public databases. Phylogenomic analysis revealed archaeal bins\ncorresponded to 10 different phyla, including 4 newly proposed lineages within the DPANN supergroup (LFWA-I to IV, 15 bins), Methanosaetaceae (3), Methanoperedenaceae (6), Thermoplasmata\n(1), Micrarchaeota s. stricto (1), Diapherotrites (2), Woesearchaeota (1), Pacearchaeota (6), Altiarchaeota (1) and Thaumarchaeota (1).\nWhile most of the new DPANN lineages show reduced genomes with limited central metabolism\nsimilar to other typical DPANN, the candidate species from the proposed LFWA-III lineage show\nsome unusual features.\n• First, they have complete de novo nucleotide biosynthesis pathways.\n• Second, they harbour all genes needed for the biosynthesis of both thiamine and riboflavin.\n• Third, they present a partial TCA cycle.\n• And most importantly, fourth, they contain highly connected amino acid pathways that can\nbe tracked all the way to carbon source assimilation.\nThese features may suggest a lesser dependence on a host or symbiotic partner. In addition,\nLFWA-III seems to be a diverse in the sampled trench with 11 MAGs suggested to belong to 10\ndifferent genera in a single family based on ANI/AAI relatedness.\nFuture research will attemp to discover the possible symbionts of the diverse DPANN organisms\npresent in the site.",
+		"DOI": "10/gf793m",
+		"event-place": "Perth, WA, Australia",
+		"event-title": "Australian Microbial Ecology Conference (AusME 2019)",
+		"publisher-place": "Perth, WA, Australia",
+		"title": "Unusual DPANN Archaea from a radioactive legacy site",
+		"author": [
+			{
+				"family": "Vázquez-Campos",
+				"given": "Xabier"
+			},
+			{
+				"family": "Kinsela",
+				"given": "Andrew S."
+			},
+			{
+				"family": "Bligh",
+				"given": "Mark W."
+			},
+			{
+				"family": "Wilkins",
+				"given": "Marc R."
+			},
+			{
+				"family": "Payne",
+				"given": "Timothy E."
+			},
+			{
+				"family": "Waite",
+				"given": "T. David"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					2,
+					11
+				]
+			]
+		}
+	}
+]
