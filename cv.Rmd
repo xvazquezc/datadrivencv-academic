@@ -70,13 +70,12 @@ Aside
 ```{r download_cv}
 if (params$long_cv == TRUE) {
   glue::glue(
-    "[<i class='fas fa-download'></i> Download a PDF of this CV]({params$repository}/raw/master/cv_long.pdf)",
-    .open = "{{", .close = "}}")
+    "[<i class='fas fa-download'></i> Download a PDF of this CV]({params$repository}/raw/main/cv_long.pdf)"
+  )
 } else {
   glue::glue(
-    "[<i class='fas fa-download'></i> Download the extended version of this CV]({params$repository}/raw/master/cv_long.pdf)",
-    .open = "{{", .close = "}}")
-  
+    "[<i class='fas fa-download'></i> Download the extended version of this CV]({params$repository}/raw/main/cv_long.pdf)"
+  )
 }
 ```
 
