@@ -36,12 +36,12 @@ I organise my own bibliography according to the following folder scheme, so the 
 Academic CVs can be very long. A way to shorten them is to reduce the included publications and conference contributions to a few key ones. To do so, the code will look for the _tag_ `selected` in the `peer-reviewed`, `conf_oral` and `conf_poster` JSON files. All other refs will not be shown explicitly. This also applies to the `conf_coauth` in the long CV.
 
 
-### Co-first authorship
+#### Co-first authorship
 
 Simply add the _tag_ `cofirst` to whichever pub has cofirst authors. This only works for two co-first authors, not more.
 
 
-### Automatic name highlighting
+#### Automatic name highlighting
 
 Your name can be automatically highlighted (__bold__) by adding your name to the `input_files/aliases.txt`. The detection of the author name happens after parsing the authors, where `First Middle Surname` become `F. M. Surname`. So you should only need to add additional aliases if e.g.:
 - Missing first/middle name, e.g. `F. M. Surname` won't match `F. Surname`, you'll need to include both.
