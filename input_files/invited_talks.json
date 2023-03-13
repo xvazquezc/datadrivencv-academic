@@ -1,5 +1,288 @@
-[
-  {"id":"vazquez-campos_assembly_2017","author":[{"family":"Vázquez-Campos","given":"Xabier"}],"citation-key":"vazquez-campos_assembly_2017","event-place":"Plant Breeding Institute, Cobbitty, Australia","event-title":"Invited talk at the Plant Breeding Institute","genre":"Invited talk","issued":{"date-parts":[[2017,11,23]]},"publisher-place":"Plant Breeding Institute, Cobbitty, Australia","title":"Assembly and annotation of <i>Puccinia graminis</i> f. sp. <i>avenae</i>, ‘oat stem rust’. Lessons about the process and some results","type":"speech"},
-  {"id":"vazquez-campos_Current_2019","accessed":{"date-parts":[[2019,5,17]]},"author":[{"family":"Vázquez-Campos","given":"Xabier"}],"citation-key":"vazquez-campos_Current_2019","DOI":"10.6084/m9.figshare.7892453.v2","event-place":"Water Research Centre, Kensington, Australia","event-title":"Water Research Centre research seminar series","genre":"Invited talk","issued":{"date-parts":[[2019,2,27]]},"publisher-place":"Water Research Centre, Kensington, Australia","title":"Current trends in academia: online presence, community service and openness","title-short":"Current trends in academia","type":"speech","URL":"https://figshare.com/articles/Current_trends_in_academia_online_presence_community_service_and_openness/7892453/2"},
-  {"id":"vazquez-campos_metagenomic_2017-1","author":[{"family":"Vázquez-Campos","given":"Xabier"}],"citation-key":"vazquez-campos_metagenomic_2017-1","contributor":[{"family":"Kinsela","given":"Andrew S."},{"family":"Payne","given":"Timothy E."},{"family":"Waite","given":"T. David"}],"event-place":"Sydney, Australia","event-title":"Joint Academic Microbiology Seminars (JAMS)","genre":"Invited talk","issued":{"date-parts":[[2017,6,27]]},"publisher-place":"Sydney, Australia","title":"Metagenomic and geochemical changes following rainfall at a legacy radionuclide waste disposal site","type":"speech","URL":"https://doi.org/10.6084/m9.figshare.9598754"}
-]
+{
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "preferences": {
+      "ascii": "",
+      "asciiBibLaTeX": false,
+      "asciiBibTeX": true,
+      "autoAbbrev": false,
+      "autoAbbrevStyle": "",
+      "autoExport": "immediate",
+      "autoExportDelay": 2,
+      "autoExportIdleWait": 10,
+      "autoExportPathReplaceDiacritics": false,
+      "autoExportPathReplaceDirSep": "-",
+      "autoExportPathReplaceSpace": " ",
+      "automaticTags": true,
+      "autoPinDelay": 0,
+      "auxImport": false,
+      "baseAttachmentPath": "",
+      "biblatexExtendedDateFormat": true,
+      "biblatexExtendedNameFormat": true,
+      "biblatexExtractEprint": true,
+      "bibtexParticleNoOp": false,
+      "bibtexURL": "off",
+      "cache": true,
+      "cacheFlushInterval": 5,
+      "charmap": "",
+      "citeCommand": "cite",
+      "citekeyFold": true,
+      "citekeyFormat": "auth.lower+\"_\"+shorttitle(1,1)+\"_\"+year",
+      "citekeySearch": true,
+      "citekeyUnsafeChars": "\\\"#%'(),={}~",
+      "csquotes": "",
+      "DOIandURL": "both",
+      "exportBibTeXStrings": "off",
+      "exportBraceProtection": false,
+      "exportTitleCase": false,
+      "extraMergeCitekeys": true,
+      "extraMergeCSL": true,
+      "extraMergeTeX": true,
+      "git": "config",
+      "import": true,
+      "importBibTeXStrings": true,
+      "importCaseProtection": "as-needed",
+      "importCitationKey": true,
+      "importExtra": true,
+      "importJabRefAbbreviations": true,
+      "importJabRefStrings": true,
+      "importNoteToExtra": "",
+      "importSentenceCase": "on+guess",
+      "importUnknownTexCommand": "ignore",
+      "itemObserverDelay": 100,
+      "jabrefFormat": 0,
+      "jieba": false,
+      "keyConflictPolicy": "keep",
+      "keyScope": "global",
+      "kuroshiro": false,
+      "language": "langid",
+      "mapMath": "",
+      "mapText": "",
+      "mapUnicode": "conservative",
+      "parseParticles": true,
+      "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
+      "postscript": "if (Translator.BetterCSL) {\n  csl.add({ name: 'keywords', value: zotero.tags, sep: ', ', enc: 'tags' });\n}\n",
+      "postscriptOverride": "",
+      "preferencesOverride": "",
+      "qualityReport": false,
+      "quickCopyEta": "",
+      "quickCopyMode": "latex",
+      "quickCopyOrgMode": "zotero",
+      "quickCopyPandocBrackets": false,
+      "quickCopySelectLink": "zotero",
+      "rawImports": false,
+      "rawLaTag": "#LaTeX",
+      "relativeFilePaths": false,
+      "retainCache": false,
+      "separatorList": "and",
+      "separatorNames": "and",
+      "skipFields": "abstract,file",
+      "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
+      "startupProgress": "popup",
+      "strings": "",
+      "stringsOverride": "",
+      "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
+      "warnBulkModify": 10,
+      "warnTitleCased": false,
+      "texmap": {}
+    },
+    "options": {
+      "exportNotes": true,
+      "exportFileData": false,
+      "keepUpdated": true,
+      "worker": true
+    }
+  },
+  "version": {
+    "zotero": "6.0.23",
+    "bbt": "6.7.58"
+  },
+  "collections": {},
+  "items": [
+    {
+      "key": "8RC3SPKT",
+      "version": 20986,
+      "itemType": "presentation",
+      "place": "Plant Breeding Institute, Cobbitty, Australia",
+      "date": "2017 Nov 23",
+      "extra": "Citation Key: vazquez-campos_assembly_2017",
+      "meetingName": "Invited talk at the Plant Breeding Institute",
+      "title": "Assembly and annotation of <i>Puccinia graminis</i> f. sp. <i>avenae</i>, \u2018oat stem rust\u2019. Lessons about the process and some results",
+      "creators": [
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "presenter"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2018-02-28T02:47:39Z",
+      "dateModified": "2022-12-07T05:35:39Z",
+      "uri": "http://zotero.org/users/152779/items/8RC3SPKT",
+      "itemID": 2312,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos - 2017 - Assembly and annotation of iPuccinia graminisi.pptx",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2018-02-28T02:51:52Z",
+          "dateModified": "2018-02-28T02:51:52Z",
+          "uri": "http://zotero.org/users/152779/items/DYSI5Q6Y",
+          "path": "/home/xabi/Zotero/storage/DYSI5Q6Y/V\u00e1zquez-Campos - 2017 - Assembly and annotation of iPuccinia graminisi.pptx",
+          "select": "zotero://select/library/items/DYSI5Q6Y"
+        }
+      ],
+      "notes": [
+        {
+          "key": "K2DSTSYY",
+          "version": 10920,
+          "itemType": "note",
+          "parentItem": "8RC3SPKT",
+          "note": "<p>Invited oral presentation</p>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2018-02-28T02:51:07Z",
+          "dateModified": "2018-02-28T02:51:16Z",
+          "uri": "http://zotero.org/users/152779/items/K2DSTSYY"
+        }
+      ],
+      "citationKey": "vazquez-campos_assembly_2017",
+      "itemKey": "8RC3SPKT",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/8RC3SPKT",
+      "type": "Invited talk"
+    },
+    {
+      "key": "BJVU44DG",
+      "version": 20985,
+      "itemType": "presentation",
+      "url": "https://figshare.com/articles/Current_trends_in_academia_online_presence_community_service_and_openness/7892453/2",
+      "place": "Water Research Centre, Kensington, Australia",
+      "date": "2019 Feb 27",
+      "extra": "DOI: 10.6084/m9.figshare.7892453.v2",
+      "accessDate": "2019-05-17T01:23:36Z",
+      "meetingName": "Water Research Centre research seminar series",
+      "abstractNote": "Invited talk for the \"Water Research Centre research seminar\" series at UNSW on 27 Feb 2019.<br>",
+      "title": "Current trends in academia: online presence, community service and openness",
+      "shortTitle": "Current trends in academia",
+      "creators": [
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "presenter"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2019-05-17T01:23:36Z",
+      "dateModified": "2022-12-07T04:03:49Z",
+      "uri": "http://zotero.org/users/152779/items/BJVU44DG",
+      "itemID": 2659,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos_2019_Current trends in academia.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2019-05-17T01:24:30Z",
+          "dateModified": "2019-05-17T01:24:32Z",
+          "uri": "http://zotero.org/users/152779/items/E3J9QKDW",
+          "path": "/home/xabi/Zotero/storage/E3J9QKDW/V\u00e1zquez-Campos_2019_Current trends in academia.pdf",
+          "select": "zotero://select/library/items/E3J9QKDW"
+        }
+      ],
+      "notes": [],
+      "citationKey": "vazquez-campos_Current_2019",
+      "itemKey": "BJVU44DG",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/BJVU44DG",
+      "type": "Invited talk"
+    },
+    {
+      "key": "JTKCRS3Z",
+      "version": 20981,
+      "itemType": "presentation",
+      "url": "https://doi.org/10.6084/m9.figshare.9598754",
+      "place": "Sydney, Australia",
+      "date": "2017 Jun 27",
+      "extra": "Citation Key: vazquez-campos_metagenomic_2017-1",
+      "meetingName": "Joint Academic Microbiology Seminars (JAMS)",
+      "abstractNote": "The rapid proliferation of the nuclear industry after World War II resulted in the generation of substantial volumes of radioactive waste. This material was often buried in shallow trenches, a standard practice at the time, of which the Little Forest Legacy Site near Sydney (Australia) is an example. It has been reported that during heavy rain, the trenches exhibit an overflowing effect, analogous to a bathtub. The aim of this work was to test the hypothesis that intense rainfall events, are likely to introduce oxygen, and will therefore have an effect on the biology and chemistry inside the trenches during a fill-drain cycle.\nShotgun metagenomics was performed on water samples collected from a sample trench in triplicate across four time points during a 47-day period after a heavy rainfall event. Chemical parameters were monitored as well.\nFunctional analysis of the metagenome shows clear differences between the initial sampling points characterised by higher gene frequencies related to aerobic heterotrophic metabolism such higher cytochrome-c oxidase and several sugar transporters. The maximum for these indicators is reached at day 4, matching a surge in the proportion of Proteobacteria (63.6% total prokaryotes). Conversely, anaerobic metabolism genes such those specific of methanogenesis or dissimilatory sulfate reduction, and anaerobic taxa such class Methanomicrobia, show a progressive increase over time with a maximum at the final sampling day. These changes coincided with an increased proportion in soluble Fe, Am, and Pu, supporting our hypothesis that rainfall events can induces transient aerobic conditions potentially altering radiochemical mobility.",
+      "title": "Metagenomic and geochemical changes following rainfall at a legacy radionuclide waste disposal site",
+      "creators": [
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "presenter"
+        },
+        {
+          "firstName": "Andrew S.",
+          "lastName": "Kinsela",
+          "creatorType": "contributor"
+        },
+        {
+          "firstName": "Timothy E.",
+          "lastName": "Payne",
+          "creatorType": "contributor"
+        },
+        {
+          "firstName": "T. David",
+          "lastName": "Waite",
+          "creatorType": "contributor"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "oral presentation"
+        },
+        {
+          "tag": "invited"
+        }
+      ],
+      "relations": [
+        "http://zotero.org/users/152779/items/7Z8NHJ66",
+        "http://zotero.org/users/152779/items/8JCRUHQF",
+        "http://zotero.org/users/152779/items/S85XFWSR"
+      ],
+      "dateAdded": "2017-07-07T06:37:12Z",
+      "dateModified": "2022-12-07T04:00:07Z",
+      "uri": "http://zotero.org/users/152779/items/JTKCRS3Z",
+      "itemID": 3036,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al. - 2017 - Metagenomic and geochemical changes following rain.pptx",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2018-02-28T02:51:40Z",
+          "dateModified": "2018-02-28T02:51:40Z",
+          "uri": "http://zotero.org/users/152779/items/C6NY7PXF",
+          "path": "/home/xabi/Zotero/storage/C6NY7PXF/V\u00e1zquez-Campos et al. - 2017 - Metagenomic and geochemical changes following rain.pptx",
+          "select": "zotero://select/library/items/C6NY7PXF"
+        }
+      ],
+      "notes": [
+        {
+          "key": "FMJJD3XF",
+          "version": 9936,
+          "itemType": "note",
+          "parentItem": "JTKCRS3Z",
+          "note": "<p>Invited oral presentation</p>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2017-07-07T06:38:31Z",
+          "dateModified": "2017-07-07T06:38:44Z",
+          "uri": "http://zotero.org/users/152779/items/FMJJD3XF"
+        }
+      ],
+      "citationKey": "vazquez-campos_metagenomic_2017-1",
+      "itemKey": "JTKCRS3Z",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/JTKCRS3Z",
+      "type": "Invited talk"
+    }
+  ]
+}

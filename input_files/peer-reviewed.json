@@ -1,19 +1,2537 @@
-[
-  {"id":"damnjanovic_Bacteriophage_2020","author":[{"family":"Damnjanovic","given":"Dragica"},{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Winter","given":"Daniel L."},{"family":"Harvey","given":"Melissa"},{"family":"Bridge","given":"Wallace J."}],"citation-key":"damnjanovic_Bacteriophage_2020","container-title":"BMC Microbiology","container-title-short":"BMC Microbiol","DOI":"10.1186/s12866-020-01770-2","issued":{"date-parts":[[2020,6,11]]},"note":"1 citations (Crossref) [2022-11-05]","page":"154","title":"Bacteriophage genotyping using BOXA repetitive-PCR","type":"article-journal","URL":"https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-020-01770-2","volume":"20"},
-  {"id":"damnjanovic_Characterisation_2022","author":[{"family":"Damnjanović","given":"Dragica"},{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Elliot","given":"Lisa"},{"family":"Willcox","given":"Mark"},{"family":"Bridge","given":"Wallace J."}],"citation-key":"damnjanovic_Characterisation_2022","container-title":"Viruses","container-title-short":"Viruses","DOI":"10.3390/v14040709","ISSN":"1999-4915","issue":"4","issued":{"date-parts":[[2022,3,29]]},"language":"en","license":"http://creativecommons.org/licenses/by/3.0/","note":"0 citations (Crossref) [2022-11-05]","number":"4","page":"709","publisher":"Multidisciplinary Digital Publishing Institute","source":"www.mdpi.com","title":"Characterisation of bacteriophage vB_SmaM_Ps15 infective to <i>Stenotrophomonas maltophilia</i> clinical ocular isolates","type":"article-journal","URL":"https://www.mdpi.com/1999-4915/14/4/709","volume":"14"},
-  {"id":"eren_Communityled_2021","accessed":{"date-parts":[[2020,12,22]]},"author":[{"family":"Eren","given":"A. Murat"},{"family":"Kiefl","given":"Evan"},{"family":"Shaiber","given":"Alon"},{"family":"Veseli","given":"Iva"},{"family":"Miller","given":"Samuel E."},{"family":"Schechter","given":"Matthew S."},{"family":"Fink","given":"Isaac"},{"family":"Pan","given":"Jessica N."},{"family":"Yousef","given":"Mahmoud"},{"family":"Fogarty","given":"Emily C."},{"family":"Trigodet","given":"Florian"},{"family":"Watson","given":"Andrea R."},{"family":"Esen","given":"Özcan C."},{"family":"Moore","given":"Ryan M."},{"family":"Clayssen","given":"Quentin"},{"family":"Lee","given":"Michael D."},{"family":"Kivenson","given":"Veronika"},{"family":"Graham","given":"Elaina D."},{"family":"Merrill","given":"Bryan D."},{"family":"Karkman","given":"Antti"},{"family":"Blankenberg","given":"Daniel"},{"family":"Eppley","given":"John M."},{"family":"Sjödin","given":"Andreas"},{"family":"Scott","given":"Jarrod J."},{"family":"Vázquez-Campos","given":"Xabier"},{"family":"McKay","given":"Luke J."},{"family":"McDaniel","given":"Elizabeth A."},{"family":"Stevens","given":"Sarah L. R."},{"family":"Anderson","given":"Rika E."},{"family":"Fuessel","given":"Jessika"},{"family":"Fernandez-Guerra","given":"Antonio"},{"family":"Maignien","given":"Lois"},{"family":"Delmont","given":"Tom O."},{"family":"Willis","given":"Amy D."}],"citation-key":"eren_Communityled_2021","container-title":"Nature Microbiology","container-title-short":"Nat Microbiol","DOI":"10.1038/s41564-020-00834-3","ISSN":"2058-5276","issue":"1","issued":{"date-parts":[[2021,1,1]]},"language":"en","license":"2020 Springer Nature Limited","note":"140 citations (Crossref) [2022-11-05]\nQID: Q111858590","number":"1","page":"3-6","publisher":"Nature Publishing Group","source":"www-nature-com.wwwproxy1.library.unsw.edu.au","title":"Community-led, integrated, reproducible multi-omics with anvi’o","type":"article-journal","URL":"http://www.nature.com/articles/s41564-020-00834-3","volume":"6"},
-  {"id":"holland_Metaproteomics_2022","author":[{"family":"Holland","given":"Sophie I"},{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Haluk","given":"Ertan"},{"family":"Edwards","given":"Richard J"},{"family":"Manefield","given":"Michael J."},{"family":"Lee","given":"Matthew"}],"citation-key":"holland_Metaproteomics_2022","container-title":"Frontiers in Microbiology","container-title-short":"Front Microbiol","DOI":"10.3389/fmicb.2022.1035247","ISSN":"1664-302X","issued":{"date-parts":[[2022,12,7]]},"page":"1035247","source":"Frontiers","title":"Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by ‘<i>Candidatus</i> Formimonas warabiya’ strain DCMF","type":"article-journal","URL":"https://www.frontiersin.org/articles/10.3389/fmicb.2022.1035247","volume":"13"},
-  {"id":"kinsela_Biogeochemical_2021","accessed":{"date-parts":[[2021,7,21]]},"author":[{"family":"Kinsela","given":"Andrew S."},{"family":"Bligh","given":"Mark W."},{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Sun","given":"Yingying"},{"family":"Wilkins","given":"Marc R."},{"family":"Comarmond","given":"M. Josick"},{"family":"Rowling","given":"Brett"},{"family":"Payne","given":"Timothy E."},{"family":"Waite","given":"T. David"}],"citation-key":"kinsela_Biogeochemical_2021","container-title":"Environmental Science & Technology","container-title-short":"Environ Sci Technol","DOI":"10.1021/acs.est.1c01604","ISSN":"0013-936X","issue":"13","issued":{"date-parts":[[2021,7,6]]},"note":"6 citations (Crossref) [2022-11-05]","page":"8793-8805","publisher":"American Chemical Society","source":"ACS Publications","title":"Biogeochemical mobility of contaminants from a replica radioactive waste trench in response to rainfall-induced redox oscillations","type":"article-journal","URL":"https://doi.org/10.1021/acs.est.1c01604","volume":"55"},
-  {"id":"kinsela_Contaminant_2022","accessed":{"date-parts":[[2022,8,29]]},"author":[{"family":"Kinsela","given":"Andrew S."},{"family":"Payne","given":"Timothy E."},{"family":"Bligh","given":"Mark W."},{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Wilkins","given":"Marc R."},{"family":"Comarmond","given":"M. Josick"},{"family":"Rowling","given":"Brett"},{"family":"Waite","given":"T. David"}],"citation-key":"kinsela_Contaminant_2022","container-title":"Science of The Total Environment","container-title-short":"Sci Total Environ","DOI":"10.1016/j.scitotenv.2022.158241","ISSN":"0048-9697","issue":"Part 1","issued":{"date-parts":[[2022,12,10]]},"language":"en","note":"0 citations (Crossref) [2022-11-05]","page":"158241","source":"ScienceDirect","title":"Contaminant release, mixing and microbial fluctuations initiated by infiltrating water within a replica field-scale legacy radioactive waste trench","type":"article-journal","URL":"https://www.sciencedirect.com/science/article/pii/S0048969722053402","volume":"851"},
-  {"id":"kolarik_acidotolerant_2015","author":[{"family":"Kolařík","given":"Miroslav"},{"family":"Hujslová","given":"Martina"},{"family":"Vázquez-Campos","given":"Xabier"}],"citation-key":"kolarik_acidotolerant_2015","container-title":"Czech Mycology","container-title-short":"Czech Mycol","DOI":"10.33585/cmy.67104","issue":"1","issued":{"date-parts":[[2015,4,10]]},"note":"8 citations (Crossref) [2022-11-05]\nQID: Q106106445","page":"37-38","title":"Acidotolerant genus <i>Fodinomyces</i> (Ascomycota: <i>Capnodiales</i>) is a synonym of <i>Acidiella</i>","type":"article-journal","URL":"http://www.czechmycology.org/_cmo/CM67104.pdf","volume":"67"},
-  {"id":"machadodelima_Biocrust_2021","accessed":{"date-parts":[[2021,1,12]]},"author":[{"family":"Machado de Lima","given":"Náthali Maria"},{"family":"Muñoz-Rojas","given":"Miriam"},{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Branco","given":"Luis Henrique Zanini"}],"citation-key":"machadodelima_Biocrust_2021","container-title":"Geoderma","container-title-short":"Geoderma","DOI":"10.1016/j.geoderma.2020.114914","ISSN":"0016-7061","issued":{"date-parts":[[2021,3,15]]},"language":"en","note":"8 citations (Crossref) [2022-11-05]","page":"114914","source":"ScienceDirect","title":"Biocrust cyanobacterial composition, diversity, and environmental drivers in two contrasting climatic regions in Brazil","type":"article-journal","URL":"http://www.sciencedirect.com/science/article/pii/S0016706120326690","volume":"386"},
-  {"id":"rosales_Isolation_2012","accessed":{"date-parts":[[2012,5,9]]},"author":[{"family":"Rosales","given":"E."},{"family":"Pérez-Paz","given":"A."},{"family":"Vázquez","given":"X."},{"family":"Pazos","given":"M."},{"family":"Sanromán","given":"M."}],"citation-key":"rosales_Isolation_2012","container-title":"Bioprocess and Biosystems Engineering","container-title-short":"Bioprocess Biosyst Eng","DOI":"10.1007/s00449-011-0669-x","ISSN":"1615-7591","issue":"5","issued":{"date-parts":[[2012,6,1]]},"note":"20 citations (Crossref) [2022-11-05]","page":"851-855","source":"SpringerLink","title":"Isolation of novel benzo[a]anthracene-degrading microorganisms and continuous bioremediation in an expanded-bed bioreactor","type":"article-journal","URL":"http://www.springerlink.com/content/v53241j1x6014780/abstract/","volume":"35"},
-  {"id":"selbmann_Shed_2020","accessed":{"date-parts":[[2020,12,22]]},"author":[{"family":"Selbmann","given":"Laura"},{"family":"Benkő","given":"Zsigmond"},{"family":"Coleine","given":"Claudia"},{"family":"Hoog","given":"Sybren","non-dropping-particle":"de"},{"family":"Donati","given":"Claudio"},{"family":"Druzhinina","given":"Irina"},{"family":"Emri","given":"Tamás"},{"family":"Ettinger","given":"Cassie L."},{"family":"Gladfelter","given":"Amy S."},{"family":"Gorbushina","given":"Anna A."},{"family":"Grigoriev","given":"Igor V."},{"family":"Grube","given":"Martin"},{"family":"Gunde-Cimerman","given":"Nina"},{"family":"Karányi","given":"Zsolt Ákos"},{"family":"Kocsis","given":"Beatrix"},{"family":"Kubressoian","given":"Tania"},{"family":"Miklós","given":"Ida"},{"family":"Miskei","given":"Márton"},{"family":"Muggia","given":"Lucia"},{"family":"Northen","given":"Trent"},{"family":"Novak-Babič","given":"Monika"},{"family":"Pennacchio","given":"Christa"},{"family":"Pfliegler","given":"Walter P."},{"family":"Pòcsi","given":"Istvàn"},{"family":"Prigione","given":"Valeria"},{"family":"Riquelme","given":"Meritxell"},{"family":"Segata","given":"Nicola"},{"family":"Schumacher","given":"Julia"},{"family":"Shelest","given":"Ekaterina"},{"family":"Sterflinger","given":"Katja"},{"family":"Tesei","given":"Donatella"},{"family":"U’Ren","given":"Jana M."},{"family":"Varese","given":"Giovanna C."},{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Vicente","given":"Vania A."},{"family":"Souza","given":"Emanuel M."},{"family":"Zalar","given":"Polona"},{"family":"Walker","given":"Allison K."},{"family":"Stajich","given":"Jason E."}],"citation-key":"selbmann_Shed_2020","container-title":"Life","container-title-short":"Life","DOI":"10.3390/life10120362","issue":"12","issued":{"date-parts":[[2020,12,19]]},"language":"en","license":"http://creativecommons.org/licenses/by/3.0/","note":"8 citations (Crossref) [2022-11-05]","number":"12","page":"362","publisher":"Multidisciplinary Digital Publishing Institute","source":"www.mdpi.com","title":"Shed Light in the DaRk LineagES of the Fungal Tree of Life—STRES","type":"article-journal","URL":"https://www.mdpi.com/2075-1729/10/12/362","volume":"10"},
-  {"id":"tavakoli_Interplay_2022","accessed":{"date-parts":[[2022,7,20]]},"author":[{"family":"Tavakoli","given":"Paris"},{"family":"Vollmer-Conna","given":"Ute"},{"family":"Hadzi-Pavlovic","given":"Dusan"},{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Grimm","given":"Michael Carl"}],"citation-key":"tavakoli_Interplay_2022","container-title":"Frontiers in Medicine","container-title-short":"Front Med","DOI":"10.3389/fmed.2022.788992","ISSN":"2296-858X","issued":{"date-parts":[[2022,7,19]]},"language":"en","note":"0 citations (Crossref) [2022-11-05]","page":"788992","source":"Frontiers","title":"The interplay between use of biological therapies, psychological state, and the microbiome in IBD","type":"article-journal","URL":"https://www.frontiersin.org/articles/10.3389/fmed.2022.788992","volume":"9"},
-  {"id":"vazquez-campos_fodinomyces_2014","author":[{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Kinsela","given":"Andrew S."},{"family":"Waite","given":"T. David"},{"family":"Collins","given":"Richard N."},{"family":"Neilan","given":"Brett A."}],"citation-key":"vazquez-campos_fodinomyces_2014","container-title":"Mycologia","container-title-short":"Mycologia","DOI":"10.3852/14-013","ISSN":"0027-5514, 1557-2536","issue":"6","issued":{"date-parts":[[2014,11,1]]},"language":"en","note":"33 citations (Crossref) [2022-11-05]\nQID: Q30843974","page":"1073-1089","PMID":"25143478","source":"www.mycologia.org","title":"<i>Fodinomyces uranophilus</i> gen. nov. sp. nov. and <i>Coniochaeta fodinicola</i> sp. nov., two uranium mine inhabiting Ascomycota fungi from northern Australia","type":"article-journal","URL":"http://www.mycologia.org/content/106/6/1073","volume":"106"},
-  {"id":"vazquez-campos_Genomic_2021","accessed":{"date-parts":[[2019,8,13]]},"author":[{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Kinsela","given":"Andrew S."},{"family":"Bligh","given":"Mark W."},{"family":"Payne","given":"Timothy E."},{"family":"Wilkins","given":"Marc R."},{"family":"Waite","given":"T. David"}],"citation-key":"vazquez-campos_Genomic_2021","container-title":"Frontiers in Microbiology","container-title-short":"Front Microbiol","DOI":"10.3389/fmicb.2021.732575","ISSN":"1664-302X","issued":{"date-parts":[[2021,10,18]]},"language":"en","license":"© 2019, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial 4.0 International), CC BY-NC 4.0, as described at http://creativecommons.org/licenses/by-nc/4.0/","note":"2 citations (Crossref) [2022-11-05]","page":"732575","source":"Frontiers","title":"Genomic insights into the <i>Archaea</i> inhabiting an Australian radioactive legacy site","type":"article-journal","URL":"https://www.frontiersin.org/article/10.3389/fmicb.2021.732575","volume":"12"},
-  {"id":"vazquez-campos_response_2017","author":[{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Kinsela","given":"Andrew S."},{"family":"Bligh","given":"Mark"},{"family":"Harrison","given":"Jennifer J."},{"family":"Payne","given":"Timothy E."},{"family":"Waite","given":"T. David"}],"citation-key":"vazquez-campos_response_2017","container-title":"Applied and Environmental Microbiology","container-title-short":"Appl Environ Microbiol","DOI":"10.1128/aem.00729-17","issue":"17","issued":{"date-parts":[[2017,8,17]]},"note":"10 citations (Crossref) [2022-11-05]\nQID: Q41448958","page":"e00729","title":"Response of microbial community function to fluctuating geochemical conditions within a legacy radioactive waste trench environment","type":"article-journal","URL":"http://aem.asm.org/content/83/17/e00729-17","volume":"83"},
-  {"id":"vazquez-campos_uranium_2015","author":[{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Kinsela","given":"Andrew S."},{"family":"Collins","given":"Richard N."},{"family":"Neilan","given":"Brett A."},{"family":"Aoyagi","given":"Noboru"},{"family":"Waite","given":"T. David"}],"citation-key":"vazquez-campos_uranium_2015","container-title":"Environmental Science & Technology","container-title-short":"Environ Sci Technol","DOI":"10.1021/acs.est.5b01342","ISSN":"0013-936X","issue":"14","issued":{"date-parts":[[2015,7,21]]},"note":"28 citations (Crossref) [2022-11-05]\nQID: Q46710391","page":"8487-8496","source":"ACS Publications","title":"Uranium binding mechanisms of the acid-tolerant fungus <i>Coniochaeta fodinicola</i>","type":"article-journal","URL":"http://pubs.acs.org/doi/abs/10.1021/acs.est.5b01342","volume":"49"},
-  {"id":"vazquez-campos_uranium_2017","accessed":{"date-parts":[[2016,11,11]]},"author":[{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Kinsela","given":"Andrew S."},{"family":"Collins","given":"Richard N."},{"family":"Neilan","given":"Brett A."},{"family":"Waite","given":"T. David"}],"citation-key":"vazquez-campos_uranium_2017","container-title":"Hydrometallurgy","container-title-short":"Hydrometallurgy","DOI":"10.1016/j.hydromet.2016.11.002","ISSN":"0304-386X","issued":{"date-parts":[[2017,1,1]]},"note":"10 citations (Crossref) [2022-11-05]","page":"81-91","source":"ScienceDirect","title":"Uranium extraction from a low-grade, stockpiled, non-sulfidic ore: Impact of added iron and the native microbial consortia","title-short":"Uranium extraction from a low-grade, stockpiled, non-sulfidic ore","type":"article-journal","URL":"http://www.sciencedirect.com/science/article/pii/S0304386X16301682","volume":"167"},
-  {"id":"wong_disentangling_2018","author":[{"family":"Wong","given":"Hon Lun"},{"family":"White III","given":"Richard Allen"},{"family":"Visscher","given":"Pieter T."},{"family":"Charlesworth","given":"James C."},{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Burns","given":"Brendan P."}],"citation-key":"wong_disentangling_2018","container-title":"The ISME Journal","container-title-short":"ISME J","DOI":"10.1038/s41396-018-0208-8","issued":{"date-parts":[[2018,11,1]]},"note":"64 citations (Crossref) [2022-11-05]","page":"2619-2639","title":"Disentangling the drivers of functional complexity at the metagenomic level in Shark Bay microbial mat microbiomes","type":"article-journal","URL":"https://www.nature.com/articles/s41396-018-0208-8","volume":"12"}
-]
+{
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "preferences": {
+      "ascii": "",
+      "asciiBibLaTeX": false,
+      "asciiBibTeX": true,
+      "autoAbbrev": false,
+      "autoAbbrevStyle": "",
+      "autoExport": "immediate",
+      "autoExportDelay": 2,
+      "autoExportIdleWait": 10,
+      "autoExportPathReplaceDiacritics": false,
+      "autoExportPathReplaceDirSep": "-",
+      "autoExportPathReplaceSpace": " ",
+      "automaticTags": true,
+      "autoPinDelay": 0,
+      "auxImport": false,
+      "baseAttachmentPath": "",
+      "biblatexExtendedDateFormat": true,
+      "biblatexExtendedNameFormat": true,
+      "biblatexExtractEprint": true,
+      "bibtexParticleNoOp": false,
+      "bibtexURL": "off",
+      "cache": true,
+      "cacheFlushInterval": 5,
+      "charmap": "",
+      "citeCommand": "cite",
+      "citekeyFold": true,
+      "citekeyFormat": "auth.lower+\"_\"+shorttitle(1,1)+\"_\"+year",
+      "citekeySearch": true,
+      "citekeyUnsafeChars": "\\\"#%'(),={}~",
+      "csquotes": "",
+      "DOIandURL": "both",
+      "exportBibTeXStrings": "off",
+      "exportBraceProtection": false,
+      "exportTitleCase": false,
+      "extraMergeCitekeys": true,
+      "extraMergeCSL": true,
+      "extraMergeTeX": true,
+      "git": "config",
+      "import": true,
+      "importBibTeXStrings": true,
+      "importCaseProtection": "as-needed",
+      "importCitationKey": true,
+      "importExtra": true,
+      "importJabRefAbbreviations": true,
+      "importJabRefStrings": true,
+      "importNoteToExtra": "",
+      "importSentenceCase": "on+guess",
+      "importUnknownTexCommand": "ignore",
+      "itemObserverDelay": 100,
+      "jabrefFormat": 0,
+      "jieba": false,
+      "keyConflictPolicy": "keep",
+      "keyScope": "global",
+      "kuroshiro": false,
+      "language": "langid",
+      "mapMath": "",
+      "mapText": "",
+      "mapUnicode": "conservative",
+      "parseParticles": true,
+      "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
+      "postscript": "if (Translator.BetterCSL) {\n  csl.add({ name: 'keywords', value: zotero.tags, sep: ', ', enc: 'tags' });\n}\n",
+      "postscriptOverride": "",
+      "preferencesOverride": "",
+      "qualityReport": false,
+      "quickCopyEta": "",
+      "quickCopyMode": "latex",
+      "quickCopyOrgMode": "zotero",
+      "quickCopyPandocBrackets": false,
+      "quickCopySelectLink": "zotero",
+      "rawImports": false,
+      "rawLaTag": "#LaTeX",
+      "relativeFilePaths": false,
+      "retainCache": false,
+      "separatorList": "and",
+      "separatorNames": "and",
+      "skipFields": "abstract,file",
+      "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
+      "startupProgress": "popup",
+      "strings": "",
+      "stringsOverride": "",
+      "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
+      "warnBulkModify": 10,
+      "warnTitleCased": false,
+      "texmap": {}
+    },
+    "options": {
+      "exportNotes": true,
+      "exportFileData": false,
+      "keepUpdated": true,
+      "worker": true
+    }
+  },
+  "version": {
+    "zotero": "6.0.23",
+    "bbt": "6.7.58"
+  },
+  "collections": {},
+  "items": [
+    {
+      "key": "VUCG6THD",
+      "version": 20867,
+      "itemType": "journalArticle",
+      "url": "https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-020-01770-2",
+      "volume": "20",
+      "pages": "154",
+      "publicationTitle": "BMC Microbiology",
+      "date": "2020 Jun 11",
+      "extra": "1 citations (Crossref) [2022-11-05]",
+      "journalAbbreviation": "BMC Microbiol",
+      "DOI": "10.1186/s12866-020-01770-2",
+      "title": "Bacteriophage genotyping using BOXA repetitive-PCR",
+      "creators": [
+        {
+          "firstName": "Dragica",
+          "lastName": "Damnjanovic",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Daniel L.",
+          "lastName": "Winter",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Melissa",
+          "lastName": "Harvey",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Wallace J.",
+          "lastName": "Bridge",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2019-12-05T00:09:34Z",
+      "dateModified": "2022-11-05T08:27:58Z",
+      "uri": "http://zotero.org/users/152779/items/VUCG6THD",
+      "itemID": 11108,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "12866_2020_1770_MOESM1_ESM.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2020-06-15T00:31:06Z",
+          "dateModified": "2020-06-15T00:31:18Z",
+          "uri": "http://zotero.org/users/152779/items/VEYSX6H9",
+          "path": "/home/xabi/Zotero/storage/VEYSX6H9/12866_2020_1770_MOESM1_ESM.pdf",
+          "select": "zotero://select/library/items/VEYSX6H9"
+        },
+        {
+          "itemType": "attachment",
+          "title": "12866_2020_1770_MOESM2_ESM.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2020-06-15T00:31:05Z",
+          "dateModified": "2020-06-15T00:31:18Z",
+          "uri": "http://zotero.org/users/152779/items/SM9GDXL5",
+          "path": "/home/xabi/Zotero/storage/SM9GDXL5/12866_2020_1770_MOESM2_ESM.pdf",
+          "select": "zotero://select/library/items/SM9GDXL5"
+        },
+        {
+          "itemType": "attachment",
+          "title": "12866_2020_1770_MOESM3_ESM.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2020-06-15T00:31:04Z",
+          "dateModified": "2020-06-15T00:31:18Z",
+          "uri": "http://zotero.org/users/152779/items/3LI9YAAJ",
+          "path": "/home/xabi/Zotero/storage/3LI9YAAJ/12866_2020_1770_MOESM3_ESM.pdf",
+          "select": "zotero://select/library/items/3LI9YAAJ"
+        },
+        {
+          "itemType": "attachment",
+          "title": "12866_2020_1770_MOESM4_ESM.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2020-06-15T00:31:03Z",
+          "dateModified": "2020-06-15T00:31:18Z",
+          "uri": "http://zotero.org/users/152779/items/4ALLRMH6",
+          "path": "/home/xabi/Zotero/storage/4ALLRMH6/12866_2020_1770_MOESM4_ESM.pdf",
+          "select": "zotero://select/library/items/4ALLRMH6"
+        },
+        {
+          "itemType": "attachment",
+          "title": "12866_2020_1770_MOESM5_ESM.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2020-06-15T00:31:02Z",
+          "dateModified": "2020-06-15T00:31:18Z",
+          "uri": "http://zotero.org/users/152779/items/S8X3DPFV",
+          "path": "/home/xabi/Zotero/storage/S8X3DPFV/12866_2020_1770_MOESM5_ESM.pdf",
+          "select": "zotero://select/library/items/S8X3DPFV"
+        },
+        {
+          "itemType": "attachment",
+          "title": "12866_2020_1770_MOESM6_ESM.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2020-06-15T00:30:59Z",
+          "dateModified": "2020-06-15T00:31:18Z",
+          "uri": "http://zotero.org/users/152779/items/W5W8ZVBC",
+          "path": "/home/xabi/Zotero/storage/W5W8ZVBC/12866_2020_1770_MOESM6_ESM.pdf",
+          "select": "zotero://select/library/items/W5W8ZVBC"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Damnjanovic et al_2020_Bacteriophage genotyping using BOXA repetitive-PCR.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2020-06-15T00:28:35Z",
+          "dateModified": "2020-06-15T00:28:59Z",
+          "uri": "http://zotero.org/users/152779/items/F457U2QC",
+          "path": "/home/xabi/Zotero/storage/F457U2QC/Damnjanovic et al_2020_Bacteriophage genotyping using BOXA repetitive-PCR.pdf",
+          "select": "zotero://select/library/items/F457U2QC"
+        }
+      ],
+      "notes": [],
+      "citationKey": "damnjanovic_Bacteriophage_2020",
+      "itemKey": "VUCG6THD",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/VUCG6THD"
+    },
+    {
+      "key": "HQMX8Y95",
+      "version": 20868,
+      "itemType": "journalArticle",
+      "url": "https://www.mdpi.com/1999-4915/14/4/709",
+      "rights": "http://creativecommons.org/licenses/by/3.0/",
+      "volume": "14",
+      "issue": "4",
+      "pages": "709",
+      "publicationTitle": "Viruses",
+      "ISSN": "1999-4915",
+      "date": "2022 Mar 29",
+      "extra": "0 citations (Crossref) [2022-11-05]\ntex.ids= damnjanovic_characterisation_2022-1\nnumber: 4\npublisher: Multidisciplinary Digital Publishing Institute",
+      "journalAbbreviation": "Viruses",
+      "DOI": "10.3390/v14040709",
+      "libraryCatalog": "www.mdpi.com",
+      "language": "en",
+      "abstractNote": "Recent acknowledgment that multidrug resistant Stenotrophomonas maltophilia strains can cause severe infections has led to increasing global interest in addressing its pathogenicity. While being primarily associated with hospital-acquired respiratory tract infections, this bacterial species is also relevant to ophthalmology, particularly to contact lens-related diseases. In the current study, the capacity of Stenotrophomonas phage vB_SmaM_Ps15 to infect ocular S. maltophilia strains was investigated to explore its future potential as a phage therapeutic. The phage proved to be lytic to a range of clinical isolates collected in Australia from eye swabs, contact lenses and contact lens cases that had previously shown to be resistant to several antibiotics and multipurpose contact lenses disinfectant solutions. Morphological analysis by transmission electron microscopy placed the phage into the Myoviridae family. Its genome size was 161,350 bp with a G + C content of 54.2%, containing 276 putative protein-encoding genes and 24 tRNAs. A detailed comparative genomic analysis positioned vB_SmaM_Ps15 as a new species of the Menderavirus genus, which currently contains six very similar globally distributed members. It was confirmed as a virulent phage, free of known lysogenic and pathogenicity determinants, which supports its potential use for the treatment of S. maltophilia eye infections.",
+      "title": "Characterisation of bacteriophage vB_SmaM_Ps15 infective to <i>Stenotrophomonas maltophilia</i> clinical ocular isolates",
+      "creators": [
+        {
+          "firstName": "Dragica",
+          "lastName": "Damnjanovi\u0107",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Lisa",
+          "lastName": "Elliot",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mark",
+          "lastName": "Willcox",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Wallace J.",
+          "lastName": "Bridge",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "bacteriophage",
+          "type": 1
+        },
+        {
+          "tag": "<i>Menderavirus</i>",
+          "type": 1
+        },
+        {
+          "tag": "<i>Stenotrophomonas maltophilia</i>",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2022-02-10T02:41:16Z",
+      "dateModified": "2022-11-05T08:27:53Z",
+      "uri": "http://zotero.org/users/152779/items/HQMX8Y95",
+      "itemID": 12453,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Damnjanovi\u0107 et al_2022_Characterisation of Bacteriophage vB_SmaM_Ps15 Infective to Stenotrophomonas.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-03-29T23:10:43Z",
+          "dateModified": "2022-03-29T23:12:44Z",
+          "uri": "http://zotero.org/users/152779/items/GR9QCJQR",
+          "path": "/home/xabi/Zotero/storage/GR9QCJQR/Damnjanovi\u0107 et al_2022_Characterisation of Bacteriophage vB_SmaM_Ps15 Infective to Stenotrophomonas.pdf",
+          "select": "zotero://select/library/items/GR9QCJQR"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-03-29T23:10:49Z",
+          "dateModified": "2022-03-29T23:12:44Z",
+          "uri": "http://zotero.org/users/152779/items/ZXVHJAZ2",
+          "path": "/home/xabi/Zotero/storage/ZXVHJAZ2/htm.html",
+          "select": "zotero://select/library/items/ZXVHJAZ2"
+        },
+        {
+          "itemType": "attachment",
+          "title": "SUPPLEMENTARY 1 - new.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-03-29T23:13:11Z",
+          "dateModified": "2022-03-29T23:13:11Z",
+          "uri": "http://zotero.org/users/152779/items/TFF7GFKE",
+          "path": "/home/xabi/Zotero/storage/TFF7GFKE/SUPPLEMENTARY 1 - new.pdf",
+          "select": "zotero://select/library/items/TFF7GFKE"
+        },
+        {
+          "itemType": "attachment",
+          "title": "SupplementaryTables_tosubmit-review.xlsx",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-03-29T23:13:19Z",
+          "dateModified": "2022-03-29T23:13:19Z",
+          "uri": "http://zotero.org/users/152779/items/PE45JFQ3",
+          "path": "/home/xabi/Zotero/storage/PE45JFQ3/SupplementaryTables_tosubmit-review.xlsx",
+          "select": "zotero://select/library/items/PE45JFQ3"
+        }
+      ],
+      "notes": [],
+      "citationKey": "damnjanovic_Characterisation_2022",
+      "itemKey": "HQMX8Y95",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/HQMX8Y95"
+    },
+    {
+      "key": "F6U8W3AQ",
+      "version": 21444,
+      "itemType": "journalArticle",
+      "url": "http://www.nature.com/articles/s41564-020-00834-3",
+      "rights": "2020 Springer Nature Limited",
+      "volume": "6",
+      "issue": "1",
+      "pages": "3-6",
+      "publicationTitle": "Nature Microbiology",
+      "ISSN": "2058-5276",
+      "date": "2021 Jan 1",
+      "extra": "140 citations (Crossref) [2022-11-05]\nNumber: 1\nPublisher: Nature Publishing Group\nQID: Q111858590",
+      "journalAbbreviation": "Nat Microbiol",
+      "DOI": "10.1038/s41564-020-00834-3",
+      "accessDate": "2020-12-22T03:53:25Z",
+      "libraryCatalog": "www-nature-com.wwwproxy1.library.unsw.edu.au",
+      "language": "en",
+      "abstractNote": "Big data abound in microbiology, but the workflows designed to enable researchers to interpret data can constrain the biological questions that can be asked. Five years after anvi\u2019o was first published, this community-led multi-omics platform is maturing into an open software ecosystem that reduces constraints in \u2018omics data analyses.",
+      "title": "Community-led, integrated, reproducible multi-omics with anvi\u2019o",
+      "creators": [
+        {
+          "firstName": "A. Murat",
+          "lastName": "Eren",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Evan",
+          "lastName": "Kiefl",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alon",
+          "lastName": "Shaiber",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Iva",
+          "lastName": "Veseli",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Samuel E.",
+          "lastName": "Miller",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew S.",
+          "lastName": "Schechter",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Isaac",
+          "lastName": "Fink",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jessica N.",
+          "lastName": "Pan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mahmoud",
+          "lastName": "Yousef",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Emily C.",
+          "lastName": "Fogarty",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Florian",
+          "lastName": "Trigodet",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrea R.",
+          "lastName": "Watson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "\u00d6zcan C.",
+          "lastName": "Esen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ryan M.",
+          "lastName": "Moore",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Quentin",
+          "lastName": "Clayssen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Michael D.",
+          "lastName": "Lee",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Veronika",
+          "lastName": "Kivenson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Elaina D.",
+          "lastName": "Graham",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Bryan D.",
+          "lastName": "Merrill",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Antti",
+          "lastName": "Karkman",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Daniel",
+          "lastName": "Blankenberg",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "John M.",
+          "lastName": "Eppley",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andreas",
+          "lastName": "Sj\u00f6din",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jarrod J.",
+          "lastName": "Scott",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Luke J.",
+          "lastName": "McKay",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Elizabeth A.",
+          "lastName": "McDaniel",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sarah L. R.",
+          "lastName": "Stevens",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Rika E.",
+          "lastName": "Anderson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jessika",
+          "lastName": "Fuessel",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Antonio",
+          "lastName": "Fernandez-Guerra",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Lois",
+          "lastName": "Maignien",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tom O.",
+          "lastName": "Delmont",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Amy D.",
+          "lastName": "Willis",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "selected"
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2020-12-22T03:53:25Z",
+      "dateModified": "2023-02-24T03:39:07Z",
+      "uri": "http://zotero.org/users/152779/items/F6U8W3AQ",
+      "itemID": 11798,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Eren et al. - 2021 - Community-led, integrated, reproducible multi-omic.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2020-12-22T03:53:27Z",
+          "dateModified": "2021-01-11T03:59:01Z",
+          "uri": "http://zotero.org/users/152779/items/K8VA2AAG",
+          "path": "/home/xabi/Zotero/storage/K8VA2AAG/Eren et al. - 2021 - Community-led, integrated, reproducible multi-omic.pdf",
+          "select": "zotero://select/library/items/K8VA2AAG"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2020-12-22T03:53:31Z",
+          "dateModified": "2020-12-22T03:53:31Z",
+          "uri": "http://zotero.org/users/152779/items/AH2A4JEF",
+          "path": "/home/xabi/Zotero/storage/AH2A4JEF/s41564-020-00834-3.html",
+          "select": "zotero://select/library/items/AH2A4JEF"
+        }
+      ],
+      "notes": [],
+      "citationKey": "eren_Communityled_2021",
+      "itemKey": "F6U8W3AQ",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/F6U8W3AQ"
+    },
+    {
+      "key": "XYLKAPBB",
+      "version": 21444,
+      "itemType": "journalArticle",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmicb.2022.1035247",
+      "volume": "13",
+      "pages": "1035247",
+      "publicationTitle": "Frontiers in Microbiology",
+      "ISSN": "1664-302X",
+      "date": "2022 Dec 7",
+      "extra": "tex.ids= holland_Metaproteomics_2022a",
+      "journalAbbreviation": "Front Microbiol",
+      "DOI": "10.3389/fmicb.2022.1035247",
+      "libraryCatalog": "Frontiers",
+      "abstractNote": "Dichloromethane (DCM; CH2Cl2) is a widespread pollutant with anthropogenic and natural sources. Anaerobic DCM-dechlorinating bacteria use the Wood\u2013Ljungdahl pathway, yet dechlorination reaction mechanisms remain unclear and the enzyme(s) responsible for carbon-chlorine bond cleavage have not been definitively identified. Of the three bacterial taxa known to carry out anaerobic dechlorination of DCM, \u2018Candidatus Formimonas warabiya\u2019 strain DCMF is the only organism that can also ferment non-chlorinated substrates, including quaternary amines (i.e., choline and glycine betaine) and methanol. Strain DCMF is present within enrichment culture DFE, which was derived from an organochlorine-contaminated aquifer. We utilized the metabolic versatility of strain DCMF to carry out comparative metaproteomics of cultures grown with DCM or glycine betaine. This revealed differential abundance of numerous proteins, including a methyltransferase gene cluster (the mec cassette) that was significantly more abundant during DCM degradation, as well as highly conserved amongst anaerobic DCM-degrading bacteria. This lends strong support to its involvement in DCM dechlorination. A putative glycine betaine methyltransferase was also discovered, adding to the limited knowledge about the fate of this widespread osmolyte in anoxic subsurface environments. Furthermore, the metagenome of enrichment culture DFE was assembled, resulting in five high quality and two low quality draft metagenome-assembled genomes. Metaproteogenomic analysis did not reveal any genes or proteins for utilization of DCM or glycine betaine in the cohabiting bacteria, supporting the previously held idea that they persist via necromass utilization.",
+      "title": "Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by \u2018<i>Candidatus</i> Formimonas warabiya\u2019 strain DCMF",
+      "creators": [
+        {
+          "firstName": "Sophie I",
+          "lastName": "Holland",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ertan",
+          "lastName": "Haluk",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Richard J",
+          "lastName": "Edwards",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Michael J.",
+          "lastName": "Manefield",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew",
+          "lastName": "Lee",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "selected"
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2021-07-21T02:58:13Z",
+      "dateModified": "2023-02-24T03:38:46Z",
+      "uri": "http://zotero.org/users/152779/items/XYLKAPBB",
+      "itemID": 12387,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Data_Sheet_1_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by \u2018Candidatus Formimonas warabi.PDF",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-12-08T01:06:20Z",
+          "dateModified": "2022-12-08T01:07:21Z",
+          "uri": "http://zotero.org/users/152779/items/93GUYTDS",
+          "path": "/home/xabi/Zotero/storage/93GUYTDS/Data_Sheet_1_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by \u2018Candidatus Formimonas warabi.PDF",
+          "select": "zotero://select/library/items/93GUYTDS"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Data_Sheet_2_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by \u2018Candidatus Formimonas warabi.xlsx",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-12-08T01:06:20Z",
+          "dateModified": "2022-12-08T01:07:21Z",
+          "uri": "http://zotero.org/users/152779/items/N7VL2YEY",
+          "path": "/home/xabi/Zotero/storage/N7VL2YEY/Data_Sheet_2_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by \u2018Candidatus Formimonas warabi.xlsx",
+          "select": "zotero://select/library/items/N7VL2YEY"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Holland et al_2022_Metaproteomics reveals methyltransferases implicated in dichloromethane and.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-12-08T01:05:10Z",
+          "dateModified": "2022-12-08T01:07:21Z",
+          "uri": "http://zotero.org/users/152779/items/P36E86LR",
+          "path": "/home/xabi/Zotero/storage/P36E86LR/Holland et al_2022_Metaproteomics reveals methyltransferases implicated in dichloromethane and.pdf",
+          "select": "zotero://select/library/items/P36E86LR"
+        }
+      ],
+      "notes": [],
+      "citationKey": "holland_Metaproteomics_2022",
+      "itemKey": "XYLKAPBB",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/XYLKAPBB"
+    },
+    {
+      "key": "QCPQRCKW",
+      "version": 20868,
+      "itemType": "journalArticle",
+      "url": "https://doi.org/10.1021/acs.est.1c01604",
+      "volume": "55",
+      "issue": "13",
+      "pages": "8793-8805",
+      "publicationTitle": "Environmental Science & Technology",
+      "ISSN": "0013-936X",
+      "date": "2021 Jul 06",
+      "extra": "6 citations (Crossref) [2022-11-05]\nPublisher: American Chemical Society",
+      "journalAbbreviation": "Environ Sci Technol",
+      "DOI": "10.1021/acs.est.1c01604",
+      "accessDate": "2021-07-21T02:53:47Z",
+      "libraryCatalog": "ACS Publications",
+      "abstractNote": "Results of investigations into factors influencing contaminant mobility in a replica trench located adjacent to a legacy radioactive waste site are presented in this study. The trench was filled with nonhazardous iron- and organic matter (OM)-rich components, as well as three contaminant analogues strontium, cesium, and neodymium to examine contaminant behavior. Imposed redox/water-level oscillations, where oxygen-laden rainwater was added to the anoxic trench, resulted in marked biogeochemical changes including the removal of aqueous Fe(II) and circulation of dissolved carbon, along with shifts to microbial communities involved in cycling iron (Gallionella, Sideroxydans) and methane generation (Methylomonas, Methylococcaceae). Contaminant mobility depended upon element speciation and rainfall event intensity. Strontium remained mobile, being readily translocated under hydrological perturbations. Strong ion-exchange reactions and structural incorporation into double-layer clay minerals were likely responsible for greater retention of Cs, which, along with Sr, was unaffected by redox oscillations. Neodymium was initially immobilized within the anoxic trenches, due to either secondary mineral (phosphate) precipitation or via the chemisorption of organic\u2013 and carbonate\u2013Nd complexes onto variably charged solid phases. Oxic rainwater intrusions altered Nd mobility via competing effects. Oxidation of Fe(II) led to partial retention of Nd within highly sorbing Fe(III)/OM phases, whereas pH decreases associated with rainwater influxes resulted in a release of adsorbed Nd to solution with both pH and OM presumed to be the key factors controlling Nd attenuation. Collectively, the behavior of simulated contaminants within this replica trench provided unique insights into trench water biogeochemistry and contaminant cycling in a redox oscillatory environment.",
+      "title": "Biogeochemical mobility of contaminants from a replica radioactive waste trench in response to rainfall-induced redox oscillations",
+      "creators": [
+        {
+          "firstName": "Andrew S.",
+          "lastName": "Kinsela",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mark W.",
+          "lastName": "Bligh",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yingying",
+          "lastName": "Sun",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marc R.",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M. Josick",
+          "lastName": "Comarmond",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Brett",
+          "lastName": "Rowling",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Timothy E.",
+          "lastName": "Payne",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "T. David",
+          "lastName": "Waite",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2021-07-21T02:53:47Z",
+      "dateModified": "2022-11-05T08:27:55Z",
+      "uri": "http://zotero.org/users/152779/items/QCPQRCKW",
+      "itemID": 12389,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ACS Full Text Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2021-07-21T02:54:37Z",
+          "dateModified": "2021-07-21T02:54:37Z",
+          "uri": "http://zotero.org/users/152779/items/YLH4S8VJ",
+          "path": "/home/xabi/Zotero/storage/YLH4S8VJ/acs.est.html",
+          "select": "zotero://select/library/items/YLH4S8VJ"
+        },
+        {
+          "itemType": "attachment",
+          "title": "es1c01604_si_001.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2021-07-21T02:54:38Z",
+          "dateModified": "2021-07-21T02:54:38Z",
+          "uri": "http://zotero.org/users/152779/items/KDW478F9",
+          "path": "/home/xabi/Zotero/storage/KDW478F9/es1c01604_si_001.pdf",
+          "select": "zotero://select/library/items/KDW478F9"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Kinsela et al_2021_Biogeochemical Mobility of Contaminants from a Replica Radioactive Waste Trench.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2021-07-21T02:53:51Z",
+          "dateModified": "2021-07-21T02:53:52Z",
+          "uri": "http://zotero.org/users/152779/items/PGTBJZH3",
+          "path": "/home/xabi/Zotero/storage/PGTBJZH3/Kinsela et al_2021_Biogeochemical Mobility of Contaminants from a Replica Radioactive Waste Trench.pdf",
+          "select": "zotero://select/library/items/PGTBJZH3"
+        }
+      ],
+      "notes": [],
+      "citationKey": "kinsela_Biogeochemical_2021",
+      "itemKey": "QCPQRCKW",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/QCPQRCKW"
+    },
+    {
+      "key": "KNTP9ERZ",
+      "version": 21398,
+      "itemType": "journalArticle",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0048969722053402",
+      "volume": "851",
+      "issue": "Part 1",
+      "pages": "158241",
+      "publicationTitle": "Science of The Total Environment",
+      "ISSN": "0048-9697",
+      "date": "2022 Dec 10",
+      "extra": "0 citations (Crossref) [2022-11-05]",
+      "journalAbbreviation": "Sci Total Environ",
+      "DOI": "10.1016/j.scitotenv.2022.158241",
+      "accessDate": "2022-08-29T23:44:26Z",
+      "libraryCatalog": "ScienceDirect",
+      "language": "en",
+      "abstractNote": "Numerous legacy near-surface radioactive waste sites dating from the mid 20th century have yet to be remediated and present a global contamination concern. Typically, there is insufficient understanding of contaminant release and redistribution, with invasive investigations often impractical due to the risk of disturbing the often significantly radiotoxic contaminants. Consequently, a replica waste trench (~5.4 m3), constructed adjacent to a legacy radioactive waste site (Little Forest Legacy Site, LFLS), was used to assist our understanding of the release and mixing processes of neodymium (Nd) \u2014 a chemical analogue for plutonium(III) and americium(III), two significant radionuclides in many contaminated environments. In order to clarify the behaviour of contaminants released from buried objects such as waste containers, a steel drum, representative of the hundreds of buried drums within the LFLS, was placed within the trench. Dissolved neodymium nitrate was introduced as a point-source contaminant to the base of the trench, outside the steel drum. Hydrologic conditions were manipulated to simulate natural rainfall intensities with dissolved lithium bromide added as a tracer. Neodymium was primarily retained both at its point of release at the bottom of the trench (>97 %) as well as at a steel container corrosion point, simulated through the emplacement of steel wool. However, over the 8-month field experiment, advective mixing initiated by surface water intrusions rapidly redistributed a small proportion of Nd to shallower waters (~1.5\u20131.7 %), as well as throughout the buried steel drum. Suspended particulate forms of Nd (>0.2 \u03bcm) were measured at all depths in the suboxic trench and were persistent across the entire study. Analyses of the microbial communities showed that their relative abundances and metabolic functions were strongly influenced by the prevailing geochemical conditions as a result of fluctuating water depths associated with rainfall events. The site representing steel corrosion exhibited divergent biogeochemical results with anomalous changes (sharp decrease) observed in both dissolved contaminant concentration as well as microbial diversity and functionality. This research demonstrates that experimental trenches provide a safe and unique method for simulating the behaviour of subsurface radioactive contaminants with results demonstrating the initial retention, partial shallow water redistribution, and stability of particulate form(s) of this radioactive analogue. These results have relevance for appropriate management and remediation strategies for the adjacent legacy site as well as for similar sites across the globe.",
+      "title": "Contaminant release, mixing and microbial fluctuations initiated by infiltrating water within a replica field-scale legacy radioactive waste trench",
+      "creators": [
+        {
+          "firstName": "Andrew S.",
+          "lastName": "Kinsela",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Timothy E.",
+          "lastName": "Payne",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mark W.",
+          "lastName": "Bligh",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marc R.",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M. Josick",
+          "lastName": "Comarmond",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Brett",
+          "lastName": "Rowling",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "T. David",
+          "lastName": "Waite",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Neodymium",
+          "type": 1
+        },
+        {
+          "tag": "Analogue",
+          "type": 1
+        },
+        {
+          "tag": "Bromide",
+          "type": 1
+        },
+        {
+          "tag": "Contaminated site",
+          "type": 1
+        },
+        {
+          "tag": "Field experiment",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2022-08-29T23:44:26Z",
+      "dateModified": "2023-02-23T05:21:22Z",
+      "uri": "http://zotero.org/users/152779/items/KNTP9ERZ",
+      "itemID": 12832,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "1-s2.0-S0048969722053402-mmc1.doc",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-08-30T00:02:32Z",
+          "dateModified": "2022-08-30T00:02:32Z",
+          "uri": "http://zotero.org/users/152779/items/KYQDWBI3",
+          "path": "/home/xabi/Zotero/storage/KYQDWBI3/1-s2.0-S0048969722053402-mmc1.doc",
+          "select": "zotero://select/library/items/KYQDWBI3"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Kinsela et al_2022_Contaminant release, mixing and microbial fluctuations initiated by.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-08-29T23:44:33Z",
+          "dateModified": "2022-08-29T23:44:35Z",
+          "uri": "http://zotero.org/users/152779/items/LQUSBWQG",
+          "path": "/home/xabi/Zotero/storage/LQUSBWQG/Kinsela et al_2022_Contaminant release, mixing and microbial fluctuations initiated by.pdf",
+          "select": "zotero://select/library/items/LQUSBWQG"
+        },
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-08-29T23:44:37Z",
+          "dateModified": "2022-08-29T23:44:37Z",
+          "uri": "http://zotero.org/users/152779/items/97JLXSMG",
+          "path": "/home/xabi/Zotero/storage/97JLXSMG/S0048969722053402.html",
+          "select": "zotero://select/library/items/97JLXSMG"
+        }
+      ],
+      "notes": [],
+      "citationKey": "kinsela_Contaminant_2022",
+      "itemKey": "KNTP9ERZ",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/KNTP9ERZ"
+    },
+    {
+      "key": "39XNERBC",
+      "version": 20867,
+      "itemType": "journalArticle",
+      "url": "http://www.czechmycology.org/_cmo/CM67104.pdf",
+      "volume": "67",
+      "issue": "1",
+      "pages": "37-38",
+      "publicationTitle": "Czech Mycology",
+      "date": "2015 April 10",
+      "extra": "8 citations (Crossref) [2022-11-05]\nCitation Key: kolarik_acidotolerant_2015\nQID: Q106106445",
+      "journalAbbreviation": "Czech Mycol",
+      "DOI": "10.33585/cmy.67104",
+      "abstractNote": "A new combination, Acidiella uranophila (X. V\u00e1zquez-Campos) M. Kola\u0159\u00edk, Hujslov\u00e1 & X.\nV\u00e1zquez-Campos is provided for Fodinomyces uranophilus X. V\u00e1zquez-Campos based on similarity\nin phenotype and genotype.",
+      "title": "Acidotolerant genus <i>Fodinomyces</i> (Ascomycota: <i>Capnodiales</i>) is a synonym of <i>Acidiella</i>",
+      "creators": [
+        {
+          "firstName": "Miroslav",
+          "lastName": "Kola\u0159\u00edk",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Martina",
+          "lastName": "Hujslov\u00e1",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "taxonomy"
+        },
+        {
+          "tag": "Dothideomycetes"
+        },
+        {
+          "tag": "acid soils"
+        },
+        {
+          "tag": "ITS rDNA"
+        },
+        {
+          "tag": "soil fungi"
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2015-03-06T00:51:43Z",
+      "dateModified": "2022-11-05T08:28:02Z",
+      "uri": "http://zotero.org/users/152779/items/39XNERBC",
+      "itemID": 3037,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Kola\u0159\u00edk et al. - 2015 - Acidotolerant genus iFodinomycesi (Ascomycota.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2015-05-18T09:08:11Z",
+          "dateModified": "2015-05-18T09:08:18Z",
+          "uri": "http://zotero.org/users/152779/items/64FK73R4",
+          "path": "/home/xabi/Zotero/storage/64FK73R4/Kola\u0159\u00edk et al. - 2015 - Acidotolerant genus iFodinomycesi (Ascomycota.pdf",
+          "select": "zotero://select/library/items/64FK73R4"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Kola\u0159\u00edk et al. - Acidotolerant fungus iFodinomycesi (Ascomycot.docx",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2015-03-06T00:55:49Z",
+          "dateModified": "2015-03-06T00:55:51Z",
+          "uri": "http://zotero.org/users/152779/items/DEI3GDK8",
+          "path": "/home/xabi/Zotero/storage/DEI3GDK8/Kola\u0159\u00edk et al. - Acidotolerant fungus iFodinomycesi (Ascomycot.docx",
+          "select": "zotero://select/library/items/DEI3GDK8"
+        }
+      ],
+      "notes": [],
+      "citationKey": "kolarik_acidotolerant_2015",
+      "itemKey": "39XNERBC",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/39XNERBC"
+    },
+    {
+      "key": "RY2PVW5F",
+      "version": 20868,
+      "itemType": "journalArticle",
+      "url": "http://www.sciencedirect.com/science/article/pii/S0016706120326690",
+      "volume": "386",
+      "pages": "114914",
+      "publicationTitle": "Geoderma",
+      "ISSN": "0016-7061",
+      "date": "2021 Mar 15",
+      "extra": "8 citations (Crossref) [2022-11-05]",
+      "journalAbbreviation": "Geoderma",
+      "DOI": "10.1016/j.geoderma.2020.114914",
+      "accessDate": "2021-01-12T23:46:36Z",
+      "libraryCatalog": "ScienceDirect",
+      "language": "en",
+      "abstractNote": "Biological soil crusts or biocrusts have critical ecological roles in dryland ecosystems including soil stabilization, erosion control and nutrient cycling. Global environmental changes are expected to impact terrestrial ecosystems, including biocrust communities. Thus, a growing number of studies have focused on investigating the diversity of biocrust-forming organisms including cyanobacteria. Despite the increasing interest in understanding biocrust cyanobacteria, there are still several knowledge gaps, particularly in areas from South America, where studies are limited. Here, we studied the composition, abundance, and environmental drivers of cyanobacterial biocrust from two important biomes in Brazil, i.e. Caatinga and Pampa, which are subject to desertification and anthropogenic pressures, respectively. Ten samples at three sites were explored at each biome (n\u00a0=\u00a060) and cyanobacterial biocrust community composition and diversity was analyzed through morphological evaluation and Next Generation Sequencing targeting the 16S rRNA gen. Soil and climatic variables, e.g. organic matter, soil texture, nitrogen and phosphorus content, temperature, and solar irradiance, were also determined at each site. Our results showed that biocrust cyanobacteria had distinct taxonomic compositions and assemblages at each biome. Similarly, cyanobacterial composition across sites within each biome differed substantially. Soil temperature and pH were identified as the main factors explaining such biotic structures. Caatinga sites, characterized by more arid environments, presented a higher abundance of N-fixing cyanobacteria, e.g. Scytonema. In contrast, Pampa, with higher rainfall regimes, showed a larger abundance of biocrust-forming bacteria such as Microcoleus and Leptolyngbya. The outcomes of this research are expected to provide a basis to enhance biocrusts and conservation efforts and promote the use of biocrust cyanobacteria as global change indicators.",
+      "title": "Biocrust cyanobacterial composition, diversity, and environmental drivers in two contrasting climatic regions in Brazil",
+      "creators": [
+        {
+          "firstName": "N\u00e1thali Maria",
+          "lastName": "Machado de Lima",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Miriam",
+          "lastName": "Mu\u00f1oz-Rojas",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Luis Henrique Zanini",
+          "lastName": "Branco",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "16S rRNA",
+          "type": 1
+        },
+        {
+          "tag": "Biocrust",
+          "type": 1
+        },
+        {
+          "tag": "Cyanobacterial diversity",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2021-01-12T23:46:36Z",
+      "dateModified": "2022-11-05T08:27:54Z",
+      "uri": "http://zotero.org/users/152779/items/RY2PVW5F",
+      "itemID": 11807,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "1-s2.0-S0016706120326690-mmc1.doc",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2021-01-12T23:47:50Z",
+          "dateModified": "2021-01-12T23:47:50Z",
+          "uri": "http://zotero.org/users/152779/items/HQLKLERV",
+          "path": "/home/xabi/Zotero/storage/HQLKLERV/1-s2.0-S0016706120326690-mmc1.doc",
+          "select": "zotero://select/library/items/HQLKLERV"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Machado de Lima et al_2021_Biocrust cyanobacterial composition, diversity, and environmental drivers in.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2021-01-12T23:46:38Z",
+          "dateModified": "2021-01-12T23:46:39Z",
+          "uri": "http://zotero.org/users/152779/items/9RNWMWX8",
+          "path": "/home/xabi/Zotero/storage/9RNWMWX8/Machado de Lima et al_2021_Biocrust cyanobacterial composition, diversity, and environmental drivers in.pdf",
+          "select": "zotero://select/library/items/9RNWMWX8"
+        },
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2021-01-12T23:46:42Z",
+          "dateModified": "2021-01-12T23:46:42Z",
+          "uri": "http://zotero.org/users/152779/items/QGCWIHLH",
+          "path": "/home/xabi/Zotero/storage/QGCWIHLH/S0016706120326690.html",
+          "select": "zotero://select/library/items/QGCWIHLH"
+        }
+      ],
+      "notes": [],
+      "citationKey": "machadodelima_Biocrust_2021",
+      "itemKey": "RY2PVW5F",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/RY2PVW5F"
+    },
+    {
+      "key": "GR9DR3SE",
+      "version": 20867,
+      "itemType": "journalArticle",
+      "url": "http://www.springerlink.com/content/v53241j1x6014780/abstract/",
+      "volume": "35",
+      "issue": "5",
+      "pages": "851-855",
+      "publicationTitle": "Bioprocess and Biosystems Engineering",
+      "ISSN": "1615-7591",
+      "date": "2012 Jun 1",
+      "extra": "20 citations (Crossref) [2022-11-05]",
+      "journalAbbreviation": "Bioprocess Biosyst Eng",
+      "DOI": "10.1007/s00449-011-0669-x",
+      "accessDate": "2012-05-09T04:42:16Z",
+      "libraryCatalog": "SpringerLink",
+      "abstractNote": "In the present work, several samples from lab waste containers polluted with polycyclic aromatic hydrocarbons (PAHs) and heavy metals were investigated as potential sources of PAH-degrading microorganisms. After isolating, two fungal strains were selected as the best degrading microorganisms. Genetic identification by sequencing was carried out and they were identified as Trichoderma longibrachiatum and Byssochlamys spectabilis . Their degradation ability was determined in liquid cultures with 100 \u03bcM of benzo[a]anthracene. T. longibrachiatum cultures showed highest degradation values (around 97%) after 9 days, furthermore in a second batch the time was reduced to 6 days. To analyse the viability of industrial application, a continuous treatment in an expanded-bed bioreactor was developed operating at different residence times with T. longibrachiatum immobilised on cubes of nylon sponge. It is noticeable that the bioreactor working in continuous mode was able to operate without operational problems and attaining high degradation levels depending on the residence time.",
+      "title": "Isolation of novel benzo[a]anthracene-degrading microorganisms and continuous bioremediation in an expanded-bed bioreactor",
+      "creators": [
+        {
+          "firstName": "E.",
+          "lastName": "Rosales",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "P\u00e9rez-Paz",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "X.",
+          "lastName": "V\u00e1zquez",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Pazos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Sanrom\u00e1n",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "benzo[a]anthracene"
+        },
+        {
+          "tag": "biodegradation"
+        },
+        {
+          "tag": "Byssochlamys spectabilis"
+        },
+        {
+          "tag": "continuous bioreactor"
+        },
+        {
+          "tag": "Trichoderma longibrachiatum"
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2012-05-09T04:42:16Z",
+      "dateModified": "2022-11-05T08:27:13Z",
+      "uri": "http://zotero.org/users/152779/items/GR9DR3SE",
+      "itemID": 3041,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Rosales et al. - 2012 - Isolation of novel benzo[a]anthracene-degrading mi.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2012-05-09T04:42:16Z",
+          "dateModified": "2013-02-27T03:17:54Z",
+          "uri": "http://zotero.org/users/152779/items/QU2V8CWA",
+          "path": "/home/xabi/Zotero/storage/QU2V8CWA/Rosales et al. - 2012 - Isolation of novel benzo[a]anthracene-degrading mi.pdf",
+          "select": "zotero://select/library/items/QU2V8CWA"
+        },
+        {
+          "itemType": "attachment",
+          "title": "SpringerLink Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2012-05-09T04:42:36Z",
+          "dateModified": "2012-05-09T04:42:36Z",
+          "uri": "http://zotero.org/users/152779/items/ZTXNTJ3X",
+          "path": "/home/xabi/Zotero/storage/ZTXNTJ3X/abstract.html",
+          "select": "zotero://select/library/items/ZTXNTJ3X"
+        }
+      ],
+      "notes": [],
+      "citationKey": "rosales_Isolation_2012",
+      "itemKey": "GR9DR3SE",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/GR9DR3SE"
+    },
+    {
+      "key": "ZNAAZU53",
+      "version": 20867,
+      "itemType": "journalArticle",
+      "url": "https://www.mdpi.com/2075-1729/10/12/362",
+      "rights": "http://creativecommons.org/licenses/by/3.0/",
+      "volume": "10",
+      "issue": "12",
+      "pages": "362",
+      "publicationTitle": "Life",
+      "date": "2020 Dec 19",
+      "extra": "8 citations (Crossref) [2022-11-05]\nNumber: 12\nPublisher: Multidisciplinary Digital Publishing Institute",
+      "journalAbbreviation": "Life",
+      "DOI": "10.3390/life10120362",
+      "accessDate": "2020-12-22T03:53:56Z",
+      "libraryCatalog": "www.mdpi.com",
+      "language": "en",
+      "abstractNote": "The polyphyletic group of black fungi within the Ascomycota (Arthoniomycetes, Dothideomycetes, and Eurotiomycetes) is ubiquitous in natural and anthropogenic habitats. Partly because of their dark, melanin-based pigmentation, black fungi are resistant to stresses including UV- and ionizing-radiation, heat and desiccation, toxic metals, and organic pollutants. Consequently, they are amongst the most stunning extremophiles and poly-extreme-tolerant organisms on Earth. Even though ca. 60 black fungal genomes have been sequenced to date, [mostly in the family Herpotrichiellaceae (Eurotiomycetes)], the class Dothideomycetes that hosts the largest majority of extremophiles has only been sparsely sampled. By sequencing up to 92 species that will become reference genomes, the &ldquo;Shed light in The daRk lineagES of the fungal tree of life&rdquo; (STRES) project will cover a broad collection of black fungal diversity spread throughout the Fungal Tree of Life. Interestingly, the STRES project will focus on mostly unsampled genera that display different ecologies and life-styles (e.g., ant- and lichen-associated fungi, rock-inhabiting fungi, etc.). With a resequencing strategy of 10- to 15-fold depth coverage of up to ~550 strains, numerous new reference genomes will be established. To identify metabolites and functional processes, these new genomic resources will be enriched with metabolomics analyses coupled with transcriptomics experiments on selected species under various stress conditions (salinity, dryness, UV radiation, oligotrophy). The data acquired will serve as a reference and foundation for establishing an encyclopedic database for fungal metagenomics as well as the biology, evolution, and ecology of the fungi in extreme environments.",
+      "title": "Shed Light in the DaRk LineagES of the Fungal Tree of Life\u2014STRES",
+      "creators": [
+        {
+          "firstName": "Laura",
+          "lastName": "Selbmann",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Zsigmond",
+          "lastName": "Benk\u0151",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Claudia",
+          "lastName": "Coleine",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sybren",
+          "lastName": "de Hoog",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Claudio",
+          "lastName": "Donati",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Irina",
+          "lastName": "Druzhinina",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tam\u00e1s",
+          "lastName": "Emri",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Cassie L.",
+          "lastName": "Ettinger",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Amy S.",
+          "lastName": "Gladfelter",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anna A.",
+          "lastName": "Gorbushina",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Igor V.",
+          "lastName": "Grigoriev",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Martin",
+          "lastName": "Grube",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nina",
+          "lastName": "Gunde-Cimerman",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Zsolt \u00c1kos",
+          "lastName": "Kar\u00e1nyi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Beatrix",
+          "lastName": "Kocsis",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tania",
+          "lastName": "Kubressoian",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ida",
+          "lastName": "Mikl\u00f3s",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M\u00e1rton",
+          "lastName": "Miskei",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Lucia",
+          "lastName": "Muggia",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Trent",
+          "lastName": "Northen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Monika",
+          "lastName": "Novak-Babi\u010d",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Christa",
+          "lastName": "Pennacchio",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Walter P.",
+          "lastName": "Pfliegler",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Istv\u00e0n",
+          "lastName": "P\u00f2csi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Valeria",
+          "lastName": "Prigione",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Meritxell",
+          "lastName": "Riquelme",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nicola",
+          "lastName": "Segata",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Julia",
+          "lastName": "Schumacher",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ekaterina",
+          "lastName": "Shelest",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Katja",
+          "lastName": "Sterflinger",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Donatella",
+          "lastName": "Tesei",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jana M.",
+          "lastName": "U\u2019Ren",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Giovanna C.",
+          "lastName": "Varese",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Vania A.",
+          "lastName": "Vicente",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Emanuel M.",
+          "lastName": "Souza",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Polona",
+          "lastName": "Zalar",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Allison K.",
+          "lastName": "Walker",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jason E.",
+          "lastName": "Stajich",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "metabolomics",
+          "type": 1
+        },
+        {
+          "tag": "transcriptomics",
+          "type": 1
+        },
+        {
+          "tag": "adaptation",
+          "type": 1
+        },
+        {
+          "tag": "extremophiles",
+          "type": 1
+        },
+        {
+          "tag": "Dothideomycetes",
+          "type": 1
+        },
+        {
+          "tag": "black fungi",
+          "type": 1
+        },
+        {
+          "tag": "secondary metabolites",
+          "type": 1
+        },
+        {
+          "tag": "genomics",
+          "type": 1
+        },
+        {
+          "tag": "Eurotiomycetes",
+          "type": 1
+        },
+        {
+          "tag": "stress conditions",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2020-12-22T03:53:56Z",
+      "dateModified": "2022-11-05T08:27:57Z",
+      "uri": "http://zotero.org/users/152779/items/ZNAAZU53",
+      "itemID": 11801,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Selbmann et al. - 2020 - Shed Light in the DaRk LineagES of the Fungal Tree.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2020-12-22T03:54:03Z",
+          "dateModified": "2020-12-22T03:54:51Z",
+          "uri": "http://zotero.org/users/152779/items/4AS9QH6L",
+          "path": "/home/xabi/Zotero/storage/4AS9QH6L/Selbmann et al. - 2020 - Shed Light in the DaRk LineagES of the Fungal Tree.pdf",
+          "select": "zotero://select/library/items/4AS9QH6L"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2020-12-22T03:54:07Z",
+          "dateModified": "2020-12-22T03:54:07Z",
+          "uri": "http://zotero.org/users/152779/items/KUP4BYZ6",
+          "path": "/home/xabi/Zotero/storage/KUP4BYZ6/362.html",
+          "select": "zotero://select/library/items/KUP4BYZ6"
+        }
+      ],
+      "notes": [],
+      "citationKey": "selbmann_Shed_2020",
+      "itemKey": "ZNAAZU53",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/ZNAAZU53"
+    },
+    {
+      "key": "S2G7WKCW",
+      "version": 20868,
+      "itemType": "journalArticle",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmed.2022.788992",
+      "volume": "9",
+      "pages": "788992",
+      "publicationTitle": "Frontiers in Medicine",
+      "ISSN": "2296-858X",
+      "date": "2022 Jul 19",
+      "extra": "0 citations (Crossref) [2022-11-05]\ntex.ids= tavakoli_interplay_2021",
+      "journalAbbreviation": "Front Med",
+      "DOI": "10.3389/fmed.2022.788992",
+      "accessDate": "2022-07-20T01:41:45Z",
+      "libraryCatalog": "Frontiers",
+      "language": "en",
+      "abstractNote": "BackgroundThis study examines longitudinal bio-psychological dynamics and their interplay in IBD patients undergoing conventional and biological therapies.MethodsFifty IBD participants (24 UC, 26 CD) in clinical remission were followed for 12 months. Complete longitudinal datasets, biological samples, validated scores of psychological status were collected monthly for analysis of association. Microbiome analysis was performed to identify microbial dynamics and signatures. Patients were grouped on disease phenotype (CD, UC) and mode of treatment (biological therapies, non-biological treatment). General linear models, mixed models, cluster analysis, and analyses of variance were used to examine the longitudinal trends of the variables and their associations over time. Results were corrected for multiple testing.ResultsResults substantiated different interactions between biological therapy and longitudinal trends of inflammatory biomarkers in remission CD and UC patients as well as significant differences between CD and UC patients in their psychological measures during clinical remission, with UC patients having inferior condition compared to CD. A significant reduction in microbial diversity in CD patients compared to UC was identified. Results characterized considerable differences in longitudinal microbial profile between those taking and not taking biological treatment in UC patients, but not in CD patients.ConclusionA different trajectory of interdependence was identified between psychological state, sleep, and microbial dynamics with mode of treatment when compared between CD and UC patients. Further studies should investigate the causal relationships between bio-psychological factors for improved treatment purposes.",
+      "title": "The interplay between use of biological therapies, psychological state, and the microbiome in IBD",
+      "creators": [
+        {
+          "firstName": "Paris",
+          "lastName": "Tavakoli",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ute",
+          "lastName": "Vollmer-Conna",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Dusan",
+          "lastName": "Hadzi-Pavlovic",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Michael Carl",
+          "lastName": "Grimm",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2021-05-17T00:23:34Z",
+      "dateModified": "2022-11-05T08:27:51Z",
+      "uri": "http://zotero.org/users/152779/items/S2G7WKCW",
+      "itemID": 12835,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "data sheet 1.doc",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-07-20T01:44:10Z",
+          "dateModified": "2022-07-20T01:44:10Z",
+          "uri": "http://zotero.org/users/152779/items/NPGBHU3E",
+          "path": "/home/xabi/Zotero/storage/NPGBHU3E/data sheet 1.doc",
+          "select": "zotero://select/library/items/NPGBHU3E"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Tavakoli et al_2022_The Interplay Between Use of Biological Therapies, Psychological State, and the.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-07-20T01:41:59Z",
+          "dateModified": "2022-07-20T01:42:01Z",
+          "uri": "http://zotero.org/users/152779/items/CTNXR8HU",
+          "path": "/home/xabi/Zotero/storage/CTNXR8HU/Tavakoli et al_2022_The Interplay Between Use of Biological Therapies, Psychological State, and the.pdf",
+          "select": "zotero://select/library/items/CTNXR8HU"
+        }
+      ],
+      "notes": [],
+      "citationKey": "tavakoli_Interplay_2022",
+      "itemKey": "S2G7WKCW",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/S2G7WKCW"
+    },
+    {
+      "key": "HKGGWN7P",
+      "version": 21444,
+      "itemType": "journalArticle",
+      "url": "http://www.mycologia.org/content/106/6/1073",
+      "volume": "106",
+      "issue": "6",
+      "pages": "1073-1089",
+      "publicationTitle": "Mycologia",
+      "ISSN": "0027-5514, 1557-2536",
+      "date": "2014 Nov 1",
+      "extra": "33 citations (Crossref) [2022-11-05]\nPMID: 25143478\nCitation Key: vazquez-campos_fodinomyces_2014\nQID: Q30843974",
+      "journalAbbreviation": "Mycologia",
+      "DOI": "10.3852/14-013",
+      "libraryCatalog": "www.mycologia.org",
+      "language": "en",
+      "abstractNote": "Seven acidophilic/acidotolerant fungal strains were characterized from samples of process waters (raffinate) at one of Australia\u2019s largest uranium mines, the Ranger Mine in Northern Territory. They were isolated from raffinate, which typically were very acidic (pH 1.7\u20131.8) and contained high concentrations of total dissolved/colloidal salts (> 100 g/L). Five of the isolates correspond to two new acidotolerant Ascomycota fungi. The first is a member of a new genus, here described as Fodinomyces (Teratosphaeriaceae, Capnodiales, Dothideomycetes) and does not show clear close affiliation with any other described fungus in the scientific literature. The second belongs to the genus Coniochaeta (Coniochaetaceae, Coniochaetales, Sordariomycetes) and is closely related to Coniochaeta hansenii.",
+      "title": "<i>Fodinomyces uranophilus</i> gen. nov. sp. nov. and <i>Coniochaeta fodinicola</i> sp. nov., two uranium mine inhabiting Ascomycota fungi from northern Australia",
+      "creators": [
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew S.",
+          "lastName": "Kinsela",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "T. David",
+          "lastName": "Waite",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Richard N.",
+          "lastName": "Collins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Brett A.",
+          "lastName": "Neilan",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Phylogeny",
+          "type": 1
+        },
+        {
+          "tag": "morphology",
+          "type": 1
+        },
+        {
+          "tag": "taxonomy",
+          "type": 1
+        },
+        {
+          "tag": "Acidotolerant",
+          "type": 1
+        },
+        {
+          "tag": "Capnodiales",
+          "type": 1
+        },
+        {
+          "tag": "Coniochaetales",
+          "type": 1
+        },
+        {
+          "tag": "selected"
+        }
+      ],
+      "relations": [
+        "http://zotero.org/users/152779/items/5QDATTTK"
+      ],
+      "dateAdded": "2013-04-10T07:16:09Z",
+      "dateModified": "2023-02-24T03:38:34Z",
+      "uri": "http://zotero.org/users/152779/items/HKGGWN7P",
+      "itemID": 3039,
+      "attachments": [
+        {
+          "key": "7VIVCJT9",
+          "version": 11629,
+          "itemType": "attachment",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/25143478",
+          "accessDate": "2014-11-25T07:37:16Z",
+          "title": "PubMed entry",
+          "parentItem": "HKGGWN7P",
+          "linkMode": "linked_url",
+          "contentType": "text/html",
+          "charset": "",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": {},
+          "dateAdded": "2014-11-25T07:37:16Z",
+          "dateModified": "2018-10-07T23:37:00Z",
+          "uri": "http://zotero.org/users/152779/items/7VIVCJT9"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2014-11-25T07:37:16Z",
+          "dateModified": "2018-04-13T07:46:05Z",
+          "uri": "http://zotero.org/users/152779/items/B6CZ54HV",
+          "path": "/home/xabi/Zotero/storage/B6CZ54HV/1073.html",
+          "select": "zotero://select/library/items/B6CZ54HV"
+        },
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al. - 2014 - Fodinomyces uranophilus gen. nov. sp. nov. and Con.pdf",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2014-11-25T07:37:16Z",
+          "dateModified": "2018-04-13T07:46:06Z",
+          "uri": "http://zotero.org/users/152779/items/MKJGEG5Z",
+          "path": "/home/xabi/Zotero/storage/MKJGEG5Z/V\u00e1zquez-Campos et al. - 2014 - Fodinomyces uranophilus gen. nov. sp. nov. and Con.pdf",
+          "select": "zotero://select/library/items/MKJGEG5Z"
+        },
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al. - 2014 - Fodinomyces uranophilus online.pdf",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2014-08-24T15:20:39Z",
+          "dateModified": "2018-04-13T07:46:06Z",
+          "uri": "http://zotero.org/users/152779/items/EUW6G3JS",
+          "path": "/home/xabi/Zotero/storage/EUW6G3JS/V\u00e1zquez-Campos et al. - 2014 - Fodinomyces uranophilus online.pdf",
+          "select": "zotero://select/library/items/EUW6G3JS"
+        },
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al. - Fodinomyces uranophilus - Mycologia no figs.docx",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2014-04-16T04:36:52Z",
+          "dateModified": "2018-04-13T07:45:05Z",
+          "uri": "http://zotero.org/users/152779/items/KZKBZHGQ",
+          "path": "/home/xabi/Zotero/storage/KZKBZHGQ/V\u00e1zquez-Campos et al. - Fodinomyces uranophilus - Mycologia no figs.docx",
+          "select": "zotero://select/library/items/KZKBZHGQ"
+        },
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al. - Fodinomyces uranophilus - Mycologia.docx",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2014-01-17T02:09:05Z",
+          "dateModified": "2018-04-13T07:45:55Z",
+          "uri": "http://zotero.org/users/152779/items/6HIH5IIC",
+          "path": "/home/xabi/Zotero/storage/6HIH5IIC/V\u00e1zquez-Campos et al. - Fodinomyces uranophilus - Mycologia.docx",
+          "select": "zotero://select/library/items/6HIH5IIC"
+        },
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al. - Fodinomyces uranophilus gen. nov. sp. nov. .pdf",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2014-01-13T01:51:23Z",
+          "dateModified": "2018-04-13T07:45:55Z",
+          "uri": "http://zotero.org/users/152779/items/A9F4AM2R",
+          "path": "/home/xabi/Zotero/storage/A9F4AM2R/V\u00e1zquez-Campos et al. - Fodinomyces uranophilus gen. nov. sp. nov. .pdf",
+          "select": "zotero://select/library/items/A9F4AM2R"
+        }
+      ],
+      "notes": [],
+      "citationKey": "vazquez-campos_fodinomyces_2014",
+      "itemKey": "HKGGWN7P",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/HKGGWN7P"
+    },
+    {
+      "key": "5PZSI9VB",
+      "version": 20868,
+      "itemType": "journalArticle",
+      "url": "https://www.frontiersin.org/article/10.3389/fmicb.2021.732575",
+      "rights": "\u00a9 2019, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial 4.0 International), CC BY-NC 4.0, as described at http://creativecommons.org/licenses/by-nc/4.0/",
+      "volume": "12",
+      "pages": "732575",
+      "publicationTitle": "Frontiers in Microbiology",
+      "ISSN": "1664-302X",
+      "date": "2021 Oct 18",
+      "extra": "2 citations (Crossref) [2022-11-05]\ntex.ids= vazquez-campos_genomic_2021-1",
+      "journalAbbreviation": "Front Microbiol",
+      "DOI": "10.3389/fmicb.2021.732575",
+      "accessDate": "2019-08-13T23:34:30Z",
+      "libraryCatalog": "Frontiers",
+      "language": "en",
+      "abstractNote": "<p>During the 1960s, small quantities of radioactive materials were co-disposed with chemical waste at the Little Forest Legacy Site (LFLS, Sydney, Australia). The microbial function and population dynamics during a rainfall event using shotgun metagenomics has been previously investigated. This revealed a broad abundance of candidate and potentially undescribed taxa in this iron-rich, radionuclide-contaminated environment. Here, applying genome-based metagenomic methods, we recovered 37 refined archaeal bins (\u226550% completeness, \u226410% redundancy) from 10 different major lineages. They were, for the most part, included in 4 proposed lineages within the DPANN supergroup (LFWA-I to IV) and <i>Methanoperedenaceae</i>. The new <i>Methanoperedens</i> spp. bins, together with previously published data, suggests a potentially widespread ability to use nitrate (or nitrite) and metal ions as electron acceptors during the anaerobic oxidation of methane by <i>Methanoperedens</i> spp. While most of the new DPANN lineages show reduced genomes with limited central metabolism typical of other DPANN, the candidate species from the proposed LFWA-III lineage show some unusual features not often present in DPANN genomes, i.e. a more comprehensive central metabolism and anabolic capabilities.While there is still some uncertainty about the capabilities of LFW-121_3 and closely related archaea for the biosynthesis of nucleotides de novo and amino acids, it is to date the most promising candidate to be a <i>bona fide</i> free-living DPANN archaeon.</p>",
+      "title": "Genomic insights into the <i>Archaea</i> inhabiting an Australian radioactive legacy site",
+      "creators": [
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew S.",
+          "lastName": "Kinsela",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mark W.",
+          "lastName": "Bligh",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Timothy E.",
+          "lastName": "Payne",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marc R.",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "T. David",
+          "lastName": "Waite",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2021-07-21T02:56:02Z",
+      "dateModified": "2022-11-05T08:27:54Z",
+      "uri": "http://zotero.org/users/152779/items/5PZSI9VB",
+      "itemID": 12388,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Data_Sheet_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.PDF",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-22T22:40:51Z",
+          "dateModified": "2022-11-22T22:41:13Z",
+          "uri": "http://zotero.org/users/152779/items/KB5JQHR3",
+          "path": "/home/xabi/Zotero/storage/KB5JQHR3/Data_Sheet_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.PDF",
+          "select": "zotero://select/library/items/KB5JQHR3"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Image_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.PDF",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-22T22:42:12Z",
+          "dateModified": "2022-11-22T22:42:15Z",
+          "uri": "http://zotero.org/users/152779/items/MGF9CEA6",
+          "path": "/home/xabi/Zotero/storage/MGF9CEA6/Image_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.PDF",
+          "select": "zotero://select/library/items/MGF9CEA6"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Table_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.XLSX",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2022-11-22T22:41:20Z",
+          "dateModified": "2022-11-22T22:41:20Z",
+          "uri": "http://zotero.org/users/152779/items/QNP7884L",
+          "path": "/home/xabi/Zotero/storage/QNP7884L/Table_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.XLSX",
+          "select": "zotero://select/library/items/QNP7884L"
+        },
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al_2021_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2021-10-20T23:35:47Z",
+          "dateModified": "2021-10-21T00:10:26Z",
+          "uri": "http://zotero.org/users/152779/items/VUAP4Y5C",
+          "path": "/home/xabi/Zotero/storage/VUAP4Y5C/V\u00e1zquez-Campos et al_2021_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy.pdf",
+          "select": "zotero://select/library/items/VUAP4Y5C"
+        }
+      ],
+      "notes": [],
+      "citationKey": "vazquez-campos_Genomic_2021",
+      "itemKey": "5PZSI9VB",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/5PZSI9VB"
+    },
+    {
+      "key": "7Z8NHJ66",
+      "version": 20867,
+      "itemType": "journalArticle",
+      "url": "http://aem.asm.org/content/83/17/e00729-17",
+      "volume": "83",
+      "issue": "17",
+      "pages": "e00729",
+      "publicationTitle": "Applied and Environmental Microbiology",
+      "date": "2017 Aug 17",
+      "extra": "10 citations (Crossref) [2022-11-05]\nCitation Key: vazquez-campos_response_2017\nQID: Q41448958",
+      "journalAbbreviation": "Appl Environ Microbiol",
+      "DOI": "10.1128/aem.00729-17",
+      "abstractNote": "The rapid proliferation of the nuclear industry after World War II resulted in the generation of substantial volumes of radioactive waste. This material was often buried in shallow trenches, a standard practice at the time, of which the Little Forest Legacy Site near Sydney (Australia) is an example. It has been reported that during heavy rain, the trenches exhibit an overflowing effect, analogous to a bathtub. The aim of this work was to test the hypothesis that intense rainfall events, are likely to introduce oxygen, and will therefore have an effect on the biology and chemistry inside the trenches during a fill-drain cycle.\nShotgun metagenomics was performed on water samples collected from a sample trench in triplicate across four time points during a 47-day period after a heavy rainfall event. Chemical parameters were monitored as well.\nFunctional analysis of the metagenome shows clear differences between the initial sampling points characterised by higher gene frequencies related to aerobic heterotrophic metabolism such higher cytochrome-c oxidase and several sugar transporters. The maximum for these indicators is reached at day 4, matching a surge in the proportion of Proteobacteria (63.6% total prokaryotes). Conversely, anaerobic metabolism genes such those specific of methanogenesis or dissimilatory sulfate reduction, and anaerobic taxa such class Methanomicrobia, show a progressive increase over time with a maximum at the final sampling day. These changes coincided with an increased proportion in soluble Fe, Am, and Pu, supporting our hypothesis that rainfall events can induces transient aerobic conditions potentially altering radiochemical mobility.",
+      "title": "Response of microbial community function to fluctuating geochemical conditions within a legacy radioactive waste trench environment",
+      "creators": [
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew S.",
+          "lastName": "Kinsela",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mark",
+          "lastName": "Bligh",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jennifer J.",
+          "lastName": "Harrison",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Timothy E.",
+          "lastName": "Payne",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "T. David",
+          "lastName": "Waite",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "americium"
+        },
+        {
+          "tag": "functional profiling"
+        },
+        {
+          "tag": "plutonium"
+        },
+        {
+          "tag": "radionuclides"
+        },
+        {
+          "tag": "shotgun metagenomics"
+        }
+      ],
+      "relations": [
+        "http://zotero.org/users/152779/items/JTKCRS3Z",
+        "http://zotero.org/users/152779/items/PKWQGQBC"
+      ],
+      "dateAdded": "2016-12-30T06:20:21Z",
+      "dateModified": "2022-11-05T08:28:00Z",
+      "uri": "http://zotero.org/users/152779/items/7Z8NHJ66",
+      "itemID": 3038,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al_2017_Response of microbial community function to fluctuating geochemical conditions.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2017-09-01T03:02:58Z",
+          "dateModified": "2020-06-22T00:15:34Z",
+          "uri": "http://zotero.org/users/152779/items/KLXVEZQD",
+          "path": "/home/xabi/Zotero/storage/KLXVEZQD/V\u00e1zquez-Campos et al_2017_Response of microbial community function to fluctuating geochemical conditions.pdf",
+          "select": "zotero://select/library/items/KLXVEZQD"
+        },
+        {
+          "itemType": "attachment",
+          "title": "zam999118017s1.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2017-09-01T03:03:30Z",
+          "dateModified": "2020-06-22T00:15:39Z",
+          "uri": "http://zotero.org/users/152779/items/LX4VHH5W",
+          "path": "/home/xabi/Zotero/storage/LX4VHH5W/zam999118017s1.pdf",
+          "select": "zotero://select/library/items/LX4VHH5W"
+        }
+      ],
+      "notes": [],
+      "citationKey": "vazquez-campos_response_2017",
+      "itemKey": "7Z8NHJ66",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/7Z8NHJ66"
+    },
+    {
+      "key": "ZUPR9C8B",
+      "version": 21444,
+      "itemType": "journalArticle",
+      "url": "http://pubs.acs.org/doi/abs/10.1021/acs.est.5b01342",
+      "volume": "49",
+      "issue": "14",
+      "pages": "8487-8496",
+      "publicationTitle": "Environmental Science & Technology",
+      "ISSN": "0013-936X",
+      "date": "2015 Jul 21",
+      "extra": "28 citations (Crossref) [2022-11-05]\nCitation Key: vazquez-campos_uranium_2015\nQID: Q46710391",
+      "journalAbbreviation": "Environ Sci Technol",
+      "DOI": "10.1021/acs.est.5b01342",
+      "libraryCatalog": "ACS Publications",
+      "abstractNote": "The uptake and binding of uranium [as (UO2)2+] by a moderately acidophilic fungus, Coniochaeta fodinicola, recently isolated from a uranium mine site, is examined in this work in order to better understand the potential impact of organisms such as this on uranium sequestration in hydrometallurgical systems. Our results show that the viability of the fungal biomass is critical to their capacity to remove uranium from solution. Indeed, live biomass (viable cells based on vital staining) were capable of removing ~16 mg U/g dry weight in contrast with dead biomass (autoclaved) which removed ~45 mg U/g dry weight after 2 h. Furthermore, the uranium binds with different strength, with a fraction ranging from ~20\u201350% being easily leachable from the exposed biomass by a 10 min acid washing. Results from X-ray absorption spectroscopy measurements show that the strength of uranium binding is strongly influenced by cell viability, with live cells showing a more well-ordered uranium bonding environment, while the distance to carbon or phosphorus second neighbours is similar in all samples. When coupled with time resolved laser fluorescence and Fourier transformed infrared measurements, the importance of organic acids and phosphates, and polysaccharides, likely released with fungal cell death, appear to be the primary determinants of uranium binding in this system. These results provide an important progression to our understanding with regard to uranium sequestration in hydrometallurgical applications with implications to the unwanted retention of uranium in biofilms and/or its mobility in a remediation context.",
+      "title": "Uranium binding mechanisms of the acid-tolerant fungus <i>Coniochaeta fodinicola</i>",
+      "creators": [
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew S.",
+          "lastName": "Kinsela",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Richard N.",
+          "lastName": "Collins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Brett A.",
+          "lastName": "Neilan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Noboru",
+          "lastName": "Aoyagi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "T. David",
+          "lastName": "Waite",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "uranium"
+        },
+        {
+          "tag": "fungus"
+        },
+        {
+          "tag": "TRLFS"
+        },
+        {
+          "tag": "FTIR"
+        },
+        {
+          "tag": "sorption"
+        },
+        {
+          "tag": "XAS"
+        },
+        {
+          "tag": "selected"
+        }
+      ],
+      "relations": [
+        "http://zotero.org/users/152779/items/5QDATTTK"
+      ],
+      "dateAdded": "2013-02-27T03:18:29Z",
+      "dateModified": "2023-02-24T03:38:34Z",
+      "uri": "http://zotero.org/users/152779/items/ZUPR9C8B",
+      "itemID": 3040,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ACS Full Text Snapshot",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2015-06-25T06:45:26Z",
+          "dateModified": "2018-04-13T07:46:14Z",
+          "uri": "http://zotero.org/users/152779/items/5UCBRG9S",
+          "path": "/home/xabi/Zotero/storage/5UCBRG9S/acs.est.html",
+          "select": "zotero://select/library/items/5UCBRG9S"
+        },
+        {
+          "itemType": "attachment",
+          "title": "es5b01342_si_001.pdf",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2015-07-22T04:42:00Z",
+          "dateModified": "2018-04-13T07:46:19Z",
+          "uri": "http://zotero.org/users/152779/items/PB3EGKU5",
+          "path": "/home/xabi/Zotero/storage/PB3EGKU5/es5b01342_si_001.pdf",
+          "select": "zotero://select/library/items/PB3EGKU5"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Uranium Binding Mechanisms of the Acid-Tolerant Fungus Coniochaeta fodinicola - Environmental Science & Technology (ACS Publications)",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2015-07-22T04:48:08Z",
+          "dateModified": "2018-04-13T07:46:19Z",
+          "uri": "http://zotero.org/users/152779/items/5JA7KNC2",
+          "path": "/home/xabi/Zotero/storage/5JA7KNC2/acs.est.html",
+          "select": "zotero://select/library/items/5JA7KNC2"
+        },
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al. - 2015 - Uranium binding mechanisms just accepted.pdf",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2015-06-25T06:45:23Z",
+          "dateModified": "2018-04-13T07:46:14Z",
+          "uri": "http://zotero.org/users/152779/items/M5MKBZUE",
+          "path": "/home/xabi/Zotero/storage/M5MKBZUE/V\u00e1zquez-Campos et al. - 2015 - Uranium binding mechanisms just accepted.pdf",
+          "select": "zotero://select/library/items/M5MKBZUE"
+        },
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al. - 2015 - Uranium binding mechanisms of the acid-tolerant fu.pdf",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2015-07-22T04:38:43Z",
+          "dateModified": "2018-04-13T07:46:19Z",
+          "uri": "http://zotero.org/users/152779/items/UV72343K",
+          "path": "/home/xabi/Zotero/storage/UV72343K/V\u00e1zquez-Campos et al. - 2015 - Uranium binding mechanisms of the acid-tolerant fu.pdf",
+          "select": "zotero://select/library/items/UV72343K"
+        },
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al. - 2015 - Uranium binding mechanisms with links.pdf",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2015-07-22T04:38:48Z",
+          "dateModified": "2018-04-13T07:46:14Z",
+          "uri": "http://zotero.org/users/152779/items/FTNZZS6E",
+          "path": "/home/xabi/Zotero/storage/FTNZZS6E/V\u00e1zquez-Campos et al. - 2015 - Uranium binding mechanisms with links.pdf",
+          "select": "zotero://select/library/items/FTNZZS6E"
+        }
+      ],
+      "notes": [],
+      "citationKey": "vazquez-campos_uranium_2015",
+      "itemKey": "ZUPR9C8B",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/ZUPR9C8B"
+    },
+    {
+      "key": "25JH23SD",
+      "version": 20867,
+      "itemType": "journalArticle",
+      "url": "http://www.sciencedirect.com/science/article/pii/S0304386X16301682",
+      "volume": "167",
+      "pages": "81-91",
+      "publicationTitle": "Hydrometallurgy",
+      "ISSN": "0304-386X",
+      "date": "2017 Jan 1",
+      "extra": "10 citations (Crossref) [2022-11-05]\nCitation Key: vazquez-campos_uranium_2017",
+      "journalAbbreviation": "Hydrometallurgy",
+      "DOI": "10.1016/j.hydromet.2016.11.002",
+      "accessDate": "2016-11-11T04:40:11Z",
+      "libraryCatalog": "ScienceDirect",
+      "abstractNote": "The biogeochemistry of the acid leaching of a non-sulfidic, weathered uranium ore from Ranger Mine (Australia) in relation to varied iron concentrations and Fe(III)/Fe(II) ratios was examined in this work. Controlled column studies which simulate a heap-leaching process, showed rapid uranium leaching during the initial stages of operation. This was thought to be a product of both the enhanced mobility of U(VI) in the stockpiled ore, possible aided by enhanced ion exchange with Fe(III) under higher Fe(III)/Fe(II) ratios. Indeed, it was observed that any elevated Fe(II) which was originally present in the leaching solution irreversibly hampered maximal uranium recovery when compared to Fe(III)-rich leaching counterparts (~ 10% in U recovery). Importantly though, the mine-derived native microbial community, once established, was able to oxidise the continuous supply of Fe(II). In doing so, the microbial consortium was able to restore chemical conditions amenable to enhanced uranium recovery. The Fe-oxidising bacteria (FeOB) did not correspond to mesophilic bacteria typically found in sulfidic ores. Furthermore, the planktic and benthic communities were vastly different from each other. Collectively, this research provides key insights into the biogeochemical processes that are important to maximising uranium resource recovery from heap leaching activities.",
+      "title": "Uranium extraction from a low-grade, stockpiled, non-sulfidic ore: Impact of added iron and the native microbial consortia",
+      "shortTitle": "Uranium extraction from a low-grade, stockpiled, non-sulfidic ore",
+      "creators": [
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew S.",
+          "lastName": "Kinsela",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Richard N.",
+          "lastName": "Collins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Brett A.",
+          "lastName": "Neilan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "T. David",
+          "lastName": "Waite",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "uranium"
+        },
+        {
+          "tag": "16S rRNA gene"
+        },
+        {
+          "tag": "bioleaching"
+        },
+        {
+          "tag": "low-grade ore"
+        }
+      ],
+      "relations": [
+        "http://zotero.org/users/152779/items/EM72J9GI"
+      ],
+      "dateAdded": "2016-11-11T04:40:11Z",
+      "dateModified": "2022-11-05T08:27:59Z",
+      "uri": "http://zotero.org/users/152779/items/25JH23SD",
+      "itemID": 3042,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "just_accepted",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2016-11-11T04:40:11Z",
+          "dateModified": "2018-04-13T07:46:48Z",
+          "uri": "http://zotero.org/users/152779/items/FHE6R6PW",
+          "path": "/home/xabi/Zotero/storage/FHE6R6PW/just_accepted.pdf",
+          "select": "zotero://select/library/items/FHE6R6PW"
+        },
+        {
+          "itemType": "attachment",
+          "title": "mmc1.docx",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2017-03-27T22:34:46Z",
+          "dateModified": "2017-03-27T22:34:46Z",
+          "uri": "http://zotero.org/users/152779/items/MI7RGETB",
+          "path": "/home/xabi/Zotero/storage/MI7RGETB/mmc1.docx",
+          "select": "zotero://select/library/items/MI7RGETB"
+        },
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2016-11-11T04:40:11Z",
+          "dateModified": "2016-11-11T04:40:11Z",
+          "uri": "http://zotero.org/users/152779/items/9WGWBMKW",
+          "path": "/home/xabi/Zotero/storage/9WGWBMKW/S0304386X16301682.html",
+          "select": "zotero://select/library/items/9WGWBMKW"
+        },
+        {
+          "itemType": "attachment",
+          "title": "V\u00e1zquez-Campos et al. - 2017 - Uranium extraction from a low-grade, stockpiled, n.pdf",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2017-03-27T22:33:51Z",
+          "dateModified": "2018-04-13T07:46:48Z",
+          "uri": "http://zotero.org/users/152779/items/EGJ35I9M",
+          "path": "/home/xabi/Zotero/storage/EGJ35I9M/V\u00e1zquez-Campos et al. - 2017 - Uranium extraction from a low-grade, stockpiled, n.pdf",
+          "select": "zotero://select/library/items/EGJ35I9M"
+        }
+      ],
+      "notes": [],
+      "citationKey": "vazquez-campos_uranium_2017",
+      "itemKey": "25JH23SD",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/25JH23SD"
+    },
+    {
+      "key": "JIYX4V4F",
+      "version": 21444,
+      "itemType": "journalArticle",
+      "url": "https://www.nature.com/articles/s41396-018-0208-8",
+      "volume": "12",
+      "pages": "2619-2639",
+      "publicationTitle": "The ISME Journal",
+      "date": "2018 Nov 1",
+      "extra": "64 citations (Crossref) [2022-11-05]\nCitation Key: wong_disentangling_2018",
+      "journalAbbreviation": "ISME J",
+      "DOI": "10.1038/s41396-018-0208-8",
+      "abstractNote": "The functional metagenomic potential of Shark Bay microbial mats was examined for the first time at a millimeter scale, employing shotgun sequencing of communities via the Illumina NextSeq 500 platform in conjunction with defined chemical analyses. A detailed functional metagenomic profile has elucidated key pathways and facilitated inference of critical microbial interactions. In addition, 87 medium-to-high-quality metagenome-assembled genomes (MAG) were assembled, including potentially novel bins under the deep-branching archaeal Asgard group (Thorarchaetoa and Lokiarchaeota). A range of pathways involved in carbon, nitrogen, sulfur, and phosphorus cycles were identified in mat metagenomes, with the Wood\u2013Ljungdahl pathway over-represented and inferred as a major carbon fixation mode. The top five sets of genes were affiliated to sulfate assimilation (cysNC cysNCD, sat), methanogenesis (hdrABC), Wood\u2013Ljungdahl pathways (cooS, coxSML), phosphate transport (pstB), and copper efflux (copA). Polyhydroxyalkanoate (PHA) synthase genes were over-represented at the surface, with PHA serving as a potential storage of fixed carbon. Sulfur metabolism genes were highly represented, in particular complete sets of genes responsible for both assimilatory and dissimilatory sulfate reduction. Pathways of environmental adaptation (UV, hypersalinity, oxidative stress, and heavy metal resistance) were also delineated, as well as putative viral defensive mechanisms (core genes of the CRISPR, BREX, and DISARM systems). This study provides new metagenome-based models of how biogeochemical cycles and adaptive responses may be partitioned in the microbial mats of Shark Bay.",
+      "title": "Disentangling the drivers of functional complexity at the metagenomic level in Shark Bay microbial mat microbiomes",
+      "creators": [
+        {
+          "firstName": "Hon Lun",
+          "lastName": "Wong",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Richard Allen",
+          "lastName": "White III",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Pieter T.",
+          "lastName": "Visscher",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "James C.",
+          "lastName": "Charlesworth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Brendan P.",
+          "lastName": "Burns",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "shotgun metagenomics"
+        },
+        {
+          "tag": "functional analysis"
+        },
+        {
+          "tag": "microbial mats"
+        },
+        {
+          "tag": "Shark Bay"
+        },
+        {
+          "tag": "stromatolites"
+        },
+        {
+          "tag": "selected"
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2018-01-15T23:27:18Z",
+      "dateModified": "2023-02-24T03:38:33Z",
+      "uri": "http://zotero.org/users/152779/items/JIYX4V4F",
+      "itemID": 3080,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "41396_2018_208_MOESM1_ESM.tiff",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2018-07-08T23:15:58Z",
+          "dateModified": "2018-10-07T23:37:58Z",
+          "uri": "http://zotero.org/users/152779/items/4EGVBB57",
+          "path": "/home/xabi/Zotero/storage/4EGVBB57/41396_2018_208_MOESM1_ESM.tiff",
+          "select": "zotero://select/library/items/4EGVBB57"
+        },
+        {
+          "itemType": "attachment",
+          "title": "41396_2018_208_MOESM3_ESM.xlsx",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2018-07-08T23:16:03Z",
+          "dateModified": "2018-10-07T23:37:58Z",
+          "uri": "http://zotero.org/users/152779/items/SVWYEDQV",
+          "path": "/home/xabi/Zotero/storage/SVWYEDQV/41396_2018_208_MOESM3_ESM.xlsx",
+          "select": "zotero://select/library/items/SVWYEDQV"
+        },
+        {
+          "itemType": "attachment",
+          "title": "41396_2018_208_MOESM4_ESM.xlsx",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2018-07-08T23:16:11Z",
+          "dateModified": "2018-10-07T23:37:58Z",
+          "uri": "http://zotero.org/users/152779/items/ZEGHZKAZ",
+          "path": "/home/xabi/Zotero/storage/ZEGHZKAZ/41396_2018_208_MOESM4_ESM.xlsx",
+          "select": "zotero://select/library/items/ZEGHZKAZ"
+        },
+        {
+          "itemType": "attachment",
+          "title": "41396_2018_208_MOESM5_ESM.xlsx",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2018-07-08T23:16:13Z",
+          "dateModified": "2018-10-07T23:37:58Z",
+          "uri": "http://zotero.org/users/152779/items/48HAWV9A",
+          "path": "/home/xabi/Zotero/storage/48HAWV9A/41396_2018_208_MOESM5_ESM.xlsx",
+          "select": "zotero://select/library/items/48HAWV9A"
+        },
+        {
+          "itemType": "attachment",
+          "title": "41396_2018_208_MOESM6_ESM.xlsx",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2018-07-08T23:16:17Z",
+          "dateModified": "2018-10-07T23:37:58Z",
+          "uri": "http://zotero.org/users/152779/items/DC9KBXHR",
+          "path": "/home/xabi/Zotero/storage/DC9KBXHR/41396_2018_208_MOESM6_ESM.xlsx",
+          "select": "zotero://select/library/items/DC9KBXHR"
+        },
+        {
+          "itemType": "attachment",
+          "title": "41396_2018_208_MOESM7_ESM.xlsx",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2018-07-08T23:16:19Z",
+          "dateModified": "2018-10-07T23:37:58Z",
+          "uri": "http://zotero.org/users/152779/items/3PMT637U",
+          "path": "/home/xabi/Zotero/storage/3PMT637U/41396_2018_208_MOESM7_ESM.xlsx",
+          "select": "zotero://select/library/items/3PMT637U"
+        },
+        {
+          "itemType": "attachment",
+          "title": "41396_2018_208_MOESM8_ESM.tiff",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2018-07-08T23:16:24Z",
+          "dateModified": "2018-10-07T23:37:58Z",
+          "uri": "http://zotero.org/users/152779/items/LKGDFSYN",
+          "path": "/home/xabi/Zotero/storage/LKGDFSYN/41396_2018_208_MOESM8_ESM.tiff",
+          "select": "zotero://select/library/items/LKGDFSYN"
+        },
+        {
+          "itemType": "attachment",
+          "title": "41396_2018_208_MOESM10_ESM.tiff",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2018-07-08T23:16:27Z",
+          "dateModified": "2018-10-07T23:37:58Z",
+          "uri": "http://zotero.org/users/152779/items/33AUB6FU",
+          "path": "/home/xabi/Zotero/storage/33AUB6FU/41396_2018_208_MOESM10_ESM.tiff",
+          "select": "zotero://select/library/items/33AUB6FU"
+        },
+        {
+          "itemType": "attachment",
+          "title": "41396_2018_208_MOESM11_ESM.tiff",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2018-07-08T23:16:31Z",
+          "dateModified": "2018-10-07T23:37:58Z",
+          "uri": "http://zotero.org/users/152779/items/QYLFR7ED",
+          "path": "/home/xabi/Zotero/storage/QYLFR7ED/41396_2018_208_MOESM11_ESM.tiff",
+          "select": "zotero://select/library/items/QYLFR7ED"
+        },
+        {
+          "itemType": "attachment",
+          "title": "accepted.pdf",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2018-01-15T23:33:16Z",
+          "dateModified": "2018-10-07T23:37:49Z",
+          "uri": "http://zotero.org/users/152779/items/YH86ZMKK",
+          "path": "/home/xabi/Zotero/storage/YH86ZMKK/accepted.pdf",
+          "select": "zotero://select/library/items/YH86ZMKK"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Wong et al. - 2018 - Disentangling the drivers of functional complexity.pdf",
+          "tags": [
+            {
+              "tag": "#duplicate_attachments"
+            }
+          ],
+          "relations": [],
+          "dateAdded": "2018-07-08T23:15:04Z",
+          "dateModified": "2018-10-07T23:37:58Z",
+          "uri": "http://zotero.org/users/152779/items/S32WILCJ",
+          "path": "/home/xabi/Zotero/storage/S32WILCJ/Wong et al. - 2018 - Disentangling the drivers of functional complexity.pdf",
+          "select": "zotero://select/library/items/S32WILCJ"
+        }
+      ],
+      "notes": [],
+      "citationKey": "wong_disentangling_2018",
+      "itemKey": "JIYX4V4F",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/JIYX4V4F"
+    }
+  ]
+}

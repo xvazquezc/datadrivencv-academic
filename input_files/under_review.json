@@ -1,3 +1,168 @@
-[
-  {"id":"crichton_Effect_2022","author":[{"family":"Crichton","given":"Megan"},{"family":"Marshall","given":"Skye"},{"family":"Marx","given":"Wolfgang"},{"family":"Isenring","given":"Elizabeth"},{"family":"Vázquez-Campos","given":"Xabier"},{"family":"Dawson","given":"Samantha L."},{"family":"Lohning","given":"Anna"}],"citation-key":"crichton_Effect_2022","container-title":"Journal of the Academy of Nutrition and Dietetics","container-title-short":"J Acad Nutr Diet","issued":{"date-parts":[[2022,11,10]]},"title":"Effect of standardized ginger root powder on gastrointestinal bacteria composition, gastrointestinal symptoms, mental health, fatigue, and quality of life: A double-blind placebo-controlled trial","type":"article-journal","volume":"JANDJRL-S-22-00854"}
-]
+{
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "preferences": {
+      "ascii": "",
+      "asciiBibLaTeX": false,
+      "asciiBibTeX": true,
+      "autoAbbrev": false,
+      "autoAbbrevStyle": "",
+      "autoExport": "immediate",
+      "autoExportDelay": 2,
+      "autoExportIdleWait": 10,
+      "autoExportPathReplaceDiacritics": false,
+      "autoExportPathReplaceDirSep": "-",
+      "autoExportPathReplaceSpace": " ",
+      "automaticTags": true,
+      "autoPinDelay": 0,
+      "auxImport": false,
+      "baseAttachmentPath": "",
+      "biblatexExtendedDateFormat": true,
+      "biblatexExtendedNameFormat": true,
+      "biblatexExtractEprint": true,
+      "bibtexParticleNoOp": false,
+      "bibtexURL": "off",
+      "cache": true,
+      "cacheFlushInterval": 5,
+      "charmap": "",
+      "citeCommand": "cite",
+      "citekeyFold": true,
+      "citekeyFormat": "auth.lower+\"_\"+shorttitle(1,1)+\"_\"+year",
+      "citekeySearch": true,
+      "citekeyUnsafeChars": "\\\"#%'(),={}~",
+      "csquotes": "",
+      "DOIandURL": "both",
+      "exportBibTeXStrings": "off",
+      "exportBraceProtection": false,
+      "exportTitleCase": false,
+      "extraMergeCitekeys": true,
+      "extraMergeCSL": true,
+      "extraMergeTeX": true,
+      "git": "config",
+      "import": true,
+      "importBibTeXStrings": true,
+      "importCaseProtection": "as-needed",
+      "importCitationKey": true,
+      "importExtra": true,
+      "importJabRefAbbreviations": true,
+      "importJabRefStrings": true,
+      "importNoteToExtra": "",
+      "importSentenceCase": "on+guess",
+      "importUnknownTexCommand": "ignore",
+      "itemObserverDelay": 100,
+      "jabrefFormat": 0,
+      "jieba": false,
+      "keyConflictPolicy": "keep",
+      "keyScope": "global",
+      "kuroshiro": false,
+      "language": "langid",
+      "mapMath": "",
+      "mapText": "",
+      "mapUnicode": "conservative",
+      "parseParticles": true,
+      "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
+      "postscript": "if (Translator.BetterCSL) {\n  csl.add({ name: 'keywords', value: zotero.tags, sep: ', ', enc: 'tags' });\n}\n",
+      "postscriptOverride": "",
+      "preferencesOverride": "",
+      "qualityReport": false,
+      "quickCopyEta": "",
+      "quickCopyMode": "latex",
+      "quickCopyOrgMode": "zotero",
+      "quickCopyPandocBrackets": false,
+      "quickCopySelectLink": "zotero",
+      "rawImports": false,
+      "rawLaTag": "#LaTeX",
+      "relativeFilePaths": false,
+      "retainCache": false,
+      "separatorList": "and",
+      "separatorNames": "and",
+      "skipFields": "abstract,file",
+      "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
+      "startupProgress": "popup",
+      "strings": "",
+      "stringsOverride": "",
+      "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
+      "warnBulkModify": 10,
+      "warnTitleCased": false,
+      "texmap": {}
+    },
+    "options": {
+      "exportNotes": true,
+      "exportFileData": false,
+      "keepUpdated": true,
+      "worker": true
+    }
+  },
+  "version": {
+    "zotero": "6.0.23",
+    "bbt": "6.7.58"
+  },
+  "collections": {},
+  "items": [
+    {
+      "key": "WLAXKQS5",
+      "version": 20957,
+      "itemType": "journalArticle",
+      "volume": "JANDJRL-S-22-00854",
+      "publicationTitle": "Journal of the Academy of Nutrition and Dietetics",
+      "date": "2022 Nov 10",
+      "journalAbbreviation": "J Acad Nutr Diet",
+      "title": "Effect of standardized ginger root powder on gastrointestinal bacteria composition, gastrointestinal symptoms, mental health, fatigue, and quality of life: A double-blind placebo-controlled trial",
+      "creators": [
+        {
+          "firstName": "Megan",
+          "lastName": "Crichton",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Skye",
+          "lastName": "Marshall",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Wolfgang",
+          "lastName": "Marx",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Elizabeth",
+          "lastName": "Isenring",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "V\u00e1zquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Samantha L.",
+          "lastName": "Dawson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anna",
+          "lastName": "Lohning",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "\u26d4 No DOI found",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2022-09-16T05:52:46Z",
+      "dateModified": "2022-11-30T06:38:40Z",
+      "uri": "http://zotero.org/users/152779/items/WLAXKQS5",
+      "itemID": 12827,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "crichton_Effect_2022",
+      "itemKey": "WLAXKQS5",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/WLAXKQS5"
+    }
+  ]
+}
