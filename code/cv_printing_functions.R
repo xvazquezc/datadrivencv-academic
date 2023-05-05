@@ -500,7 +500,7 @@ create_PUB_object <- function(data_location,
   pub$reports %<>%
     dplyr::mutate(
       description_bullets = NA,
-      journal = type,
+      journal = reportType,
       tags = sapply(.$tag, function(x) paste(x[!is.na(x)], collapse = "-")),
       authors = ifelse(stringr::str_detect(tags, "cofirst"), 
                        paste(
@@ -522,37 +522,37 @@ create_PUB_object <- function(data_location,
   
   ## preprints (only if there is some current ones)
   if(length(pub[["preprints"]]) != 0){
-  pub$preprints$section <- "preprints"
-
-  pub$preprints$authors <- parse_creators(pub$preprints)
-  
-  pub$preprints %<>%
-    dplyr::mutate(
-      description_bullets = NA,
-      doi = paste0("<a href=\'https://doi.org/", DOI, "\'><i class=\'ai ai-doi\'></i></a>"),
-      journal_numbers = number,
-      journal = publisher,
-      tags = sapply(.$tag, function(x) paste(x[!is.na(x)], collapse = "-")),
-      authors = ifelse(stringr::str_detect(tags, "cofirst"), 
-                       paste(
-                         stringr::str_replace(authors, ", ", ",zzz") %>% #mark first 2 occurrences
-                           stringr::str_replace(., ", ", ",zzz") %>%
-                           stringr::str_replace_all(., ",zzz", "\\\\*, "), #change them back
-                         "[* co-first authors]"), # add "[* co-first authors]" note at the end
-                       authors)
-    ) %>%
-    tidyr::separate(date,
-                    into = c("year", "month", "day"),
-                    sep = " ", extra = "merge", remove = FALSE) %>%
-    dplyr::arrange(dplyr::desc(lubridate::ymd(date)))%>%
-    dplyr::mutate_all(~ ifelse(is.na(.), 'N/A', .)) %>%
-    dplyr::group_by(year) %>%
-    dplyr::mutate(count = 1:dplyr::n()) %>%
-    dplyr::ungroup() %>%
-    dplyr::mutate(timeline = dplyr::case_when(count != 1 ~ "N/A", TRUE ~ as.character(year)))
+    pub$preprints$section <- "preprints"
+    
+    pub$preprints$authors <- parse_creators(pub$preprints)
+    
+    pub$preprints %<>%
+      dplyr::mutate(
+        description_bullets = NA,
+        doi = paste0("<a href=\'https://doi.org/", DOI, "\'><i class=\'ai ai-doi\'></i></a>"),
+        journal_numbers = archiveID,
+        journal = publisher,
+        tags = sapply(.$tag, function(x) paste(x[!is.na(x)], collapse = "-")),
+        authors = ifelse(stringr::str_detect(tags, "cofirst"), 
+                         paste(
+                           stringr::str_replace(authors, ", ", ",zzz") %>% #mark first 2 occurrences
+                             stringr::str_replace(., ", ", ",zzz") %>%
+                             stringr::str_replace_all(., ",zzz", "\\\\*, "), #change them back
+                           "[* co-first authors]"), # add "[* co-first authors]" note at the end
+                         authors)
+      ) %>%
+      tidyr::separate(date,
+                      into = c("year", "month", "day"),
+                      sep = " ", extra = "merge", remove = FALSE) %>%
+      dplyr::arrange(dplyr::desc(lubridate::ymd(date)))%>%
+      dplyr::mutate_all(~ ifelse(is.na(.), 'N/A', .)) %>%
+      dplyr::group_by(year) %>%
+      dplyr::mutate(count = 1:dplyr::n()) %>%
+      dplyr::ungroup() %>%
+      dplyr::mutate(timeline = dplyr::case_when(count != 1 ~ "N/A", TRUE ~ as.character(year)))
   }
   
-  
+
   ## conferences - oral
   pub$conf_oral$section <- "conf_oral"
 
