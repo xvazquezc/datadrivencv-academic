@@ -84,19 +84,19 @@
       "stringsOverride": "",
       "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
       "warnBulkModify": 10,
-      "warnTitleCased": false,
-      "texmap": {}
+      "warnTitleCased": false
     },
     "options": {
       "exportNotes": true,
       "exportFileData": false,
-      "keepUpdated": true,
-      "worker": true
+      "keepUpdated": false,
+      "worker": true,
+      "Normalize": false
     }
   },
   "version": {
-    "zotero": "6.0.23",
-    "bbt": "6.7.58"
+    "zotero": "6.0.26",
+    "bbt": "6.7.77"
   },
   "collections": {
     "ZJGSDJNR": {
@@ -146,19 +146,20 @@
   "items": [
     {
       "key": "SX8N89JG",
-      "version": 21403,
+      "version": 21550,
       "itemType": "conferencePaper",
       "url": "https://www.biorxiv.org/content/10.1101/2022.11.16.516813v1",
-      "rights": "\u00a9 2022, Posted by Cold Spring Harbor Laboratory. The copyright holder for this pre-print is the author. All rights reserved. The material may not be redistributed, re-used or adapted without the author's permission.",
+      "rights": "© 2022, Posted by Cold Spring Harbor Laboratory. The copyright holder for this pre-print is the author. All rights reserved. The material may not be redistributed, re-used or adapted without the author's permission.",
       "place": "Lorne, VIC, Australia",
+      "pages": "2022.11.16.516813",
       "date": "2023 Feb 2-5",
-      "extra": "Pages: 2022.11.16.516813\nSection: New Results",
+      "extra": "Section: New Results",
       "DOI": "10.1101/2022.11.16.516813",
       "accessDate": "2022-11-22T00:43:39Z",
       "libraryCatalog": "bioRxiv",
       "conferenceName": "28th Annual Lorne Proteomics Symposium",
       "language": "en",
-      "abstractNote": "Significant recent advances in structural biology, particularly in the field of cryo-electron microscopy, have dramatically expanded our ability to create structural models of proteins and protein complexes. However, many proteins remain refractory to these approaches because of their low abundance, low stability or \u2013 in the case of complexes \u2013 simply not having yet been analysed. Here, we demonstrate the power of combining cross-linking mass spectrometry (XL-MS) with artificial intelligence-based structure prediction to discover and experimentally substantiate models for protein and protein complex structures at proteome scale. We present the deepest XL-MS dataset to date, describing 28,910 unique residue pairs captured across 4,084 unique human proteins and 2,110 unique protein-protein interactions. We show that integrative models of complexes driven by AlphaFold Multimer and inspired and corroborated by the XL-MS data offer new opportunities to deeply mine the structural proteome and interactome and reveal new mechanisms underlying protein structure and function.",
+      "abstractNote": "Significant recent advances in structural biology, particularly in the field of cryo-electron microscopy, have dramatically expanded our ability to create structural models of proteins and protein complexes. However, many proteins remain refractory to these approaches because of their low abundance, low stability or – in the case of complexes – simply not having yet been analysed. Here, we demonstrate the power of combining cross-linking mass spectrometry (XL-MS) with artificial intelligence-based structure prediction to discover and experimentally substantiate models for protein and protein complex structures at proteome scale. We present the deepest XL-MS dataset to date, describing 28,910 unique residue pairs captured across 4,084 unique human proteins and 2,110 unique protein-protein interactions. We show that integrative models of complexes driven by AlphaFold Multimer and inspired and corroborated by the XL-MS data offer new opportunities to deeply mine the structural proteome and interactome and reveal new mechanisms underlying protein structure and function.",
       "title": "Cross-linking mass spectrometry discovers, evaluates, and validates the experimental and predicted structural proteome",
       "creators": [
         {
@@ -168,7 +169,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -272,7 +273,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -329,7 +330,7 @@
           "version": 19899,
           "itemType": "note",
           "parentItem": "BIQDQ7EZ",
-          "note": "<p>Abstract + Poster + Lightning Talk</p>\n<p>\u00a0</p>",
+          "note": "<p>Abstract + Poster + Lightning Talk</p>\n<p> </p>",
           "tags": [],
           "relations": {},
           "dateAdded": "2022-02-07T02:09:47Z",
@@ -341,7 +342,7 @@
           "version": 19899,
           "itemType": "note",
           "parentItem": "BIQDQ7EZ",
-          "note": "<p>Poster Presentation Award</p>\n<p>\u00a0</p>",
+          "note": "<p>Poster Presentation Award</p>\n<p> </p>",
           "tags": [],
           "relations": {},
           "dateAdded": "2022-02-07T02:10:12Z",
@@ -362,7 +363,7 @@
       "date": "2018 Jun 25-26",
       "extra": "Citation Key: chilton_microbial_2018",
       "conferenceName": "Astrobiology Australasia Conference 2018",
-      "abstractNote": "Extreme environments have long served as microcosms to explore the boundaries of life and to model our understanding of early planetary conditions as the setting for abiogenesis. Recently, Archean terrestrial hot springs have emerged as leading candidate sites for the origin of life \u2013 where the combination of a diverse range of chemistry and physical processes observed in modern and ancient systems address essential criteria for the evolution of cellular machinery. Within this scope, the Puga Valley geothermal springs in India present as compelling systems for examination due to enrichment in boron, a pivotal element in prebiotic chemistry and metabolism across the tree of life. Our group seeks to inform on the biology of these systems and illuminate their potential as analogues for ancient Earth and Mars hot springs. We are using the latest in gene sequencing technology to capture bacterial and archaeal dynamics along a geochemical transect to reveal how modern communities are shaped by extreme geothermal conditions. We are currently generating the microbial profiling data and will present on the diversity and community structure to reveal which groups are dominant and link possible metabolic processes with the geochemistry present. We expect to detect a range of extremophiles, including cyanobacteria which are common architects and primary producers of hot spring microbial mats. Our findings will contribute to developing an astrobiological model of the Puga hot springs and provide direction for further studies to unveil the alliance between life and terrestrial hot springs.",
+      "abstractNote": "Extreme environments have long served as microcosms to explore the boundaries of life and to model our understanding of early planetary conditions as the setting for abiogenesis. Recently, Archean terrestrial hot springs have emerged as leading candidate sites for the origin of life – where the combination of a diverse range of chemistry and physical processes observed in modern and ancient systems address essential criteria for the evolution of cellular machinery. Within this scope, the Puga Valley geothermal springs in India present as compelling systems for examination due to enrichment in boron, a pivotal element in prebiotic chemistry and metabolism across the tree of life. Our group seeks to inform on the biology of these systems and illuminate their potential as analogues for ancient Earth and Mars hot springs. We are using the latest in gene sequencing technology to capture bacterial and archaeal dynamics along a geochemical transect to reveal how modern communities are shaped by extreme geothermal conditions. We are currently generating the microbial profiling data and will present on the diversity and community structure to reveal which groups are dominant and link possible metabolic processes with the geochemistry present. We expect to detect a range of extremophiles, including cyanobacteria which are common architects and primary producers of hot spring microbial mats. Our findings will contribute to developing an astrobiological model of the Puga hot springs and provide direction for further studies to unveil the alliance between life and terrestrial hot springs.",
       "title": "Microbial profiling of the Himalayan Puga geothermal system: towards an astrobiological model",
       "creators": [
         {
@@ -372,7 +373,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -426,7 +427,7 @@
           "version": 11302,
           "itemType": "note",
           "parentItem": "DUMKJGU5",
-          "note": "<p>Abstract + Oral presentation</p>\n<p>\u00a0</p>",
+          "note": "<p>Abstract + Oral presentation</p>\n<p> </p>",
           "tags": [],
           "relations": {},
           "dateAdded": "2018-06-25T07:11:43Z",
@@ -457,7 +458,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -561,7 +562,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -634,7 +635,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -784,7 +785,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -827,13 +828,13 @@
       "key": "VIQ2FB6I",
       "version": 20810,
       "itemType": "conferencePaper",
-      "place": "Alcal\u00e1 de Henares, Spain",
-      "publisher": "Universidad de Alcal\u00e1",
+      "place": "Alcalá de Henares, Spain",
+      "publisher": "Universidad de Alcalá",
       "date": "2010 Nov 17-19",
       "extra": "Citation Key: rosales_biodegradacion_2010",
-      "conferenceName": "III Congreso de Microbiolog\u00eda Industrial y Biotecnolog\u00eda Microbiana",
+      "conferenceName": "III Congreso de Microbiología Industrial y Biotecnología Microbiana",
       "language": "Spanish",
-      "title": "Biodegradaci\u00f3n de compuestos arom\u00e1ticos contaminantes de suelos por hongos soportados en residuos agroindustriales [Biodegradation of pollutant aromatic compounds in soils by fungi supported on agroindustrial residues]",
+      "title": "Biodegradación de compuestos aromáticos contaminantes de suelos por hongos soportados en residuos agroindustriales [Biodegradation of pollutant aromatic compounds in soils by fungi supported on agroindustrial residues]",
       "creators": [
         {
           "firstName": "E.",
@@ -847,12 +848,12 @@
         },
         {
           "firstName": "X.",
-          "lastName": "V\u00e1zquez",
+          "lastName": "Vázquez",
           "creatorType": "author"
         },
         {
           "firstName": "M.A.",
-          "lastName": "Sanrom\u00e1n",
+          "lastName": "Sanromán",
           "creatorType": "author"
         }
       ],
@@ -872,13 +873,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Rosales et al. - 2010 - Biodegradaci\u00f3n de compuestos arom\u00e1ticos contaminan.pdf",
+          "title": "Rosales et al. - 2010 - Biodegradación de compuestos aromáticos contaminan.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2015-07-31T06:01:22Z",
           "dateModified": "2015-07-31T06:01:25Z",
           "uri": "http://zotero.org/users/152779/items/T4FQ87X7",
-          "path": "/home/xabi/Zotero/storage/T4FQ87X7/Rosales et al. - 2010 - Biodegradaci\u00f3n de compuestos arom\u00e1ticos contaminan.pdf",
+          "path": "/home/xabi/Zotero/storage/T4FQ87X7/Rosales et al. - 2010 - Biodegradación de compuestos aromáticos contaminan.pdf",
           "select": "zotero://select/library/items/T4FQ87X7"
         }
       ],
@@ -1019,7 +1020,7 @@
         },
         {
           "firstName": "X",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -1188,7 +1189,7 @@
         },
         {
           "firstName": "X.",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -1221,7 +1222,7 @@
       "accessDate": "2021-05-31T00:13:16Z",
       "libraryCatalog": "Silverchair",
       "conferenceName": "16th Congress of the European Chrohn's and Colitis Organisation (ECCO'21)",
-      "abstractNote": "Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosuppression have been available for more than half a century with biological therapies the treatment of choice in patients who fail immunosuppressive drugs. There has been little attempt to longitudinally examine the differences in biopsychological factors and their associations with treatment modalities in IBD patients.50 IBD participants (24 UC, 26 CD) in clinical remission were followed for 12 months. Complete longitudinal datasets and monthly stool and blood samples for inflammatory biomarkers were collected for analysis of association. Microbiome analysis was performed using V4 16SrRNA for identification of microbial phylogenetic relationships. Patients were grouped on whether or not they were in remission and on biological agents.At the baseline there were similar ecological indices between the two treatment options in both disease classes; (Shannon, p = 0.380; Pielou\u2019s, p = 0.246; Chao1, p = 0.934). At family level, the CD group showed significant differences (Wilcoxon, p \u2264 0.05) between the treatment received (biologics vs non-biologic) in the abundance of Barnesiellaceae, Bifidobacteriaceae, unclassified Clostridia, and Clostridiaceae (Figure 1A). Results showed similar ecological index values in samples from the two treatment options.Samples in UC groups on biological and non-biologic treatment modes were found to have significantly different microbial communities based on Bray-Curtis dissimilarity (PERMANOVA, p = 0.0031). Microbial family composition in UC group and on two treatment modalities showed a total of 12 families that were significantly different (Wilcoxon, p \u2264 0.05): Acidaminococcaceae, unclassified Bacteroidales, Barnesiellaceae, Christensenellaceae, Clostridiales vadinBB60 group, Coriobacteriaceae, Defluvitaleaceae, Eggerthelaceaem Fusobacteriaceae, Muribaculaceae, Prevotellaceae, and Streptococcaceae (Figure1B). Results identified significant differences in microbial diversity (Shannon index, p = 0.041), and evenness (Pielou\u2019s evenness, p = 0.045) between the two treatment modes. No differences were identified in richness (Chao1) in UC participants.Conclusion: Baseline biological indices were mostly similarly distributed between the two treatment options in remissive IBD patients, however biological therapy significantly influenced longitudinal trends of some microbiome dynamics, especially in UC. This suggests an underlying interrelationship between mode of treatment and biopsychological trajectories which might overshadow response to the treatment, requiring further assessment.",
+      "abstractNote": "Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosuppression have been available for more than half a century with biological therapies the treatment of choice in patients who fail immunosuppressive drugs. There has been little attempt to longitudinally examine the differences in biopsychological factors and their associations with treatment modalities in IBD patients.50 IBD participants (24 UC, 26 CD) in clinical remission were followed for 12 months. Complete longitudinal datasets and monthly stool and blood samples for inflammatory biomarkers were collected for analysis of association. Microbiome analysis was performed using V4 16SrRNA for identification of microbial phylogenetic relationships. Patients were grouped on whether or not they were in remission and on biological agents.At the baseline there were similar ecological indices between the two treatment options in both disease classes; (Shannon, p = 0.380; Pielou’s, p = 0.246; Chao1, p = 0.934). At family level, the CD group showed significant differences (Wilcoxon, p ≤ 0.05) between the treatment received (biologics vs non-biologic) in the abundance of Barnesiellaceae, Bifidobacteriaceae, unclassified Clostridia, and Clostridiaceae (Figure 1A). Results showed similar ecological index values in samples from the two treatment options.Samples in UC groups on biological and non-biologic treatment modes were found to have significantly different microbial communities based on Bray-Curtis dissimilarity (PERMANOVA, p = 0.0031). Microbial family composition in UC group and on two treatment modalities showed a total of 12 families that were significantly different (Wilcoxon, p ≤ 0.05): Acidaminococcaceae, unclassified Bacteroidales, Barnesiellaceae, Christensenellaceae, Clostridiales vadinBB60 group, Coriobacteriaceae, Defluvitaleaceae, Eggerthelaceaem Fusobacteriaceae, Muribaculaceae, Prevotellaceae, and Streptococcaceae (Figure1B). Results identified significant differences in microbial diversity (Shannon index, p = 0.041), and evenness (Pielou’s evenness, p = 0.045) between the two treatment modes. No differences were identified in richness (Chao1) in UC participants.Conclusion: Baseline biological indices were mostly similarly distributed between the two treatment options in remissive IBD patients, however biological therapy significantly influenced longitudinal trends of some microbiome dynamics, especially in UC. This suggests an underlying interrelationship between mode of treatment and biopsychological trajectories which might overshadow response to the treatment, requiring further assessment.",
       "title": "Biological therapies and bio-microbial dynamics in inflammatory bowel diseases",
       "creators": [
         {
@@ -1246,7 +1247,7 @@
         },
         {
           "firstName": "X",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         }
       ],
@@ -1272,7 +1273,7 @@
       "accessDate": "2021-05-31T00:13:16Z",
       "libraryCatalog": "Silverchair",
       "conferenceName": "Gastroenterological Society of Australia Australian Gastroenterology Week (GESA AGW 2022)",
-      "abstractNote": "Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosuppression have been available for more than half a century with biological therapies the treatment of choice in patients who fail immunosuppressive drugs. There has been little attempt to longitudinally examine the differences in biopsychological factors and their associations with treatment modalities in IBD patients.50 IBD participants (24 UC, 26 CD) in clinical remission were followed for 12 months. Complete longitudinal datasets and monthly stool and blood samples for inflammatory biomarkers were collected for analysis of association. Microbiome analysis was performed using V4 16SrRNA for identification of microbial phylogenetic relationships. Patients were grouped on whether or not they were in remission and on biological agents.At the baseline there were similar ecological indices between the two treatment options in both disease classes; (Shannon, p = 0.380; Pielou\u2019s, p = 0.246; Chao1, p = 0.934). At family level, the CD group showed significant differences (Wilcoxon, p \u2264 0.05) between the treatment received (biologics vs non-biologic) in the abundance of Barnesiellaceae, Bifidobacteriaceae, unclassified Clostridia, and Clostridiaceae (Figure 1A). Results showed similar ecological index values in samples from the two treatment options.Samples in UC groups on biological and non-biologic treatment modes were found to have significantly different microbial communities based on Bray-Curtis dissimilarity (PERMANOVA, p = 0.0031). Microbial family composition in UC group and on two treatment modalities showed a total of 12 families that were significantly different (Wilcoxon, p \u2264 0.05): Acidaminococcaceae, unclassified Bacteroidales, Barnesiellaceae, Christensenellaceae, Clostridiales vadinBB60 group, Coriobacteriaceae, Defluvitaleaceae, Eggerthelaceaem Fusobacteriaceae, Muribaculaceae, Prevotellaceae, and Streptococcaceae (Figure1B). Results identified significant differences in microbial diversity (Shannon index, p = 0.041), and evenness (Pielou\u2019s evenness, p = 0.045) between the two treatment modes. No differences were identified in richness (Chao1) in UC participants.Conclusion: Baseline biological indices were mostly similarly distributed between the two treatment options in remissive IBD patients, however biological therapy significantly influenced longitudinal trends of some microbiome dynamics, especially in UC. This suggests an underlying interrelationship between mode of treatment and biopsychological trajectories which might overshadow response to the treatment, requiring further assessment.",
+      "abstractNote": "Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosuppression have been available for more than half a century with biological therapies the treatment of choice in patients who fail immunosuppressive drugs. There has been little attempt to longitudinally examine the differences in biopsychological factors and their associations with treatment modalities in IBD patients.50 IBD participants (24 UC, 26 CD) in clinical remission were followed for 12 months. Complete longitudinal datasets and monthly stool and blood samples for inflammatory biomarkers were collected for analysis of association. Microbiome analysis was performed using V4 16SrRNA for identification of microbial phylogenetic relationships. Patients were grouped on whether or not they were in remission and on biological agents.At the baseline there were similar ecological indices between the two treatment options in both disease classes; (Shannon, p = 0.380; Pielou’s, p = 0.246; Chao1, p = 0.934). At family level, the CD group showed significant differences (Wilcoxon, p ≤ 0.05) between the treatment received (biologics vs non-biologic) in the abundance of Barnesiellaceae, Bifidobacteriaceae, unclassified Clostridia, and Clostridiaceae (Figure 1A). Results showed similar ecological index values in samples from the two treatment options.Samples in UC groups on biological and non-biologic treatment modes were found to have significantly different microbial communities based on Bray-Curtis dissimilarity (PERMANOVA, p = 0.0031). Microbial family composition in UC group and on two treatment modalities showed a total of 12 families that were significantly different (Wilcoxon, p ≤ 0.05): Acidaminococcaceae, unclassified Bacteroidales, Barnesiellaceae, Christensenellaceae, Clostridiales vadinBB60 group, Coriobacteriaceae, Defluvitaleaceae, Eggerthelaceaem Fusobacteriaceae, Muribaculaceae, Prevotellaceae, and Streptococcaceae (Figure1B). Results identified significant differences in microbial diversity (Shannon index, p = 0.041), and evenness (Pielou’s evenness, p = 0.045) between the two treatment modes. No differences were identified in richness (Chao1) in UC participants.Conclusion: Baseline biological indices were mostly similarly distributed between the two treatment options in remissive IBD patients, however biological therapy significantly influenced longitudinal trends of some microbiome dynamics, especially in UC. This suggests an underlying interrelationship between mode of treatment and biopsychological trajectories which might overshadow response to the treatment, requiring further assessment.",
       "title": "Biological therapies and bio-microbial dynamics in inflammatory bowel diseases",
       "creators": [
         {
@@ -1292,7 +1293,7 @@
         },
         {
           "firstName": "X",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -1327,7 +1328,7 @@
       "accessDate": "2021-05-31T00:13:16Z",
       "libraryCatalog": "Silverchair",
       "conferenceName": "2022 GENCA National Conference",
-      "abstractNote": "Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosuppression have been available for more than half a century with biological therapies the treatment of choice in patients who fail immunosuppressive drugs. There has been little attempt to longitudinally examine the differences in biopsychological factors and their associations with treatment modalities in IBD patients.50 IBD participants (24 UC, 26 CD) in clinical remission were followed for 12 months. Complete longitudinal datasets and monthly stool and blood samples for inflammatory biomarkers were collected for analysis of association. Microbiome analysis was performed using V4 16SrRNA for identification of microbial phylogenetic relationships. Patients were grouped on whether or not they were in remission and on biological agents.At the baseline there were similar ecological indices between the two treatment options in both disease classes; (Shannon, p = 0.380; Pielou\u2019s, p = 0.246; Chao1, p = 0.934). At family level, the CD group showed significant differences (Wilcoxon, p \u2264 0.05) between the treatment received (biologics vs non-biologic) in the abundance of Barnesiellaceae, Bifidobacteriaceae, unclassified Clostridia, and Clostridiaceae (Figure 1A). Results showed similar ecological index values in samples from the two treatment options.Samples in UC groups on biological and non-biologic treatment modes were found to have significantly different microbial communities based on Bray-Curtis dissimilarity (PERMANOVA, p = 0.0031). Microbial family composition in UC group and on two treatment modalities showed a total of 12 families that were significantly different (Wilcoxon, p \u2264 0.05): Acidaminococcaceae, unclassified Bacteroidales, Barnesiellaceae, Christensenellaceae, Clostridiales vadinBB60 group, Coriobacteriaceae, Defluvitaleaceae, Eggerthelaceaem Fusobacteriaceae, Muribaculaceae, Prevotellaceae, and Streptococcaceae (Figure1B). Results identified significant differences in microbial diversity (Shannon index, p = 0.041), and evenness (Pielou\u2019s evenness, p = 0.045) between the two treatment modes. No differences were identified in richness (Chao1) in UC participants.Conclusion: Baseline biological indices were mostly similarly distributed between the two treatment options in remissive IBD patients, however biological therapy significantly influenced longitudinal trends of some microbiome dynamics, especially in UC. This suggests an underlying interrelationship between mode of treatment and biopsychological trajectories which might overshadow response to the treatment, requiring further assessment.",
+      "abstractNote": "Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosuppression have been available for more than half a century with biological therapies the treatment of choice in patients who fail immunosuppressive drugs. There has been little attempt to longitudinally examine the differences in biopsychological factors and their associations with treatment modalities in IBD patients.50 IBD participants (24 UC, 26 CD) in clinical remission were followed for 12 months. Complete longitudinal datasets and monthly stool and blood samples for inflammatory biomarkers were collected for analysis of association. Microbiome analysis was performed using V4 16SrRNA for identification of microbial phylogenetic relationships. Patients were grouped on whether or not they were in remission and on biological agents.At the baseline there were similar ecological indices between the two treatment options in both disease classes; (Shannon, p = 0.380; Pielou’s, p = 0.246; Chao1, p = 0.934). At family level, the CD group showed significant differences (Wilcoxon, p ≤ 0.05) between the treatment received (biologics vs non-biologic) in the abundance of Barnesiellaceae, Bifidobacteriaceae, unclassified Clostridia, and Clostridiaceae (Figure 1A). Results showed similar ecological index values in samples from the two treatment options.Samples in UC groups on biological and non-biologic treatment modes were found to have significantly different microbial communities based on Bray-Curtis dissimilarity (PERMANOVA, p = 0.0031). Microbial family composition in UC group and on two treatment modalities showed a total of 12 families that were significantly different (Wilcoxon, p ≤ 0.05): Acidaminococcaceae, unclassified Bacteroidales, Barnesiellaceae, Christensenellaceae, Clostridiales vadinBB60 group, Coriobacteriaceae, Defluvitaleaceae, Eggerthelaceaem Fusobacteriaceae, Muribaculaceae, Prevotellaceae, and Streptococcaceae (Figure1B). Results identified significant differences in microbial diversity (Shannon index, p = 0.041), and evenness (Pielou’s evenness, p = 0.045) between the two treatment modes. No differences were identified in richness (Chao1) in UC participants.Conclusion: Baseline biological indices were mostly similarly distributed between the two treatment options in remissive IBD patients, however biological therapy significantly influenced longitudinal trends of some microbiome dynamics, especially in UC. This suggests an underlying interrelationship between mode of treatment and biopsychological trajectories which might overshadow response to the treatment, requiring further assessment.",
       "title": "Biological therapies and bio-microbial dynamics in inflammatory bowel diseases",
       "creators": [
         {
@@ -1347,7 +1348,7 @@
         },
         {
           "firstName": "X",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -1445,7 +1446,7 @@
           "version": 18149,
           "itemType": "note",
           "parentItem": "5M8SJ39H",
-          "note": "<p>Abstract + Poster</p>\n<p>\u00a0</p>",
+          "note": "<p>Abstract + Poster</p>\n<p> </p>",
           "tags": [],
           "relations": {},
           "dateAdded": "2020-11-25T00:51:47Z",
@@ -1746,7 +1747,7 @@
           "version": 18149,
           "itemType": "note",
           "parentItem": "RLV6ZL8T",
-          "note": "<p>Abstract + Poster</p>\n<p>\u00a0</p>",
+          "note": "<p>Abstract + Poster</p>\n<p> </p>",
           "tags": [],
           "relations": {},
           "dateAdded": "2019-10-14T04:12:28Z",
@@ -1766,7 +1767,7 @@
       "url": "https://academic.oup.com/ecco-jcc/article/13/Supplement_1/S213/5300882",
       "volume": "13",
       "issue": "Supplement_1",
-      "pages": "S213\u2013S214",
+      "pages": "S213–S214",
       "publicationTitle": "Journal of Crohn's and Colitis",
       "date": "2019 Mar 1",
       "journalAbbreviation": "J Crohns Colitis",
@@ -1849,7 +1850,7 @@
           "version": 11978,
           "itemType": "note",
           "parentItem": "B8XPS3N7",
-          "note": "<p>14th Congress of ECCO \u2013 European Crohn\u2019s and Colitis Organisation</p>",
+          "note": "<p>14th Congress of ECCO – European Crohn’s and Colitis Organisation</p>",
           "tags": [],
           "relations": {},
           "dateAdded": "2019-02-01T03:05:43Z",
@@ -1881,7 +1882,7 @@
       "url": "https://academic.oup.com/ecco-jcc/article/14/Supplement_1/S296/5705357",
       "volume": "14",
       "issue": "Supplement_1",
-      "pages": "S296\u2013S297",
+      "pages": "S296–S297",
       "publicationTitle": "Journal of Crohn's and Colitis",
       "date": "2020 Jan 15",
       "journalAbbreviation": "J Crohns Colitis",
@@ -1961,14 +1962,14 @@
       "url": "https://doi.org/10.1093/ecco-jcc/jjab076.602",
       "volume": "15",
       "issue": "Supplement_1",
-      "pages": "S468\u2013S470",
+      "pages": "S468–S470",
       "publicationTitle": "Journal of Crohn's and Colitis",
       "date": "2021 May 1",
       "journalAbbreviation": "J Crohns Colitis",
       "DOI": "10/gj9t4w",
       "accessDate": "2021-05-31T00:13:16Z",
       "libraryCatalog": "Silverchair",
-      "abstractNote": "Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosuppression have been available for more than half a century with biological therapies the treatment of choice in patients who fail immunosuppressive drugs. There has been little attempt to longitudinally examine the differences in biopsychological factors and their associations with treatment modalities in IBD patients.50 IBD participants (24 UC, 26 CD) in clinical remission were followed for 12 months. Complete longitudinal datasets and monthly stool and blood samples for inflammatory biomarkers were collected for analysis of association. Microbiome analysis was performed using V4 16SrRNA for identification of microbial phylogenetic relationships. Patients were grouped on whether or not they were in remission and on biological agents.At the baseline there were similar ecological indices between the two treatment options in both disease classes; (Shannon, p = 0.380; Pielou\u2019s, p = 0.246; Chao1, p = 0.934). At family level, the CD group showed significant differences (Wilcoxon, p \u2264 0.05) between the treatment received (biologics vs non-biologic) in the abundance of Barnesiellaceae, Bifidobacteriaceae, unclassified Clostridia, and Clostridiaceae (Figure 1A). Results showed similar ecological index values in samples from the two treatment options.Samples in UC groups on biological and non-biologic treatment modes were found to have significantly different microbial communities based on Bray-Curtis dissimilarity (PERMANOVA, p = 0.0031). Microbial family composition in UC group and on two treatment modalities showed a total of 12 families that were significantly different (Wilcoxon, p \u2264 0.05): Acidaminococcaceae, unclassified Bacteroidales, Barnesiellaceae, Christensenellaceae, Clostridiales vadinBB60 group, Coriobacteriaceae, Defluvitaleaceae, Eggerthelaceaem Fusobacteriaceae, Muribaculaceae, Prevotellaceae, and Streptococcaceae (Figure1B). Results identified significant differences in microbial diversity (Shannon index, p = 0.041), and evenness (Pielou\u2019s evenness, p = 0.045) between the two treatment modes. No differences were identified in richness (Chao1) in UC participants.Conclusion: Baseline biological indices were mostly similarly distributed between the two treatment options in remissive IBD patients, however biological therapy significantly influenced longitudinal trends of some microbiome dynamics, especially in UC. This suggests an underlying interrelationship between mode of treatment and biopsychological trajectories which might overshadow response to the treatment, requiring further assessment.",
+      "abstractNote": "Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosuppression have been available for more than half a century with biological therapies the treatment of choice in patients who fail immunosuppressive drugs. There has been little attempt to longitudinally examine the differences in biopsychological factors and their associations with treatment modalities in IBD patients.50 IBD participants (24 UC, 26 CD) in clinical remission were followed for 12 months. Complete longitudinal datasets and monthly stool and blood samples for inflammatory biomarkers were collected for analysis of association. Microbiome analysis was performed using V4 16SrRNA for identification of microbial phylogenetic relationships. Patients were grouped on whether or not they were in remission and on biological agents.At the baseline there were similar ecological indices between the two treatment options in both disease classes; (Shannon, p = 0.380; Pielou’s, p = 0.246; Chao1, p = 0.934). At family level, the CD group showed significant differences (Wilcoxon, p ≤ 0.05) between the treatment received (biologics vs non-biologic) in the abundance of Barnesiellaceae, Bifidobacteriaceae, unclassified Clostridia, and Clostridiaceae (Figure 1A). Results showed similar ecological index values in samples from the two treatment options.Samples in UC groups on biological and non-biologic treatment modes were found to have significantly different microbial communities based on Bray-Curtis dissimilarity (PERMANOVA, p = 0.0031). Microbial family composition in UC group and on two treatment modalities showed a total of 12 families that were significantly different (Wilcoxon, p ≤ 0.05): Acidaminococcaceae, unclassified Bacteroidales, Barnesiellaceae, Christensenellaceae, Clostridiales vadinBB60 group, Coriobacteriaceae, Defluvitaleaceae, Eggerthelaceaem Fusobacteriaceae, Muribaculaceae, Prevotellaceae, and Streptococcaceae (Figure1B). Results identified significant differences in microbial diversity (Shannon index, p = 0.041), and evenness (Pielou’s evenness, p = 0.045) between the two treatment modes. No differences were identified in richness (Chao1) in UC participants.Conclusion: Baseline biological indices were mostly similarly distributed between the two treatment options in remissive IBD patients, however biological therapy significantly influenced longitudinal trends of some microbiome dynamics, especially in UC. This suggests an underlying interrelationship between mode of treatment and biopsychological trajectories which might overshadow response to the treatment, requiring further assessment.",
       "title": "P479 Biological therapies and bio-microbial dynamics in inflammatory bowel diseases",
       "creators": [
         {
@@ -1993,7 +1994,7 @@
         },
         {
           "firstName": "X",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         }
       ],
@@ -2108,7 +2109,7 @@
       "place": "EMBL Heidelberg, Germany",
       "date": "2020 Nov 27-28",
       "conferenceName": "22nd EMBL PhD Symposium \"The Roaring 20s: A New Decade for Life Sciences\"",
-      "abstractNote": "The application of nanoparticles, the product of nanotechnology, has been rapidly growing as they are being used in a broad range of industries. Among those NPs, nanosilver (NAg) are the most popular ones due to their antimicrobial efficacy against broad spectrum microorganisms, and hence they have been used in medical devices and a wide range of consumer products. The widespread use of NAg has led to the release of the NPs into the environment, and furthermore may lead to the accumulation of silver in the environment due to its inability to be degraded. The uncontrolled NAg release to natural environments may affect microbial communities, facilitating the development of antibiotic-resistant microbes through the co-selection of antibiotic resistance genes (ARGs), as well as the disruption of biogeochemical processes (e.g. nitrogen cycle). The current on-going research aims to investigate the ecological implication of NAg to facilitate the spread of ARGs and disrupt nutrient cycles in marine environments. Our current result from quantitative-PCR (qPCR) indicated the potential capabilities of NAg to co-select for ARGs and even mobile genetic elements (MGEs) in marine microcosms (Sydney\u2019s stormwater discharge). The result also indicated concentration-dependent effect as well as Ag-speciation-dependent effect in water and sediment environment. Metagenome sequencing and analysis were done to obtain the complete profile of ARGs, MGEs, and nutrient-cycle relevant genes. Metagenome analysis also revealed the shift in microbial community structure which demonstrated the disruption of biogeochemical processes impacted by nanosilver. The research findings are expected to contribute to the development of strategies for managing the use and disposal of NAg-containing products which are currently ineffective.",
+      "abstractNote": "The application of nanoparticles, the product of nanotechnology, has been rapidly growing as they are being used in a broad range of industries. Among those NPs, nanosilver (NAg) are the most popular ones due to their antimicrobial efficacy against broad spectrum microorganisms, and hence they have been used in medical devices and a wide range of consumer products. The widespread use of NAg has led to the release of the NPs into the environment, and furthermore may lead to the accumulation of silver in the environment due to its inability to be degraded. The uncontrolled NAg release to natural environments may affect microbial communities, facilitating the development of antibiotic-resistant microbes through the co-selection of antibiotic resistance genes (ARGs), as well as the disruption of biogeochemical processes (e.g. nitrogen cycle). The current on-going research aims to investigate the ecological implication of NAg to facilitate the spread of ARGs and disrupt nutrient cycles in marine environments. Our current result from quantitative-PCR (qPCR) indicated the potential capabilities of NAg to co-select for ARGs and even mobile genetic elements (MGEs) in marine microcosms (Sydney’s stormwater discharge). The result also indicated concentration-dependent effect as well as Ag-speciation-dependent effect in water and sediment environment. Metagenome sequencing and analysis were done to obtain the complete profile of ARGs, MGEs, and nutrient-cycle relevant genes. Metagenome analysis also revealed the shift in microbial community structure which demonstrated the disruption of biogeochemical processes impacted by nanosilver. The research findings are expected to contribute to the development of strategies for managing the use and disposal of NAg-containing products which are currently ineffective.",
       "title": "Nanosilver in the aquatic environment: impact on microbial communities",
       "creators": [
         {
@@ -2118,7 +2119,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -2203,7 +2204,7 @@
       "place": "Online",
       "date": "2021 Aug 23-24",
       "conferenceName": "JAMS 10th Annual Symposium",
-      "abstractNote": "The application of nanoparticles, the product of nanotechnology, has been rapidly growing as they are being used in a broad range of industries. Among those NPs, nanosilver (NAg) are the most popular ones due to their antimicrobial efficacy against broad spectrum microorganisms, and hence they have been used in medical devices and a wide range of consumer products. The widespread use of NAg has led to the release of the NPs into the environment, and furthermore may lead to the accumulation of silver in the environment due to its inability to be degraded. The uncontrolled NAg release to natural environments may affect microbial communities, facilitating the development of antibiotic-resistant microbes through the co-selection of antibiotic resistance genes (ARGs), as well as the disruption of biogeochemical processes (e.g. nitrogen cycle). The current on-going research aims to investigate the ecological implication of NAg to facilitate the spread of ARGs and disrupt nutrient cycles in marine environments. Our current result from quantitative-PCR (qPCR) indicated the potential capabilities of NAg to co-select for ARGs and even mobile genetic elements (MGEs) in marine microcosms (Sydney\u2019s stormwater discharge). The result also indicated concentration-dependent effect as well as Ag-speciation-dependent effect in water and sediment environment. Metagenome sequencing and analysis were done to obtain the complete profile of ARGs, MGEs, and nutrient-cycle relevant genes. Metagenome analysis also revealed the shift in microbial community structure which demonstrated the disruption of biogeochemical processes impacted by nanosilver. The research findings are expected to contribute to the development of strategies for managing the use and disposal of NAg-containing products which are currently ineffective.",
+      "abstractNote": "The application of nanoparticles, the product of nanotechnology, has been rapidly growing as they are being used in a broad range of industries. Among those NPs, nanosilver (NAg) are the most popular ones due to their antimicrobial efficacy against broad spectrum microorganisms, and hence they have been used in medical devices and a wide range of consumer products. The widespread use of NAg has led to the release of the NPs into the environment, and furthermore may lead to the accumulation of silver in the environment due to its inability to be degraded. The uncontrolled NAg release to natural environments may affect microbial communities, facilitating the development of antibiotic-resistant microbes through the co-selection of antibiotic resistance genes (ARGs), as well as the disruption of biogeochemical processes (e.g. nitrogen cycle). The current on-going research aims to investigate the ecological implication of NAg to facilitate the spread of ARGs and disrupt nutrient cycles in marine environments. Our current result from quantitative-PCR (qPCR) indicated the potential capabilities of NAg to co-select for ARGs and even mobile genetic elements (MGEs) in marine microcosms (Sydney’s stormwater discharge). The result also indicated concentration-dependent effect as well as Ag-speciation-dependent effect in water and sediment environment. Metagenome sequencing and analysis were done to obtain the complete profile of ARGs, MGEs, and nutrient-cycle relevant genes. Metagenome analysis also revealed the shift in microbial community structure which demonstrated the disruption of biogeochemical processes impacted by nanosilver. The research findings are expected to contribute to the development of strategies for managing the use and disposal of NAg-containing products which are currently ineffective.",
       "title": "Response of microbial communities to silver nanoparticles inthe aquatic environment: a metagenomics approach",
       "creators": [
         {
@@ -2213,7 +2214,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {

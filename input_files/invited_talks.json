@@ -84,19 +84,19 @@
       "stringsOverride": "",
       "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
       "warnBulkModify": 10,
-      "warnTitleCased": false,
-      "texmap": {}
+      "warnTitleCased": false
     },
     "options": {
       "exportNotes": true,
       "exportFileData": false,
-      "keepUpdated": true,
-      "worker": true
+      "keepUpdated": false,
+      "worker": true,
+      "Normalize": false
     }
   },
   "version": {
-    "zotero": "6.0.23",
-    "bbt": "6.7.58"
+    "zotero": "6.0.26",
+    "bbt": "6.7.77"
   },
   "collections": {},
   "items": [
@@ -107,12 +107,13 @@
       "place": "Plant Breeding Institute, Cobbitty, Australia",
       "date": "2017 Nov 23",
       "extra": "Citation Key: vazquez-campos_assembly_2017",
+      "presentationType": "Invited talk",
       "meetingName": "Invited talk at the Plant Breeding Institute",
-      "title": "Assembly and annotation of <i>Puccinia graminis</i> f. sp. <i>avenae</i>, \u2018oat stem rust\u2019. Lessons about the process and some results",
+      "title": "Assembly and annotation of <i>Puccinia graminis</i> f. sp. <i>avenae</i>, ‘oat stem rust’. Lessons about the process and some results",
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "presenter"
         }
       ],
@@ -125,13 +126,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos - 2017 - Assembly and annotation of iPuccinia graminisi.pptx",
+          "title": "Vázquez-Campos - 2017 - Assembly and annotation of iPuccinia graminisi.pptx",
           "tags": [],
           "relations": [],
           "dateAdded": "2018-02-28T02:51:52Z",
           "dateModified": "2018-02-28T02:51:52Z",
           "uri": "http://zotero.org/users/152779/items/DYSI5Q6Y",
-          "path": "/home/xabi/Zotero/storage/DYSI5Q6Y/V\u00e1zquez-Campos - 2017 - Assembly and annotation of iPuccinia graminisi.pptx",
+          "path": "/home/xabi/Zotero/storage/DYSI5Q6Y/Vázquez-Campos - 2017 - Assembly and annotation of iPuccinia graminisi.pptx",
           "select": "zotero://select/library/items/DYSI5Q6Y"
         }
       ],
@@ -152,8 +153,7 @@
       "citationKey": "vazquez-campos_assembly_2017",
       "itemKey": "8RC3SPKT",
       "libraryID": 1,
-      "select": "zotero://select/library/items/8RC3SPKT",
-      "type": "Invited talk"
+      "select": "zotero://select/library/items/8RC3SPKT"
     },
     {
       "key": "BJVU44DG",
@@ -164,6 +164,7 @@
       "date": "2019 Feb 27",
       "extra": "DOI: 10.6084/m9.figshare.7892453.v2",
       "accessDate": "2019-05-17T01:23:36Z",
+      "presentationType": "Invited talk",
       "meetingName": "Water Research Centre research seminar series",
       "abstractNote": "Invited talk for the \"Water Research Centre research seminar\" series at UNSW on 27 Feb 2019.<br>",
       "title": "Current trends in academia: online presence, community service and openness",
@@ -171,7 +172,7 @@
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "presenter"
         }
       ],
@@ -184,13 +185,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos_2019_Current trends in academia.pdf",
+          "title": "Vázquez-Campos_2019_Current trends in academia.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2019-05-17T01:24:30Z",
           "dateModified": "2019-05-17T01:24:32Z",
           "uri": "http://zotero.org/users/152779/items/E3J9QKDW",
-          "path": "/home/xabi/Zotero/storage/E3J9QKDW/V\u00e1zquez-Campos_2019_Current trends in academia.pdf",
+          "path": "/home/xabi/Zotero/storage/E3J9QKDW/Vázquez-Campos_2019_Current trends in academia.pdf",
           "select": "zotero://select/library/items/E3J9QKDW"
         }
       ],
@@ -198,8 +199,7 @@
       "citationKey": "vazquez-campos_Current_2019",
       "itemKey": "BJVU44DG",
       "libraryID": 1,
-      "select": "zotero://select/library/items/BJVU44DG",
-      "type": "Invited talk"
+      "select": "zotero://select/library/items/BJVU44DG"
     },
     {
       "key": "JTKCRS3Z",
@@ -209,13 +209,14 @@
       "place": "Sydney, Australia",
       "date": "2017 Jun 27",
       "extra": "Citation Key: vazquez-campos_metagenomic_2017-1",
+      "presentationType": "Invited talk",
       "meetingName": "Joint Academic Microbiology Seminars (JAMS)",
       "abstractNote": "The rapid proliferation of the nuclear industry after World War II resulted in the generation of substantial volumes of radioactive waste. This material was often buried in shallow trenches, a standard practice at the time, of which the Little Forest Legacy Site near Sydney (Australia) is an example. It has been reported that during heavy rain, the trenches exhibit an overflowing effect, analogous to a bathtub. The aim of this work was to test the hypothesis that intense rainfall events, are likely to introduce oxygen, and will therefore have an effect on the biology and chemistry inside the trenches during a fill-drain cycle.\nShotgun metagenomics was performed on water samples collected from a sample trench in triplicate across four time points during a 47-day period after a heavy rainfall event. Chemical parameters were monitored as well.\nFunctional analysis of the metagenome shows clear differences between the initial sampling points characterised by higher gene frequencies related to aerobic heterotrophic metabolism such higher cytochrome-c oxidase and several sugar transporters. The maximum for these indicators is reached at day 4, matching a surge in the proportion of Proteobacteria (63.6% total prokaryotes). Conversely, anaerobic metabolism genes such those specific of methanogenesis or dissimilatory sulfate reduction, and anaerobic taxa such class Methanomicrobia, show a progressive increase over time with a maximum at the final sampling day. These changes coincided with an increased proportion in soluble Fe, Am, and Pu, supporting our hypothesis that rainfall events can induces transient aerobic conditions potentially altering radiochemical mobility.",
       "title": "Metagenomic and geochemical changes following rainfall at a legacy radionuclide waste disposal site",
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "presenter"
         },
         {
@@ -254,13 +255,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al. - 2017 - Metagenomic and geochemical changes following rain.pptx",
+          "title": "Vázquez-Campos et al. - 2017 - Metagenomic and geochemical changes following rain.pptx",
           "tags": [],
           "relations": [],
           "dateAdded": "2018-02-28T02:51:40Z",
           "dateModified": "2018-02-28T02:51:40Z",
           "uri": "http://zotero.org/users/152779/items/C6NY7PXF",
-          "path": "/home/xabi/Zotero/storage/C6NY7PXF/V\u00e1zquez-Campos et al. - 2017 - Metagenomic and geochemical changes following rain.pptx",
+          "path": "/home/xabi/Zotero/storage/C6NY7PXF/Vázquez-Campos et al. - 2017 - Metagenomic and geochemical changes following rain.pptx",
           "select": "zotero://select/library/items/C6NY7PXF"
         }
       ],
@@ -281,8 +282,7 @@
       "citationKey": "vazquez-campos_metagenomic_2017-1",
       "itemKey": "JTKCRS3Z",
       "libraryID": 1,
-      "select": "zotero://select/library/items/JTKCRS3Z",
-      "type": "Invited talk"
+      "select": "zotero://select/library/items/JTKCRS3Z"
     }
   ]
 }

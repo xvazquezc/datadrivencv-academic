@@ -84,19 +84,19 @@
       "stringsOverride": "",
       "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
       "warnBulkModify": 10,
-      "warnTitleCased": false,
-      "texmap": {}
+      "warnTitleCased": false
     },
     "options": {
       "exportNotes": true,
       "exportFileData": false,
-      "keepUpdated": true,
-      "worker": true
+      "keepUpdated": false,
+      "worker": true,
+      "Normalize": false
     }
   },
   "version": {
-    "zotero": "6.0.23",
-    "bbt": "6.7.58"
+    "zotero": "6.0.26",
+    "bbt": "6.7.77"
   },
   "collections": {},
   "items": [
@@ -106,6 +106,7 @@
       "itemType": "report",
       "pages": "87",
       "date": "2015 Feb 1",
+      "reportType": "Project Completion Report to ERA",
       "title": "Biogeochemical controls of uranium heap leaching",
       "creators": [
         {
@@ -115,7 +116,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -157,8 +158,7 @@
       "citationKey": "kinsela_Biogeochemical_2015",
       "itemKey": "DLXYG9FF",
       "libraryID": 1,
-      "select": "zotero://select/library/items/DLXYG9FF",
-      "type": "Project Completion Report to ERA"
+      "select": "zotero://select/library/items/DLXYG9FF"
     }
   ]
 }

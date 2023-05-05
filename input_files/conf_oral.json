@@ -84,19 +84,19 @@
       "stringsOverride": "",
       "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
       "warnBulkModify": 10,
-      "warnTitleCased": false,
-      "texmap": {}
+      "warnTitleCased": false
     },
     "options": {
       "exportNotes": true,
       "exportFileData": false,
-      "keepUpdated": true,
-      "worker": true
+      "keepUpdated": false,
+      "worker": true,
+      "Normalize": false
     }
   },
   "version": {
-    "zotero": "6.0.23",
-    "bbt": "6.7.58"
+    "zotero": "6.0.26",
+    "bbt": "6.7.77"
   },
   "collections": {},
   "items": [
@@ -111,10 +111,11 @@
       "conferenceName": "6th International Symposium on Biohydrometallurgy",
       "abstractNote": "Although the presence of fungi in acidic mining systems has been widely established and attention paid to the problems created by their growth, limited consideration has been given to their role in community functioning. Seven acidophilic/acid-tolerant fungal strains were characterised from the process waters at one of Australia's largest uranium mines, the Ranger Mine in the Northern Territory. Process waters (raffinate) were typically very acidic (pH 1.7-1.8) and contained high concentrations of total dissolved/colloidal salts (~80-100 g/L). Fungal cultures were grown in raffinate and Mackintosh medium followed by enrichment in Mackintosh medium with glucose and yeast extract additions. Strains were isolated in potato dextrose agar at pH 3.0 and their characteristics examined in a synthetic medium similar in composition to their source environment. Isolates were identified by ribosomal ITS sequencing. This work provides important new insights into the occurrence of fungi in highly acidic environments, their dependence on other organisms and their potential role in the hydrometallurgical extraction of uranium.",
       "title": "The isolation of fungi from low-pH, high ionic strength uranium mine process water",
+      "proceedingsTitle": "Proceedings of the 6th International Symposium on Biohydrometallurgy",
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -179,13 +180,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al. - 2012 - The isolation of fungi from low-pH, high ionic str.pdf",
+          "title": "Vázquez-Campos et al. - 2012 - The isolation of fungi from low-pH, high ionic str.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2012-07-16T03:40:53Z",
           "dateModified": "2012-07-16T03:41:26Z",
           "uri": "http://zotero.org/users/152779/items/TPPRJB8A",
-          "path": "/home/xabi/Zotero/storage/TPPRJB8A/V\u00e1zquez-Campos et al. - 2012 - The isolation of fungi from low-pH, high ionic str.pdf",
+          "path": "/home/xabi/Zotero/storage/TPPRJB8A/Vázquez-Campos et al. - 2012 - The isolation of fungi from low-pH, high ionic str.pdf",
           "select": "zotero://select/library/items/TPPRJB8A"
         }
       ],
@@ -206,8 +207,7 @@
       "citationKey": "vazquez-campos_isolation_2012",
       "itemKey": "5QDATTTK",
       "libraryID": 1,
-      "select": "zotero://select/library/items/5QDATTTK",
-      "publicationTitle": "Proceedings of the 6th International Symposium on Biohydrometallurgy"
+      "select": "zotero://select/library/items/5QDATTTK"
     },
     {
       "key": "8JCRUHQF",
@@ -223,7 +223,7 @@
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -279,7 +279,7 @@
           "version": 9860,
           "itemType": "note",
           "parentItem": "8JCRUHQF",
-          "note": "<p>Abstract + Oral presentation</p>\n<p>\u00a0</p>",
+          "note": "<p>Abstract + Oral presentation</p>\n<p> </p>",
           "tags": [],
           "relations": {},
           "dateAdded": "2017-05-30T06:51:09Z",
@@ -301,12 +301,12 @@
       "extra": "Citation Key: vazquez-campos_new_2018",
       "DOI": "10.6084/m9.figshare.9598736",
       "conferenceName": "Australian Microbial Ecology Conference (AusME 2019)",
-      "abstractNote": "During the 1960s, small quantities of radioactive materials were co-disposed with chemical waste\nat the Little Forest Legacy Site (Sydney, Australia) in three-metre-deep, unlined trenches. Prior\nresearch has investigated functional and population dynamics during a rainfall event using shotgun\nmetagenomics. This revealed a broad abundance of candidate and potentially undescribed taxa\nin this iron-rich, radionuclide-contaminated environment. Thus, we explored the same dataset\nthrough genomic reconstruction and phylogenomics but focusing specifically in Archaea.\nIn total, we recovered 318 refined bins with \u2265 50% completeness and \u2264 10% redundancy, 37 of\nwhich belonged to Archaea. A concatenated protein tree was constructed using 44 highly conserved\nuniversal or Archaea-specific ribosomal proteins extracted from the archaeal MAGs plus >200 nonredundant diverse genomes from public databases. Phylogenomic analysis revealed archaeal bins\ncorresponded to 10 different phyla, including 4 newly proposed lineages within the DPANN supergroup (LFWA-I to IV, 15 bins), Methanosaetaceae (3), Methanoperedenaceae (6), Thermoplasmata\n(1), Micrarchaeota s. stricto (1), Diapherotrites (2), Woesearchaeota (1), Pacearchaeota (6), Altiarchaeota (1) and Thaumarchaeota (1).\nWhile most of the new DPANN lineages show reduced genomes with limited central metabolism\nsimilar to other typical DPANN, the candidate species from the proposed LFWA-III lineage show\nsome unusual features.\n\u2022 First, they have complete de novo nucleotide biosynthesis pathways.\n\u2022 Second, they harbour all genes needed for the biosynthesis of both thiamine and riboflavin.\n\u2022 Third, they present a partial TCA cycle.\n\u2022 And most importantly, fourth, they contain highly connected amino acid pathways that can\nbe tracked all the way to carbon source assimilation.\nThese features may suggest a lesser dependence on a host or symbiotic partner. In addition,\nLFWA-III seems to be a diverse in the sampled trench with 11 MAGs suggested to belong to 10\ndifferent genera in a single family based on ANI/AAI relatedness.\nFuture research will attemp to discover the possible symbionts of the diverse DPANN organisms\npresent in the site.",
+      "abstractNote": "During the 1960s, small quantities of radioactive materials were co-disposed with chemical waste\nat the Little Forest Legacy Site (Sydney, Australia) in three-metre-deep, unlined trenches. Prior\nresearch has investigated functional and population dynamics during a rainfall event using shotgun\nmetagenomics. This revealed a broad abundance of candidate and potentially undescribed taxa\nin this iron-rich, radionuclide-contaminated environment. Thus, we explored the same dataset\nthrough genomic reconstruction and phylogenomics but focusing specifically in Archaea.\nIn total, we recovered 318 refined bins with ≥ 50% completeness and ≤ 10% redundancy, 37 of\nwhich belonged to Archaea. A concatenated protein tree was constructed using 44 highly conserved\nuniversal or Archaea-specific ribosomal proteins extracted from the archaeal MAGs plus >200 nonredundant diverse genomes from public databases. Phylogenomic analysis revealed archaeal bins\ncorresponded to 10 different phyla, including 4 newly proposed lineages within the DPANN supergroup (LFWA-I to IV, 15 bins), Methanosaetaceae (3), Methanoperedenaceae (6), Thermoplasmata\n(1), Micrarchaeota s. stricto (1), Diapherotrites (2), Woesearchaeota (1), Pacearchaeota (6), Altiarchaeota (1) and Thaumarchaeota (1).\nWhile most of the new DPANN lineages show reduced genomes with limited central metabolism\nsimilar to other typical DPANN, the candidate species from the proposed LFWA-III lineage show\nsome unusual features.\n• First, they have complete de novo nucleotide biosynthesis pathways.\n• Second, they harbour all genes needed for the biosynthesis of both thiamine and riboflavin.\n• Third, they present a partial TCA cycle.\n• And most importantly, fourth, they contain highly connected amino acid pathways that can\nbe tracked all the way to carbon source assimilation.\nThese features may suggest a lesser dependence on a host or symbiotic partner. In addition,\nLFWA-III seems to be a diverse in the sampled trench with 11 MAGs suggested to belong to 10\ndifferent genera in a single family based on ANI/AAI relatedness.\nFuture research will attemp to discover the possible symbionts of the diverse DPANN organisms\npresent in the site.",
       "title": "Unusual DPANN Archaea from a radioactive legacy site",
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -348,13 +348,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al_2018_Unusual DPANN Archaea from a radioactive legacy site.pdf",
+          "title": "Vázquez-Campos et al_2018_Unusual DPANN Archaea from a radioactive legacy site.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2019-01-16T22:36:39Z",
           "dateModified": "2019-01-16T22:36:40Z",
           "uri": "http://zotero.org/users/152779/items/WSTIRUTN",
-          "path": "/home/xabi/Zotero/storage/WSTIRUTN/V\u00e1zquez-Campos et al_2018_Unusual DPANN Archaea from a radioactive legacy site.pdf",
+          "path": "/home/xabi/Zotero/storage/WSTIRUTN/Vázquez-Campos et al_2018_Unusual DPANN Archaea from a radioactive legacy site.pdf",
           "select": "zotero://select/library/items/WSTIRUTN"
         }
       ],

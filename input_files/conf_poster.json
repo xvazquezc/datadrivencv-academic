@@ -84,19 +84,19 @@
       "stringsOverride": "",
       "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
       "warnBulkModify": 10,
-      "warnTitleCased": false,
-      "texmap": {}
+      "warnTitleCased": false
     },
     "options": {
       "exportNotes": true,
       "exportFileData": false,
-      "keepUpdated": true,
-      "worker": true
+      "keepUpdated": false,
+      "worker": true,
+      "Normalize": false
     }
   },
   "version": {
-    "zotero": "6.0.23",
-    "bbt": "6.7.58"
+    "zotero": "6.0.26",
+    "bbt": "6.7.77"
   },
   "collections": {},
   "items": [
@@ -112,7 +112,7 @@
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -154,13 +154,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos - ISME submited version.docx",
+          "title": "Vázquez-Campos - ISME submited version.docx",
           "tags": [],
           "relations": [],
           "dateAdded": "2014-05-12T05:40:48Z",
           "dateModified": "2014-05-12T05:40:48Z",
           "uri": "http://zotero.org/users/152779/items/5IAG6ZGH",
-          "path": "/home/xabi/Zotero/storage/5IAG6ZGH/V\u00e1zquez-Campos - ISME submited version.docx",
+          "path": "/home/xabi/Zotero/storage/5IAG6ZGH/Vázquez-Campos - ISME submited version.docx",
           "select": "zotero://select/library/items/5IAG6ZGH"
         }
       ],
@@ -192,12 +192,12 @@
       "extra": "Citation Key: vazquez-campos_new_2018",
       "DOI": "10.6084/m9.figshare.9598742",
       "conferenceName": "Molecular biology of archaea: From mechanisms to ecology (MoBA6)",
-      "abstractNote": "During the 1960s, small quantities of radioactive materials were co-disposed with chemical waste at the Little Forest Legacy Site (Sydney, Australia) in three-metre-deep, unlined trenches. Prior research has investigated functional and population dynamics during a rainfall event using shotgun metagenomics. This revealed a broad abundance of candidate and potentially undescribed taxa in this iron-rich, radionuclide-contaminated environment. Thus, we explored the same dataset through genomic reconstruction and phylogenomics but focusing specifically in Archaea.\nIn total, we recovered 318 refined bins with \u2265 50% completeness and \u2264 10% redundancy, 37 of which belonged to Archaea. A concatenated protein tree was constructed using 44 highly conserved universal or Archaea-specific ribosomal proteins extracted from the archaeal MAGs plus >200 genomes from public databases. Phylogenomic analysis revealed archaeal bins corresponded to 10 different phyla, including 4 newly proposed divisions within the DPANN supergroup. While most of the new DPANN lineages show similarly reduced genomes, some contain highly connected amino acid and/or nucleotide biosynthesis pathways that can be tracked all the way to carbon source assimilation.\nWe report an unprecedent number of Methanoperedenaceae (ANME-2d) bins (six total, four \u226590% complete). All Methanoperedenaceae bins are co-generic based on AAI/ANI values. Multihaem cytochromes with >10 binding sites are abundant in all bins, as well as PhaC/PhaE polyhydroxyalkanoate (PHA) biosynthetic systems. This suggests that metal respiration and PHA biosynthesis could be either widespread or at least ancestral to the lineage (in case the pathways were found to be interrupted).\nFuture research will try to discover the possible symbionts of the diverse DPANN organisms present in the site.",
+      "abstractNote": "During the 1960s, small quantities of radioactive materials were co-disposed with chemical waste at the Little Forest Legacy Site (Sydney, Australia) in three-metre-deep, unlined trenches. Prior research has investigated functional and population dynamics during a rainfall event using shotgun metagenomics. This revealed a broad abundance of candidate and potentially undescribed taxa in this iron-rich, radionuclide-contaminated environment. Thus, we explored the same dataset through genomic reconstruction and phylogenomics but focusing specifically in Archaea.\nIn total, we recovered 318 refined bins with ≥ 50% completeness and ≤ 10% redundancy, 37 of which belonged to Archaea. A concatenated protein tree was constructed using 44 highly conserved universal or Archaea-specific ribosomal proteins extracted from the archaeal MAGs plus >200 genomes from public databases. Phylogenomic analysis revealed archaeal bins corresponded to 10 different phyla, including 4 newly proposed divisions within the DPANN supergroup. While most of the new DPANN lineages show similarly reduced genomes, some contain highly connected amino acid and/or nucleotide biosynthesis pathways that can be tracked all the way to carbon source assimilation.\nWe report an unprecedent number of Methanoperedenaceae (ANME-2d) bins (six total, four ≥90% complete). All Methanoperedenaceae bins are co-generic based on AAI/ANI values. Multihaem cytochromes with >10 binding sites are abundant in all bins, as well as PhaC/PhaE polyhydroxyalkanoate (PHA) biosynthetic systems. This suggests that metal respiration and PHA biosynthesis could be either widespread or at least ancestral to the lineage (in case the pathways were found to be interrupted).\nFuture research will try to discover the possible symbionts of the diverse DPANN organisms present in the site.",
       "title": "New Archaea lineages from a radioactive legacy site",
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -260,7 +260,7 @@
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al_2018_New Archaea lineages from a radioactive legacy site.pdf",
+          "title": "Vázquez-Campos et al_2018_New Archaea lineages from a radioactive legacy site.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
@@ -270,7 +270,7 @@
           "dateAdded": "2018-06-04T04:03:34Z",
           "dateModified": "2018-10-07T23:37:54Z",
           "uri": "http://zotero.org/users/152779/items/QF4EDT7E",
-          "path": "/home/xabi/Zotero/storage/QF4EDT7E/V\u00e1zquez-Campos et al_2018_New Archaea lineages from a radioactive legacy site.pdf",
+          "path": "/home/xabi/Zotero/storage/QF4EDT7E/Vázquez-Campos et al_2018_New Archaea lineages from a radioactive legacy site.pdf",
           "select": "zotero://select/library/items/QF4EDT7E"
         }
       ],
@@ -307,7 +307,7 @@
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -362,7 +362,7 @@
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez Campos et al_2018_OTUreporter.pdf",
+          "title": "Vázquez Campos et al_2018_OTUreporter.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
@@ -372,7 +372,7 @@
           "dateAdded": "2018-06-04T03:58:13Z",
           "dateModified": "2019-06-17T06:35:17Z",
           "uri": "http://zotero.org/users/152779/items/E4XT59Y9",
-          "path": "/home/xabi/Zotero/storage/E4XT59Y9/V\u00e1zquez Campos et al_2018_OTUreporter.pdf",
+          "path": "/home/xabi/Zotero/storage/E4XT59Y9/Vázquez Campos et al_2018_OTUreporter.pdf",
           "select": "zotero://select/library/items/E4XT59Y9"
         }
       ],
@@ -409,7 +409,7 @@
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -452,13 +452,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al_2018_OTUreporter.pdf",
+          "title": "Vázquez-Campos et al_2018_OTUreporter.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2023-02-27T05:32:20Z",
           "dateModified": "2023-02-27T05:32:21Z",
           "uri": "http://zotero.org/users/152779/items/QCHD4FMC",
-          "path": "/home/xabi/Zotero/storage/QCHD4FMC/V\u00e1zquez-Campos et al_2018_OTUreporter.pdf",
+          "path": "/home/xabi/Zotero/storage/QCHD4FMC/Vázquez-Campos et al_2018_OTUreporter.pdf",
           "select": "zotero://select/library/items/QCHD4FMC"
         }
       ],
@@ -489,12 +489,12 @@
       "date": "2019 Dec 9-11",
       "DOI": "10.6084/m9.figshare.11328929",
       "conferenceName": "Joint 30th International Conference on Genome Informatics (GIW) & Australian Bioinformatics and Computational Biology Society (ABACBS) Annual Conference (GIW/ABACBS 2019)",
-      "abstractNote": "While 16S rRNA gene amplicon sequencing is no longer considered a state-of-the-art technique, it\nis mature and used for the routine screening of samples of microbiological interest. The maturity\nof the technique and its low costs, have generated a high demand even in areas foreign to typical\nresearch.\nHere we present a new software tool, OTUreporter. Unlike many automated 16S rRNA gene\namplicon tools such those made available by sequencing companies (e.g. Illumina\u2019s \u201c16S Metagenomics\u201d tool), OTUreporter is not a \u201cblack box\u201d and uses software that it is actually used in a\nresearch context.\nOTUreporter uses local data, or can access BaseSpace directly to gather amplicon data and\nsequencing run details, avoiding any need for the manual download. OTUreporter mainly uses\nmothur in the background, following a slightly modified version of the standard MiSeqSOP protocol for processing the amplicon data.\nThe final output of OTUreporter consists on a set of files suitable for downstream analysis\n(e.g. with phyloseq), as well as a report. This report summarises the details, not only of the analysis, but also of the sequencing jobs themselves. The report, based on a RMarkdown template,\ncreates two different versions of the same: a slimmer printer-friendly pdf document, and an extended html output with interactive content.\nOTUreporter analyses are currently available at no additional cost for customers of the Ramaciotti Centre for Genomics.\nAn additional workflow/analysis mode designed to work with ITS sequences is also integrated within OTUreporter.\nCode available at: https://bitbucket.org/xvazquezc/otureporter",
+      "abstractNote": "While 16S rRNA gene amplicon sequencing is no longer considered a state-of-the-art technique, it\nis mature and used for the routine screening of samples of microbiological interest. The maturity\nof the technique and its low costs, have generated a high demand even in areas foreign to typical\nresearch.\nHere we present a new software tool, OTUreporter. Unlike many automated 16S rRNA gene\namplicon tools such those made available by sequencing companies (e.g. Illumina’s “16S Metagenomics” tool), OTUreporter is not a “black box” and uses software that it is actually used in a\nresearch context.\nOTUreporter uses local data, or can access BaseSpace directly to gather amplicon data and\nsequencing run details, avoiding any need for the manual download. OTUreporter mainly uses\nmothur in the background, following a slightly modified version of the standard MiSeqSOP protocol for processing the amplicon data.\nThe final output of OTUreporter consists on a set of files suitable for downstream analysis\n(e.g. with phyloseq), as well as a report. This report summarises the details, not only of the analysis, but also of the sequencing jobs themselves. The report, based on a RMarkdown template,\ncreates two different versions of the same: a slimmer printer-friendly pdf document, and an extended html output with interactive content.\nOTUreporter analyses are currently available at no additional cost for customers of the Ramaciotti Centre for Genomics.\nAn additional workflow/analysis mode designed to work with ITS sequences is also integrated within OTUreporter.\nCode available at: https://bitbucket.org/xvazquezc/otureporter",
       "title": "OTUreporter: amplicon to report in a single command",
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -556,13 +556,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al_2019_OTUreporter.pdf",
+          "title": "Vázquez-Campos et al_2019_OTUreporter.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2019-09-06T01:26:46Z",
           "dateModified": "2019-09-06T01:26:47Z",
           "uri": "http://zotero.org/users/152779/items/YKFYZBEL",
-          "path": "/home/xabi/Zotero/storage/YKFYZBEL/V\u00e1zquez-Campos et al_2019_OTUreporter.pdf",
+          "path": "/home/xabi/Zotero/storage/YKFYZBEL/Vázquez-Campos et al_2019_OTUreporter.pdf",
           "select": "zotero://select/library/items/YKFYZBEL"
         }
       ],
@@ -594,12 +594,12 @@
       "extra": "Citation Key: vazquez-campos_phylogenomics_2017",
       "DOI": "10.6084/m9.figshare.9598739",
       "conferenceName": "Sydney Bioinformatics Research Symposium 2017",
-      "abstractNote": "During the 1960s, small quantities of radioactive materials were co-disposed with chemical waste at the Little Forest Legacy Site (Sydney, Australia) in three-metre-deep, unlined trenches. Prior research aimed to investigate functional and population dynamics during a rainfall event using shotgun metagenomics. This revealed a broad abundance of candidate and potentially undescribed taxa. Thus, we explored the same dataset trough genomic reconstruction and phylogenomics focusing specifically in Archaea. MegaHIT was used as assembler and CONCOCT as binning tool within Anvi\u2019o, resulting in 318 refined bins with \u226550% completeness and \u226410% redundancy, (37 Archaea). A concatenated protein tree was constructed using 15 highly conserved ribosomal proteins. Protein sequences were mined with Phylosift, aligned with MAFFT L-INS-I, poorly aligned regions removed with BMGE prior concatenation. Optimal ML tree search was performed with IQ-TREE with 1000 ultrafast bootstrap replicates and SH-aLRT. Phylogenomic analysis revealed archaeal bins corresponded to 10 different phyla, including 4 newly proposed divisions within the DPANN supergroup. In addition, we report an unprecedent number of bins (six total, five \u226550% complete) from the anaerobic methane oxidising group ANME-2d. Annotation of the genomic bins and comparative analyses are currently being performed to establish the ecological function of these newly defined phyla.",
+      "abstractNote": "During the 1960s, small quantities of radioactive materials were co-disposed with chemical waste at the Little Forest Legacy Site (Sydney, Australia) in three-metre-deep, unlined trenches. Prior research aimed to investigate functional and population dynamics during a rainfall event using shotgun metagenomics. This revealed a broad abundance of candidate and potentially undescribed taxa. Thus, we explored the same dataset trough genomic reconstruction and phylogenomics focusing specifically in Archaea. MegaHIT was used as assembler and CONCOCT as binning tool within Anvi’o, resulting in 318 refined bins with ≥50% completeness and ≤10% redundancy, (37 Archaea). A concatenated protein tree was constructed using 15 highly conserved ribosomal proteins. Protein sequences were mined with Phylosift, aligned with MAFFT L-INS-I, poorly aligned regions removed with BMGE prior concatenation. Optimal ML tree search was performed with IQ-TREE with 1000 ultrafast bootstrap replicates and SH-aLRT. Phylogenomic analysis revealed archaeal bins corresponded to 10 different phyla, including 4 newly proposed divisions within the DPANN supergroup. In addition, we report an unprecedent number of bins (six total, five ≥50% complete) from the anaerobic methane oxidising group ANME-2d. Annotation of the genomic bins and comparative analyses are currently being performed to establish the ecological function of these newly defined phyla.",
       "title": "Phylogenomics of a radioactive legacy site reveals new Archaea phyla of unknown function",
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -650,13 +650,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al_2017_Metagenomic and geochemical changes following rainfall at a legacy radionuclide.pdf",
+          "title": "Vázquez-Campos et al_2017_Metagenomic and geochemical changes following rainfall at a legacy radionuclide.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2017-07-07T06:30:53Z",
           "dateModified": "2017-07-07T06:30:56Z",
           "uri": "http://zotero.org/users/152779/items/XU9AV4SM",
-          "path": "/home/xabi/Zotero/storage/XU9AV4SM/V\u00e1zquez-Campos et al_2017_Metagenomic and geochemical changes following rainfall at a legacy radionuclide.pdf",
+          "path": "/home/xabi/Zotero/storage/XU9AV4SM/Vázquez-Campos et al_2017_Metagenomic and geochemical changes following rainfall at a legacy radionuclide.pdf",
           "select": "zotero://select/library/items/XU9AV4SM"
         }
       ],
@@ -693,7 +693,7 @@
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -764,13 +764,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al. - 2016 - Rainfall-mediated biogeochemical changes at a lega.docx",
+          "title": "Vázquez-Campos et al. - 2016 - Rainfall-mediated biogeochemical changes at a lega.docx",
           "tags": [],
           "relations": [],
           "dateAdded": "2016-05-17T00:30:10Z",
           "dateModified": "2016-05-17T00:30:12Z",
           "uri": "http://zotero.org/users/152779/items/3IUS289D",
-          "path": "/home/xabi/Zotero/storage/3IUS289D/V\u00e1zquez-Campos et al. - 2016 - Rainfall-mediated biogeochemical changes at a lega.docx",
+          "path": "/home/xabi/Zotero/storage/3IUS289D/Vázquez-Campos et al. - 2016 - Rainfall-mediated biogeochemical changes at a lega.docx",
           "select": "zotero://select/library/items/3IUS289D"
         }
       ],

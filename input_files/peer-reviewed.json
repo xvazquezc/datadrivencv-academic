@@ -84,22 +84,111 @@
       "stringsOverride": "",
       "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
       "warnBulkModify": 10,
-      "warnTitleCased": false,
-      "texmap": {}
+      "warnTitleCased": false
     },
     "options": {
       "exportNotes": true,
       "exportFileData": false,
-      "keepUpdated": true,
-      "worker": true
+      "keepUpdated": false,
+      "worker": true,
+      "Normalize": false
     }
   },
   "version": {
-    "zotero": "6.0.23",
-    "bbt": "6.7.58"
+    "zotero": "6.0.26",
+    "bbt": "6.7.77"
   },
   "collections": {},
   "items": [
+    {
+      "key": "DRZ59IKT",
+      "version": 21547,
+      "itemType": "journalArticle",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2219418120",
+      "volume": "120",
+      "issue": "17",
+      "pages": "e2219418120",
+      "publicationTitle": "Proceedings of the National Academy of Sciences",
+      "date": "2023 Apr 18",
+      "extra": "Publisher: Proceedings of the National Academy of Sciences",
+      "journalAbbreviation": "Proc Natl Acad Sci USA",
+      "DOI": "10.1073/pnas.2219418120",
+      "accessDate": "2023-04-18T22:51:58Z",
+      "libraryCatalog": "pnas.org (Atypon)",
+      "abstractNote": "Significant recent advances in structural biology, particularly in the field of cryoelectron microscopy, have dramatically expanded our ability to create structural models of proteins and protein complexes. However, many proteins remain refractory to these approaches because of their low abundance, low stability, or—in the case of complexes—simply not having yet been analyzed. Here, we demonstrate the power of using cross-linking mass spectrometry (XL-MS) for the high-throughput experimental assessment of the structures of proteins and protein complexes. This included those produced by high-resolution but in vitro experimental data, as well as in silico predictions based on amino acid sequence alone. We present the largest XL-MS dataset to date, describing 28,910 unique residue pairs captured across 4,084 unique human proteins and 2,110 unique protein–protein interactions. We show that models of proteins and their complexes predicted by AlphaFold2, and inspired and corroborated by the XL-MS data, offer opportunities to deeply mine the structural proteome and interactome and reveal mechanisms underlying protein structure and function.",
+      "title": "Cross-linking mass spectrometry discovers, evaluates, and corroborates structures and protein–protein interactions in the human cell",
+      "creators": [
+        {
+          "firstName": "Tara K.",
+          "lastName": "Bartolec",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alexander",
+          "lastName": "Norman",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Clement",
+          "lastName": "Luong",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marcus",
+          "lastName": "Johnson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Richard J.",
+          "lastName": "Payne",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marc R.",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Joel P.",
+          "lastName": "Mackay",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jason K. K.",
+          "lastName": "Low",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2023-04-18T22:51:58Z",
+      "dateModified": "2023-05-05T00:45:59Z",
+      "uri": "http://zotero.org/users/152779/items/DRZ59IKT",
+      "itemID": 13205,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Bartolec et al_2023_Cross-linking mass spectrometry discovers, evaluates, and corroborates.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-04-18T22:52:09Z",
+          "dateModified": "2023-04-18T22:52:10Z",
+          "uri": "http://zotero.org/users/152779/items/48YNHLER",
+          "path": "/home/xabi/Zotero/storage/48YNHLER/Bartolec et al_2023_Cross-linking mass spectrometry discovers, evaluates, and corroborates.pdf",
+          "select": "zotero://select/library/items/48YNHLER"
+        }
+      ],
+      "notes": [],
+      "citationKey": "bartolec_Crosslinking_2023a",
+      "itemKey": "DRZ59IKT",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/DRZ59IKT"
+    },
     {
       "key": "VUCG6THD",
       "version": 20867,
@@ -121,7 +210,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -253,12 +342,12 @@
       "creators": [
         {
           "firstName": "Dragica",
-          "lastName": "Damnjanovi\u0107",
+          "lastName": "Damnjanović",
           "creatorType": "author"
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -299,13 +388,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Damnjanovi\u0107 et al_2022_Characterisation of Bacteriophage vB_SmaM_Ps15 Infective to Stenotrophomonas.pdf",
+          "title": "Damnjanović et al_2022_Characterisation of Bacteriophage vB_SmaM_Ps15 Infective to Stenotrophomonas.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-03-29T23:10:43Z",
           "dateModified": "2022-03-29T23:12:44Z",
           "uri": "http://zotero.org/users/152779/items/GR9QCJQR",
-          "path": "/home/xabi/Zotero/storage/GR9QCJQR/Damnjanovi\u0107 et al_2022_Characterisation of Bacteriophage vB_SmaM_Ps15 Infective to Stenotrophomonas.pdf",
+          "path": "/home/xabi/Zotero/storage/GR9QCJQR/Damnjanović et al_2022_Characterisation of Bacteriophage vB_SmaM_Ps15 Infective to Stenotrophomonas.pdf",
           "select": "zotero://select/library/items/GR9QCJQR"
         },
         {
@@ -366,8 +455,8 @@
       "accessDate": "2020-12-22T03:53:25Z",
       "libraryCatalog": "www-nature-com.wwwproxy1.library.unsw.edu.au",
       "language": "en",
-      "abstractNote": "Big data abound in microbiology, but the workflows designed to enable researchers to interpret data can constrain the biological questions that can be asked. Five years after anvi\u2019o was first published, this community-led multi-omics platform is maturing into an open software ecosystem that reduces constraints in \u2018omics data analyses.",
-      "title": "Community-led, integrated, reproducible multi-omics with anvi\u2019o",
+      "abstractNote": "Big data abound in microbiology, but the workflows designed to enable researchers to interpret data can constrain the biological questions that can be asked. Five years after anvi’o was first published, this community-led multi-omics platform is maturing into an open software ecosystem that reduces constraints in ‘omics data analyses.",
+      "title": "Community-led, integrated, reproducible multi-omics with anvi’o",
       "creators": [
         {
           "firstName": "A. Murat",
@@ -430,7 +519,7 @@
           "creatorType": "author"
         },
         {
-          "firstName": "\u00d6zcan C.",
+          "firstName": "Özcan C.",
           "lastName": "Esen",
           "creatorType": "author"
         },
@@ -481,7 +570,7 @@
         },
         {
           "firstName": "Andreas",
-          "lastName": "Sj\u00f6din",
+          "lastName": "Sjödin",
           "creatorType": "author"
         },
         {
@@ -491,7 +580,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -594,8 +683,8 @@
       "journalAbbreviation": "Front Microbiol",
       "DOI": "10.3389/fmicb.2022.1035247",
       "libraryCatalog": "Frontiers",
-      "abstractNote": "Dichloromethane (DCM; CH2Cl2) is a widespread pollutant with anthropogenic and natural sources. Anaerobic DCM-dechlorinating bacteria use the Wood\u2013Ljungdahl pathway, yet dechlorination reaction mechanisms remain unclear and the enzyme(s) responsible for carbon-chlorine bond cleavage have not been definitively identified. Of the three bacterial taxa known to carry out anaerobic dechlorination of DCM, \u2018Candidatus Formimonas warabiya\u2019 strain DCMF is the only organism that can also ferment non-chlorinated substrates, including quaternary amines (i.e., choline and glycine betaine) and methanol. Strain DCMF is present within enrichment culture DFE, which was derived from an organochlorine-contaminated aquifer. We utilized the metabolic versatility of strain DCMF to carry out comparative metaproteomics of cultures grown with DCM or glycine betaine. This revealed differential abundance of numerous proteins, including a methyltransferase gene cluster (the mec cassette) that was significantly more abundant during DCM degradation, as well as highly conserved amongst anaerobic DCM-degrading bacteria. This lends strong support to its involvement in DCM dechlorination. A putative glycine betaine methyltransferase was also discovered, adding to the limited knowledge about the fate of this widespread osmolyte in anoxic subsurface environments. Furthermore, the metagenome of enrichment culture DFE was assembled, resulting in five high quality and two low quality draft metagenome-assembled genomes. Metaproteogenomic analysis did not reveal any genes or proteins for utilization of DCM or glycine betaine in the cohabiting bacteria, supporting the previously held idea that they persist via necromass utilization.",
-      "title": "Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by \u2018<i>Candidatus</i> Formimonas warabiya\u2019 strain DCMF",
+      "abstractNote": "Dichloromethane (DCM; CH2Cl2) is a widespread pollutant with anthropogenic and natural sources. Anaerobic DCM-dechlorinating bacteria use the Wood–Ljungdahl pathway, yet dechlorination reaction mechanisms remain unclear and the enzyme(s) responsible for carbon-chlorine bond cleavage have not been definitively identified. Of the three bacterial taxa known to carry out anaerobic dechlorination of DCM, ‘Candidatus Formimonas warabiya’ strain DCMF is the only organism that can also ferment non-chlorinated substrates, including quaternary amines (i.e., choline and glycine betaine) and methanol. Strain DCMF is present within enrichment culture DFE, which was derived from an organochlorine-contaminated aquifer. We utilized the metabolic versatility of strain DCMF to carry out comparative metaproteomics of cultures grown with DCM or glycine betaine. This revealed differential abundance of numerous proteins, including a methyltransferase gene cluster (the mec cassette) that was significantly more abundant during DCM degradation, as well as highly conserved amongst anaerobic DCM-degrading bacteria. This lends strong support to its involvement in DCM dechlorination. A putative glycine betaine methyltransferase was also discovered, adding to the limited knowledge about the fate of this widespread osmolyte in anoxic subsurface environments. Furthermore, the metagenome of enrichment culture DFE was assembled, resulting in five high quality and two low quality draft metagenome-assembled genomes. Metaproteogenomic analysis did not reveal any genes or proteins for utilization of DCM or glycine betaine in the cohabiting bacteria, supporting the previously held idea that they persist via necromass utilization.",
+      "title": "Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by ‘<i>Candidatus</i> Formimonas warabiya’ strain DCMF",
       "creators": [
         {
           "firstName": "Sophie I",
@@ -604,7 +693,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -641,24 +730,24 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Data_Sheet_1_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by \u2018Candidatus Formimonas warabi.PDF",
+          "title": "Data_Sheet_1_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by ‘Candidatus Formimonas warabi.PDF",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-12-08T01:06:20Z",
           "dateModified": "2022-12-08T01:07:21Z",
           "uri": "http://zotero.org/users/152779/items/93GUYTDS",
-          "path": "/home/xabi/Zotero/storage/93GUYTDS/Data_Sheet_1_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by \u2018Candidatus Formimonas warabi.PDF",
+          "path": "/home/xabi/Zotero/storage/93GUYTDS/Data_Sheet_1_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by ‘Candidatus Formimonas warabi.PDF",
           "select": "zotero://select/library/items/93GUYTDS"
         },
         {
           "itemType": "attachment",
-          "title": "Data_Sheet_2_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by \u2018Candidatus Formimonas warabi.xlsx",
+          "title": "Data_Sheet_2_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by ‘Candidatus Formimonas warabi.xlsx",
           "tags": [],
           "relations": [],
           "dateAdded": "2022-12-08T01:06:20Z",
           "dateModified": "2022-12-08T01:07:21Z",
           "uri": "http://zotero.org/users/152779/items/N7VL2YEY",
-          "path": "/home/xabi/Zotero/storage/N7VL2YEY/Data_Sheet_2_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by \u2018Candidatus Formimonas warabi.xlsx",
+          "path": "/home/xabi/Zotero/storage/N7VL2YEY/Data_Sheet_2_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by ‘Candidatus Formimonas warabi.xlsx",
           "select": "zotero://select/library/items/N7VL2YEY"
         },
         {
@@ -695,7 +784,7 @@
       "DOI": "10.1021/acs.est.1c01604",
       "accessDate": "2021-07-21T02:53:47Z",
       "libraryCatalog": "ACS Publications",
-      "abstractNote": "Results of investigations into factors influencing contaminant mobility in a replica trench located adjacent to a legacy radioactive waste site are presented in this study. The trench was filled with nonhazardous iron- and organic matter (OM)-rich components, as well as three contaminant analogues strontium, cesium, and neodymium to examine contaminant behavior. Imposed redox/water-level oscillations, where oxygen-laden rainwater was added to the anoxic trench, resulted in marked biogeochemical changes including the removal of aqueous Fe(II) and circulation of dissolved carbon, along with shifts to microbial communities involved in cycling iron (Gallionella, Sideroxydans) and methane generation (Methylomonas, Methylococcaceae). Contaminant mobility depended upon element speciation and rainfall event intensity. Strontium remained mobile, being readily translocated under hydrological perturbations. Strong ion-exchange reactions and structural incorporation into double-layer clay minerals were likely responsible for greater retention of Cs, which, along with Sr, was unaffected by redox oscillations. Neodymium was initially immobilized within the anoxic trenches, due to either secondary mineral (phosphate) precipitation or via the chemisorption of organic\u2013 and carbonate\u2013Nd complexes onto variably charged solid phases. Oxic rainwater intrusions altered Nd mobility via competing effects. Oxidation of Fe(II) led to partial retention of Nd within highly sorbing Fe(III)/OM phases, whereas pH decreases associated with rainwater influxes resulted in a release of adsorbed Nd to solution with both pH and OM presumed to be the key factors controlling Nd attenuation. Collectively, the behavior of simulated contaminants within this replica trench provided unique insights into trench water biogeochemistry and contaminant cycling in a redox oscillatory environment.",
+      "abstractNote": "Results of investigations into factors influencing contaminant mobility in a replica trench located adjacent to a legacy radioactive waste site are presented in this study. The trench was filled with nonhazardous iron- and organic matter (OM)-rich components, as well as three contaminant analogues strontium, cesium, and neodymium to examine contaminant behavior. Imposed redox/water-level oscillations, where oxygen-laden rainwater was added to the anoxic trench, resulted in marked biogeochemical changes including the removal of aqueous Fe(II) and circulation of dissolved carbon, along with shifts to microbial communities involved in cycling iron (Gallionella, Sideroxydans) and methane generation (Methylomonas, Methylococcaceae). Contaminant mobility depended upon element speciation and rainfall event intensity. Strontium remained mobile, being readily translocated under hydrological perturbations. Strong ion-exchange reactions and structural incorporation into double-layer clay minerals were likely responsible for greater retention of Cs, which, along with Sr, was unaffected by redox oscillations. Neodymium was initially immobilized within the anoxic trenches, due to either secondary mineral (phosphate) precipitation or via the chemisorption of organic– and carbonate–Nd complexes onto variably charged solid phases. Oxic rainwater intrusions altered Nd mobility via competing effects. Oxidation of Fe(II) led to partial retention of Nd within highly sorbing Fe(III)/OM phases, whereas pH decreases associated with rainwater influxes resulted in a release of adsorbed Nd to solution with both pH and OM presumed to be the key factors controlling Nd attenuation. Collectively, the behavior of simulated contaminants within this replica trench provided unique insights into trench water biogeochemistry and contaminant cycling in a redox oscillatory environment.",
       "title": "Biogeochemical mobility of contaminants from a replica radioactive waste trench in response to rainfall-induced redox oscillations",
       "creators": [
         {
@@ -710,7 +799,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -808,7 +897,7 @@
       "accessDate": "2022-08-29T23:44:26Z",
       "libraryCatalog": "ScienceDirect",
       "language": "en",
-      "abstractNote": "Numerous legacy near-surface radioactive waste sites dating from the mid 20th century have yet to be remediated and present a global contamination concern. Typically, there is insufficient understanding of contaminant release and redistribution, with invasive investigations often impractical due to the risk of disturbing the often significantly radiotoxic contaminants. Consequently, a replica waste trench (~5.4 m3), constructed adjacent to a legacy radioactive waste site (Little Forest Legacy Site, LFLS), was used to assist our understanding of the release and mixing processes of neodymium (Nd) \u2014 a chemical analogue for plutonium(III) and americium(III), two significant radionuclides in many contaminated environments. In order to clarify the behaviour of contaminants released from buried objects such as waste containers, a steel drum, representative of the hundreds of buried drums within the LFLS, was placed within the trench. Dissolved neodymium nitrate was introduced as a point-source contaminant to the base of the trench, outside the steel drum. Hydrologic conditions were manipulated to simulate natural rainfall intensities with dissolved lithium bromide added as a tracer. Neodymium was primarily retained both at its point of release at the bottom of the trench (>97 %) as well as at a steel container corrosion point, simulated through the emplacement of steel wool. However, over the 8-month field experiment, advective mixing initiated by surface water intrusions rapidly redistributed a small proportion of Nd to shallower waters (~1.5\u20131.7 %), as well as throughout the buried steel drum. Suspended particulate forms of Nd (>0.2 \u03bcm) were measured at all depths in the suboxic trench and were persistent across the entire study. Analyses of the microbial communities showed that their relative abundances and metabolic functions were strongly influenced by the prevailing geochemical conditions as a result of fluctuating water depths associated with rainfall events. The site representing steel corrosion exhibited divergent biogeochemical results with anomalous changes (sharp decrease) observed in both dissolved contaminant concentration as well as microbial diversity and functionality. This research demonstrates that experimental trenches provide a safe and unique method for simulating the behaviour of subsurface radioactive contaminants with results demonstrating the initial retention, partial shallow water redistribution, and stability of particulate form(s) of this radioactive analogue. These results have relevance for appropriate management and remediation strategies for the adjacent legacy site as well as for similar sites across the globe.",
+      "abstractNote": "Numerous legacy near-surface radioactive waste sites dating from the mid 20th century have yet to be remediated and present a global contamination concern. Typically, there is insufficient understanding of contaminant release and redistribution, with invasive investigations often impractical due to the risk of disturbing the often significantly radiotoxic contaminants. Consequently, a replica waste trench (~5.4 m3), constructed adjacent to a legacy radioactive waste site (Little Forest Legacy Site, LFLS), was used to assist our understanding of the release and mixing processes of neodymium (Nd) — a chemical analogue for plutonium(III) and americium(III), two significant radionuclides in many contaminated environments. In order to clarify the behaviour of contaminants released from buried objects such as waste containers, a steel drum, representative of the hundreds of buried drums within the LFLS, was placed within the trench. Dissolved neodymium nitrate was introduced as a point-source contaminant to the base of the trench, outside the steel drum. Hydrologic conditions were manipulated to simulate natural rainfall intensities with dissolved lithium bromide added as a tracer. Neodymium was primarily retained both at its point of release at the bottom of the trench (>97 %) as well as at a steel container corrosion point, simulated through the emplacement of steel wool. However, over the 8-month field experiment, advective mixing initiated by surface water intrusions rapidly redistributed a small proportion of Nd to shallower waters (~1.5–1.7 %), as well as throughout the buried steel drum. Suspended particulate forms of Nd (>0.2 μm) were measured at all depths in the suboxic trench and were persistent across the entire study. Analyses of the microbial communities showed that their relative abundances and metabolic functions were strongly influenced by the prevailing geochemical conditions as a result of fluctuating water depths associated with rainfall events. The site representing steel corrosion exhibited divergent biogeochemical results with anomalous changes (sharp decrease) observed in both dissolved contaminant concentration as well as microbial diversity and functionality. This research demonstrates that experimental trenches provide a safe and unique method for simulating the behaviour of subsurface radioactive contaminants with results demonstrating the initial retention, partial shallow water redistribution, and stability of particulate form(s) of this radioactive analogue. These results have relevance for appropriate management and remediation strategies for the adjacent legacy site as well as for similar sites across the globe.",
       "title": "Contaminant release, mixing and microbial fluctuations initiated by infiltrating water within a replica field-scale legacy radioactive waste trench",
       "creators": [
         {
@@ -828,7 +917,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -933,22 +1022,22 @@
       "extra": "8 citations (Crossref) [2022-11-05]\nCitation Key: kolarik_acidotolerant_2015\nQID: Q106106445",
       "journalAbbreviation": "Czech Mycol",
       "DOI": "10.33585/cmy.67104",
-      "abstractNote": "A new combination, Acidiella uranophila (X. V\u00e1zquez-Campos) M. Kola\u0159\u00edk, Hujslov\u00e1 & X.\nV\u00e1zquez-Campos is provided for Fodinomyces uranophilus X. V\u00e1zquez-Campos based on similarity\nin phenotype and genotype.",
+      "abstractNote": "A new combination, Acidiella uranophila (X. Vázquez-Campos) M. Kolařík, Hujslová & X.\nVázquez-Campos is provided for Fodinomyces uranophilus X. Vázquez-Campos based on similarity\nin phenotype and genotype.",
       "title": "Acidotolerant genus <i>Fodinomyces</i> (Ascomycota: <i>Capnodiales</i>) is a synonym of <i>Acidiella</i>",
       "creators": [
         {
           "firstName": "Miroslav",
-          "lastName": "Kola\u0159\u00edk",
+          "lastName": "Kolařík",
           "creatorType": "author"
         },
         {
           "firstName": "Martina",
-          "lastName": "Hujslov\u00e1",
+          "lastName": "Hujslová",
           "creatorType": "author"
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         }
       ],
@@ -977,24 +1066,24 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Kola\u0159\u00edk et al. - 2015 - Acidotolerant genus iFodinomycesi (Ascomycota.pdf",
+          "title": "Kolařík et al. - 2015 - Acidotolerant genus iFodinomycesi (Ascomycota.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2015-05-18T09:08:11Z",
           "dateModified": "2015-05-18T09:08:18Z",
           "uri": "http://zotero.org/users/152779/items/64FK73R4",
-          "path": "/home/xabi/Zotero/storage/64FK73R4/Kola\u0159\u00edk et al. - 2015 - Acidotolerant genus iFodinomycesi (Ascomycota.pdf",
+          "path": "/home/xabi/Zotero/storage/64FK73R4/Kolařík et al. - 2015 - Acidotolerant genus iFodinomycesi (Ascomycota.pdf",
           "select": "zotero://select/library/items/64FK73R4"
         },
         {
           "itemType": "attachment",
-          "title": "Kola\u0159\u00edk et al. - Acidotolerant fungus iFodinomycesi (Ascomycot.docx",
+          "title": "Kolařík et al. - Acidotolerant fungus iFodinomycesi (Ascomycot.docx",
           "tags": [],
           "relations": [],
           "dateAdded": "2015-03-06T00:55:49Z",
           "dateModified": "2015-03-06T00:55:51Z",
           "uri": "http://zotero.org/users/152779/items/DEI3GDK8",
-          "path": "/home/xabi/Zotero/storage/DEI3GDK8/Kola\u0159\u00edk et al. - Acidotolerant fungus iFodinomycesi (Ascomycot.docx",
+          "path": "/home/xabi/Zotero/storage/DEI3GDK8/Kolařík et al. - Acidotolerant fungus iFodinomycesi (Ascomycot.docx",
           "select": "zotero://select/library/items/DEI3GDK8"
         }
       ],
@@ -1003,6 +1092,75 @@
       "itemKey": "39XNERBC",
       "libraryID": 1,
       "select": "zotero://select/library/items/39XNERBC"
+    },
+    {
+      "key": "N74LK53V",
+      "version": 21574,
+      "itemType": "journalArticle",
+      "url": "https://journals.asm.org/doi/10.1128/msystems.00119-23",
+      "volume": "8",
+      "issue": "2",
+      "pages": "e00119-23",
+      "publicationTitle": "mSystems",
+      "date": "2023 Mar 21",
+      "extra": "Publisher: American Society for Microbiology",
+      "journalAbbreviation": "mSystems",
+      "DOI": "10.1128/msystems.00119-23",
+      "accessDate": "2023-03-21T23:22:17Z",
+      "libraryCatalog": "journals.asm.org (Atypon)",
+      "abstractNote": "Recent discoveries of isoprene-metabolizing microorganisms suggest they might play an important role in the global isoprene budget. Under anoxic conditions, isoprene can be used as an electron acceptor and is reduced to methylbutene. This study describes the proteogenomic profiling of an isoprene-reducing bacterial culture to identify organisms and genes responsible for the isoprene hydrogenation reaction. A metagenome-assembled genome (MAG) of the most abundant (89% relative abundance) lineage in the enrichment, Acetobacterium wieringae, was obtained. Comparative proteogenomics and reverse transcription-PCR (RT-PCR) identified a putative five-gene operon from the A. wieringae MAG upregulated during isoprene reduction. The operon encodes a putative oxidoreductase, three pleiotropic nickel chaperones (2 × HypA, HypB), and one 4Fe-4S ferredoxin. The oxidoreductase is proposed as the putative isoprene reductase with a binding site for NADH, flavin adenine dinucleotide (FAD), two pairs of canonical [4Fe-4S] clusters, and a putative iron-sulfur cluster site in a Cys6-bonding environment. Well-studied Acetobacterium strains, such as A. woodii DSM 1030, A. wieringae DSM 1911, or A. malicum DSM 4132, do not encode the isoprene-regulated operon but encode, like many other bacteria, a homolog of the putative isoprene reductase (~47 to 49% amino acid sequence identity). Uncharacterized homologs of the putative isoprene reductase are observed across the Firmicutes, Spirochaetes, Tenericutes, Actinobacteria, Chloroflexi, Bacteroidetes, and Proteobacteria, suggesting the ability of biohydrogenation of unfunctionalized conjugated doubled bonds in other unsaturated hydrocarbons.\nIMPORTANCE Isoprene was recently shown to act as an electron acceptor for a homoacetogenic bacterium. The focus of this study is the molecular basis for isoprene reduction. By comparing a genome from our isoprene-reducing enrichment culture, dominated by Acetobacterium wieringae, with genomes of other Acetobacterium lineages that do not reduce isoprene, we shortlisted candidate genes for isoprene reduction. Using comparative proteogenomics and reverse transcription-PCR we have identified a putative five-gene operon encoding an oxidoreductase referred to as putative isoprene reductase.",
+      "title": "Evidence for a putative isoprene reductase in <i>Acetobacterium wieringae</i>",
+      "creators": [
+        {
+          "firstName": "Miriam",
+          "lastName": "Kronen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marc R.",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew",
+          "lastName": "Lee",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Michael J.",
+          "lastName": "Manefield",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2023-03-21T23:22:17Z",
+      "dateModified": "2023-05-05T00:46:15Z",
+      "uri": "http://zotero.org/users/152779/items/N74LK53V",
+      "itemID": 13199,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Kronen et al_2023_Evidence for a putative isoprene reductase in iAcetobacterium wieringae-i.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-05-05T00:47:19Z",
+          "dateModified": "2023-05-05T00:47:21Z",
+          "uri": "http://zotero.org/users/152779/items/C868M7UC",
+          "path": "/home/xabi/Zotero/storage/C868M7UC/Kronen et al_2023_Evidence for a putative isoprene reductase in iAcetobacterium wieringae-i.pdf",
+          "select": "zotero://select/library/items/C868M7UC"
+        }
+      ],
+      "notes": [],
+      "citationKey": "kronen_Evidence_2023",
+      "itemKey": "N74LK53V",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/N74LK53V"
     },
     {
       "key": "RY2PVW5F",
@@ -1020,22 +1178,22 @@
       "accessDate": "2021-01-12T23:46:36Z",
       "libraryCatalog": "ScienceDirect",
       "language": "en",
-      "abstractNote": "Biological soil crusts or biocrusts have critical ecological roles in dryland ecosystems including soil stabilization, erosion control and nutrient cycling. Global environmental changes are expected to impact terrestrial ecosystems, including biocrust communities. Thus, a growing number of studies have focused on investigating the diversity of biocrust-forming organisms including cyanobacteria. Despite the increasing interest in understanding biocrust cyanobacteria, there are still several knowledge gaps, particularly in areas from South America, where studies are limited. Here, we studied the composition, abundance, and environmental drivers of cyanobacterial biocrust from two important biomes in Brazil, i.e. Caatinga and Pampa, which are subject to desertification and anthropogenic pressures, respectively. Ten samples at three sites were explored at each biome (n\u00a0=\u00a060) and cyanobacterial biocrust community composition and diversity was analyzed through morphological evaluation and Next Generation Sequencing targeting the 16S rRNA gen. Soil and climatic variables, e.g. organic matter, soil texture, nitrogen and phosphorus content, temperature, and solar irradiance, were also determined at each site. Our results showed that biocrust cyanobacteria had distinct taxonomic compositions and assemblages at each biome. Similarly, cyanobacterial composition across sites within each biome differed substantially. Soil temperature and pH were identified as the main factors explaining such biotic structures. Caatinga sites, characterized by more arid environments, presented a higher abundance of N-fixing cyanobacteria, e.g. Scytonema. In contrast, Pampa, with higher rainfall regimes, showed a larger abundance of biocrust-forming bacteria such as Microcoleus and Leptolyngbya. The outcomes of this research are expected to provide a basis to enhance biocrusts and conservation efforts and promote the use of biocrust cyanobacteria as global change indicators.",
+      "abstractNote": "Biological soil crusts or biocrusts have critical ecological roles in dryland ecosystems including soil stabilization, erosion control and nutrient cycling. Global environmental changes are expected to impact terrestrial ecosystems, including biocrust communities. Thus, a growing number of studies have focused on investigating the diversity of biocrust-forming organisms including cyanobacteria. Despite the increasing interest in understanding biocrust cyanobacteria, there are still several knowledge gaps, particularly in areas from South America, where studies are limited. Here, we studied the composition, abundance, and environmental drivers of cyanobacterial biocrust from two important biomes in Brazil, i.e. Caatinga and Pampa, which are subject to desertification and anthropogenic pressures, respectively. Ten samples at three sites were explored at each biome (n = 60) and cyanobacterial biocrust community composition and diversity was analyzed through morphological evaluation and Next Generation Sequencing targeting the 16S rRNA gen. Soil and climatic variables, e.g. organic matter, soil texture, nitrogen and phosphorus content, temperature, and solar irradiance, were also determined at each site. Our results showed that biocrust cyanobacteria had distinct taxonomic compositions and assemblages at each biome. Similarly, cyanobacterial composition across sites within each biome differed substantially. Soil temperature and pH were identified as the main factors explaining such biotic structures. Caatinga sites, characterized by more arid environments, presented a higher abundance of N-fixing cyanobacteria, e.g. Scytonema. In contrast, Pampa, with higher rainfall regimes, showed a larger abundance of biocrust-forming bacteria such as Microcoleus and Leptolyngbya. The outcomes of this research are expected to provide a basis to enhance biocrusts and conservation efforts and promote the use of biocrust cyanobacteria as global change indicators.",
       "title": "Biocrust cyanobacterial composition, diversity, and environmental drivers in two contrasting climatic regions in Brazil",
       "creators": [
         {
-          "firstName": "N\u00e1thali Maria",
+          "firstName": "Náthali Maria",
           "lastName": "Machado de Lima",
           "creatorType": "author"
         },
         {
           "firstName": "Miriam",
-          "lastName": "Mu\u00f1oz-Rojas",
+          "lastName": "Muñoz-Rojas",
           "creatorType": "author"
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -1120,7 +1278,7 @@
       "DOI": "10.1007/s00449-011-0669-x",
       "accessDate": "2012-05-09T04:42:16Z",
       "libraryCatalog": "SpringerLink",
-      "abstractNote": "In the present work, several samples from lab waste containers polluted with polycyclic aromatic hydrocarbons (PAHs) and heavy metals were investigated as potential sources of PAH-degrading microorganisms. After isolating, two fungal strains were selected as the best degrading microorganisms. Genetic identification by sequencing was carried out and they were identified as Trichoderma longibrachiatum and Byssochlamys spectabilis . Their degradation ability was determined in liquid cultures with 100 \u03bcM of benzo[a]anthracene. T. longibrachiatum cultures showed highest degradation values (around 97%) after 9 days, furthermore in a second batch the time was reduced to 6 days. To analyse the viability of industrial application, a continuous treatment in an expanded-bed bioreactor was developed operating at different residence times with T. longibrachiatum immobilised on cubes of nylon sponge. It is noticeable that the bioreactor working in continuous mode was able to operate without operational problems and attaining high degradation levels depending on the residence time.",
+      "abstractNote": "In the present work, several samples from lab waste containers polluted with polycyclic aromatic hydrocarbons (PAHs) and heavy metals were investigated as potential sources of PAH-degrading microorganisms. After isolating, two fungal strains were selected as the best degrading microorganisms. Genetic identification by sequencing was carried out and they were identified as Trichoderma longibrachiatum and Byssochlamys spectabilis . Their degradation ability was determined in liquid cultures with 100 μM of benzo[a]anthracene. T. longibrachiatum cultures showed highest degradation values (around 97%) after 9 days, furthermore in a second batch the time was reduced to 6 days. To analyse the viability of industrial application, a continuous treatment in an expanded-bed bioreactor was developed operating at different residence times with T. longibrachiatum immobilised on cubes of nylon sponge. It is noticeable that the bioreactor working in continuous mode was able to operate without operational problems and attaining high degradation levels depending on the residence time.",
       "title": "Isolation of novel benzo[a]anthracene-degrading microorganisms and continuous bioremediation in an expanded-bed bioreactor",
       "creators": [
         {
@@ -1130,12 +1288,12 @@
         },
         {
           "firstName": "A.",
-          "lastName": "P\u00e9rez-Paz",
+          "lastName": "Pérez-Paz",
           "creatorType": "author"
         },
         {
           "firstName": "X.",
-          "lastName": "V\u00e1zquez",
+          "lastName": "Vázquez",
           "creatorType": "author"
         },
         {
@@ -1145,7 +1303,7 @@
         },
         {
           "firstName": "M.",
-          "lastName": "Sanrom\u00e1n",
+          "lastName": "Sanromán",
           "creatorType": "author"
         }
       ],
@@ -1219,7 +1377,7 @@
       "libraryCatalog": "www.mdpi.com",
       "language": "en",
       "abstractNote": "The polyphyletic group of black fungi within the Ascomycota (Arthoniomycetes, Dothideomycetes, and Eurotiomycetes) is ubiquitous in natural and anthropogenic habitats. Partly because of their dark, melanin-based pigmentation, black fungi are resistant to stresses including UV- and ionizing-radiation, heat and desiccation, toxic metals, and organic pollutants. Consequently, they are amongst the most stunning extremophiles and poly-extreme-tolerant organisms on Earth. Even though ca. 60 black fungal genomes have been sequenced to date, [mostly in the family Herpotrichiellaceae (Eurotiomycetes)], the class Dothideomycetes that hosts the largest majority of extremophiles has only been sparsely sampled. By sequencing up to 92 species that will become reference genomes, the &ldquo;Shed light in The daRk lineagES of the fungal tree of life&rdquo; (STRES) project will cover a broad collection of black fungal diversity spread throughout the Fungal Tree of Life. Interestingly, the STRES project will focus on mostly unsampled genera that display different ecologies and life-styles (e.g., ant- and lichen-associated fungi, rock-inhabiting fungi, etc.). With a resequencing strategy of 10- to 15-fold depth coverage of up to ~550 strains, numerous new reference genomes will be established. To identify metabolites and functional processes, these new genomic resources will be enriched with metabolomics analyses coupled with transcriptomics experiments on selected species under various stress conditions (salinity, dryness, UV radiation, oligotrophy). The data acquired will serve as a reference and foundation for establishing an encyclopedic database for fungal metagenomics as well as the biology, evolution, and ecology of the fungi in extreme environments.",
-      "title": "Shed Light in the DaRk LineagES of the Fungal Tree of Life\u2014STRES",
+      "title": "Shed Light in the DaRk LineagES of the Fungal Tree of Life—STRES",
       "creators": [
         {
           "firstName": "Laura",
@@ -1228,7 +1386,7 @@
         },
         {
           "firstName": "Zsigmond",
-          "lastName": "Benk\u0151",
+          "lastName": "Benkő",
           "creatorType": "author"
         },
         {
@@ -1252,7 +1410,7 @@
           "creatorType": "author"
         },
         {
-          "firstName": "Tam\u00e1s",
+          "firstName": "Tamás",
           "lastName": "Emri",
           "creatorType": "author"
         },
@@ -1287,8 +1445,8 @@
           "creatorType": "author"
         },
         {
-          "firstName": "Zsolt \u00c1kos",
-          "lastName": "Kar\u00e1nyi",
+          "firstName": "Zsolt Ákos",
+          "lastName": "Karányi",
           "creatorType": "author"
         },
         {
@@ -1303,11 +1461,11 @@
         },
         {
           "firstName": "Ida",
-          "lastName": "Mikl\u00f3s",
+          "lastName": "Miklós",
           "creatorType": "author"
         },
         {
-          "firstName": "M\u00e1rton",
+          "firstName": "Márton",
           "lastName": "Miskei",
           "creatorType": "author"
         },
@@ -1323,7 +1481,7 @@
         },
         {
           "firstName": "Monika",
-          "lastName": "Novak-Babi\u010d",
+          "lastName": "Novak-Babič",
           "creatorType": "author"
         },
         {
@@ -1337,8 +1495,8 @@
           "creatorType": "author"
         },
         {
-          "firstName": "Istv\u00e0n",
-          "lastName": "P\u00f2csi",
+          "firstName": "Istvàn",
+          "lastName": "Pòcsi",
           "creatorType": "author"
         },
         {
@@ -1378,7 +1536,7 @@
         },
         {
           "firstName": "Jana M.",
-          "lastName": "U\u2019Ren",
+          "lastName": "U’Ren",
           "creatorType": "author"
         },
         {
@@ -1388,7 +1546,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -1530,7 +1688,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -1591,12 +1749,12 @@
       "DOI": "10.3852/14-013",
       "libraryCatalog": "www.mycologia.org",
       "language": "en",
-      "abstractNote": "Seven acidophilic/acidotolerant fungal strains were characterized from samples of process waters (raffinate) at one of Australia\u2019s largest uranium mines, the Ranger Mine in Northern Territory. They were isolated from raffinate, which typically were very acidic (pH 1.7\u20131.8) and contained high concentrations of total dissolved/colloidal salts (> 100 g/L). Five of the isolates correspond to two new acidotolerant Ascomycota fungi. The first is a member of a new genus, here described as Fodinomyces (Teratosphaeriaceae, Capnodiales, Dothideomycetes) and does not show clear close affiliation with any other described fungus in the scientific literature. The second belongs to the genus Coniochaeta (Coniochaetaceae, Coniochaetales, Sordariomycetes) and is closely related to Coniochaeta hansenii.",
+      "abstractNote": "Seven acidophilic/acidotolerant fungal strains were characterized from samples of process waters (raffinate) at one of Australia’s largest uranium mines, the Ranger Mine in Northern Territory. They were isolated from raffinate, which typically were very acidic (pH 1.7–1.8) and contained high concentrations of total dissolved/colloidal salts (> 100 g/L). Five of the isolates correspond to two new acidotolerant Ascomycota fungi. The first is a member of a new genus, here described as Fodinomyces (Teratosphaeriaceae, Capnodiales, Dothideomycetes) and does not show clear close affiliation with any other described fungus in the scientific literature. The second belongs to the genus Coniochaeta (Coniochaetaceae, Coniochaetales, Sordariomycetes) and is closely related to Coniochaeta hansenii.",
       "title": "<i>Fodinomyces uranophilus</i> gen. nov. sp. nov. and <i>Coniochaeta fodinicola</i> sp. nov., two uranium mine inhabiting Ascomycota fungi from northern Australia",
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -1695,7 +1853,7 @@
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al. - 2014 - Fodinomyces uranophilus gen. nov. sp. nov. and Con.pdf",
+          "title": "Vázquez-Campos et al. - 2014 - Fodinomyces uranophilus gen. nov. sp. nov. and Con.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
@@ -1705,12 +1863,12 @@
           "dateAdded": "2014-11-25T07:37:16Z",
           "dateModified": "2018-04-13T07:46:06Z",
           "uri": "http://zotero.org/users/152779/items/MKJGEG5Z",
-          "path": "/home/xabi/Zotero/storage/MKJGEG5Z/V\u00e1zquez-Campos et al. - 2014 - Fodinomyces uranophilus gen. nov. sp. nov. and Con.pdf",
+          "path": "/home/xabi/Zotero/storage/MKJGEG5Z/Vázquez-Campos et al. - 2014 - Fodinomyces uranophilus gen. nov. sp. nov. and Con.pdf",
           "select": "zotero://select/library/items/MKJGEG5Z"
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al. - 2014 - Fodinomyces uranophilus online.pdf",
+          "title": "Vázquez-Campos et al. - 2014 - Fodinomyces uranophilus online.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
@@ -1720,12 +1878,12 @@
           "dateAdded": "2014-08-24T15:20:39Z",
           "dateModified": "2018-04-13T07:46:06Z",
           "uri": "http://zotero.org/users/152779/items/EUW6G3JS",
-          "path": "/home/xabi/Zotero/storage/EUW6G3JS/V\u00e1zquez-Campos et al. - 2014 - Fodinomyces uranophilus online.pdf",
+          "path": "/home/xabi/Zotero/storage/EUW6G3JS/Vázquez-Campos et al. - 2014 - Fodinomyces uranophilus online.pdf",
           "select": "zotero://select/library/items/EUW6G3JS"
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al. - Fodinomyces uranophilus - Mycologia no figs.docx",
+          "title": "Vázquez-Campos et al. - Fodinomyces uranophilus - Mycologia no figs.docx",
           "tags": [
             {
               "tag": "#duplicate_attachments"
@@ -1735,12 +1893,12 @@
           "dateAdded": "2014-04-16T04:36:52Z",
           "dateModified": "2018-04-13T07:45:05Z",
           "uri": "http://zotero.org/users/152779/items/KZKBZHGQ",
-          "path": "/home/xabi/Zotero/storage/KZKBZHGQ/V\u00e1zquez-Campos et al. - Fodinomyces uranophilus - Mycologia no figs.docx",
+          "path": "/home/xabi/Zotero/storage/KZKBZHGQ/Vázquez-Campos et al. - Fodinomyces uranophilus - Mycologia no figs.docx",
           "select": "zotero://select/library/items/KZKBZHGQ"
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al. - Fodinomyces uranophilus - Mycologia.docx",
+          "title": "Vázquez-Campos et al. - Fodinomyces uranophilus - Mycologia.docx",
           "tags": [
             {
               "tag": "#duplicate_attachments"
@@ -1750,12 +1908,12 @@
           "dateAdded": "2014-01-17T02:09:05Z",
           "dateModified": "2018-04-13T07:45:55Z",
           "uri": "http://zotero.org/users/152779/items/6HIH5IIC",
-          "path": "/home/xabi/Zotero/storage/6HIH5IIC/V\u00e1zquez-Campos et al. - Fodinomyces uranophilus - Mycologia.docx",
+          "path": "/home/xabi/Zotero/storage/6HIH5IIC/Vázquez-Campos et al. - Fodinomyces uranophilus - Mycologia.docx",
           "select": "zotero://select/library/items/6HIH5IIC"
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al. - Fodinomyces uranophilus gen. nov. sp. nov. .pdf",
+          "title": "Vázquez-Campos et al. - Fodinomyces uranophilus gen. nov. sp. nov. .pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
@@ -1765,7 +1923,7 @@
           "dateAdded": "2014-01-13T01:51:23Z",
           "dateModified": "2018-04-13T07:45:55Z",
           "uri": "http://zotero.org/users/152779/items/A9F4AM2R",
-          "path": "/home/xabi/Zotero/storage/A9F4AM2R/V\u00e1zquez-Campos et al. - Fodinomyces uranophilus gen. nov. sp. nov. .pdf",
+          "path": "/home/xabi/Zotero/storage/A9F4AM2R/Vázquez-Campos et al. - Fodinomyces uranophilus gen. nov. sp. nov. .pdf",
           "select": "zotero://select/library/items/A9F4AM2R"
         }
       ],
@@ -1780,7 +1938,7 @@
       "version": 20868,
       "itemType": "journalArticle",
       "url": "https://www.frontiersin.org/article/10.3389/fmicb.2021.732575",
-      "rights": "\u00a9 2019, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial 4.0 International), CC BY-NC 4.0, as described at http://creativecommons.org/licenses/by-nc/4.0/",
+      "rights": "© 2019, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial 4.0 International), CC BY-NC 4.0, as described at http://creativecommons.org/licenses/by-nc/4.0/",
       "volume": "12",
       "pages": "732575",
       "publicationTitle": "Frontiers in Microbiology",
@@ -1792,12 +1950,12 @@
       "accessDate": "2019-08-13T23:34:30Z",
       "libraryCatalog": "Frontiers",
       "language": "en",
-      "abstractNote": "<p>During the 1960s, small quantities of radioactive materials were co-disposed with chemical waste at the Little Forest Legacy Site (LFLS, Sydney, Australia). The microbial function and population dynamics during a rainfall event using shotgun metagenomics has been previously investigated. This revealed a broad abundance of candidate and potentially undescribed taxa in this iron-rich, radionuclide-contaminated environment. Here, applying genome-based metagenomic methods, we recovered 37 refined archaeal bins (\u226550% completeness, \u226410% redundancy) from 10 different major lineages. They were, for the most part, included in 4 proposed lineages within the DPANN supergroup (LFWA-I to IV) and <i>Methanoperedenaceae</i>. The new <i>Methanoperedens</i> spp. bins, together with previously published data, suggests a potentially widespread ability to use nitrate (or nitrite) and metal ions as electron acceptors during the anaerobic oxidation of methane by <i>Methanoperedens</i> spp. While most of the new DPANN lineages show reduced genomes with limited central metabolism typical of other DPANN, the candidate species from the proposed LFWA-III lineage show some unusual features not often present in DPANN genomes, i.e. a more comprehensive central metabolism and anabolic capabilities.While there is still some uncertainty about the capabilities of LFW-121_3 and closely related archaea for the biosynthesis of nucleotides de novo and amino acids, it is to date the most promising candidate to be a <i>bona fide</i> free-living DPANN archaeon.</p>",
+      "abstractNote": "<p>During the 1960s, small quantities of radioactive materials were co-disposed with chemical waste at the Little Forest Legacy Site (LFLS, Sydney, Australia). The microbial function and population dynamics during a rainfall event using shotgun metagenomics has been previously investigated. This revealed a broad abundance of candidate and potentially undescribed taxa in this iron-rich, radionuclide-contaminated environment. Here, applying genome-based metagenomic methods, we recovered 37 refined archaeal bins (≥50% completeness, ≤10% redundancy) from 10 different major lineages. They were, for the most part, included in 4 proposed lineages within the DPANN supergroup (LFWA-I to IV) and <i>Methanoperedenaceae</i>. The new <i>Methanoperedens</i> spp. bins, together with previously published data, suggests a potentially widespread ability to use nitrate (or nitrite) and metal ions as electron acceptors during the anaerobic oxidation of methane by <i>Methanoperedens</i> spp. While most of the new DPANN lineages show reduced genomes with limited central metabolism typical of other DPANN, the candidate species from the proposed LFWA-III lineage show some unusual features not often present in DPANN genomes, i.e. a more comprehensive central metabolism and anabolic capabilities.While there is still some uncertainty about the capabilities of LFW-121_3 and closely related archaea for the biosynthesis of nucleotides de novo and amino acids, it is to date the most promising candidate to be a <i>bona fide</i> free-living DPANN archaeon.</p>",
       "title": "Genomic insights into the <i>Archaea</i> inhabiting an Australian radioactive legacy site",
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -1868,13 +2026,13 @@
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al_2021_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy.pdf",
+          "title": "Vázquez-Campos et al_2021_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2021-10-20T23:35:47Z",
           "dateModified": "2021-10-21T00:10:26Z",
           "uri": "http://zotero.org/users/152779/items/VUAP4Y5C",
-          "path": "/home/xabi/Zotero/storage/VUAP4Y5C/V\u00e1zquez-Campos et al_2021_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy.pdf",
+          "path": "/home/xabi/Zotero/storage/VUAP4Y5C/Vázquez-Campos et al_2021_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy.pdf",
           "select": "zotero://select/library/items/VUAP4Y5C"
         }
       ],
@@ -1902,7 +2060,7 @@
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -1959,13 +2117,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al_2017_Response of microbial community function to fluctuating geochemical conditions.pdf",
+          "title": "Vázquez-Campos et al_2017_Response of microbial community function to fluctuating geochemical conditions.pdf",
           "tags": [],
           "relations": [],
           "dateAdded": "2017-09-01T03:02:58Z",
           "dateModified": "2020-06-22T00:15:34Z",
           "uri": "http://zotero.org/users/152779/items/KLXVEZQD",
-          "path": "/home/xabi/Zotero/storage/KLXVEZQD/V\u00e1zquez-Campos et al_2017_Response of microbial community function to fluctuating geochemical conditions.pdf",
+          "path": "/home/xabi/Zotero/storage/KLXVEZQD/Vázquez-Campos et al_2017_Response of microbial community function to fluctuating geochemical conditions.pdf",
           "select": "zotero://select/library/items/KLXVEZQD"
         },
         {
@@ -2001,12 +2159,12 @@
       "journalAbbreviation": "Environ Sci Technol",
       "DOI": "10.1021/acs.est.5b01342",
       "libraryCatalog": "ACS Publications",
-      "abstractNote": "The uptake and binding of uranium [as (UO2)2+] by a moderately acidophilic fungus, Coniochaeta fodinicola, recently isolated from a uranium mine site, is examined in this work in order to better understand the potential impact of organisms such as this on uranium sequestration in hydrometallurgical systems. Our results show that the viability of the fungal biomass is critical to their capacity to remove uranium from solution. Indeed, live biomass (viable cells based on vital staining) were capable of removing ~16 mg U/g dry weight in contrast with dead biomass (autoclaved) which removed ~45 mg U/g dry weight after 2 h. Furthermore, the uranium binds with different strength, with a fraction ranging from ~20\u201350% being easily leachable from the exposed biomass by a 10 min acid washing. Results from X-ray absorption spectroscopy measurements show that the strength of uranium binding is strongly influenced by cell viability, with live cells showing a more well-ordered uranium bonding environment, while the distance to carbon or phosphorus second neighbours is similar in all samples. When coupled with time resolved laser fluorescence and Fourier transformed infrared measurements, the importance of organic acids and phosphates, and polysaccharides, likely released with fungal cell death, appear to be the primary determinants of uranium binding in this system. These results provide an important progression to our understanding with regard to uranium sequestration in hydrometallurgical applications with implications to the unwanted retention of uranium in biofilms and/or its mobility in a remediation context.",
+      "abstractNote": "The uptake and binding of uranium [as (UO2)2+] by a moderately acidophilic fungus, Coniochaeta fodinicola, recently isolated from a uranium mine site, is examined in this work in order to better understand the potential impact of organisms such as this on uranium sequestration in hydrometallurgical systems. Our results show that the viability of the fungal biomass is critical to their capacity to remove uranium from solution. Indeed, live biomass (viable cells based on vital staining) were capable of removing ~16 mg U/g dry weight in contrast with dead biomass (autoclaved) which removed ~45 mg U/g dry weight after 2 h. Furthermore, the uranium binds with different strength, with a fraction ranging from ~20–50% being easily leachable from the exposed biomass by a 10 min acid washing. Results from X-ray absorption spectroscopy measurements show that the strength of uranium binding is strongly influenced by cell viability, with live cells showing a more well-ordered uranium bonding environment, while the distance to carbon or phosphorus second neighbours is similar in all samples. When coupled with time resolved laser fluorescence and Fourier transformed infrared measurements, the importance of organic acids and phosphates, and polysaccharides, likely released with fungal cell death, appear to be the primary determinants of uranium binding in this system. These results provide an important progression to our understanding with regard to uranium sequestration in hydrometallurgical applications with implications to the unwanted retention of uranium in biofilms and/or its mobility in a remediation context.",
       "title": "Uranium binding mechanisms of the acid-tolerant fungus <i>Coniochaeta fodinicola</i>",
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -2113,7 +2271,7 @@
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al. - 2015 - Uranium binding mechanisms just accepted.pdf",
+          "title": "Vázquez-Campos et al. - 2015 - Uranium binding mechanisms just accepted.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
@@ -2123,12 +2281,12 @@
           "dateAdded": "2015-06-25T06:45:23Z",
           "dateModified": "2018-04-13T07:46:14Z",
           "uri": "http://zotero.org/users/152779/items/M5MKBZUE",
-          "path": "/home/xabi/Zotero/storage/M5MKBZUE/V\u00e1zquez-Campos et al. - 2015 - Uranium binding mechanisms just accepted.pdf",
+          "path": "/home/xabi/Zotero/storage/M5MKBZUE/Vázquez-Campos et al. - 2015 - Uranium binding mechanisms just accepted.pdf",
           "select": "zotero://select/library/items/M5MKBZUE"
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al. - 2015 - Uranium binding mechanisms of the acid-tolerant fu.pdf",
+          "title": "Vázquez-Campos et al. - 2015 - Uranium binding mechanisms of the acid-tolerant fu.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
@@ -2138,12 +2296,12 @@
           "dateAdded": "2015-07-22T04:38:43Z",
           "dateModified": "2018-04-13T07:46:19Z",
           "uri": "http://zotero.org/users/152779/items/UV72343K",
-          "path": "/home/xabi/Zotero/storage/UV72343K/V\u00e1zquez-Campos et al. - 2015 - Uranium binding mechanisms of the acid-tolerant fu.pdf",
+          "path": "/home/xabi/Zotero/storage/UV72343K/Vázquez-Campos et al. - 2015 - Uranium binding mechanisms of the acid-tolerant fu.pdf",
           "select": "zotero://select/library/items/UV72343K"
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al. - 2015 - Uranium binding mechanisms with links.pdf",
+          "title": "Vázquez-Campos et al. - 2015 - Uranium binding mechanisms with links.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
@@ -2153,7 +2311,7 @@
           "dateAdded": "2015-07-22T04:38:48Z",
           "dateModified": "2018-04-13T07:46:14Z",
           "uri": "http://zotero.org/users/152779/items/FTNZZS6E",
-          "path": "/home/xabi/Zotero/storage/FTNZZS6E/V\u00e1zquez-Campos et al. - 2015 - Uranium binding mechanisms with links.pdf",
+          "path": "/home/xabi/Zotero/storage/FTNZZS6E/Vázquez-Campos et al. - 2015 - Uranium binding mechanisms with links.pdf",
           "select": "zotero://select/library/items/FTNZZS6E"
         }
       ],
@@ -2184,7 +2342,7 @@
       "creators": [
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
@@ -2269,7 +2427,7 @@
         },
         {
           "itemType": "attachment",
-          "title": "V\u00e1zquez-Campos et al. - 2017 - Uranium extraction from a low-grade, stockpiled, n.pdf",
+          "title": "Vázquez-Campos et al. - 2017 - Uranium extraction from a low-grade, stockpiled, n.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
@@ -2279,7 +2437,7 @@
           "dateAdded": "2017-03-27T22:33:51Z",
           "dateModified": "2018-04-13T07:46:48Z",
           "uri": "http://zotero.org/users/152779/items/EGJ35I9M",
-          "path": "/home/xabi/Zotero/storage/EGJ35I9M/V\u00e1zquez-Campos et al. - 2017 - Uranium extraction from a low-grade, stockpiled, n.pdf",
+          "path": "/home/xabi/Zotero/storage/EGJ35I9M/Vázquez-Campos et al. - 2017 - Uranium extraction from a low-grade, stockpiled, n.pdf",
           "select": "zotero://select/library/items/EGJ35I9M"
         }
       ],
@@ -2301,7 +2459,7 @@
       "extra": "64 citations (Crossref) [2022-11-05]\nCitation Key: wong_disentangling_2018",
       "journalAbbreviation": "ISME J",
       "DOI": "10.1038/s41396-018-0208-8",
-      "abstractNote": "The functional metagenomic potential of Shark Bay microbial mats was examined for the first time at a millimeter scale, employing shotgun sequencing of communities via the Illumina NextSeq 500 platform in conjunction with defined chemical analyses. A detailed functional metagenomic profile has elucidated key pathways and facilitated inference of critical microbial interactions. In addition, 87 medium-to-high-quality metagenome-assembled genomes (MAG) were assembled, including potentially novel bins under the deep-branching archaeal Asgard group (Thorarchaetoa and Lokiarchaeota). A range of pathways involved in carbon, nitrogen, sulfur, and phosphorus cycles were identified in mat metagenomes, with the Wood\u2013Ljungdahl pathway over-represented and inferred as a major carbon fixation mode. The top five sets of genes were affiliated to sulfate assimilation (cysNC cysNCD, sat), methanogenesis (hdrABC), Wood\u2013Ljungdahl pathways (cooS, coxSML), phosphate transport (pstB), and copper efflux (copA). Polyhydroxyalkanoate (PHA) synthase genes were over-represented at the surface, with PHA serving as a potential storage of fixed carbon. Sulfur metabolism genes were highly represented, in particular complete sets of genes responsible for both assimilatory and dissimilatory sulfate reduction. Pathways of environmental adaptation (UV, hypersalinity, oxidative stress, and heavy metal resistance) were also delineated, as well as putative viral defensive mechanisms (core genes of the CRISPR, BREX, and DISARM systems). This study provides new metagenome-based models of how biogeochemical cycles and adaptive responses may be partitioned in the microbial mats of Shark Bay.",
+      "abstractNote": "The functional metagenomic potential of Shark Bay microbial mats was examined for the first time at a millimeter scale, employing shotgun sequencing of communities via the Illumina NextSeq 500 platform in conjunction with defined chemical analyses. A detailed functional metagenomic profile has elucidated key pathways and facilitated inference of critical microbial interactions. In addition, 87 medium-to-high-quality metagenome-assembled genomes (MAG) were assembled, including potentially novel bins under the deep-branching archaeal Asgard group (Thorarchaetoa and Lokiarchaeota). A range of pathways involved in carbon, nitrogen, sulfur, and phosphorus cycles were identified in mat metagenomes, with the Wood–Ljungdahl pathway over-represented and inferred as a major carbon fixation mode. The top five sets of genes were affiliated to sulfate assimilation (cysNC cysNCD, sat), methanogenesis (hdrABC), Wood–Ljungdahl pathways (cooS, coxSML), phosphate transport (pstB), and copper efflux (copA). Polyhydroxyalkanoate (PHA) synthase genes were over-represented at the surface, with PHA serving as a potential storage of fixed carbon. Sulfur metabolism genes were highly represented, in particular complete sets of genes responsible for both assimilatory and dissimilatory sulfate reduction. Pathways of environmental adaptation (UV, hypersalinity, oxidative stress, and heavy metal resistance) were also delineated, as well as putative viral defensive mechanisms (core genes of the CRISPR, BREX, and DISARM systems). This study provides new metagenome-based models of how biogeochemical cycles and adaptive responses may be partitioned in the microbial mats of Shark Bay.",
       "title": "Disentangling the drivers of functional complexity at the metagenomic level in Shark Bay microbial mat microbiomes",
       "creators": [
         {
@@ -2326,7 +2484,7 @@
         },
         {
           "firstName": "Xabier",
-          "lastName": "V\u00e1zquez-Campos",
+          "lastName": "Vázquez-Campos",
           "creatorType": "author"
         },
         {
