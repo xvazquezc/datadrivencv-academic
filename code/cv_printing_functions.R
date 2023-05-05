@@ -520,7 +520,8 @@ create_PUB_object <- function(data_location,
     dplyr::ungroup() %>%
     dplyr::mutate(timeline = dplyr::case_when(count != 1 ~ "N/A", TRUE ~ as.character(year)))
   
-  ## preprints
+  ## preprints (only if there is some current ones)
+  if(length(pub[["preprints"]]) != 0){
   pub$preprints$section <- "preprints"
 
   pub$preprints$authors <- parse_creators(pub$preprints)
@@ -549,6 +550,8 @@ create_PUB_object <- function(data_location,
     dplyr::mutate(count = 1:dplyr::n()) %>%
     dplyr::ungroup() %>%
     dplyr::mutate(timeline = dplyr::case_when(count != 1 ~ "N/A", TRUE ~ as.character(year)))
+  }
+  
   
   ## conferences - oral
   pub$conf_oral$section <- "conf_oral"

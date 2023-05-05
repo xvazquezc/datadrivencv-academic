@@ -258,7 +258,7 @@ Publications {data-icon="book"}
 
 ```{r preprints_eval}
 # preprint section only if there is some active preprint AND it's long CV
-preprint_eval <- params$long_cv & !is.null(PUB[["preprints"]])
+preprint_eval <- params$long_cv & length(PUB[["preprints"]] != 0)
 ```
 
 ```{r preprints_title, eval = preprint_eval, results = "asis"}
