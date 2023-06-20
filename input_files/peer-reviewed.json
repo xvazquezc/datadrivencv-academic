@@ -96,13 +96,13 @@
   },
   "version": {
     "zotero": "6.0.26",
-    "bbt": "6.7.77"
+    "bbt": "6.7.79"
   },
   "collections": {},
   "items": [
     {
       "key": "DRZ59IKT",
-      "version": 21547,
+      "version": 21635,
       "itemType": "journalArticle",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2219418120",
       "volume": "120",
@@ -164,10 +164,14 @@
           "creatorType": "author"
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "tag": "paper of the month"
+        }
+      ],
       "relations": [],
       "dateAdded": "2023-04-18T22:51:58Z",
-      "dateModified": "2023-05-05T00:45:59Z",
+      "dateModified": "2023-05-30T04:41:36Z",
       "uri": "http://zotero.org/users/152779/items/DRZ59IKT",
       "itemID": 13205,
       "attachments": [
@@ -1137,10 +1141,14 @@
           "creatorType": "author"
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "tag": "paper of the month"
+        }
+      ],
       "relations": [],
       "dateAdded": "2023-03-21T23:22:17Z",
-      "dateModified": "2023-05-05T00:46:15Z",
+      "dateModified": "2023-05-22T06:56:02Z",
       "uri": "http://zotero.org/users/152779/items/N74LK53V",
       "itemID": 13199,
       "attachments": [
@@ -2511,11 +2519,14 @@
         },
         {
           "tag": "selected"
+        },
+        {
+          "tag": "paper of the month"
         }
       ],
       "relations": [],
       "dateAdded": "2018-01-15T23:27:18Z",
-      "dateModified": "2023-02-24T03:38:33Z",
+      "dateModified": "2023-05-22T06:55:51Z",
       "uri": "http://zotero.org/users/152779/items/JIYX4V4F",
       "itemID": 3080,
       "attachments": [

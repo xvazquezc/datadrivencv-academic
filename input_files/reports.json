@@ -96,7 +96,7 @@
   },
   "version": {
     "zotero": "6.0.26",
-    "bbt": "6.7.77"
+    "bbt": "6.7.79"
   },
   "collections": {},
   "items": [
@@ -159,6 +159,113 @@
       "itemKey": "DLXYG9FF",
       "libraryID": 1,
       "select": "zotero://select/library/items/DLXYG9FF"
+    },
+    {
+      "key": "IWFFF2GJ",
+      "version": 21739,
+      "itemType": "report",
+      "url": "https://www.who.int/publications/m/item/who-bs-2022.2416",
+      "place": "Geneva, CH",
+      "pages": "63",
+      "date": "2022 Apr 4-8",
+      "accessDate": "2023-06-09T03:34:01Z",
+      "seriesTitle": "Expert Committee on Biological Standardization",
+      "institution": "World Health Organization",
+      "reportType": "WHO Publication",
+      "language": "en",
+      "abstractNote": "Publications of the World Health Organization",
+      "reportNumber": "WHO/BS/2022.2416",
+      "title": "A WHO collaborative study to evaluate the candidate 1st WHO International Reference Reagents for Gut Microbiome analysis by Next-Generation Sequencing",
+      "creators": [
+        {
+          "firstName": "Chrysi",
+          "lastName": "Sergaki",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Saba",
+          "lastName": "Anwar",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jack",
+          "lastName": "Hassall",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alastair",
+          "lastName": "Logan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Peter",
+          "lastName": "Rigsby",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sjoerd",
+          "lastName": "Rijpkema",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gregory",
+          "lastName": "Amos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "",
+          "lastName": "study participants",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2023-06-09T03:34:01Z",
+      "dateModified": "2023-06-09T03:53:36Z",
+      "uri": "http://zotero.org/users/152779/items/IWFFF2GJ",
+      "itemID": 13252,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "2022_A WHO collaborative study to evaluate the candidate 1st WHO International.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-06-09T03:39:09Z",
+          "dateModified": "2023-06-09T03:39:21Z",
+          "uri": "http://zotero.org/users/152779/items/PX8NIJIC",
+          "path": "/home/xabi/Zotero/storage/PX8NIJIC/2022_A WHO collaborative study to evaluate the candidate 1st WHO International.pdf",
+          "select": "zotero://select/library/items/PX8NIJIC"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-06-09T03:34:09Z",
+          "dateModified": "2023-06-09T03:34:09Z",
+          "uri": "http://zotero.org/users/152779/items/TKMCUHJY",
+          "path": "/home/xabi/Zotero/storage/TKMCUHJY/who-bs-2022.html",
+          "select": "zotero://select/library/items/TKMCUHJY"
+        }
+      ],
+      "notes": [
+        {
+          "key": "TKZLNKF8",
+          "version": 21740,
+          "itemType": "note",
+          "parentItem": "IWFFF2GJ",
+          "note": "<div data-schema-version=\"8\"><p>Standard appeared in the <em>75th WHO Expert Committee on Biological Standardization</em></p>\n</div>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-06-09T03:53:44Z",
+          "dateModified": "2023-06-09T03:54:30Z",
+          "uri": "http://zotero.org/users/152779/items/TKZLNKF8"
+        }
+      ],
+      "citationKey": "sergaki_WHO_2022",
+      "itemKey": "IWFFF2GJ",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/IWFFF2GJ"
     }
   ]
 }
