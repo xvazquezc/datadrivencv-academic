@@ -24,6 +24,21 @@
     }
 }
 
+
+/*
+Source - https://stackoverflow.com/a
+Posted by herrstrietzel, modified by community. See post 'Timeline' for change history
+Retrieved 2025-11-25, License - CC BY-SA 4.0
+*/
+@font-face {
+  font-family: 'Montserrat';
+  src: url(fonts/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
+  font-weight: 100 1000;
+  font-stretch: 0% 200%;
+}
+
+
 * {
     --pagedjs-margin-left: 5.25mm;
     --pagedjs-margin-right: 10.5mm;
