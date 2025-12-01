@@ -7,9 +7,8 @@
       "asciiBibLaTeX": false,
       "asciiBibTeX": true,
       "autoAbbrev": false,
-      "autoAbbrevStyle": "",
       "autoExport": "immediate",
-      "autoExportDelay": 2,
+      "autoExportDelay": 5,
       "autoExportIdleWait": 10,
       "autoExportPathReplaceDiacritics": false,
       "autoExportPathReplaceDirSep": "-",
@@ -21,48 +20,56 @@
       "biblatexExtendedDateFormat": true,
       "biblatexExtendedNameFormat": true,
       "biblatexExtractEprint": true,
+      "biblatexUsePrefix": true,
+      "bibtexEditionOrdinal": false,
       "bibtexParticleNoOp": false,
       "bibtexURL": "off",
       "cache": true,
-      "cacheFlushInterval": 5,
+      "cacheDelete": false,
       "charmap": "",
+      "chinese": false,
+      "chineseSplitName": true,
       "citeCommand": "cite",
+      "citekeyCaseInsensitive": true,
       "citekeyFold": true,
-      "citekeyFormat": "auth.lower+\"_\"+shorttitle(1,1)+\"_\"+year",
+      "citekeyFormat": "auth.lower + shorttitle(3, 3) + year",
       "citekeySearch": true,
       "citekeyUnsafeChars": "\\\"#%'(),={}~",
       "csquotes": "",
       "DOIandURL": "both",
       "exportBibTeXStrings": "off",
-      "exportBraceProtection": false,
-      "exportTitleCase": false,
-      "extraMergeCitekeys": true,
-      "extraMergeCSL": true,
-      "extraMergeTeX": true,
+      "exportBraceProtection": true,
+      "exportSort": "citekey",
+      "exportTitleCase": true,
+      "extraMergeCitekeys": false,
+      "extraMergeCSL": false,
+      "extraMergeTeX": false,
       "git": "config",
       "import": true,
       "importBibTeXStrings": true,
       "importCaseProtection": "as-needed",
       "importCitationKey": true,
+      "importDetectURLs": true,
       "importExtra": true,
       "importJabRefAbbreviations": true,
       "importJabRefStrings": true,
       "importNoteToExtra": "",
+      "importPlaceEvent": "inproceedings,conference,presentation,talk",
       "importSentenceCase": "on+guess",
+      "importSentenceCaseQuoted": true,
       "importUnknownTexCommand": "ignore",
-      "itemObserverDelay": 100,
+      "itemObserverDelay": 5,
       "jabrefFormat": 0,
-      "jieba": false,
+      "japanese": false,
       "keyConflictPolicy": "keep",
-      "keyScope": "global",
-      "kuroshiro": false,
+      "keyScope": "library",
       "language": "langid",
       "mapMath": "",
       "mapText": "",
-      "mapUnicode": "conservative",
+      "packages": "",
       "parseParticles": true,
       "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
-      "postscript": "if (Translator.BetterCSL) {\n  csl.add({ name: 'keywords', value: zotero.tags, sep: ', ', enc: 'tags' });\n}\n",
+      "postscript": "",
       "postscriptOverride": "",
       "preferencesOverride": "",
       "qualityReport": false,
@@ -74,60 +81,61 @@
       "rawImports": false,
       "rawLaTag": "#LaTeX",
       "relativeFilePaths": false,
-      "retainCache": false,
       "separatorList": "and",
       "separatorNames": "and",
-      "skipFields": "abstract,file",
+      "skipFields": "",
       "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
       "startupProgress": "popup",
       "strings": "",
       "stringsOverride": "",
-      "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
+      "verbatimFields": "url,doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/, keywords",
       "warnBulkModify": 10,
       "warnTitleCased": false
     },
     "options": {
-      "exportNotes": true,
+      "Items": true,
+      "Normalize": false,
+      "Preferences": true,
+      "biblatexAPA": false,
+      "biblatexChicago": false,
       "exportFileData": false,
+      "exportNotes": true,
       "keepUpdated": false,
       "worker": true,
-      "Normalize": false
+      "exportDir": "/home/xabi/Desktop/datadrivencv-academic/input_files",
+      "exportPath": "/home/xabi/Desktop/datadrivencv-academic/input_files/under_review.json"
     }
   },
   "version": {
-    "zotero": "6.0.26",
-    "bbt": "6.7.79"
+    "zotero": "7.0.30",
+    "bbt": "7.0.68"
   },
   "collections": {},
   "items": [
     {
-      "key": "WLAXKQS5",
-      "version": 20957,
+      "key": "F2KP4VBM",
+      "version": 30478,
       "itemType": "journalArticle",
-      "volume": "JANDJRL-S-22-00854",
-      "publicationTitle": "Journal of the Academy of Nutrition and Dietetics",
-      "date": "2022 Nov 10",
-      "journalAbbreviation": "J Acad Nutr Diet",
-      "title": "Effect of standardized ginger root powder on gastrointestinal bacteria composition, gastrointestinal symptoms, mental health, fatigue, and quality of life: A double-blind placebo-controlled trial",
+      "volume": "256901951",
+      "pages": "Accepted",
+      "publicationTitle": "Mycology",
+      "date": "2025",
+      "journalAbbreviation": "Mycology",
+      "title": "Integrating novel culturing and culture‐independent methods to unveil soil fungal dark matter, functional guilds and environmental drivers across Robinson Ridge, East Antarctica",
       "creators": [
         {
-          "firstName": "Megan",
-          "lastName": "Crichton",
+          "firstName": "Nicole",
+          "lastName": "Benaud",
           "creatorType": "author"
         },
         {
-          "firstName": "Skye",
-          "lastName": "Marshall",
+          "firstName": "Náthali Maria",
+          "lastName": "Machado de Lima",
           "creatorType": "author"
         },
         {
-          "firstName": "Wolfgang",
-          "lastName": "Marx",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Elizabeth",
-          "lastName": "Isenring",
+          "firstName": "Sin Yin",
+          "lastName": "Wong",
           "creatorType": "author"
         },
         {
@@ -136,13 +144,126 @@
           "creatorType": "author"
         },
         {
-          "firstName": "Samantha L.",
-          "lastName": "Dawson",
+          "firstName": "Priyanka Rani",
+          "lastName": "Majumdara",
           "creatorType": "author"
         },
         {
-          "firstName": "Anna",
-          "lastName": "Lohning",
+          "firstName": "Daniel",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kate",
+          "lastName": "Montgomery",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Merle",
+          "lastName": "Wiechers",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Brett A.",
+          "lastName": "Summerell",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Belinda C.",
+          "lastName": "Ferrari",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-24T07:31:48Z",
+      "dateModified": "2025-12-01T06:07:50Z",
+      "uri": "http://zotero.org/users/152779/items/F2KP4VBM",
+      "itemID": 15396,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "benaudIntegratingNovelCulturing2025",
+      "itemKey": "F2KP4VBM",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/F2KP4VBM"
+    },
+    {
+      "key": "B9ELIWLC",
+      "version": 30478,
+      "itemType": "journalArticle",
+      "volume": "FEMSEC-25-11-0297",
+      "publicationTitle": "FEMS Microbiology Ecology",
+      "date": "2025",
+      "journalAbbreviation": "FEMS Microbiol Ecol",
+      "title": "Carbon monoxide dehydrogenase-encoding microorganisms in volcanic astrobiological analogues: an enzyme system to investigate the evolution of life",
+      "creators": [
+        {
+          "firstName": "Vito",
+          "lastName": "Latorre",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Belinda C.",
+          "lastName": "Ferrari",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marcela",
+          "lastName": "Hernández",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-11-30T23:10:28Z",
+      "dateModified": "2025-12-01T06:07:42Z",
+      "uri": "http://zotero.org/users/152779/items/B9ELIWLC",
+      "itemID": 15675,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "latorreCarbonMonoxideDehydrogenaseencoding2025",
+      "itemKey": "B9ELIWLC",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/B9ELIWLC"
+    },
+    {
+      "key": "UE97NYE9",
+      "version": 30115,
+      "itemType": "journalArticle",
+      "volume": "3329896",
+      "publicationTitle": "Environmental Microbiology Reports",
+      "date": "2025",
+      "journalAbbreviation": "Environ Microbiol Rep",
+      "title": "Bushfire and mining impacts on a threatened swamp ecosystem: responses of the soil microbial community",
+      "creators": [
+        {
+          "firstName": "Náthali Maria",
+          "lastName": "Machado de Lima",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alexandria",
+          "lastName": "Thomsen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mark",
+          "lastName": "Ooi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Miriam",
+          "lastName": "Muñoz-Rojas",
           "creatorType": "author"
         }
       ],
@@ -152,17 +273,98 @@
           "type": 1
         }
       ],
-      "relations": [],
-      "dateAdded": "2022-09-16T05:52:46Z",
-      "dateModified": "2022-11-30T06:38:40Z",
-      "uri": "http://zotero.org/users/152779/items/WLAXKQS5",
-      "itemID": 12827,
+      "relations": {},
+      "dateAdded": "2024-04-19T06:30:44Z",
+      "dateModified": "2025-10-19T23:43:17Z",
+      "uri": "http://zotero.org/users/152779/items/UE97NYE9",
+      "itemID": 14425,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Machado de Lima et al_Bushfire and mining impacts on a threatened swamp ecosystem.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-19T06:35:05Z",
+          "dateModified": "2024-04-19T06:35:09Z",
+          "uri": "http://zotero.org/users/152779/items/9C8MY6YT",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/9C8MY6YT/Machado de Lima et al_Bushfire and mining impacts on a threatened swamp ecosystem.pdf",
+          "select": "zotero://select/library/items/9C8MY6YT"
+        }
+      ],
+      "notes": [],
+      "citationKey": "machadodelimaBushfireMiningImpacts2025",
+      "itemKey": "UE97NYE9",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/UE97NYE9"
+    },
+    {
+      "key": "WGU67SLT",
+      "version": 30478,
+      "itemType": "journalArticle",
+      "volume": "ISMEJ-D-25-01717",
+      "publicationTitle": "ISME Communications",
+      "date": "2025",
+      "journalAbbreviation": "ISME Commun",
+      "title": "Trace gas oxidation supports sub-surface microbial communities across Namib Desert fog and aridity gradients",
+      "creators": [
+        {
+          "firstName": "Dana Z.",
+          "lastName": "Tribbia",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Pedro H.",
+          "lastName": "Lebre",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Angelique E.",
+          "lastName": "Ray",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Thomas",
+          "lastName": "Laird",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Náthali",
+          "lastName": "Machado de Lima",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gillian",
+          "lastName": "Mags-Kölling",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Don A.",
+          "lastName": "Cowan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Belinda C.",
+          "lastName": "Ferrari",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-09-14T23:36:57Z",
+      "dateModified": "2025-12-01T06:07:45Z",
+      "uri": "http://zotero.org/users/152779/items/WGU67SLT",
+      "itemID": 15499,
       "attachments": [],
       "notes": [],
-      "citationKey": "crichton_Effect_2022",
-      "itemKey": "WLAXKQS5",
+      "citationKey": "tribbiaTraceGasOxidation2025",
+      "itemKey": "WGU67SLT",
       "libraryID": 1,
-      "select": "zotero://select/library/items/WLAXKQS5"
+      "select": "zotero://select/library/items/WGU67SLT"
     }
   ]
 }

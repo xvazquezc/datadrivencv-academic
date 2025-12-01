@@ -7,9 +7,8 @@
       "asciiBibLaTeX": false,
       "asciiBibTeX": true,
       "autoAbbrev": false,
-      "autoAbbrevStyle": "",
       "autoExport": "immediate",
-      "autoExportDelay": 2,
+      "autoExportDelay": 5,
       "autoExportIdleWait": 10,
       "autoExportPathReplaceDiacritics": false,
       "autoExportPathReplaceDirSep": "-",
@@ -21,48 +20,56 @@
       "biblatexExtendedDateFormat": true,
       "biblatexExtendedNameFormat": true,
       "biblatexExtractEprint": true,
+      "biblatexUsePrefix": true,
+      "bibtexEditionOrdinal": false,
       "bibtexParticleNoOp": false,
       "bibtexURL": "off",
       "cache": true,
-      "cacheFlushInterval": 5,
+      "cacheDelete": false,
       "charmap": "",
+      "chinese": false,
+      "chineseSplitName": true,
       "citeCommand": "cite",
+      "citekeyCaseInsensitive": true,
       "citekeyFold": true,
-      "citekeyFormat": "auth.lower+\"_\"+shorttitle(1,1)+\"_\"+year",
+      "citekeyFormat": "auth.lower + shorttitle(3, 3) + year",
       "citekeySearch": true,
       "citekeyUnsafeChars": "\\\"#%'(),={}~",
       "csquotes": "",
       "DOIandURL": "both",
       "exportBibTeXStrings": "off",
-      "exportBraceProtection": false,
-      "exportTitleCase": false,
-      "extraMergeCitekeys": true,
-      "extraMergeCSL": true,
-      "extraMergeTeX": true,
+      "exportBraceProtection": true,
+      "exportSort": "citekey",
+      "exportTitleCase": true,
+      "extraMergeCitekeys": false,
+      "extraMergeCSL": false,
+      "extraMergeTeX": false,
       "git": "config",
       "import": true,
       "importBibTeXStrings": true,
       "importCaseProtection": "as-needed",
       "importCitationKey": true,
+      "importDetectURLs": true,
       "importExtra": true,
       "importJabRefAbbreviations": true,
       "importJabRefStrings": true,
       "importNoteToExtra": "",
+      "importPlaceEvent": "inproceedings,conference,presentation,talk",
       "importSentenceCase": "on+guess",
+      "importSentenceCaseQuoted": true,
       "importUnknownTexCommand": "ignore",
-      "itemObserverDelay": 100,
+      "itemObserverDelay": 5,
       "jabrefFormat": 0,
-      "jieba": false,
+      "japanese": false,
       "keyConflictPolicy": "keep",
-      "keyScope": "global",
-      "kuroshiro": false,
+      "keyScope": "library",
       "language": "langid",
       "mapMath": "",
       "mapText": "",
-      "mapUnicode": "conservative",
+      "packages": "",
       "parseParticles": true,
       "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
-      "postscript": "if (Translator.BetterCSL) {\n  csl.add({ name: 'keywords', value: zotero.tags, sep: ', ', enc: 'tags' });\n}\n",
+      "postscript": "",
       "postscriptOverride": "",
       "preferencesOverride": "",
       "qualityReport": false,
@@ -74,29 +81,34 @@
       "rawImports": false,
       "rawLaTag": "#LaTeX",
       "relativeFilePaths": false,
-      "retainCache": false,
       "separatorList": "and",
       "separatorNames": "and",
-      "skipFields": "abstract,file",
+      "skipFields": "",
       "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
       "startupProgress": "popup",
       "strings": "",
       "stringsOverride": "",
-      "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
+      "verbatimFields": "url,doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/, keywords",
       "warnBulkModify": 10,
       "warnTitleCased": false
     },
     "options": {
-      "exportNotes": true,
+      "Items": true,
+      "Normalize": false,
+      "Preferences": true,
+      "biblatexAPA": false,
+      "biblatexChicago": false,
       "exportFileData": false,
+      "exportNotes": true,
       "keepUpdated": false,
       "worker": true,
-      "Normalize": false
+      "exportDir": "/home/xabi/Desktop/datadrivencv-academic/input_files",
+      "exportPath": "/home/xabi/Desktop/datadrivencv-academic/input_files/conf_coauth.json"
     }
   },
   "version": {
-    "zotero": "6.0.26",
-    "bbt": "6.7.79"
+    "zotero": "7.0.30",
+    "bbt": "7.0.68"
   },
   "collections": {
     "ZJGSDJNR": {
@@ -125,7 +137,9 @@
         13013,
         13020,
         13021,
-        13171
+        13171,
+        14820,
+        14825
       ]
     },
     "6EQZV4UR": {
@@ -139,103 +153,12 @@
         11158,
         11681,
         12299,
-        13022
+        13022,
+        14823
       ]
     }
   },
   "items": [
-    {
-      "key": "SX8N89JG",
-      "version": 21550,
-      "itemType": "conferencePaper",
-      "url": "https://www.biorxiv.org/content/10.1101/2022.11.16.516813v1",
-      "rights": "© 2022, Posted by Cold Spring Harbor Laboratory. The copyright holder for this pre-print is the author. All rights reserved. The material may not be redistributed, re-used or adapted without the author's permission.",
-      "place": "Lorne, VIC, Australia",
-      "pages": "2022.11.16.516813",
-      "date": "2023 Feb 2-5",
-      "extra": "Section: New Results",
-      "DOI": "10.1101/2022.11.16.516813",
-      "accessDate": "2022-11-22T00:43:39Z",
-      "libraryCatalog": "bioRxiv",
-      "conferenceName": "28th Annual Lorne Proteomics Symposium",
-      "language": "en",
-      "abstractNote": "Significant recent advances in structural biology, particularly in the field of cryo-electron microscopy, have dramatically expanded our ability to create structural models of proteins and protein complexes. However, many proteins remain refractory to these approaches because of their low abundance, low stability or – in the case of complexes – simply not having yet been analysed. Here, we demonstrate the power of combining cross-linking mass spectrometry (XL-MS) with artificial intelligence-based structure prediction to discover and experimentally substantiate models for protein and protein complex structures at proteome scale. We present the deepest XL-MS dataset to date, describing 28,910 unique residue pairs captured across 4,084 unique human proteins and 2,110 unique protein-protein interactions. We show that integrative models of complexes driven by AlphaFold Multimer and inspired and corroborated by the XL-MS data offer new opportunities to deeply mine the structural proteome and interactome and reveal new mechanisms underlying protein structure and function.",
-      "title": "Cross-linking mass spectrometry discovers, evaluates, and validates the experimental and predicted structural proteome",
-      "creators": [
-        {
-          "firstName": "Tara K.",
-          "lastName": "Bartolec",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Xabier",
-          "lastName": "Vázquez-Campos",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Alexander",
-          "lastName": "Norman",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Clement",
-          "lastName": "Luong",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Richard J.",
-          "lastName": "Payne",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Marc R.",
-          "lastName": "Wilkins",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Joel P.",
-          "lastName": "Mackay",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Jason K. K.",
-          "lastName": "Low",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [
-        {
-          "tag": "oral presentation"
-        },
-        {
-          "tag": "abstract"
-        }
-      ],
-      "relations": [],
-      "dateAdded": "2023-02-06T05:10:16Z",
-      "dateModified": "2023-02-23T04:25:33Z",
-      "uri": "http://zotero.org/users/152779/items/SX8N89JG",
-      "itemID": 13171,
-      "attachments": [],
-      "notes": [
-        {
-          "key": "VB792ZEG",
-          "version": 21403,
-          "itemType": "note",
-          "parentItem": "SX8N89JG",
-          "note": "<div data-schema-version=\"8\"><p>Abstract + Oral presentation</p>\n</div>",
-          "tags": [],
-          "relations": {},
-          "dateAdded": "2023-02-06T05:16:49Z",
-          "dateModified": "2023-02-06T05:17:02Z",
-          "uri": "http://zotero.org/users/152779/items/VB792ZEG"
-        }
-      ],
-      "citationKey": "bartolec_Crosslinking_2023",
-      "itemKey": "SX8N89JG",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/SX8N89JG"
-    },
     {
       "key": "BIQDQ7EZ",
       "version": 20909,
@@ -306,7 +229,7 @@
           "tag": "selected"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2021-11-26T06:14:58Z",
       "dateModified": "2022-11-18T03:40:57Z",
       "uri": "http://zotero.org/users/152779/items/BIQDQ7EZ",
@@ -316,11 +239,11 @@
           "itemType": "attachment",
           "title": "Bartolec et al_2022_Exploring the human structural proteome, complexome and interactome with deep,.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2022-02-07T02:10:40Z",
           "dateModified": "2022-02-07T02:10:42Z",
           "uri": "http://zotero.org/users/152779/items/589KWTHG",
-          "path": "/home/xabi/Zotero/storage/589KWTHG/Bartolec et al_2022_Exploring the human structural proteome, complexome and interactome with deep,.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/589KWTHG/Bartolec et al_2022_Exploring the human structural proteome, complexome and interactome with deep,.pdf",
           "select": "zotero://select/library/items/589KWTHG"
         }
       ],
@@ -354,6 +277,98 @@
       "itemKey": "BIQDQ7EZ",
       "libraryID": 1,
       "select": "zotero://select/library/items/BIQDQ7EZ"
+    },
+    {
+      "key": "SX8N89JG",
+      "version": 22706,
+      "itemType": "conferencePaper",
+      "url": "https://www.biorxiv.org/content/10.1101/2022.11.16.516813v1",
+      "rights": "© 2022, Posted by Cold Spring Harbor Laboratory. The copyright holder for this pre-print is the author. All rights reserved. The material may not be redistributed, re-used or adapted without the author's permission.",
+      "place": "Lorne, VIC, Australia",
+      "pages": "2022.11.16.516813",
+      "date": "2023 Feb 2-5",
+      "extra": "Section: New Results",
+      "DOI": "10.1101/2022.11.16.516813",
+      "accessDate": "2022-11-22T00:43:39Z",
+      "libraryCatalog": "bioRxiv",
+      "conferenceName": "28th Annual Lorne Proteomics Symposium",
+      "language": "en",
+      "abstractNote": "Significant recent advances in structural biology, particularly in the field of cryo-electron microscopy, have dramatically expanded our ability to create structural models of proteins and protein complexes. However, many proteins remain refractory to these approaches because of their low abundance, low stability or – in the case of complexes – simply not having yet been analysed. Here, we demonstrate the power of combining cross-linking mass spectrometry (XL-MS) with artificial intelligence-based structure prediction to discover and experimentally substantiate models for protein and protein complex structures at proteome scale. We present the deepest XL-MS dataset to date, describing 28,910 unique residue pairs captured across 4,084 unique human proteins and 2,110 unique protein-protein interactions. We show that integrative models of complexes driven by AlphaFold Multimer and inspired and corroborated by the XL-MS data offer new opportunities to deeply mine the structural proteome and interactome and reveal new mechanisms underlying protein structure and function.",
+      "title": "Cross-linking mass spectrometry discovers, evaluates, and validates the experimental and predicted structural proteome",
+      "creators": [
+        {
+          "firstName": "Tara K.",
+          "lastName": "Bartolec",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alexander",
+          "lastName": "Norman",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Clement",
+          "lastName": "Luong",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Richard J.",
+          "lastName": "Payne",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marc R.",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Joel P.",
+          "lastName": "Mackay",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jason K. K.",
+          "lastName": "Low",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "oral presentation"
+        },
+        {
+          "tag": "abstract"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2023-02-06T05:10:16Z",
+      "dateModified": "2023-08-31T00:53:38Z",
+      "uri": "http://zotero.org/users/152779/items/SX8N89JG",
+      "itemID": 13171,
+      "attachments": [],
+      "notes": [
+        {
+          "key": "VB792ZEG",
+          "version": 21403,
+          "itemType": "note",
+          "parentItem": "SX8N89JG",
+          "note": "<div data-schema-version=\"8\"><p>Abstract + Oral presentation</p>\n</div>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-02-06T05:16:49Z",
+          "dateModified": "2023-02-06T05:17:02Z",
+          "uri": "http://zotero.org/users/152779/items/VB792ZEG"
+        }
+      ],
+      "citationKey": "bartolecCrosslinkingMassSpectrometry2023",
+      "itemKey": "SX8N89JG",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/SX8N89JG"
     },
     {
       "key": "DUMKJGU5",
@@ -403,7 +418,7 @@
           "tag": "selected"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2018-06-04T05:02:26Z",
       "dateModified": "2022-11-18T03:41:02Z",
       "uri": "http://zotero.org/users/152779/items/DUMKJGU5",
@@ -413,11 +428,11 @@
           "itemType": "attachment",
           "title": "Chilton et al_2018_Microbial profiling of the Himalayan Puga geothermal system.docx",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2018-06-04T05:05:25Z",
           "dateModified": "2018-06-04T05:05:25Z",
           "uri": "http://zotero.org/users/152779/items/RTFMFYQF",
-          "path": "/home/xabi/Zotero/storage/RTFMFYQF/Chilton et al_2018_Microbial profiling of the Himalayan Puga geothermal system.docx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/RTFMFYQF/Chilton et al_2018_Microbial profiling of the Himalayan Puga geothermal system.docx",
           "select": "zotero://select/library/items/RTFMFYQF"
         }
       ],
@@ -493,7 +508,7 @@
           "tag": "selected"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2017-07-07T06:33:15Z",
       "dateModified": "2022-11-18T03:41:11Z",
       "uri": "http://zotero.org/users/152779/items/RK2XHF87",
@@ -501,24 +516,26 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=907a995491&view=att&th=15c1b66ea142dcd8&attid=0.1&disp=safe&zw&saddbat=ANGjdJ9Gi7EDeHPdR8DIokh_6FhQy4SVhsAuXugCAiTSKEh8AY_PCx7yqG1RgzBGlA2df6Lg45FFUx6ZPshdofESNeN1YO7GickakQq9fWtMg9ROAPJjx4XYP9wpPNQo1NudpiCdr_YWjx-buaPVg9VDfsAd2BNg4JGod4CakrWfL063kXS7An1_DX2jOv9dFkxvbE0PrX2PLObqELCMmSqyK2OtvYx1tZpfF_ZS6xcTVHlxJRYT2xg9gsy4fYU7srMrc7CB89SPU3hArFIiCRMdYTBFsbI7XfHvslpcIQ7VU-4aYxlW38PbZfSjw4SjDKspRNsJlbcsNeGKbmWYSo9tgOQJlmer__OyNRLbyUPprb5Z3xpvn99RXPHTrcWnQeL34-qrB0ef8HGal3BemMrlQLbT-uKhIvsxNBQUb3wATFMFynRsEC7YrMTdoGyRa5z8ke-3lDWjDg9XkzluLMg4bm_t9QX1dXQJ0KwC6THGYygv-UhgwN8GaBOKKGwvKUDFLz-zCPiKIAeX5NhKPTud95vPq-UReMsfwU7kY7lU3CLZ90aRnu7J3VUL9XuOdOvalACj7p1BmZCLGsW3zD0KXBhsBIhWEEJHZG-rzh-MQOzwrWqN928y1tEsX-A",
           "title": "0.docx",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2017-07-07T06:34:40Z",
           "dateModified": "2017-07-07T06:34:47Z",
           "uri": "http://zotero.org/users/152779/items/3ISN63UX",
-          "path": "/home/xabi/Zotero/storage/3ISN63UX/0.docx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/3ISN63UX/0.docx",
           "select": "zotero://select/library/items/3ISN63UX"
         },
         {
           "itemType": "attachment",
+          "url": "https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=907a995491&view=att&th=15c8adc31e42288d&attid=0.1&disp=safe&zw&saddbat=ANGjdJ8MrzW9o0b_RjZTzdDGmAJypyo8fm2qX_cmcq28n9Lx0LIKBVVMn5kQ3xCxsqONj_jYnW1iqsR277FnLaQhAjU1IYRpkfUWLEFC7KWBLbE8nF2KPj_sTyWuKgdbyWtKCaUB2T-tkgiI_Ok6xhRLnrl-I3mwLpV9UkXn63xlqvV-PQ7By8cygpNhD3fUoycOiFPSrOraUVuDsBNu28wKBqCeZUkFWubeUxz1ATZW9hiungPbngK_XN0vL-XfUrHkzzKFTjf1LRBPb2-Jj5dQmMx8yOkGstuGIXOUV8PvpCYKaaNdB9-qGki28APzftKX8EVzY40O42txDiTvb6a9miETBcvvwhldqby0ZlitGknJXEfKVbdr3JSyBnrsVv2QZsEQv1SN8XvG4FIfkGnftUG-yCLf_bwOo5UUtDI6X-1Qf_hUDa8OHZWfXaqjU304obLZa6ZJh7STaAPJt2ijTwur0IkPFTtX2NZz7dny39nvt5-mGkgAwUR9j74IXh2XNIQM8otdRzXer6DnOk5k1BFr9t5qU2KbkjG5bbLL4G8OUbLVqvw2c-TuuZXEPy2xWxKF962NjEJ65XJrf8NxyAKdvOH2rYMIJvUcoITx8HvV22G72PA4-PDWZTw",
           "title": "0.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2017-07-07T06:34:10Z",
           "dateModified": "2017-07-07T06:34:20Z",
           "uri": "http://zotero.org/users/152779/items/24G5MHTR",
-          "path": "/home/xabi/Zotero/storage/24G5MHTR/0.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/24G5MHTR/0.pdf",
           "select": "zotero://select/library/items/24G5MHTR"
         }
       ],
@@ -597,7 +614,7 @@
           "tag": "selected"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2019-02-19T23:39:03Z",
       "dateModified": "2022-11-18T03:41:19Z",
       "uri": "http://zotero.org/users/152779/items/R653B6ZU",
@@ -677,7 +694,7 @@
           "tag": "poster"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2017-05-30T06:45:09Z",
       "dateModified": "2023-02-23T04:27:11Z",
       "uri": "http://zotero.org/users/152779/items/WW7DN23A",
@@ -685,13 +702,14 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=907a995491&view=att&th=15ac4d832e0491d9&attid=0.1&disp=safe&zw&saddbat=ANGjdJ8DN2v_9QFhDUSLMoHB25Hs7j94CBg2wqPWndb_6D6ephUzvzlUX57jfzC-srUUmRFMkWFu-Is0AMhTf2eQwNc5I1K4uwMrOy8kfJfp4fwx1yZhO_0qqOxQM_VTZgLq6C0Pbvw7zYDMKsyw6ssp3KY3ZbHnnLdKsl0PUx3ArRJHqpzZCLKVXcn69Qqh7dZnXnSNrGr4qxYhnqCpCrflB-ECSm1JUGRHEo3KVNpm0MPSxQbv7UIZROqZVbB--vNk8pa0s59EU7aYSjJtb64xkiY8NHXa_AnrJPvMTg5hXD77L2VZnGHAJrdVpsfLpPDcadxzi3TCXmm84imneND-nDoSJIJsBWDfQyySCPspDjhnvc9-E76dPHBfy_dKb9iICKNTkJfhzGdCq5zNaLxCywqMzVcNqZvr_c2n3K_LLxDwIi02-MLFv3UD74epWN7wOq9-oFgWQT2O7ROIl7fbnW7XhD8Dgv6F2_87BfQcNGLOR_GncQcC5jOFkdpygiTsaw5aQB5ddtQlRrqkxax-WBNGYH3sMFXWNNWG1NLMj8Y6a2fHDsi6JV8vNQPnIhjOAfX0Xi47HWZVRkPGo8t9CjilZU9VePAFbgZ13rU3W9y6RlgaGbOo24ko9i8",
           "title": "Payne et al. - 2017 - Impacts of dynamic geochemical conditions on pluto.doc",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2017-05-30T06:47:56Z",
           "dateModified": "2017-05-30T06:50:28Z",
           "uri": "http://zotero.org/users/152779/items/Z57KSUI6",
-          "path": "/home/xabi/Zotero/storage/Z57KSUI6/Payne et al. - 2017 - Impacts of dynamic geochemical conditions on pluto.doc",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/Z57KSUI6/Payne et al. - 2017 - Impacts of dynamic geochemical conditions on pluto.doc",
           "select": "zotero://select/library/items/Z57KSUI6"
         }
       ],
@@ -812,7 +830,7 @@
           "tag": "poster"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2019-02-18T02:44:33Z",
       "dateModified": "2023-02-23T04:25:50Z",
       "uri": "http://zotero.org/users/152779/items/VN3XAJCB",
@@ -823,6 +841,182 @@
       "itemKey": "VN3XAJCB",
       "libraryID": 1,
       "select": "zotero://select/library/items/VN3XAJCB"
+    },
+    {
+      "key": "L359985N",
+      "version": 29237,
+      "itemType": "journalArticle",
+      "volume": "14",
+      "issue": "3",
+      "pages": "93-143",
+      "publicationTitle": "Journal of Hearing Science",
+      "date": "2024 Sep 15-17",
+      "journalAbbreviation": "J Hear Sci",
+      "title": "<i>In situ</i> 3D fluorescence microscopy mapping in the Prph<sub>p</sub> - mCherry mouse line differentiates inner ear afferent  populations",
+      "creators": [
+        {
+          "firstName": "L. J.",
+          "lastName": "Pearson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Georg",
+          "lastName": "von Jonquieres",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "I.",
+          "lastName": "Slapetova",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Fok",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Pandzic",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "J. M. E.",
+          "lastName": "Cederholm",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jeremy L.",
+          "lastName": "Pinyon",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gary D.",
+          "lastName": "Housley",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "⛔ No DOI found",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-01-06T00:57:53Z",
+      "dateModified": "2025-02-04T03:29:38Z",
+      "uri": "http://zotero.org/users/152779/items/L359985N",
+      "itemID": 14823,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-01-06T01:15:41Z",
+          "dateModified": "2025-01-06T01:15:41Z",
+          "uri": "http://zotero.org/users/152779/items/LSE4YSPB",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/LSE4YSPB/Pearson et al. - 2024 - In situ 3D fluorescence microscopy mapping in the Prphp - mCherry mouse line diffe.pdf",
+          "select": "zotero://select/library/items/LSE4YSPB"
+        }
+      ],
+      "notes": [],
+      "citationKey": "pearsonSitu3DFluorescence2024",
+      "itemKey": "L359985N",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/L359985N"
+    },
+    {
+      "key": "RPV4YBTT",
+      "version": 28134,
+      "itemType": "conferencePaper",
+      "place": "Warsaw, Poland",
+      "date": "2024 Sep 15-17",
+      "conferenceName": "59th Inner Ear Biology Workshop (IEB 2024)",
+      "title": "<i>In situ</i> 3D fluorescence microscopy mapping in the Prph<sub>p</sub>-mCherry mouse line differentiates inner ear afferent  populations",
+      "creators": [
+        {
+          "firstName": "L. J.",
+          "lastName": "Pearson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Georg",
+          "lastName": "von Jonquieres",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "I.",
+          "lastName": "Slapetova",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Fok",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Pandzic",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "J. M. E.",
+          "lastName": "Cederholm",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jeremy L.",
+          "lastName": "Pinyon",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gary D.",
+          "lastName": "Housley",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "oral presentation"
+        },
+        {
+          "tag": "abstract"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-01-06T01:09:54Z",
+      "dateModified": "2025-01-06T05:39:07Z",
+      "uri": "http://zotero.org/users/152779/items/RPV4YBTT",
+      "itemID": 14825,
+      "attachments": [],
+      "notes": [
+        {
+          "key": "SX3NIPUX",
+          "version": 28119,
+          "itemType": "note",
+          "parentItem": "RPV4YBTT",
+          "note": "<div data-schema-version=\"9\"><p>Abstract + Oral presentation</p>\n</div>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-01-06T01:11:45Z",
+          "dateModified": "2025-01-06T01:11:57Z",
+          "uri": "http://zotero.org/users/152779/items/SX3NIPUX"
+        }
+      ],
+      "citationKey": "pearsonSitu3DFluorescence2024a",
+      "itemKey": "RPV4YBTT",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/RPV4YBTT"
     },
     {
       "key": "VIQ2FB6I",
@@ -865,7 +1059,7 @@
           "tag": "poster"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2012-01-03T02:32:22Z",
       "dateModified": "2022-11-01T03:07:32Z",
       "uri": "http://zotero.org/users/152779/items/VIQ2FB6I",
@@ -875,11 +1069,11 @@
           "itemType": "attachment",
           "title": "Rosales et al. - 2010 - Biodegradación de compuestos aromáticos contaminan.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2015-07-31T06:01:22Z",
           "dateModified": "2015-07-31T06:01:25Z",
           "uri": "http://zotero.org/users/152779/items/T4FQ87X7",
-          "path": "/home/xabi/Zotero/storage/T4FQ87X7/Rosales et al. - 2010 - Biodegradación de compuestos aromáticos contaminan.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/T4FQ87X7/Rosales et al. - 2010 - Biodegradación de compuestos aromáticos contaminan.pdf",
           "select": "zotero://select/library/items/T4FQ87X7"
         }
       ],
@@ -901,6 +1095,99 @@
       "itemKey": "VIQ2FB6I",
       "libraryID": 1,
       "select": "zotero://select/library/items/VIQ2FB6I"
+    },
+    {
+      "key": "NPET3KKU",
+      "version": 28121,
+      "itemType": "conferencePaper",
+      "place": "Cape Town, South Africa",
+      "date": "2024 Aug 18-23",
+      "conferenceName": "19th International Symposium on Microbial Ecology (ISME19)",
+      "title": "Unveiling petroleum contamination’s impact on microbial  trace gas scavengers in Bunger Hills, East Antarctica",
+      "creators": [
+        {
+          "firstName": "Kellynn K. Y.",
+          "lastName": "Tan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gwilym A. V.",
+          "lastName": "Price",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Daniel",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kristopher",
+          "lastName": "Abdullah",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Angelique",
+          "lastName": "Ray",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tim",
+          "lastName": "Spedding",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Belinda C",
+          "lastName": "Ferrari",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "abstract"
+        },
+        {
+          "tag": "poster"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-01-06T00:46:52Z",
+      "dateModified": "2025-01-06T01:12:22Z",
+      "uri": "http://zotero.org/users/152779/items/NPET3KKU",
+      "itemID": 14820,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "20240201_BH_ISME19_abstract_KYKT_draft_5",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-01-06T00:54:31Z",
+          "dateModified": "2025-01-06T00:54:31Z",
+          "uri": "http://zotero.org/users/152779/items/NM7LG4QV",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/NM7LG4QV/20240201_BH_ISME19_abstract_KYKT_draft_5.pdf",
+          "select": "zotero://select/library/items/NM7LG4QV"
+        },
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-01-06T00:52:39Z",
+          "dateModified": "2025-01-06T00:52:39Z",
+          "uri": "http://zotero.org/users/152779/items/XA9ETQD3",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/XA9ETQD3/Tan et al. - 2024 - Unveiling petroleum contamination’s impact on microbial  trace gas scavengers in Bunger Hills, East.pdf",
+          "select": "zotero://select/library/items/XA9ETQD3"
+        }
+      ],
+      "notes": [],
+      "citationKey": "tanUnveilingPetroleumContaminations2024",
+      "itemKey": "NPET3KKU",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/NPET3KKU"
     },
     {
       "key": "TSRVQB87",
@@ -947,7 +1234,7 @@
         }
       ],
       "tags": [],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2020-11-25T00:55:03Z",
       "dateModified": "2022-11-01T03:35:45Z",
       "uri": "http://zotero.org/users/152779/items/TSRVQB87",
@@ -957,11 +1244,11 @@
           "itemType": "attachment",
           "title": "Tavakoli et al_2020_26 Biological therapies and the trajectories of biopsychological factors in.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-11-25T00:57:46Z",
           "dateModified": "2020-11-25T00:57:46Z",
           "uri": "http://zotero.org/users/152779/items/NBAIBSKG",
-          "path": "/home/xabi/Zotero/storage/NBAIBSKG/Tavakoli et al_2020_26 Biological therapies and the trajectories of biopsychological factors in.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/NBAIBSKG/Tavakoli et al_2020_26 Biological therapies and the trajectories of biopsychological factors in.pdf",
           "select": "zotero://select/library/items/NBAIBSKG"
         }
       ],
@@ -983,286 +1270,6 @@
       "itemKey": "TSRVQB87",
       "libraryID": 1,
       "select": "zotero://select/library/items/TSRVQB87"
-    },
-    {
-      "key": "8JBNR8RZ",
-      "version": 20903,
-      "itemType": "journalArticle",
-      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jgh.15953",
-      "volume": "37",
-      "issue": "S1",
-      "pages": "115-174",
-      "publicationTitle": "Journal of Gastroenterology and Hepatology",
-      "ISSN": "1440-1746",
-      "date": "2022 Sep 7",
-      "extra": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/jgh.15953",
-      "journalAbbreviation": "J Gastroenterol Hepatol",
-      "DOI": "10.1111/jgh.15953",
-      "accessDate": "2022-11-18T03:33:17Z",
-      "libraryCatalog": "Wiley Online Library",
-      "language": "en",
-      "title": "28 Biologic therapies and psychobiome traits in inflammatory bowel diseases",
-      "creators": [
-        {
-          "firstName": "P.",
-          "lastName": "Tavakoli",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "U",
-          "lastName": "Vollmer-Conna",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "D.",
-          "lastName": "Hadzi-Pavlovic",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "X",
-          "lastName": "Vázquez-Campos",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "M. C.",
-          "lastName": "Grimm",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [],
-      "relations": [],
-      "dateAdded": "2022-11-18T03:33:17Z",
-      "dateModified": "2022-11-18T03:35:45Z",
-      "uri": "http://zotero.org/users/152779/items/8JBNR8RZ",
-      "itemID": 13022,
-      "attachments": [
-        {
-          "itemType": "attachment",
-          "title": "2022_IBD Clinical.pdf",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-11-18T03:33:19Z",
-          "dateModified": "2022-11-18T03:33:21Z",
-          "uri": "http://zotero.org/users/152779/items/C23JPTUA",
-          "path": "/home/xabi/Zotero/storage/C23JPTUA/2022_IBD Clinical.pdf",
-          "select": "zotero://select/library/items/C23JPTUA"
-        }
-      ],
-      "notes": [],
-      "citationKey": "tavakoli_28_2022",
-      "itemKey": "8JBNR8RZ",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/8JBNR8RZ"
-    },
-    {
-      "key": "DYCGP5UD",
-      "version": 20847,
-      "itemType": "conferencePaper",
-      "url": "https://academic.oup.com/ecco-jcc/article/14/Supplement_1/S296/5705357",
-      "place": "Vienna, Austria",
-      "date": "2020 Jan 15",
-      "DOI": "10.1093/ecco-jcc/jjz203.418",
-      "accessDate": "2020-01-20T22:34:56Z",
-      "libraryCatalog": "academic.oup.com",
-      "conferenceName": "15th Congress of the European Crohn's and Colitis Organisation (ECCO'20)",
-      "language": "en",
-      "abstractNote": "AbstractBackground.  Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosupp",
-      "title": "Biological therapies and the trajectories of biopsychological factors in inflammatory bowel diseases",
-      "creators": [
-        {
-          "firstName": "P.",
-          "lastName": "Tavakoli",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "U.",
-          "lastName": "Vollmer-Conna",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "X.",
-          "lastName": "Vazquez Campos",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "D.",
-          "lastName": "Hadzi-Pavlovic",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "M.",
-          "lastName": "Grimm",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [],
-      "relations": [],
-      "dateAdded": "2022-11-01T03:10:25Z",
-      "dateModified": "2022-11-01T03:22:03Z",
-      "uri": "http://zotero.org/users/152779/items/DYCGP5UD",
-      "itemID": 13010,
-      "attachments": [],
-      "notes": [],
-      "citationKey": "tavakoli_Biological_2020",
-      "itemKey": "DYCGP5UD",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/DYCGP5UD"
-    },
-    {
-      "key": "2JJQ84ME",
-      "version": 20858,
-      "itemType": "conferencePaper",
-      "url": "https://academic.oup.com/ecco-jcc/article/14/Supplement_1/S296/5705357",
-      "place": "Online",
-      "date": "2020 Nov 21-30",
-      "DOI": "10.1093/ecco-jcc/jjz203.418",
-      "accessDate": "2020-01-20T22:34:56Z",
-      "libraryCatalog": "academic.oup.com",
-      "conferenceName": "Gastroenterological Society of Australia Australian Gastroenterology Week (GESA AGW 2020)",
-      "language": "en",
-      "abstractNote": "AbstractBackground.  Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosupp",
-      "title": "Biological therapies and the trajectories of biopsychological factors in inflammatory bowel diseases",
-      "creators": [
-        {
-          "firstName": "P.",
-          "lastName": "Tavakoli",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "U.",
-          "lastName": "Vollmer-Conna",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "D.",
-          "lastName": "Hadzi-Pavlovic",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "X.",
-          "lastName": "Vazquez-Campos",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "M.",
-          "lastName": "Grimm",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [],
-      "relations": [],
-      "dateAdded": "2022-11-01T03:10:06Z",
-      "dateModified": "2022-11-01T03:37:36Z",
-      "uri": "http://zotero.org/users/152779/items/2JJQ84ME",
-      "itemID": 13007,
-      "attachments": [],
-      "notes": [],
-      "citationKey": "tavakoli_Biological_2020a",
-      "itemKey": "2JJQ84ME",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/2JJQ84ME"
-    },
-    {
-      "key": "8S8U2H3Y",
-      "version": 20809,
-      "itemType": "conferencePaper",
-      "place": "Online",
-      "date": "2021 Sep 4-12",
-      "conferenceName": "Gastroenterological Society of Australia Australian Gastroenterology Week (GESA AGW 2021)",
-      "language": "en",
-      "title": "Biological therapies and bio-microbial dynamics in inflammatory bowel diseases",
-      "creators": [
-        {
-          "firstName": "P.",
-          "lastName": "Tavakoli",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "U.",
-          "lastName": "Vollmer-Conna",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "D.",
-          "lastName": "Hadzi-Pavlovic",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "X.",
-          "lastName": "Vázquez-Campos",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "M.",
-          "lastName": "Grimm",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [],
-      "relations": [],
-      "dateAdded": "2021-08-19T07:29:04Z",
-      "dateModified": "2022-11-01T03:07:07Z",
-      "uri": "http://zotero.org/users/152779/items/8S8U2H3Y",
-      "itemID": 12541,
-      "attachments": [],
-      "notes": [],
-      "citationKey": "tavakoli_Biological_2021",
-      "itemKey": "8S8U2H3Y",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/8S8U2H3Y"
-    },
-    {
-      "key": "XLJSWDYN",
-      "version": 21398,
-      "itemType": "conferencePaper",
-      "url": "https://doi.org/10.1093/ecco-jcc/jjab076.602",
-      "place": "Online",
-      "date": "2021 July 2-3 & 8-10",
-      "DOI": "10.1093/ecco-jcc/jjab076.602",
-      "accessDate": "2021-05-31T00:13:16Z",
-      "libraryCatalog": "Silverchair",
-      "conferenceName": "16th Congress of the European Chrohn's and Colitis Organisation (ECCO'21)",
-      "abstractNote": "Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosuppression have been available for more than half a century with biological therapies the treatment of choice in patients who fail immunosuppressive drugs. There has been little attempt to longitudinally examine the differences in biopsychological factors and their associations with treatment modalities in IBD patients.50 IBD participants (24 UC, 26 CD) in clinical remission were followed for 12 months. Complete longitudinal datasets and monthly stool and blood samples for inflammatory biomarkers were collected for analysis of association. Microbiome analysis was performed using V4 16SrRNA for identification of microbial phylogenetic relationships. Patients were grouped on whether or not they were in remission and on biological agents.At the baseline there were similar ecological indices between the two treatment options in both disease classes; (Shannon, p = 0.380; Pielou’s, p = 0.246; Chao1, p = 0.934). At family level, the CD group showed significant differences (Wilcoxon, p ≤ 0.05) between the treatment received (biologics vs non-biologic) in the abundance of Barnesiellaceae, Bifidobacteriaceae, unclassified Clostridia, and Clostridiaceae (Figure 1A). Results showed similar ecological index values in samples from the two treatment options.Samples in UC groups on biological and non-biologic treatment modes were found to have significantly different microbial communities based on Bray-Curtis dissimilarity (PERMANOVA, p = 0.0031). Microbial family composition in UC group and on two treatment modalities showed a total of 12 families that were significantly different (Wilcoxon, p ≤ 0.05): Acidaminococcaceae, unclassified Bacteroidales, Barnesiellaceae, Christensenellaceae, Clostridiales vadinBB60 group, Coriobacteriaceae, Defluvitaleaceae, Eggerthelaceaem Fusobacteriaceae, Muribaculaceae, Prevotellaceae, and Streptococcaceae (Figure1B). Results identified significant differences in microbial diversity (Shannon index, p = 0.041), and evenness (Pielou’s evenness, p = 0.045) between the two treatment modes. No differences were identified in richness (Chao1) in UC participants.Conclusion: Baseline biological indices were mostly similarly distributed between the two treatment options in remissive IBD patients, however biological therapy significantly influenced longitudinal trends of some microbiome dynamics, especially in UC. This suggests an underlying interrelationship between mode of treatment and biopsychological trajectories which might overshadow response to the treatment, requiring further assessment.",
-      "title": "Biological therapies and bio-microbial dynamics in inflammatory bowel diseases",
-      "creators": [
-        {
-          "firstName": "P",
-          "lastName": "Tavakoli",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "U",
-          "lastName": "Vollmer-Conna",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "D",
-          "lastName": "Hadzi-Pavlovic",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "M C",
-          "lastName": "Grimm",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "X",
-          "lastName": "Vázquez-Campos",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [],
-      "relations": [],
-      "dateAdded": "2022-11-01T03:11:10Z",
-      "dateModified": "2023-02-06T05:17:40Z",
-      "uri": "http://zotero.org/users/152779/items/XLJSWDYN",
-      "itemID": 13013,
-      "attachments": [],
-      "notes": [],
-      "citationKey": "tavakoli_Biological_2021a",
-      "itemKey": "XLJSWDYN",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/XLJSWDYN"
     },
     {
       "key": "N7AUUL5G",
@@ -1307,7 +1314,7 @@
           "tag": "abstract"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2022-11-18T03:24:28Z",
       "dateModified": "2022-11-18T03:29:59Z",
       "uri": "http://zotero.org/users/152779/items/N7AUUL5G",
@@ -1365,7 +1372,7 @@
           "tag": "abstract"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2022-11-18T03:28:49Z",
       "dateModified": "2022-11-18T03:30:20Z",
       "uri": "http://zotero.org/users/152779/items/JR9WWT69",
@@ -1422,7 +1429,7 @@
           "tag": "poster"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2019-10-14T04:09:07Z",
       "dateModified": "2022-11-01T02:36:50Z",
       "uri": "http://zotero.org/users/152779/items/5M8SJ39H",
@@ -1432,11 +1439,11 @@
           "itemType": "attachment",
           "title": "Tavakoli et al_2019_Longitudinal course of inflammatory bowel disease (LIMBO study).pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2019-10-14T04:13:34Z",
           "dateModified": "2019-10-14T04:13:37Z",
           "uri": "http://zotero.org/users/152779/items/ZNK7HEAT",
-          "path": "/home/xabi/Zotero/storage/ZNK7HEAT/Tavakoli et al_2019_Longitudinal course of inflammatory bowel disease (LIMBO study).pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/ZNK7HEAT/Tavakoli et al_2019_Longitudinal course of inflammatory bowel disease (LIMBO study).pdf",
           "select": "zotero://select/library/items/ZNK7HEAT"
         }
       ],
@@ -1505,7 +1512,7 @@
           "tag": "poster"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2020-01-21T05:38:27Z",
       "dateModified": "2022-11-01T03:10:46Z",
       "uri": "http://zotero.org/users/152779/items/63DQT236",
@@ -1515,11 +1522,11 @@
           "itemType": "attachment",
           "title": "Poster AGW 2019 Adelaide No 173 .jpg",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2019-10-14T04:14:01Z",
           "dateModified": "2020-01-21T05:40:10Z",
           "uri": "http://zotero.org/users/152779/items/ZMHSE8UJ",
-          "path": "/home/xabi/Zotero/storage/ZMHSE8UJ/Poster AGW 2019 Adelaide No 173 .jpg",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/ZMHSE8UJ/Poster AGW 2019 Adelaide No 173 .jpg",
           "select": "zotero://select/library/items/ZMHSE8UJ"
         }
       ],
@@ -1602,7 +1609,7 @@
           "tag": "poster"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2022-11-01T03:10:38Z",
       "dateModified": "2022-11-01T03:10:38Z",
       "uri": "http://zotero.org/users/152779/items/S5MIJMZG",
@@ -1613,70 +1620,6 @@
       "itemKey": "S5MIJMZG",
       "libraryID": 1,
       "select": "zotero://select/library/items/S5MIJMZG"
-    },
-    {
-      "key": "9SE4QU8L",
-      "version": 21398,
-      "itemType": "conferencePaper",
-      "url": "https://academic.oup.com/ecco-jcc/article/13/Supplement_1/S213/5300882",
-      "place": "Copenhagen, Denmark",
-      "date": "2019 Mar 6-9",
-      "DOI": "10.1093/ecco-jcc/jjy222.358",
-      "accessDate": "2019-02-01T03:03:26Z",
-      "libraryCatalog": "academic.oup.com",
-      "conferenceName": "14th Congress of the European Chrohn's and Colitis Organisation (ECCO'19)",
-      "language": "en",
-      "abstractNote": "AbstractBackground.  While there is a literature suggesting associations between gut microbiota, physiological factors, psychological state, immune modulation a",
-      "title": "Longitudinal course of inflammatory bowel diseases: a model of microbial, immune, and neuropsychological integration",
-      "creators": [
-        {
-          "firstName": "P.",
-          "lastName": "Tavakoli",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "U.",
-          "lastName": "Vollmer-Conna",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "D.",
-          "lastName": "Hadzi-Pavlovic",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "X.",
-          "lastName": "Vazquez-Campos",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "M.",
-          "lastName": "Grimm",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [
-        {
-          "tag": "abstract"
-        },
-        {
-          "tag": "poster"
-        },
-        {
-          "tag": "proceedings"
-        }
-      ],
-      "relations": [],
-      "dateAdded": "2022-11-01T03:10:56Z",
-      "dateModified": "2023-02-23T04:26:15Z",
-      "uri": "http://zotero.org/users/152779/items/9SE4QU8L",
-      "itemID": 13012,
-      "attachments": [],
-      "notes": [],
-      "citationKey": "tavakoli_Longitudinal_2019c",
-      "itemKey": "9SE4QU8L",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/9SE4QU8L"
     },
     {
       "key": "RLV6ZL8T",
@@ -1723,7 +1666,7 @@
           "tag": "poster"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2020-11-25T00:50:03Z",
       "dateModified": "2022-11-01T02:30:40Z",
       "uri": "http://zotero.org/users/152779/items/RLV6ZL8T",
@@ -1733,11 +1676,11 @@
           "itemType": "attachment",
           "title": "Tavakoli-Paris SGSMRS 2020 poster.pptx",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-11-25T00:53:14Z",
           "dateModified": "2020-11-25T00:53:14Z",
           "uri": "http://zotero.org/users/152779/items/2FMG6LS2",
-          "path": "/home/xabi/Zotero/storage/2FMG6LS2/Tavakoli-Paris SGSMRS 2020 poster.pptx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/2FMG6LS2/Tavakoli-Paris SGSMRS 2020 poster.pptx",
           "select": "zotero://select/library/items/2FMG6LS2"
         }
       ],
@@ -1815,7 +1758,7 @@
           "tag": "proceedings"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2019-02-01T03:03:26Z",
       "dateModified": "2022-11-18T03:38:17Z",
       "uri": "http://zotero.org/users/152779/items/B8XPS3N7",
@@ -1823,24 +1766,26 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "https://academic.oup.com/ecco-jcc/article/13/Supplement_1/S213/5300882?searchresult=1",
           "title": "Snapshot",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2019-02-01T03:03:53Z",
           "dateModified": "2019-02-01T03:03:53Z",
           "uri": "http://zotero.org/users/152779/items/ZE4BARM2",
-          "path": "/home/xabi/Zotero/storage/ZE4BARM2/5300882.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/ZE4BARM2/5300882.html",
           "select": "zotero://select/library/items/ZE4BARM2"
         },
         {
           "itemType": "attachment",
+          "url": "https://academic.oup.com/ecco-jcc/article-pdf/13/Supplement_1/S213/27600304/jjy222.358.pdf",
           "title": "Tavakoli et al_2019_P234 Longitudinal course of inflammatory bowel diseases.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2019-02-01T03:03:38Z",
           "dateModified": "2019-02-01T03:03:39Z",
           "uri": "http://zotero.org/users/152779/items/UJEIFFW6",
-          "path": "/home/xabi/Zotero/storage/UJEIFFW6/Tavakoli et al_2019_P234 Longitudinal course of inflammatory bowel diseases.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/UJEIFFW6/Tavakoli et al_2019_P234 Longitudinal course of inflammatory bowel diseases.pdf",
           "select": "zotero://select/library/items/UJEIFFW6"
         }
       ],
@@ -1920,7 +1865,7 @@
         }
       ],
       "tags": [],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2020-01-20T22:34:56Z",
       "dateModified": "2022-11-01T03:16:22Z",
       "uri": "http://zotero.org/users/152779/items/HU3LEAJX",
@@ -1928,24 +1873,26 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "https://academic.oup.com/ecco-jcc/article/14/Supplement_1/S296/5705357",
           "title": "Snapshot",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-01-20T22:35:09Z",
           "dateModified": "2020-01-20T22:35:09Z",
           "uri": "http://zotero.org/users/152779/items/BRTSCJA3",
-          "path": "/home/xabi/Zotero/storage/BRTSCJA3/5705357.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/BRTSCJA3/5705357.html",
           "select": "zotero://select/library/items/BRTSCJA3"
         },
         {
           "itemType": "attachment",
+          "url": "https://academic.oup.com/ecco-jcc/article-pdf/14/Supplement_1/S296/31848479/jjz203.418.pdf",
           "title": "Tavakoli et al_2020_P289 Biological therapies and the trajectories of biopsychological factors in.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-01-20T22:35:02Z",
           "dateModified": "2020-01-20T22:35:03Z",
           "uri": "http://zotero.org/users/152779/items/LGTN4WXS",
-          "path": "/home/xabi/Zotero/storage/LGTN4WXS/Tavakoli et al_2020_P289 Biological therapies and the trajectories of biopsychological factors in.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/LGTN4WXS/Tavakoli et al_2020_P289 Biological therapies and the trajectories of biopsychological factors in.pdf",
           "select": "zotero://select/library/items/LGTN4WXS"
         }
       ],
@@ -1999,7 +1946,7 @@
         }
       ],
       "tags": [],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2021-05-31T00:13:16Z",
       "dateModified": "2022-11-18T03:37:34Z",
       "uri": "http://zotero.org/users/152779/items/38UPDWBI",
@@ -2007,24 +1954,26 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "https://academic.oup.com/ecco-jcc/article/15/Supplement_1/S468/6286788",
           "title": "Snapshot",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2021-05-31T00:13:22Z",
           "dateModified": "2021-05-31T00:13:22Z",
           "uri": "http://zotero.org/users/152779/items/J9CRAZU4",
-          "path": "/home/xabi/Zotero/storage/J9CRAZU4/6286788.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/J9CRAZU4/6286788.html",
           "select": "zotero://select/library/items/J9CRAZU4"
         },
         {
           "itemType": "attachment",
+          "url": "https://academic.oup.com/ecco-jcc/article-pdf/15/Supplement_1/S468/38320689/jjab076.602.pdf",
           "title": "Tavakoli et al. - 2021 - P479 Biological therapies and bio-microbial dynami.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2021-05-31T00:13:25Z",
           "dateModified": "2021-05-31T00:13:51Z",
           "uri": "http://zotero.org/users/152779/items/TW6DZZPJ",
-          "path": "/home/xabi/Zotero/storage/TW6DZZPJ/Tavakoli et al. - 2021 - P479 Biological therapies and bio-microbial dynami.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/TW6DZZPJ/Tavakoli et al. - 2021 - P479 Biological therapies and bio-microbial dynami.pdf",
           "select": "zotero://select/library/items/TW6DZZPJ"
         }
       ],
@@ -2033,6 +1982,367 @@
       "itemKey": "38UPDWBI",
       "libraryID": 1,
       "select": "zotero://select/library/items/38UPDWBI"
+    },
+    {
+      "key": "8JBNR8RZ",
+      "version": 22452,
+      "itemType": "journalArticle",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jgh.15953",
+      "volume": "37",
+      "issue": "S1",
+      "pages": "115-174",
+      "publicationTitle": "Journal of Gastroenterology and Hepatology",
+      "ISSN": "1440-1746",
+      "date": "2022 Sep 7",
+      "extra": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/jgh.15953",
+      "journalAbbreviation": "J Gastroenterol Hepatol",
+      "DOI": "10/gskdkx",
+      "accessDate": "2022-11-18T03:33:17Z",
+      "libraryCatalog": "Wiley Online Library",
+      "language": "en",
+      "title": "28 Biologic therapies and psychobiome traits in inflammatory bowel diseases",
+      "creators": [
+        {
+          "firstName": "P.",
+          "lastName": "Tavakoli",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "U",
+          "lastName": "Vollmer-Conna",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Hadzi-Pavlovic",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "X",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M. C.",
+          "lastName": "Grimm",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2022-11-18T03:33:17Z",
+      "dateModified": "2023-08-07T04:06:10Z",
+      "uri": "http://zotero.org/users/152779/items/8JBNR8RZ",
+      "itemID": 13022,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jgh.15953",
+          "title": "2022_IBD Clinical.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2022-11-18T03:33:19Z",
+          "dateModified": "2022-11-18T03:33:21Z",
+          "uri": "http://zotero.org/users/152779/items/C23JPTUA",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/C23JPTUA/2022_IBD Clinical.pdf",
+          "select": "zotero://select/library/items/C23JPTUA"
+        }
+      ],
+      "notes": [],
+      "citationKey": "tavakoli28BiologicTherapies2022",
+      "itemKey": "8JBNR8RZ",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/8JBNR8RZ"
+    },
+    {
+      "key": "XLJSWDYN",
+      "version": 28123,
+      "itemType": "conferencePaper",
+      "url": "https://doi.org/10.1093/ecco-jcc/jjab076.602",
+      "place": "Online",
+      "date": "2021 July 2-3 & 8-10",
+      "DOI": "10/gj9t4w",
+      "accessDate": "2021-05-31T00:13:16Z",
+      "libraryCatalog": "Silverchair",
+      "conferenceName": "16th Congress of the European Chrohn's and Colitis Organisation (ECCO'21)",
+      "abstractNote": "Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosuppression have been available for more than half a century with biological therapies the treatment of choice in patients who fail immunosuppressive drugs. There has been little attempt to longitudinally examine the differences in biopsychological factors and their associations with treatment modalities in IBD patients.50 IBD participants (24 UC, 26 CD) in clinical remission were followed for 12 months. Complete longitudinal datasets and monthly stool and blood samples for inflammatory biomarkers were collected for analysis of association. Microbiome analysis was performed using V4 16SrRNA for identification of microbial phylogenetic relationships. Patients were grouped on whether or not they were in remission and on biological agents.At the baseline there were similar ecological indices between the two treatment options in both disease classes; (Shannon, p = 0.380; Pielou’s, p = 0.246; Chao1, p = 0.934). At family level, the CD group showed significant differences (Wilcoxon, p ≤ 0.05) between the treatment received (biologics vs non-biologic) in the abundance of Barnesiellaceae, Bifidobacteriaceae, unclassified Clostridia, and Clostridiaceae (Figure 1A). Results showed similar ecological index values in samples from the two treatment options.Samples in UC groups on biological and non-biologic treatment modes were found to have significantly different microbial communities based on Bray-Curtis dissimilarity (PERMANOVA, p = 0.0031). Microbial family composition in UC group and on two treatment modalities showed a total of 12 families that were significantly different (Wilcoxon, p ≤ 0.05): Acidaminococcaceae, unclassified Bacteroidales, Barnesiellaceae, Christensenellaceae, Clostridiales vadinBB60 group, Coriobacteriaceae, Defluvitaleaceae, Eggerthelaceaem Fusobacteriaceae, Muribaculaceae, Prevotellaceae, and Streptococcaceae (Figure1B). Results identified significant differences in microbial diversity (Shannon index, p = 0.041), and evenness (Pielou’s evenness, p = 0.045) between the two treatment modes. No differences were identified in richness (Chao1) in UC participants.Conclusion: Baseline biological indices were mostly similarly distributed between the two treatment options in remissive IBD patients, however biological therapy significantly influenced longitudinal trends of some microbiome dynamics, especially in UC. This suggests an underlying interrelationship between mode of treatment and biopsychological trajectories which might overshadow response to the treatment, requiring further assessment.",
+      "title": "Biological therapies and bio-microbial dynamics in inflammatory bowel diseases",
+      "creators": [
+        {
+          "firstName": "P",
+          "lastName": "Tavakoli",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "U",
+          "lastName": "Vollmer-Conna",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "D",
+          "lastName": "Hadzi-Pavlovic",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M C",
+          "lastName": "Grimm",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "X",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "abstract"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2022-11-01T03:11:10Z",
+      "dateModified": "2025-01-06T01:13:42Z",
+      "uri": "http://zotero.org/users/152779/items/XLJSWDYN",
+      "itemID": 13013,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "tavakoliBiologicalTherapiesBiomicrobial2021",
+      "itemKey": "XLJSWDYN",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/XLJSWDYN"
+    },
+    {
+      "key": "8S8U2H3Y",
+      "version": 28124,
+      "itemType": "conferencePaper",
+      "place": "Online",
+      "date": "2021 Sep 4-12",
+      "conferenceName": "Gastroenterological Society of Australia Australian Gastroenterology Week (GESA AGW 2021)",
+      "language": "en",
+      "title": "Biological therapies and bio-microbial dynamics in inflammatory bowel diseases",
+      "creators": [
+        {
+          "firstName": "P.",
+          "lastName": "Tavakoli",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "U.",
+          "lastName": "Vollmer-Conna",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Hadzi-Pavlovic",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "X.",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Grimm",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "abstract"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2021-08-19T07:29:04Z",
+      "dateModified": "2025-01-06T01:13:48Z",
+      "uri": "http://zotero.org/users/152779/items/8S8U2H3Y",
+      "itemID": 12541,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "tavakoliBiologicalTherapiesBiomicrobial2021a",
+      "itemKey": "8S8U2H3Y",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/8S8U2H3Y"
+    },
+    {
+      "key": "DYCGP5UD",
+      "version": 28126,
+      "itemType": "conferencePaper",
+      "url": "https://academic.oup.com/ecco-jcc/article/14/Supplement_1/S296/5705357",
+      "place": "Vienna, Austria",
+      "date": "2020 Jan 15",
+      "DOI": "10/ggh69h",
+      "accessDate": "2020-01-20T22:34:56Z",
+      "libraryCatalog": "academic.oup.com",
+      "conferenceName": "15th Congress of the European Crohn's and Colitis Organisation (ECCO'20)",
+      "language": "en",
+      "abstractNote": "AbstractBackground.  Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosupp",
+      "title": "Biological therapies and the trajectories of biopsychological factors in inflammatory bowel diseases",
+      "creators": [
+        {
+          "firstName": "P.",
+          "lastName": "Tavakoli",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "U.",
+          "lastName": "Vollmer-Conna",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "X.",
+          "lastName": "Vazquez Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Hadzi-Pavlovic",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Grimm",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "abstract"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2022-11-01T03:10:25Z",
+      "dateModified": "2025-01-06T01:14:23Z",
+      "uri": "http://zotero.org/users/152779/items/DYCGP5UD",
+      "itemID": 13010,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "tavakoliBiologicalTherapiesTrajectories2020",
+      "itemKey": "DYCGP5UD",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/DYCGP5UD"
+    },
+    {
+      "key": "2JJQ84ME",
+      "version": 28125,
+      "itemType": "conferencePaper",
+      "url": "https://academic.oup.com/ecco-jcc/article/14/Supplement_1/S296/5705357",
+      "place": "Online",
+      "date": "2020 Nov 21-30",
+      "DOI": "10/ggh69h",
+      "accessDate": "2020-01-20T22:34:56Z",
+      "libraryCatalog": "academic.oup.com",
+      "conferenceName": "Gastroenterological Society of Australia Australian Gastroenterology Week (GESA AGW 2020)",
+      "language": "en",
+      "abstractNote": "AbstractBackground.  Therapeutic aims in IBDs are to induce remission through rapidly effective treatment. Conventional therapeutic methods including immunosupp",
+      "title": "Biological therapies and the trajectories of biopsychological factors in inflammatory bowel diseases",
+      "creators": [
+        {
+          "firstName": "P.",
+          "lastName": "Tavakoli",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "U.",
+          "lastName": "Vollmer-Conna",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Hadzi-Pavlovic",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "X.",
+          "lastName": "Vazquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Grimm",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "abstract"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2022-11-01T03:10:06Z",
+      "dateModified": "2025-01-06T01:14:16Z",
+      "uri": "http://zotero.org/users/152779/items/2JJQ84ME",
+      "itemID": 13007,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "tavakoliBiologicalTherapiesTrajectories2020a",
+      "itemKey": "2JJQ84ME",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/2JJQ84ME"
+    },
+    {
+      "key": "9SE4QU8L",
+      "version": 22460,
+      "itemType": "conferencePaper",
+      "url": "https://academic.oup.com/ecco-jcc/article/13/Supplement_1/S213/5300882",
+      "place": "Copenhagen, Denmark",
+      "date": "2019 Mar 6-9",
+      "DOI": "10/gft68f",
+      "accessDate": "2019-02-01T03:03:26Z",
+      "libraryCatalog": "academic.oup.com",
+      "conferenceName": "14th Congress of the European Chrohn's and Colitis Organisation (ECCO'19)",
+      "language": "en",
+      "abstractNote": "AbstractBackground.  While there is a literature suggesting associations between gut microbiota, physiological factors, psychological state, immune modulation a",
+      "title": "Longitudinal course of inflammatory bowel diseases: a model of microbial, immune, and neuropsychological integration",
+      "creators": [
+        {
+          "firstName": "P.",
+          "lastName": "Tavakoli",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "U.",
+          "lastName": "Vollmer-Conna",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Hadzi-Pavlovic",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "X.",
+          "lastName": "Vazquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Grimm",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "abstract"
+        },
+        {
+          "tag": "poster"
+        },
+        {
+          "tag": "proceedings"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2022-11-01T03:10:56Z",
+      "dateModified": "2023-08-07T04:07:43Z",
+      "uri": "http://zotero.org/users/152779/items/9SE4QU8L",
+      "itemID": 13012,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "tavakoliLongitudinalCourseInflammatory2019",
+      "itemKey": "9SE4QU8L",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/9SE4QU8L"
     },
     {
       "key": "KGTK56HZ",
@@ -2077,7 +2387,7 @@
           "tag": "abstract"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2018-07-18T23:11:52Z",
       "dateModified": "2023-02-23T04:26:48Z",
       "uri": "http://zotero.org/users/152779/items/KGTK56HZ",
@@ -2149,7 +2459,7 @@
           "tag": "selected"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2020-11-18T00:45:40Z",
       "dateModified": "2022-11-18T03:42:20Z",
       "uri": "http://zotero.org/users/152779/items/TLSASVP6",
@@ -2159,22 +2469,22 @@
           "itemType": "attachment",
           "title": "EMBL 2020 - Kevin Yonathan_FINAL.pptx",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-11-30T01:58:07Z",
           "dateModified": "2020-11-30T01:58:07Z",
           "uri": "http://zotero.org/users/152779/items/DSZJ7SIF",
-          "path": "/home/xabi/Zotero/storage/DSZJ7SIF/EMBL 2020 - Kevin Yonathan_FINAL.pptx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/DSZJ7SIF/EMBL 2020 - Kevin Yonathan_FINAL.pptx",
           "select": "zotero://select/library/items/DSZJ7SIF"
         },
         {
           "itemType": "attachment",
           "title": "Yonathan et al_2020_Nanosilver in the aquatic environment.docx",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-11-18T02:03:09Z",
           "dateModified": "2020-11-18T02:03:10Z",
           "uri": "http://zotero.org/users/152779/items/KTQLBKF5",
-          "path": "/home/xabi/Zotero/storage/KTQLBKF5/Yonathan et al_2020_Nanosilver in the aquatic environment.docx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/KTQLBKF5/Yonathan et al_2020_Nanosilver in the aquatic environment.docx",
           "select": "zotero://select/library/items/KTQLBKF5"
         }
       ],
@@ -2241,7 +2551,7 @@
           "tag": "poster"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2021-08-19T07:24:36Z",
       "dateModified": "2022-11-18T03:42:34Z",
       "uri": "http://zotero.org/users/152779/items/FTBCABEM",
@@ -2251,11 +2561,11 @@
           "itemType": "attachment",
           "title": "Kevin Yonathan - poster JAMS10_ver02.jpg",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2021-08-19T07:24:57Z",
           "dateModified": "2021-08-19T07:24:57Z",
           "uri": "http://zotero.org/users/152779/items/QDUP4P9W",
-          "path": "/home/xabi/Zotero/storage/QDUP4P9W/Kevin Yonathan - poster JAMS10_ver02.jpg",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/QDUP4P9W/Kevin Yonathan - poster JAMS10_ver02.jpg",
           "select": "zotero://select/library/items/QDUP4P9W"
         }
       ],

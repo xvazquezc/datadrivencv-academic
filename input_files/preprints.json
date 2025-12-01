@@ -7,9 +7,8 @@
       "asciiBibLaTeX": false,
       "asciiBibTeX": true,
       "autoAbbrev": false,
-      "autoAbbrevStyle": "",
       "autoExport": "immediate",
-      "autoExportDelay": 2,
+      "autoExportDelay": 5,
       "autoExportIdleWait": 10,
       "autoExportPathReplaceDiacritics": false,
       "autoExportPathReplaceDirSep": "-",
@@ -21,48 +20,56 @@
       "biblatexExtendedDateFormat": true,
       "biblatexExtendedNameFormat": true,
       "biblatexExtractEprint": true,
+      "biblatexUsePrefix": true,
+      "bibtexEditionOrdinal": false,
       "bibtexParticleNoOp": false,
       "bibtexURL": "off",
       "cache": true,
-      "cacheFlushInterval": 5,
+      "cacheDelete": false,
       "charmap": "",
+      "chinese": false,
+      "chineseSplitName": true,
       "citeCommand": "cite",
+      "citekeyCaseInsensitive": true,
       "citekeyFold": true,
-      "citekeyFormat": "auth.lower+\"_\"+shorttitle(1,1)+\"_\"+year",
+      "citekeyFormat": "auth.lower + shorttitle(3, 3) + year",
       "citekeySearch": true,
       "citekeyUnsafeChars": "\\\"#%'(),={}~",
       "csquotes": "",
       "DOIandURL": "both",
       "exportBibTeXStrings": "off",
-      "exportBraceProtection": false,
-      "exportTitleCase": false,
-      "extraMergeCitekeys": true,
-      "extraMergeCSL": true,
-      "extraMergeTeX": true,
+      "exportBraceProtection": true,
+      "exportSort": "citekey",
+      "exportTitleCase": true,
+      "extraMergeCitekeys": false,
+      "extraMergeCSL": false,
+      "extraMergeTeX": false,
       "git": "config",
       "import": true,
       "importBibTeXStrings": true,
       "importCaseProtection": "as-needed",
       "importCitationKey": true,
+      "importDetectURLs": true,
       "importExtra": true,
       "importJabRefAbbreviations": true,
       "importJabRefStrings": true,
       "importNoteToExtra": "",
+      "importPlaceEvent": "inproceedings,conference,presentation,talk",
       "importSentenceCase": "on+guess",
+      "importSentenceCaseQuoted": true,
       "importUnknownTexCommand": "ignore",
-      "itemObserverDelay": 100,
+      "itemObserverDelay": 5,
       "jabrefFormat": 0,
-      "jieba": false,
+      "japanese": false,
       "keyConflictPolicy": "keep",
-      "keyScope": "global",
-      "kuroshiro": false,
+      "keyScope": "library",
       "language": "langid",
       "mapMath": "",
       "mapText": "",
-      "mapUnicode": "conservative",
+      "packages": "",
       "parseParticles": true,
       "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
-      "postscript": "if (Translator.BetterCSL) {\n  csl.add({ name: 'keywords', value: zotero.tags, sep: ', ', enc: 'tags' });\n}\n",
+      "postscript": "",
       "postscriptOverride": "",
       "preferencesOverride": "",
       "qualityReport": false,
@@ -74,30 +81,275 @@
       "rawImports": false,
       "rawLaTag": "#LaTeX",
       "relativeFilePaths": false,
-      "retainCache": false,
       "separatorList": "and",
       "separatorNames": "and",
-      "skipFields": "abstract,file",
+      "skipFields": "",
       "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
       "startupProgress": "popup",
       "strings": "",
       "stringsOverride": "",
-      "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
+      "verbatimFields": "url,doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/, keywords",
       "warnBulkModify": 10,
       "warnTitleCased": false
     },
     "options": {
-      "exportNotes": true,
+      "Items": true,
+      "Normalize": false,
+      "Preferences": true,
+      "biblatexAPA": false,
+      "biblatexChicago": false,
       "exportFileData": false,
+      "exportNotes": true,
       "keepUpdated": false,
       "worker": true,
-      "Normalize": false
+      "exportDir": "/home/xabi/Desktop/datadrivencv-academic/input_files",
+      "exportPath": "/home/xabi/Desktop/datadrivencv-academic/input_files/preprints.json"
     }
   },
   "version": {
-    "zotero": "6.0.26",
-    "bbt": "6.7.79"
+    "zotero": "7.0.30",
+    "bbt": "7.0.68"
   },
   "collections": {},
-  "items": []
+  "items": [
+    {
+      "key": "522BUNCX",
+      "version": 30476,
+      "itemType": "preprint",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.22.663070v1",
+      "rights": "© 2025, Posted by Cold Spring Harbor Laboratory. The copyright holder for this pre-print is the author. All rights reserved. The material may not be redistributed, re-used or adapted without the author's permission.",
+      "date": "2025 Jul 22",
+      "extra": "ISSN: 2692-8205\nPages: 2025.07.22.663070\nSection: New Results",
+      "DOI": "10.1101/2025.07.22.663070",
+      "accessDate": "2025-07-23T23:52:01Z",
+      "libraryCatalog": "bioRxiv",
+      "language": "en",
+      "abstractNote": "It has been proposed that eukaryotic cells evolved via symbiosis between sulfate-reducing bacteria and hydrogen-producing archaea. Here we describe a highly enriched culture of a novel Asgard archaeon, Nerearchaeum marumarumayae, with a bacterium Stromatodesulfovibrio nilemahensis from a stromatolite-associated microbial mat. The N. marumarumayae genome indicates it produces H2, acetate, formate, and sulfite, while S. nilemahensis synthesizes amino acids and vitamins, which can be exchanged in a syntrophic partnership. Electron cryotomography revealed N. marumarumayae cells produce chains of budded envelope vesicles attached to the coccoid cell body by extracellular fibers, and intracellular tube- and cage-like structures. Furthermore, the two species were observed interacting via intercellular nanotubes assembled by the bacterium. These characteristics and interactions may reflect an early step in the symbiotic evolution of eukaryotic cells.",
+      "title": "An Asgard archaeon from a modern analog of ancient microbial mats",
+      "repository": "bioRxiv",
+      "archiveID": "663070",
+      "creators": [
+        {
+          "firstName": "Stephanie-Jane",
+          "lastName": "Nobs",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew D.",
+          "lastName": "Johnson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Timothy J.",
+          "lastName": "Williams",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Julia",
+          "lastName": "Meltzer",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Fraser I.",
+          "lastName": "MacLeod",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Keiran",
+          "lastName": "Rowell",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Miranda",
+          "lastName": "Pitt",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Bindusmita",
+          "lastName": "Paul",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Doulin C.",
+          "lastName": "Shepherd",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Katharine A.",
+          "lastName": "Michie",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Iain G.",
+          "lastName": "Duggin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Debnath",
+          "lastName": "Ghosal",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Brendan P.",
+          "lastName": "Burns",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-23T23:52:01Z",
+      "dateModified": "2025-12-01T05:54:26Z",
+      "uri": "http://zotero.org/users/152779/items/522BUNCX",
+      "itemID": 15393,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/22/2025.07.22.663070.full.pdf",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-23T23:52:04Z",
+          "dateModified": "2025-07-23T23:52:04Z",
+          "uri": "http://zotero.org/users/152779/items/D5T6DU3K",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/D5T6DU3K/Nobs et al. - 2025 - An Asgard archaeon from a modern analog of ancient microbial mats.pdf",
+          "select": "zotero://select/library/items/D5T6DU3K"
+        },
+        {
+          "itemType": "attachment",
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/22/2025.07.22.663070/DC1/embed/media-1.docx?download=true",
+          "title": "media-1.docx",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-23T23:52:50Z",
+          "dateModified": "2025-07-23T23:52:50Z",
+          "uri": "http://zotero.org/users/152779/items/7K8I6F2X",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/7K8I6F2X/media-1.docx",
+          "select": "zotero://select/library/items/7K8I6F2X"
+        }
+      ],
+      "notes": [],
+      "citationKey": "nobsAsgardArchaeonModern2025",
+      "itemKey": "522BUNCX",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/522BUNCX"
+    },
+    {
+      "key": "CH296Q87",
+      "version": 30477,
+      "itemType": "preprint",
+      "url": "https://www.researchsquare.com/article/rs-6608817/v1",
+      "date": "2025 Aug 20",
+      "extra": "ISSN: 2693-5015",
+      "DOI": "10.21203/rs.3.rs-6608817/v1",
+      "accessDate": "2025-08-20T23:45:36Z",
+      "libraryCatalog": "Research Square",
+      "abstractNote": "Microbes in hyper-arid and oligotrophic ecosystems like Antarctica, rely on atmospheric trace gas oxidation for survival using high-affinity enzymes to generate energy for critical ecological processes including primary production, persistence, and carbon mitigation. Hydrocarbon contamination, common around Antarctic research stations, disrupts microbial communities, yet its implications for trace gas oxidation and dark carbon fixation are unknown. Here, we show the soil microbial diversity of Bunger Hills, East Antarctica, and assessed the response of a 40-year-old legacy petroleum spill on microbial communities and their functions. Metagenomic analysis and gas chromatography revealed significant shifts in microbiome composition and function in contaminated soils alongside severely reduced hydrogen oxidation rates, but higher (14CO2) carbon fixation rates. We assembled 300 metagenome-assembled genomes across 16 bacterial and archaeal phyla, identifying 25 novel candidate species. We demonstrate long-lasting effects of pollutants on microbial ecosystems and services in polar regions, highlighting the role of trace gas scavengers and hydrocarbon degraders in regulating key ecological functions and advancing knowledge of anthropogenic impacts on microbial nutrient and energy acquisition in dry desert environments.",
+      "title": "Persistent Petroleum Pollution: Microbial Responses in Bunger Hills, East Antarctica",
+      "shortTitle": "Persistent Petroleum Pollution",
+      "repository": "Research Square",
+      "archiveID": "rs-6608817",
+      "creators": [
+        {
+          "firstName": "Kellynn K. Y.",
+          "lastName": "Tan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gwilym",
+          "lastName": "Price",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kasey",
+          "lastName": "Williams",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Rebecca",
+          "lastName": "McWatters",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kristopher",
+          "lastName": "Abdullah",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Náthali",
+          "lastName": "Machado de Lima",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Thomas",
+          "lastName": "Laird",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Angelique",
+          "lastName": "Ray",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jordan",
+          "lastName": "Vink",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Dana",
+          "lastName": "Tribbia",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Daniel",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tim",
+          "lastName": "Spedding",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Belinda",
+          "lastName": "Ferrari",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-08-20T23:45:36Z",
+      "dateModified": "2025-12-01T05:54:33Z",
+      "uri": "http://zotero.org/users/152779/items/CH296Q87",
+      "itemID": 15475,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "url": "https://www.researchsquare.com/article/rs-6608817/v1.pdf",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-08-20T23:45:40Z",
+          "dateModified": "2025-08-20T23:45:40Z",
+          "uri": "http://zotero.org/users/152779/items/EW8V2UYF",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/EW8V2UYF/Ferrari et al. - 2025 - Persistent Petroleum Pollution Microbial Responses in Bunger Hills, East Antarctica.pdf",
+          "select": "zotero://select/library/items/EW8V2UYF"
+        }
+      ],
+      "notes": [],
+      "citationKey": "tanPersistentPetroleumPollution2025",
+      "itemKey": "CH296Q87",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/CH296Q87"
+    }
+  ]
 }

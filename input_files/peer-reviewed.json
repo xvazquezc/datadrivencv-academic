@@ -7,9 +7,8 @@
       "asciiBibLaTeX": false,
       "asciiBibTeX": true,
       "autoAbbrev": false,
-      "autoAbbrevStyle": "",
       "autoExport": "immediate",
-      "autoExportDelay": 2,
+      "autoExportDelay": 5,
       "autoExportIdleWait": 10,
       "autoExportPathReplaceDiacritics": false,
       "autoExportPathReplaceDirSep": "-",
@@ -21,48 +20,56 @@
       "biblatexExtendedDateFormat": true,
       "biblatexExtendedNameFormat": true,
       "biblatexExtractEprint": true,
+      "biblatexUsePrefix": true,
+      "bibtexEditionOrdinal": false,
       "bibtexParticleNoOp": false,
       "bibtexURL": "off",
       "cache": true,
-      "cacheFlushInterval": 5,
+      "cacheDelete": false,
       "charmap": "",
+      "chinese": false,
+      "chineseSplitName": true,
       "citeCommand": "cite",
+      "citekeyCaseInsensitive": true,
       "citekeyFold": true,
-      "citekeyFormat": "auth.lower+\"_\"+shorttitle(1,1)+\"_\"+year",
+      "citekeyFormat": "auth.lower + shorttitle(3, 3) + year",
       "citekeySearch": true,
       "citekeyUnsafeChars": "\\\"#%'(),={}~",
       "csquotes": "",
       "DOIandURL": "both",
       "exportBibTeXStrings": "off",
-      "exportBraceProtection": false,
-      "exportTitleCase": false,
-      "extraMergeCitekeys": true,
-      "extraMergeCSL": true,
-      "extraMergeTeX": true,
+      "exportBraceProtection": true,
+      "exportSort": "citekey",
+      "exportTitleCase": true,
+      "extraMergeCitekeys": false,
+      "extraMergeCSL": false,
+      "extraMergeTeX": false,
       "git": "config",
       "import": true,
       "importBibTeXStrings": true,
       "importCaseProtection": "as-needed",
       "importCitationKey": true,
+      "importDetectURLs": true,
       "importExtra": true,
       "importJabRefAbbreviations": true,
       "importJabRefStrings": true,
       "importNoteToExtra": "",
+      "importPlaceEvent": "inproceedings,conference,presentation,talk",
       "importSentenceCase": "on+guess",
+      "importSentenceCaseQuoted": true,
       "importUnknownTexCommand": "ignore",
-      "itemObserverDelay": 100,
+      "itemObserverDelay": 5,
       "jabrefFormat": 0,
-      "jieba": false,
+      "japanese": false,
       "keyConflictPolicy": "keep",
-      "keyScope": "global",
-      "kuroshiro": false,
+      "keyScope": "library",
       "language": "langid",
       "mapMath": "",
       "mapText": "",
-      "mapUnicode": "conservative",
+      "packages": "",
       "parseParticles": true,
       "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
-      "postscript": "if (Translator.BetterCSL) {\n  csl.add({ name: 'keywords', value: zotero.tags, sep: ', ', enc: 'tags' });\n}\n",
+      "postscript": "",
       "postscriptOverride": "",
       "preferencesOverride": "",
       "qualityReport": false,
@@ -74,35 +81,605 @@
       "rawImports": false,
       "rawLaTag": "#LaTeX",
       "relativeFilePaths": false,
-      "retainCache": false,
       "separatorList": "and",
       "separatorNames": "and",
-      "skipFields": "abstract,file",
+      "skipFields": "",
       "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
       "startupProgress": "popup",
       "strings": "",
       "stringsOverride": "",
-      "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc",
+      "verbatimFields": "url,doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/, keywords",
       "warnBulkModify": 10,
       "warnTitleCased": false
     },
     "options": {
-      "exportNotes": true,
+      "Items": true,
+      "Normalize": false,
+      "Preferences": true,
+      "biblatexAPA": false,
+      "biblatexChicago": false,
       "exportFileData": false,
+      "exportNotes": true,
       "keepUpdated": false,
       "worker": true,
-      "Normalize": false
+      "exportDir": "/home/xabi/Desktop/datadrivencv-academic/input_files",
+      "exportPath": "/home/xabi/Desktop/datadrivencv-academic/input_files/peer-reviewed.json"
     }
   },
   "version": {
-    "zotero": "6.0.26",
-    "bbt": "6.7.79"
+    "zotero": "7.0.30",
+    "bbt": "7.0.68"
   },
   "collections": {},
   "items": [
     {
+      "key": "VPQM7VSQ",
+      "version": 30481,
+      "itemType": "journalArticle",
+      "url": "https://journals.asm.org/doi/10.1128/msystems.00466-25",
+      "volume": "10",
+      "issue": "11",
+      "pages": "e00466-25",
+      "publicationTitle": "mSystems",
+      "date": "2025 Oct 17",
+      "extra": "Publisher: American Society for Microbiology",
+      "journalAbbreviation": "mSystems",
+      "DOI": "10.1128/msystems.00466-25",
+      "accessDate": "2025-10-19T23:10:52Z",
+      "libraryCatalog": "journals.asm.org (Atypon)",
+      "title": "DNA reference reagents isolate biases in microbiome profiling: a global multi-lab study",
+      "shortTitle": "DNA reference reagents isolate biases in microbiome profiling",
+      "creators": [
+        {
+          "firstName": "Saba",
+          "lastName": "Anwar",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthew",
+          "lastName": "Lamaudiere",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jack",
+          "lastName": "Hassall",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jacob",
+          "lastName": "Dehinsilu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ravneet K.",
+          "lastName": "Bhuller",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Georgina L.",
+          "lastName": "Hold",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alexander",
+          "lastName": "Mahnert",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Christine",
+          "lastName": "Moissl-Eichinger",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Birgit",
+          "lastName": "Gallé",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gudrun",
+          "lastName": "Kainz",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Petra",
+          "lastName": "Pjevac",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Bela",
+          "lastName": "Hausmann",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jasmin",
+          "lastName": "Schwarz",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gudrun",
+          "lastName": "Kohl",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "David",
+          "lastName": "Berry",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sarah J.",
+          "lastName": "Vancuren",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Emma",
+          "lastName": "Allen-Vercoe",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nynne",
+          "lastName": "Nielsen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nikolaj",
+          "lastName": "Sørensen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Aron",
+          "lastName": "Eklund",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Henrik Bjørn",
+          "lastName": "Nielsen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "René",
+          "lastName": "Riedel",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jannike Lea",
+          "lastName": "Krause",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Hyun-Dong",
+          "lastName": "Chang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Suenie",
+          "lastName": "Park",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ho-Yeon",
+          "lastName": "Song",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Hoonhee",
+          "lastName": "Seo",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Asad",
+          "lastName": "ul-Haq",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sukyung",
+          "lastName": "Kim",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yongbin",
+          "lastName": "Kwon",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sunwha",
+          "lastName": "Park",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xavier",
+          "lastName": "Soberon",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eugenia",
+          "lastName": "Silva-Herzog",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Joost A. M.",
+          "lastName": "Verlouw",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Pascal",
+          "lastName": "Arp",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mila",
+          "lastName": "Jhamai",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Robert",
+          "lastName": "Kraaij",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anoecim R.",
+          "lastName": "Geelen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Quinten R.",
+          "lastName": "Ducarmon",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Wiep Klaas",
+          "lastName": "Smits",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ed J.",
+          "lastName": "Kuijper",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Romy D.",
+          "lastName": "Zwittink",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Niels",
+          "lastName": "van Best",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "John",
+          "lastName": "Penders",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Giang",
+          "lastName": "Le",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Christel",
+          "lastName": "Driessen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jolanda",
+          "lastName": "Kool",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sudarshan A.",
+          "lastName": "Shetty",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Susana",
+          "lastName": "Fuentes",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mehmet",
+          "lastName": "Demirci",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Akin",
+          "lastName": "Yigin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Celina",
+          "lastName": "Whalley",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew D.",
+          "lastName": "Beggs",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Christopher",
+          "lastName": "Quince",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Rob",
+          "lastName": "James",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sebastien",
+          "lastName": "Raguideau",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Martin",
+          "lastName": "Gordon",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ryan",
+          "lastName": "Mate",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Martin",
+          "lastName": "Fritzsche",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nathan P.",
+          "lastName": "Danckert",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jesus Miguens",
+          "lastName": "Blanco",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Julian R.",
+          "lastName": "Marchesi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marcus",
+          "lastName": "Rauch",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "R. Anthony",
+          "lastName": "Williamson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Angélique B.",
+          "lastName": "van't Wout",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Angelika",
+          "lastName": "Kritz",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Stephan",
+          "lastName": "Rosecker",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Richard",
+          "lastName": "Stevens",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Lynette",
+          "lastName": "Laws",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Lizbeth",
+          "lastName": "Sayavedra",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Stefano",
+          "lastName": "Romano",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrea",
+          "lastName": "Telatin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "David",
+          "lastName": "Baker",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Arjan",
+          "lastName": "Narbad",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Stephanie L.",
+          "lastName": "Servetas",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jason G.",
+          "lastName": "Kralj",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Samuel P.",
+          "lastName": "Forry",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Monique E.",
+          "lastName": "Hunter",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jennifer N.",
+          "lastName": "Dootz",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Scott A.",
+          "lastName": "Jackson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Christopher E.",
+          "lastName": "Mason",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Daniel J.",
+          "lastName": "Butler",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Christopher",
+          "lastName": "Mozsary",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jonathan",
+          "lastName": "Foox",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Namita",
+          "lastName": "Damle",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Aidan",
+          "lastName": "Resh",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Amanda",
+          "lastName": "Busswitz",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Peter",
+          "lastName": "Lenz",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Shane",
+          "lastName": "Sontag",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew",
+          "lastName": "Cross",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Christian",
+          "lastName": "Sanchez",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mingsheng",
+          "lastName": "Guo",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kayla",
+          "lastName": "Olson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Eric A.",
+          "lastName": "Smith",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alex J.",
+          "lastName": "La Reau",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tonya",
+          "lastName": "Ward",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Scott",
+          "lastName": "Kuersten",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Fred",
+          "lastName": "Hyde",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Irina",
+          "lastName": "Khrebtukova",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gary",
+          "lastName": "Schroth",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sjoerd",
+          "lastName": "Rijpkema",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gregory C. A.",
+          "lastName": "Amos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Chrysi",
+          "lastName": "Sergaki",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-10-19T23:10:52Z",
+      "dateModified": "2025-12-01T06:09:22Z",
+      "uri": "http://zotero.org/users/152779/items/VPQM7VSQ",
+      "itemID": 15557,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "url": "https://journals.asm.org/doi/pdf/10.1128/msystems.00466-25",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-10-19T23:10:55Z",
+          "dateModified": "2025-10-19T23:10:55Z",
+          "uri": "http://zotero.org/users/152779/items/VLYG9I3N",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/VLYG9I3N/Anwar et al. - 2025 - DNA reference reagents isolate biases in microbiome profiling a global multi-lab study.pdf",
+          "select": "zotero://select/library/items/VLYG9I3N"
+        }
+      ],
+      "notes": [],
+      "citationKey": "anwarDNAReferenceReagents2025",
+      "itemKey": "VPQM7VSQ",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/VPQM7VSQ"
+    },
+    {
       "key": "DRZ59IKT",
-      "version": 21635,
+      "version": 30484,
       "itemType": "journalArticle",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2219418120",
       "volume": "120",
@@ -167,31 +744,210 @@
       "tags": [
         {
           "tag": "paper of the month"
+        },
+        {
+          "tag": "selected"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-04-18T22:51:58Z",
-      "dateModified": "2023-05-30T04:41:36Z",
+      "dateModified": "2025-12-01T06:31:41Z",
       "uri": "http://zotero.org/users/152779/items/DRZ59IKT",
       "itemID": 13205,
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2219418120",
           "title": "Bartolec et al_2023_Cross-linking mass spectrometry discovers, evaluates, and corroborates.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-04-18T22:52:09Z",
           "dateModified": "2023-04-18T22:52:10Z",
           "uri": "http://zotero.org/users/152779/items/48YNHLER",
-          "path": "/home/xabi/Zotero/storage/48YNHLER/Bartolec et al_2023_Cross-linking mass spectrometry discovers, evaluates, and corroborates.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/48YNHLER/Bartolec et al_2023_Cross-linking mass spectrometry discovers, evaluates, and corroborates.pdf",
           "select": "zotero://select/library/items/48YNHLER"
+        },
+        {
+          "itemType": "attachment",
+          "title": "pnas.2219418120.sapp.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-07-10T03:03:12Z",
+          "dateModified": "2023-07-10T03:03:12Z",
+          "uri": "http://zotero.org/users/152779/items/CLKP9TEJ",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/CLKP9TEJ/pnas.2219418120.sapp.pdf",
+          "select": "zotero://select/library/items/CLKP9TEJ"
+        },
+        {
+          "itemType": "attachment",
+          "title": "pnas.2219418120.sd01.xlsx",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-07-10T03:03:11Z",
+          "dateModified": "2023-07-10T03:03:11Z",
+          "uri": "http://zotero.org/users/152779/items/TEZYC5T9",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/TEZYC5T9/pnas.2219418120.sd01.xlsx",
+          "select": "zotero://select/library/items/TEZYC5T9"
+        },
+        {
+          "itemType": "attachment",
+          "title": "pnas.2219418120.sd02.xlsx",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-07-10T03:03:27Z",
+          "dateModified": "2023-07-10T03:03:27Z",
+          "uri": "http://zotero.org/users/152779/items/LJVF7ZIQ",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/LJVF7ZIQ/pnas.2219418120.sd02.xlsx",
+          "select": "zotero://select/library/items/LJVF7ZIQ"
+        },
+        {
+          "itemType": "attachment",
+          "title": "pnas.2219418120.sd03.xlsx",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-07-10T03:03:11Z",
+          "dateModified": "2023-07-10T03:03:11Z",
+          "uri": "http://zotero.org/users/152779/items/P2DY7NX5",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/P2DY7NX5/pnas.2219418120.sd03.xlsx",
+          "select": "zotero://select/library/items/P2DY7NX5"
+        },
+        {
+          "itemType": "attachment",
+          "title": "pnas.2219418120.sd04.xlsx",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-07-10T03:03:10Z",
+          "dateModified": "2023-07-10T03:03:10Z",
+          "uri": "http://zotero.org/users/152779/items/Z5FS6EAD",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/Z5FS6EAD/pnas.2219418120.sd04.xlsx",
+          "select": "zotero://select/library/items/Z5FS6EAD"
+        },
+        {
+          "itemType": "attachment",
+          "title": "pnas.2219418120.sd05.xlsx",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-07-10T03:03:10Z",
+          "dateModified": "2023-07-10T03:03:10Z",
+          "uri": "http://zotero.org/users/152779/items/WE3M8GZ9",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/WE3M8GZ9/pnas.2219418120.sd05.xlsx",
+          "select": "zotero://select/library/items/WE3M8GZ9"
+        },
+        {
+          "itemType": "attachment",
+          "title": "pnas.2219418120.sd06.xlsx",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-07-10T03:03:09Z",
+          "dateModified": "2023-07-10T03:03:09Z",
+          "uri": "http://zotero.org/users/152779/items/N297PNA2",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/N297PNA2/pnas.2219418120.sd06.xlsx",
+          "select": "zotero://select/library/items/N297PNA2"
+        },
+        {
+          "itemType": "attachment",
+          "title": "pnas.2219418120.sd07.xlsx",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-07-10T03:03:09Z",
+          "dateModified": "2023-07-10T03:03:09Z",
+          "uri": "http://zotero.org/users/152779/items/GCKF3B6W",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/GCKF3B6W/pnas.2219418120.sd07.xlsx",
+          "select": "zotero://select/library/items/GCKF3B6W"
         }
       ],
       "notes": [],
-      "citationKey": "bartolec_Crosslinking_2023a",
+      "citationKey": "bartolecCrosslinkingMassSpectrometry2023a",
       "itemKey": "DRZ59IKT",
       "libraryID": 1,
       "select": "zotero://select/library/items/DRZ59IKT"
+    },
+    {
+      "key": "WLAXKQS5",
+      "version": 23639,
+      "itemType": "journalArticle",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022316623725923",
+      "volume": "153",
+      "issue": "11",
+      "pages": "3193-3206",
+      "publicationTitle": "The Journal of Nutrition",
+      "date": "2023 Nov 1",
+      "journalAbbreviation": "J Nutr",
+      "DOI": "10/gspv4c",
+      "title": "Effect of standardized ginger root powder on gastrointestinal bacteria composition, gastrointestinal symptoms, mental health, fatigue, and quality of life: A double-blind placebo-controlled trial",
+      "creators": [
+        {
+          "firstName": "Megan",
+          "lastName": "Crichton",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Skye",
+          "lastName": "Marshall",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Wolfgang",
+          "lastName": "Marx",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Elizabeth",
+          "lastName": "Isenring",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Samantha L.",
+          "lastName": "Dawson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anna",
+          "lastName": "Lohning",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2022-09-16T05:52:46Z",
+      "dateModified": "2023-11-09T23:32:32Z",
+      "uri": "http://zotero.org/users/152779/items/WLAXKQS5",
+      "itemID": 12827,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0022316623725923-mmc1.docx",
+          "title": "1-s2.0-S0022316623725923-mmc1.doc",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-11-10T02:48:23Z",
+          "dateModified": "2023-11-10T02:48:23Z",
+          "uri": "http://zotero.org/users/152779/items/R86XIRX7",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/R86XIRX7/1-s2.0-S0022316623725923-mmc1.doc",
+          "select": "zotero://select/library/items/R86XIRX7"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Crichton et al_2023_Effect of standardized ginger root powder on gastrointestinal bacteria.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-11-09T23:31:36Z",
+          "dateModified": "2023-11-09T23:31:37Z",
+          "uri": "http://zotero.org/users/152779/items/V83BMDGQ",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/V83BMDGQ/Crichton et al_2023_Effect of standardized ginger root powder on gastrointestinal bacteria.pdf",
+          "select": "zotero://select/library/items/V83BMDGQ"
+        }
+      ],
+      "notes": [],
+      "citationKey": "crichtonEffectStandardizedGinger2023",
+      "itemKey": "WLAXKQS5",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/WLAXKQS5"
     },
     {
       "key": "VUCG6THD",
@@ -234,7 +990,7 @@
         }
       ],
       "tags": [],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2019-12-05T00:09:34Z",
       "dateModified": "2022-11-05T08:27:58Z",
       "uri": "http://zotero.org/users/152779/items/VUCG6THD",
@@ -244,77 +1000,77 @@
           "itemType": "attachment",
           "title": "12866_2020_1770_MOESM1_ESM.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-06-15T00:31:06Z",
           "dateModified": "2020-06-15T00:31:18Z",
           "uri": "http://zotero.org/users/152779/items/VEYSX6H9",
-          "path": "/home/xabi/Zotero/storage/VEYSX6H9/12866_2020_1770_MOESM1_ESM.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/VEYSX6H9/12866_2020_1770_MOESM1_ESM.pdf",
           "select": "zotero://select/library/items/VEYSX6H9"
         },
         {
           "itemType": "attachment",
           "title": "12866_2020_1770_MOESM2_ESM.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-06-15T00:31:05Z",
           "dateModified": "2020-06-15T00:31:18Z",
           "uri": "http://zotero.org/users/152779/items/SM9GDXL5",
-          "path": "/home/xabi/Zotero/storage/SM9GDXL5/12866_2020_1770_MOESM2_ESM.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/SM9GDXL5/12866_2020_1770_MOESM2_ESM.pdf",
           "select": "zotero://select/library/items/SM9GDXL5"
         },
         {
           "itemType": "attachment",
           "title": "12866_2020_1770_MOESM3_ESM.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-06-15T00:31:04Z",
           "dateModified": "2020-06-15T00:31:18Z",
           "uri": "http://zotero.org/users/152779/items/3LI9YAAJ",
-          "path": "/home/xabi/Zotero/storage/3LI9YAAJ/12866_2020_1770_MOESM3_ESM.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/3LI9YAAJ/12866_2020_1770_MOESM3_ESM.pdf",
           "select": "zotero://select/library/items/3LI9YAAJ"
         },
         {
           "itemType": "attachment",
           "title": "12866_2020_1770_MOESM4_ESM.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-06-15T00:31:03Z",
           "dateModified": "2020-06-15T00:31:18Z",
           "uri": "http://zotero.org/users/152779/items/4ALLRMH6",
-          "path": "/home/xabi/Zotero/storage/4ALLRMH6/12866_2020_1770_MOESM4_ESM.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/4ALLRMH6/12866_2020_1770_MOESM4_ESM.pdf",
           "select": "zotero://select/library/items/4ALLRMH6"
         },
         {
           "itemType": "attachment",
           "title": "12866_2020_1770_MOESM5_ESM.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-06-15T00:31:02Z",
           "dateModified": "2020-06-15T00:31:18Z",
           "uri": "http://zotero.org/users/152779/items/S8X3DPFV",
-          "path": "/home/xabi/Zotero/storage/S8X3DPFV/12866_2020_1770_MOESM5_ESM.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/S8X3DPFV/12866_2020_1770_MOESM5_ESM.pdf",
           "select": "zotero://select/library/items/S8X3DPFV"
         },
         {
           "itemType": "attachment",
           "title": "12866_2020_1770_MOESM6_ESM.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-06-15T00:30:59Z",
           "dateModified": "2020-06-15T00:31:18Z",
           "uri": "http://zotero.org/users/152779/items/W5W8ZVBC",
-          "path": "/home/xabi/Zotero/storage/W5W8ZVBC/12866_2020_1770_MOESM6_ESM.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/W5W8ZVBC/12866_2020_1770_MOESM6_ESM.pdf",
           "select": "zotero://select/library/items/W5W8ZVBC"
         },
         {
           "itemType": "attachment",
           "title": "Damnjanovic et al_2020_Bacteriophage genotyping using BOXA repetitive-PCR.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-06-15T00:28:35Z",
           "dateModified": "2020-06-15T00:28:59Z",
           "uri": "http://zotero.org/users/152779/items/F457U2QC",
-          "path": "/home/xabi/Zotero/storage/F457U2QC/Damnjanovic et al_2020_Bacteriophage genotyping using BOXA repetitive-PCR.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/F457U2QC/Damnjanovic et al_2020_Bacteriophage genotyping using BOXA repetitive-PCR.pdf",
           "select": "zotero://select/library/items/F457U2QC"
         }
       ],
@@ -326,7 +1082,7 @@
     },
     {
       "key": "HQMX8Y95",
-      "version": 20868,
+      "version": 22452,
       "itemType": "journalArticle",
       "url": "https://www.mdpi.com/1999-4915/14/4/709",
       "rights": "http://creativecommons.org/licenses/by/3.0/",
@@ -338,7 +1094,7 @@
       "date": "2022 Mar 29",
       "extra": "0 citations (Crossref) [2022-11-05]\ntex.ids= damnjanovic_characterisation_2022-1\nnumber: 4\npublisher: Multidisciplinary Digital Publishing Institute",
       "journalAbbreviation": "Viruses",
-      "DOI": "10.3390/v14040709",
+      "DOI": "10/gskdkz",
       "libraryCatalog": "www.mdpi.com",
       "language": "en",
       "abstractNote": "Recent acknowledgment that multidrug resistant Stenotrophomonas maltophilia strains can cause severe infections has led to increasing global interest in addressing its pathogenicity. While being primarily associated with hospital-acquired respiratory tract infections, this bacterial species is also relevant to ophthalmology, particularly to contact lens-related diseases. In the current study, the capacity of Stenotrophomonas phage vB_SmaM_Ps15 to infect ocular S. maltophilia strains was investigated to explore its future potential as a phage therapeutic. The phage proved to be lytic to a range of clinical isolates collected in Australia from eye swabs, contact lenses and contact lens cases that had previously shown to be resistant to several antibiotics and multipurpose contact lenses disinfectant solutions. Morphological analysis by transmission electron microscopy placed the phage into the Myoviridae family. Its genome size was 161,350 bp with a G + C content of 54.2%, containing 276 putative protein-encoding genes and 24 tRNAs. A detailed comparative genomic analysis positioned vB_SmaM_Ps15 as a new species of the Menderavirus genus, which currently contains six very similar globally distributed members. It was confirmed as a virulent phage, free of known lysogenic and pathogenicity determinants, which supports its potential use for the treatment of S. maltophilia eye infections.",
@@ -384,59 +1140,65 @@
           "type": 1
         }
       ],
-      "relations": [],
+      "relations": {
+        "dc:replaces": [
+          "http://zotero.org/users/152779/items/7TLGT2S5"
+        ]
+      },
       "dateAdded": "2022-02-10T02:41:16Z",
-      "dateModified": "2022-11-05T08:27:53Z",
+      "dateModified": "2023-08-07T04:06:12Z",
       "uri": "http://zotero.org/users/152779/items/HQMX8Y95",
       "itemID": 12453,
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "https://www.mdpi.com/1999-4915/14/4/709/pdf",
           "title": "Damnjanović et al_2022_Characterisation of Bacteriophage vB_SmaM_Ps15 Infective to Stenotrophomonas.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2022-03-29T23:10:43Z",
           "dateModified": "2022-03-29T23:12:44Z",
           "uri": "http://zotero.org/users/152779/items/GR9QCJQR",
-          "path": "/home/xabi/Zotero/storage/GR9QCJQR/Damnjanović et al_2022_Characterisation of Bacteriophage vB_SmaM_Ps15 Infective to Stenotrophomonas.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/GR9QCJQR/Damnjanović et al_2022_Characterisation of Bacteriophage vB_SmaM_Ps15 Infective to Stenotrophomonas.pdf",
           "select": "zotero://select/library/items/GR9QCJQR"
         },
         {
           "itemType": "attachment",
+          "url": "https://www.mdpi.com/1999-4915/14/4/709/htm",
           "title": "Snapshot",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2022-03-29T23:10:49Z",
           "dateModified": "2022-03-29T23:12:44Z",
           "uri": "http://zotero.org/users/152779/items/ZXVHJAZ2",
-          "path": "/home/xabi/Zotero/storage/ZXVHJAZ2/htm.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/ZXVHJAZ2/htm.html",
           "select": "zotero://select/library/items/ZXVHJAZ2"
         },
         {
           "itemType": "attachment",
           "title": "SUPPLEMENTARY 1 - new.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2022-03-29T23:13:11Z",
           "dateModified": "2022-03-29T23:13:11Z",
           "uri": "http://zotero.org/users/152779/items/TFF7GFKE",
-          "path": "/home/xabi/Zotero/storage/TFF7GFKE/SUPPLEMENTARY 1 - new.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/TFF7GFKE/SUPPLEMENTARY 1 - new.pdf",
           "select": "zotero://select/library/items/TFF7GFKE"
         },
         {
           "itemType": "attachment",
           "title": "SupplementaryTables_tosubmit-review.xlsx",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2022-03-29T23:13:19Z",
           "dateModified": "2022-03-29T23:13:19Z",
           "uri": "http://zotero.org/users/152779/items/PE45JFQ3",
-          "path": "/home/xabi/Zotero/storage/PE45JFQ3/SupplementaryTables_tosubmit-review.xlsx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/PE45JFQ3/SupplementaryTables_tosubmit-review.xlsx",
           "select": "zotero://select/library/items/PE45JFQ3"
         }
       ],
       "notes": [],
-      "citationKey": "damnjanovic_Characterisation_2022",
+      "citationKey": "damnjanovicCharacterisationBacteriophageVB_SmaM_Ps152022",
       "itemKey": "HQMX8Y95",
       "libraryID": 1,
       "select": "zotero://select/library/items/HQMX8Y95"
@@ -638,7 +1400,7 @@
           "tag": "selected"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2020-12-22T03:53:25Z",
       "dateModified": "2023-02-24T03:39:07Z",
       "uri": "http://zotero.org/users/152779/items/F6U8W3AQ",
@@ -646,24 +1408,26 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "http://www.nature.com/articles/s41564-020-00834-3.pdf",
           "title": "Eren et al. - 2021 - Community-led, integrated, reproducible multi-omic.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-12-22T03:53:27Z",
           "dateModified": "2021-01-11T03:59:01Z",
           "uri": "http://zotero.org/users/152779/items/K8VA2AAG",
-          "path": "/home/xabi/Zotero/storage/K8VA2AAG/Eren et al. - 2021 - Community-led, integrated, reproducible multi-omic.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/K8VA2AAG/Eren et al. - 2021 - Community-led, integrated, reproducible multi-omic.pdf",
           "select": "zotero://select/library/items/K8VA2AAG"
         },
         {
           "itemType": "attachment",
+          "url": "http://www.nature.com/articles/s41564-020-00834-3",
           "title": "Snapshot",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-12-22T03:53:31Z",
           "dateModified": "2020-12-22T03:53:31Z",
           "uri": "http://zotero.org/users/152779/items/AH2A4JEF",
-          "path": "/home/xabi/Zotero/storage/AH2A4JEF/s41564-020-00834-3.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/AH2A4JEF/s41564-020-00834-3.html",
           "select": "zotero://select/library/items/AH2A4JEF"
         }
       ],
@@ -674,8 +1438,283 @@
       "select": "zotero://select/library/items/F6U8W3AQ"
     },
     {
+      "key": "6GH4HENC",
+      "version": 30480,
+      "itemType": "journalArticle",
+      "url": "https://doi.org/10.1080/21501203.2024.2421319",
+      "volume": "16",
+      "issue": "3",
+      "pages": "1315–1338",
+      "publicationTitle": "Mycology",
+      "ISSN": "2150-1203",
+      "date": "2025 Jan 2",
+      "extra": "Publisher: Taylor & Francis\n_eprint: https://doi.org/10.1080/21501203.2024.2421319",
+      "journalAbbreviation": "Mycology",
+      "DOI": "10.1080/21501203.2024.2421319",
+      "accessDate": "2025-01-06T00:10:23Z",
+      "libraryCatalog": "Taylor and Francis+NEJM",
+      "abstractNote": "A new fungal species, Penicillium psychrofluorescens sp. nov. is described as a member of section Torulomyces. The new species is sister to P. catalonicum, and was isolated from soil collected from Robinson Ridge, East Antarctica, following enrichment cultivation under oligotrophic conditions supplemented with excess hydrogen gas. Penicillium psychrofluorescens is named for its intense autofluorescence derived from a combination of compounds that may include NADPH, porphyrins, and secondary metabolites, such as polyketides. Comparative genomics with both Antarctic and mesophilic Penicillium spp. shows that Penicillium psychrofluorescens has a wide repertoire of glycoside hydrolases, but almost no polysaccharide lyases, has comparably large effector proteins, lacks the machinery to use nitrate as an N-source, but has the genes for the assimilation of phosphorus from phosphonates via oxidative pathway. The strain was found to have 30 biosynthetic gene clusters (BGCs), the majority of which were unrelated to known compound BGCs. Given the remarkable diversity of natural products already characterised from Penicillium spp. and the presence of >30 BGCs with low similarity to known genes, there is biotechnological potential within this novel species that is yet to be explored.",
+      "title": "<i>Penicillium psychrofluorescens</i> sp. nov., a naturally autofluorescent Antarctic fungus",
+      "creators": [
+        {
+          "firstName": "Alinta",
+          "lastName": "Furnell",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nicole",
+          "lastName": "Benaud",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Edward C.Y.",
+          "lastName": "Liew",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Allison",
+          "lastName": "Mertin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jordan A.",
+          "lastName": "Vink",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kate",
+          "lastName": "Montgomery",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marc R.",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Brett A.",
+          "lastName": "Summerell",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Belinda C.",
+          "lastName": "Ferrari",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "extreme fungi",
+          "type": 1
+        },
+        {
+          "tag": "extremophiles",
+          "type": 1
+        },
+        {
+          "tag": "polar fungi",
+          "type": 1
+        },
+        {
+          "tag": "psychrotroph",
+          "type": 1
+        },
+        {
+          "tag": "Taxonomy",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-01-06T00:10:23Z",
+      "dateModified": "2025-12-01T06:08:51Z",
+      "uri": "http://zotero.org/users/152779/items/6GH4HENC",
+      "itemID": 14818,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "url": "https://www.tandfonline.com/doi/pdf/10.1080/21501203.2024.2421319",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-01-06T00:10:26Z",
+          "dateModified": "2025-01-06T00:10:26Z",
+          "uri": "http://zotero.org/users/152779/items/69IXKM38",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/69IXKM38/Furnell et al. - Penicillium psychrofluorescens sp. nov., a naturally autofluorescent Antarctic fungus.pdf",
+          "select": "zotero://select/library/items/69IXKM38"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Supplementary_Figures-TMYC_A_2421319",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-04-30T02:11:47Z",
+          "dateModified": "2025-04-30T02:11:47Z",
+          "uri": "http://zotero.org/users/152779/items/4XRSGTR9",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/4XRSGTR9/Supplementary_Figures-TMYC_A_2421319.pdf",
+          "select": "zotero://select/library/items/4XRSGTR9"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Supplementary_Tables-TMYC_A_2421319",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-04-30T02:11:49Z",
+          "dateModified": "2025-04-30T02:11:49Z",
+          "uri": "http://zotero.org/users/152779/items/S3NXEXGY",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/S3NXEXGY/Supplementary_Tables-TMYC_A_2421319.xlsx",
+          "select": "zotero://select/library/items/S3NXEXGY"
+        }
+      ],
+      "notes": [],
+      "citationKey": "furnellPenicilliumPsychrofluorescensSp2025",
+      "itemKey": "6GH4HENC",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/6GH4HENC"
+    },
+    {
+      "key": "82ZVXMTX",
+      "version": 30471,
+      "itemType": "journalArticle",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021925824000152",
+      "volume": "300",
+      "issue": "2",
+      "pages": "105639",
+      "publicationTitle": "Journal of Biological Chemistry",
+      "ISSN": "0021-9258",
+      "date": "2024 Feb 01",
+      "journalAbbreviation": "J Biol Chem",
+      "DOI": "10.1016/j.jbc.2024.105639",
+      "accessDate": "2024-01-08T22:38:59Z",
+      "libraryCatalog": "ScienceDirect",
+      "abstractNote": "Translation elongation factor 1A (eEF1A) is an essential and highly conserved protein required for protein synthesis in eukaryotes. In both Saccharomyces cerevisiae and human, five different methyltransferases methylate specific residues on eEF1A, making eEF1A the eukaryotic protein targeted by the highest number of dedicated methyltransferases after histone H3. eEF1A methyltransferases are highly selective enzymes, only targeting eEF1A and each targeting just one or two specific residues in eEF1A. However, the mechanism of this selectivity remains poorly understood. To reveal how S. cerevisiae elongation factor methyltransferase 4 (Efm4) specifically methylates eEF1A at K316, we have used AlphaFold-Multimer modelling in combination with crosslinking mass spectrometry (XL-MS) and enzyme mutagenesis. We find that a unique beta-hairpin motif, which extends out from the core methyltransferase fold, is important for methylation of eEF1A K316 in vitro. An alanine mutation of a single residue on this beta-hairpin, F212, significantly reduces Efm4 activity in vitro and in yeast cells. We show that the equivalent residue in human eEF1A-KMT2 (METTL10), F220, is also important for its activity towards eEF1A in vitro. We further show that the eEF1A guanine nucleotide exchange factor, eEF1Bα, inhibits Efm4 methylation of eEF1A in vitro, likely due to competitive binding. Lastly, we find that phosphorylation of eEF1A at S314 negatively crosstalks with Efm4-mediated methylation of K316. Our findings demonstrate how protein methyltransferases can be highly selective towards a single residue on a single protein in the cell.",
+      "title": "Methylation of elongation factor 1A by yeast Efm4 or human eEF1A-KMT2 involves a beta-hairpin recognition motif and crosstalks with phosphorylation",
+      "creators": [
+        {
+          "firstName": "Joshua J.",
+          "lastName": "Hamey",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Amy",
+          "lastName": "Nguyen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mahdi",
+          "lastName": "Haddad",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Paige G.",
+          "lastName": "Pfeiffer",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marc R.",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "AlphaFold",
+          "type": 1
+        },
+        {
+          "tag": "crosslinking mass spectrometry",
+          "type": 1
+        },
+        {
+          "tag": "Crosslinking mass spectrometry",
+          "type": 1
+        },
+        {
+          "tag": "protein cross-linking",
+          "type": 1
+        },
+        {
+          "tag": "Protein cross-linking",
+          "type": 1
+        },
+        {
+          "tag": "protein methylation",
+          "type": 1
+        },
+        {
+          "tag": "Protein methylation",
+          "type": 1
+        },
+        {
+          "tag": "protein methyltransferase",
+          "type": 1
+        },
+        {
+          "tag": "Protein methyltransferase",
+          "type": 1
+        },
+        {
+          "tag": "translation elongation factor",
+          "type": 1
+        },
+        {
+          "tag": "Translation elongation factor",
+          "type": 1
+        }
+      ],
+      "relations": {
+        "dc:replaces": [
+          "http://zotero.org/users/152779/items/SLLAPMIA"
+        ]
+      },
+      "dateAdded": "2024-01-08T22:38:59Z",
+      "dateModified": "2025-12-01T05:51:39Z",
+      "uri": "http://zotero.org/users/152779/items/82ZVXMTX",
+      "itemID": 14103,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0021925824000152-mmc1.pdf",
+          "title": "1-s2.0-S0021925824000152-mmc1.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-01-11T23:39:26Z",
+          "dateModified": "2024-01-11T23:39:26Z",
+          "uri": "http://zotero.org/users/152779/items/2IYFMJM4",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/2IYFMJM4/1-s2.0-S0021925824000152-mmc1.pdf",
+          "select": "zotero://select/library/items/2IYFMJM4"
+        },
+        {
+          "itemType": "attachment",
+          "url": "https://www.jbc.org/article/S0021925824000152/pdf",
+          "title": "Hamey et al_2024_Methylation of elongation factor 1A by yeast Efm4 or human eEF1A-KMT2 involves.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-01-30T23:00:38Z",
+          "dateModified": "2024-01-30T23:02:21Z",
+          "uri": "http://zotero.org/users/152779/items/G76D47CT",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/G76D47CT/Hamey et al_2024_Methylation of elongation factor 1A by yeast Efm4 or human eEF1A-KMT2 involves.pdf",
+          "select": "zotero://select/library/items/G76D47CT"
+        }
+      ],
+      "notes": [],
+      "citationKey": "hameyMethylationElongationFactor2024",
+      "itemKey": "82ZVXMTX",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/82ZVXMTX"
+    },
+    {
       "key": "XYLKAPBB",
-      "version": 21444,
+      "version": 30486,
       "itemType": "journalArticle",
       "url": "https://www.frontiersin.org/articles/10.3389/fmicb.2022.1035247",
       "volume": "13",
@@ -685,7 +1724,7 @@
       "date": "2022 Dec 7",
       "extra": "tex.ids= holland_Metaproteomics_2022a",
       "journalAbbreviation": "Front Microbiol",
-      "DOI": "10.3389/fmicb.2022.1035247",
+      "DOI": "10/gskdm3",
       "libraryCatalog": "Frontiers",
       "abstractNote": "Dichloromethane (DCM; CH2Cl2) is a widespread pollutant with anthropogenic and natural sources. Anaerobic DCM-dechlorinating bacteria use the Wood–Ljungdahl pathway, yet dechlorination reaction mechanisms remain unclear and the enzyme(s) responsible for carbon-chlorine bond cleavage have not been definitively identified. Of the three bacterial taxa known to carry out anaerobic dechlorination of DCM, ‘Candidatus Formimonas warabiya’ strain DCMF is the only organism that can also ferment non-chlorinated substrates, including quaternary amines (i.e., choline and glycine betaine) and methanol. Strain DCMF is present within enrichment culture DFE, which was derived from an organochlorine-contaminated aquifer. We utilized the metabolic versatility of strain DCMF to carry out comparative metaproteomics of cultures grown with DCM or glycine betaine. This revealed differential abundance of numerous proteins, including a methyltransferase gene cluster (the mec cassette) that was significantly more abundant during DCM degradation, as well as highly conserved amongst anaerobic DCM-degrading bacteria. This lends strong support to its involvement in DCM dechlorination. A putative glycine betaine methyltransferase was also discovered, adding to the limited knowledge about the fate of this widespread osmolyte in anoxic subsurface environments. Furthermore, the metagenome of enrichment culture DFE was assembled, resulting in five high quality and two low quality draft metagenome-assembled genomes. Metaproteogenomic analysis did not reveal any genes or proteins for utilization of DCM or glycine betaine in the cohabiting bacteria, supporting the previously held idea that they persist via necromass utilization.",
       "title": "Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by ‘<i>Candidatus</i> Formimonas warabiya’ strain DCMF",
@@ -721,14 +1760,14 @@
           "creatorType": "author"
         }
       ],
-      "tags": [
-        {
-          "tag": "selected"
-        }
-      ],
-      "relations": [],
+      "tags": [],
+      "relations": {
+        "dc:replaces": [
+          "http://zotero.org/users/152779/items/AFQFBPPR"
+        ]
+      },
       "dateAdded": "2021-07-21T02:58:13Z",
-      "dateModified": "2023-02-24T03:38:46Z",
+      "dateModified": "2025-12-01T06:32:48Z",
       "uri": "http://zotero.org/users/152779/items/XYLKAPBB",
       "itemID": 12387,
       "attachments": [
@@ -736,45 +1775,143 @@
           "itemType": "attachment",
           "title": "Data_Sheet_1_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by ‘Candidatus Formimonas warabi.PDF",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2022-12-08T01:06:20Z",
           "dateModified": "2022-12-08T01:07:21Z",
           "uri": "http://zotero.org/users/152779/items/93GUYTDS",
-          "path": "/home/xabi/Zotero/storage/93GUYTDS/Data_Sheet_1_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by ‘Candidatus Formimonas warabi.PDF",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/93GUYTDS/Data_Sheet_1_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by ‘Candidatus Formimonas warabi.PDF",
           "select": "zotero://select/library/items/93GUYTDS"
         },
         {
           "itemType": "attachment",
           "title": "Data_Sheet_2_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by ‘Candidatus Formimonas warabi.xlsx",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2022-12-08T01:06:20Z",
           "dateModified": "2022-12-08T01:07:21Z",
           "uri": "http://zotero.org/users/152779/items/N7VL2YEY",
-          "path": "/home/xabi/Zotero/storage/N7VL2YEY/Data_Sheet_2_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by ‘Candidatus Formimonas warabi.xlsx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/N7VL2YEY/Data_Sheet_2_Metaproteomics reveals methyltransferases implicated in dichloromethane and glycine betaine fermentation by ‘Candidatus Formimonas warabi.xlsx",
           "select": "zotero://select/library/items/N7VL2YEY"
         },
         {
           "itemType": "attachment",
+          "url": "https://www.frontiersin.org/articles/10.3389/fmicb.2022.1035247/pdf",
           "title": "Holland et al_2022_Metaproteomics reveals methyltransferases implicated in dichloromethane and.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2022-12-08T01:05:10Z",
           "dateModified": "2022-12-08T01:07:21Z",
           "uri": "http://zotero.org/users/152779/items/P36E86LR",
-          "path": "/home/xabi/Zotero/storage/P36E86LR/Holland et al_2022_Metaproteomics reveals methyltransferases implicated in dichloromethane and.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/P36E86LR/Holland et al_2022_Metaproteomics reveals methyltransferases implicated in dichloromethane and.pdf",
           "select": "zotero://select/library/items/P36E86LR"
         }
       ],
       "notes": [],
-      "citationKey": "holland_Metaproteomics_2022",
+      "citationKey": "hollandMetaproteomicsRevealsMethyltransferases2022",
       "itemKey": "XYLKAPBB",
       "libraryID": 1,
       "select": "zotero://select/library/items/XYLKAPBB"
     },
     {
+      "key": "FQ2QSCSU",
+      "version": 30474,
+      "itemType": "journalArticle",
+      "url": "https://www.nature.com/articles/s41564-025-02116-2",
+      "rights": "2025 The Author(s), under exclusive licence to Springer Nature Limited",
+      "volume": "10",
+      "issue": "10",
+      "pages": "2384-2395",
+      "publicationTitle": "Nature Microbiology",
+      "ISSN": "2058-5276",
+      "date": "2025 Sep 26",
+      "extra": "Publisher: Nature Publishing Group",
+      "journalAbbreviation": "Nat Microbiol",
+      "DOI": "10.1038/s41564-025-02116-2",
+      "accessDate": "2025-10-19T23:13:37Z",
+      "libraryCatalog": "www.nature.com",
+      "language": "en",
+      "abstractNote": "Science benefits from rapid open data sharing, but current guidelines for data reuse were established two decades ago, when databases were several million times smaller than they are today. These guidelines are largely unfamiliar to the scientific community, and, owing to the rapid increase in biological data generated in the past decade, they are also outdated. As a result, there is a lack of community standards suited to the current landscape and inconsistent implementation of data sharing policies across institutions. Here we discuss current sequence data sharing policies and their benefits and drawbacks, and present a roadmap to establish guidelines for equitable sequence data reuse, developed in consultation with a data consortium of 167 microbiome scientists. We propose the use of a Data Reuse Information (DRI) tag for public sequence data, which will be associated with at least one Open Researcher and Contributor ID (ORCID) account. The machine-readable DRI tag indicates that the data creators prefer to be contacted before data reuse, and simultaneously provides data consumers with a mechanism to get in touch with the data creators. The DRI aims to facilitate and foster collaborations, and serve as a guideline that can be expanded to other data types.",
+      "title": "A roadmap for equitable reuse of public microbiome data",
+      "creators": [
+        {
+          "firstName": "Laura A.",
+          "lastName": "Hug",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Roland",
+          "lastName": "Hatzenpichler",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Cristina",
+          "lastName": "Moraru",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "André R.",
+          "lastName": "Soares",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Folker",
+          "lastName": "Meyer",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anke",
+          "lastName": "Heyder",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "",
+          "lastName": "The Data Reuse Consortium",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alexander J.",
+          "lastName": "Probst",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Bioinformatics",
+          "type": 1
+        },
+        {
+          "tag": "Metagenomics",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-19T23:13:37Z",
+      "dateModified": "2025-12-01T05:52:19Z",
+      "uri": "http://zotero.org/users/152779/items/FQ2QSCSU",
+      "itemID": 15559,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "url": "https://www.nature.com/articles/s41564-025-02116-2.pdf",
+          "title": "Full Text PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-10-19T23:13:43Z",
+          "dateModified": "2025-10-19T23:13:43Z",
+          "uri": "http://zotero.org/users/152779/items/XV8M2BKZ",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/XV8M2BKZ/Hug et al. - 2025 - A roadmap for equitable reuse of public microbiome data.pdf",
+          "select": "zotero://select/library/items/XV8M2BKZ"
+        }
+      ],
+      "notes": [],
+      "citationKey": "hugRoadmapEquitableReuse2025",
+      "itemKey": "FQ2QSCSU",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/FQ2QSCSU"
+    },
+    {
       "key": "QCPQRCKW",
-      "version": 20868,
+      "version": 22452,
       "itemType": "journalArticle",
       "url": "https://doi.org/10.1021/acs.est.1c01604",
       "volume": "55",
@@ -785,7 +1922,7 @@
       "date": "2021 Jul 06",
       "extra": "6 citations (Crossref) [2022-11-05]\nPublisher: American Chemical Society",
       "journalAbbreviation": "Environ Sci Technol",
-      "DOI": "10.1021/acs.est.1c01604",
+      "DOI": "10/gkhz9g",
       "accessDate": "2021-07-21T02:53:47Z",
       "libraryCatalog": "ACS Publications",
       "abstractNote": "Results of investigations into factors influencing contaminant mobility in a replica trench located adjacent to a legacy radioactive waste site are presented in this study. The trench was filled with nonhazardous iron- and organic matter (OM)-rich components, as well as three contaminant analogues strontium, cesium, and neodymium to examine contaminant behavior. Imposed redox/water-level oscillations, where oxygen-laden rainwater was added to the anoxic trench, resulted in marked biogeochemical changes including the removal of aqueous Fe(II) and circulation of dissolved carbon, along with shifts to microbial communities involved in cycling iron (Gallionella, Sideroxydans) and methane generation (Methylomonas, Methylococcaceae). Contaminant mobility depended upon element speciation and rainfall event intensity. Strontium remained mobile, being readily translocated under hydrological perturbations. Strong ion-exchange reactions and structural incorporation into double-layer clay minerals were likely responsible for greater retention of Cs, which, along with Sr, was unaffected by redox oscillations. Neodymium was initially immobilized within the anoxic trenches, due to either secondary mineral (phosphate) precipitation or via the chemisorption of organic– and carbonate–Nd complexes onto variably charged solid phases. Oxic rainwater intrusions altered Nd mobility via competing effects. Oxidation of Fe(II) led to partial retention of Nd within highly sorbing Fe(III)/OM phases, whereas pH decreases associated with rainwater influxes resulted in a release of adsorbed Nd to solution with both pH and OM presumed to be the key factors controlling Nd attenuation. Collectively, the behavior of simulated contaminants within this replica trench provided unique insights into trench water biogeochemistry and contaminant cycling in a redox oscillatory environment.",
@@ -838,55 +1975,58 @@
         }
       ],
       "tags": [],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2021-07-21T02:53:47Z",
-      "dateModified": "2022-11-05T08:27:55Z",
+      "dateModified": "2023-08-07T04:06:12Z",
       "uri": "http://zotero.org/users/152779/items/QCPQRCKW",
       "itemID": 12389,
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "https://pubs.acs.org/doi/full/10.1021/acs.est.1c01604",
           "title": "ACS Full Text Snapshot",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2021-07-21T02:54:37Z",
           "dateModified": "2021-07-21T02:54:37Z",
           "uri": "http://zotero.org/users/152779/items/YLH4S8VJ",
-          "path": "/home/xabi/Zotero/storage/YLH4S8VJ/acs.est.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/YLH4S8VJ/acs.est.html",
           "select": "zotero://select/library/items/YLH4S8VJ"
         },
         {
           "itemType": "attachment",
+          "url": "https://pubs.acs.org/doi/suppl/10.1021/acs.est.1c01604/suppl_file/es1c01604_si_001.pdf",
           "title": "es1c01604_si_001.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2021-07-21T02:54:38Z",
           "dateModified": "2021-07-21T02:54:38Z",
           "uri": "http://zotero.org/users/152779/items/KDW478F9",
-          "path": "/home/xabi/Zotero/storage/KDW478F9/es1c01604_si_001.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/KDW478F9/es1c01604_si_001.pdf",
           "select": "zotero://select/library/items/KDW478F9"
         },
         {
           "itemType": "attachment",
+          "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.1c01604",
           "title": "Kinsela et al_2021_Biogeochemical Mobility of Contaminants from a Replica Radioactive Waste Trench.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2021-07-21T02:53:51Z",
           "dateModified": "2021-07-21T02:53:52Z",
           "uri": "http://zotero.org/users/152779/items/PGTBJZH3",
-          "path": "/home/xabi/Zotero/storage/PGTBJZH3/Kinsela et al_2021_Biogeochemical Mobility of Contaminants from a Replica Radioactive Waste Trench.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/PGTBJZH3/Kinsela et al_2021_Biogeochemical Mobility of Contaminants from a Replica Radioactive Waste Trench.pdf",
           "select": "zotero://select/library/items/PGTBJZH3"
         }
       ],
       "notes": [],
-      "citationKey": "kinsela_Biogeochemical_2021",
+      "citationKey": "kinselaBiogeochemicalMobilityContaminants2021",
       "itemKey": "QCPQRCKW",
       "libraryID": 1,
       "select": "zotero://select/library/items/QCPQRCKW"
     },
     {
       "key": "KNTP9ERZ",
-      "version": 21398,
+      "version": 22460,
       "itemType": "journalArticle",
       "url": "https://www.sciencedirect.com/science/article/pii/S0048969722053402",
       "volume": "851",
@@ -897,7 +2037,7 @@
       "date": "2022 Dec 10",
       "extra": "0 citations (Crossref) [2022-11-05]",
       "journalAbbreviation": "Sci Total Environ",
-      "DOI": "10.1016/j.scitotenv.2022.158241",
+      "DOI": "10/gskdm4",
       "accessDate": "2022-08-29T23:44:26Z",
       "libraryCatalog": "ScienceDirect",
       "language": "en",
@@ -967,48 +2107,51 @@
           "type": 1
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2022-08-29T23:44:26Z",
-      "dateModified": "2023-02-23T05:21:22Z",
+      "dateModified": "2023-08-07T04:07:43Z",
       "uri": "http://zotero.org/users/152779/items/KNTP9ERZ",
       "itemID": 12832,
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0048969722053402-mmc1.docx",
           "title": "1-s2.0-S0048969722053402-mmc1.doc",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2022-08-30T00:02:32Z",
           "dateModified": "2022-08-30T00:02:32Z",
           "uri": "http://zotero.org/users/152779/items/KYQDWBI3",
-          "path": "/home/xabi/Zotero/storage/KYQDWBI3/1-s2.0-S0048969722053402-mmc1.doc",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/KYQDWBI3/1-s2.0-S0048969722053402-mmc1.doc",
           "select": "zotero://select/library/items/KYQDWBI3"
         },
         {
           "itemType": "attachment",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0048969722053402/pdfft?md5=1017770934a63b87a0e8a80b624047ef&pid=1-s2.0-S0048969722053402-main.pdf&isDTMRedir=Y",
           "title": "Kinsela et al_2022_Contaminant release, mixing and microbial fluctuations initiated by.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2022-08-29T23:44:33Z",
           "dateModified": "2022-08-29T23:44:35Z",
           "uri": "http://zotero.org/users/152779/items/LQUSBWQG",
-          "path": "/home/xabi/Zotero/storage/LQUSBWQG/Kinsela et al_2022_Contaminant release, mixing and microbial fluctuations initiated by.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/LQUSBWQG/Kinsela et al_2022_Contaminant release, mixing and microbial fluctuations initiated by.pdf",
           "select": "zotero://select/library/items/LQUSBWQG"
         },
         {
           "itemType": "attachment",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0048969722053402?dgcid=coauthor",
           "title": "ScienceDirect Snapshot",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2022-08-29T23:44:37Z",
           "dateModified": "2022-08-29T23:44:37Z",
           "uri": "http://zotero.org/users/152779/items/97JLXSMG",
-          "path": "/home/xabi/Zotero/storage/97JLXSMG/S0048969722053402.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/97JLXSMG/S0048969722053402.html",
           "select": "zotero://select/library/items/97JLXSMG"
         }
       ],
       "notes": [],
-      "citationKey": "kinsela_Contaminant_2022",
+      "citationKey": "kinselaContaminantReleaseMixing2022",
       "itemKey": "KNTP9ERZ",
       "libraryID": 1,
       "select": "zotero://select/library/items/KNTP9ERZ"
@@ -1062,7 +2205,7 @@
           "tag": "soil fungi"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2015-03-06T00:51:43Z",
       "dateModified": "2022-11-05T08:28:02Z",
       "uri": "http://zotero.org/users/152779/items/39XNERBC",
@@ -1072,22 +2215,22 @@
           "itemType": "attachment",
           "title": "Kolařík et al. - 2015 - Acidotolerant genus iFodinomycesi (Ascomycota.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2015-05-18T09:08:11Z",
           "dateModified": "2015-05-18T09:08:18Z",
           "uri": "http://zotero.org/users/152779/items/64FK73R4",
-          "path": "/home/xabi/Zotero/storage/64FK73R4/Kolařík et al. - 2015 - Acidotolerant genus iFodinomycesi (Ascomycota.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/64FK73R4/Kolařík et al. - 2015 - Acidotolerant genus iFodinomycesi (Ascomycota.pdf",
           "select": "zotero://select/library/items/64FK73R4"
         },
         {
           "itemType": "attachment",
           "title": "Kolařík et al. - Acidotolerant fungus iFodinomycesi (Ascomycot.docx",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2015-03-06T00:55:49Z",
           "dateModified": "2015-03-06T00:55:51Z",
           "uri": "http://zotero.org/users/152779/items/DEI3GDK8",
-          "path": "/home/xabi/Zotero/storage/DEI3GDK8/Kolařík et al. - Acidotolerant fungus iFodinomycesi (Ascomycot.docx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/DEI3GDK8/Kolařík et al. - Acidotolerant fungus iFodinomycesi (Ascomycot.docx",
           "select": "zotero://select/library/items/DEI3GDK8"
         }
       ],
@@ -1099,7 +2242,7 @@
     },
     {
       "key": "N74LK53V",
-      "version": 21574,
+      "version": 30433,
       "itemType": "journalArticle",
       "url": "https://journals.asm.org/doi/10.1128/msystems.00119-23",
       "volume": "8",
@@ -1143,12 +2286,18 @@
       ],
       "tags": [
         {
+          "tag": "cofirst"
+        },
+        {
           "tag": "paper of the month"
+        },
+        {
+          "tag": "selected"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-03-21T23:22:17Z",
-      "dateModified": "2023-05-22T06:56:02Z",
+      "dateModified": "2025-11-24T07:26:37Z",
       "uri": "http://zotero.org/users/152779/items/N74LK53V",
       "itemID": 13199,
       "attachments": [
@@ -1156,16 +2305,135 @@
           "itemType": "attachment",
           "title": "Kronen et al_2023_Evidence for a putative isoprene reductase in iAcetobacterium wieringae-i.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-05-05T00:47:19Z",
           "dateModified": "2023-05-05T00:47:21Z",
           "uri": "http://zotero.org/users/152779/items/C868M7UC",
-          "path": "/home/xabi/Zotero/storage/C868M7UC/Kronen et al_2023_Evidence for a putative isoprene reductase in iAcetobacterium wieringae-i.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/C868M7UC/Kronen et al_2023_Evidence for a putative isoprene reductase in iAcetobacterium wieringae-i.pdf",
           "select": "zotero://select/library/items/C868M7UC"
+        },
+        {
+          "itemType": "attachment",
+          "url": "https://journals.asm.org/doi/suppl/10.1128/msystems.00119-23/suppl_file/msystems.00119-23-s0001.docx",
+          "title": "msystems.00119-23-s0001.docx",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-08-31T04:02:25Z",
+          "dateModified": "2023-08-31T04:02:25Z",
+          "uri": "http://zotero.org/users/152779/items/ZY4FZZBR",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/ZY4FZZBR/msystems.00119-23-s0001.docx",
+          "select": "zotero://select/library/items/ZY4FZZBR"
+        },
+        {
+          "itemType": "attachment",
+          "url": "https://journals.asm.org/doi/suppl/10.1128/msystems.00119-23/suppl_file/msystems.00119-23-s0002.png",
+          "title": "msystems.00119-23-s0002.png",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-08-31T04:02:42Z",
+          "dateModified": "2023-08-31T04:02:42Z",
+          "uri": "http://zotero.org/users/152779/items/Q3DBPDHL",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/Q3DBPDHL/msystems.00119-23-s0002.png",
+          "select": "zotero://select/library/items/Q3DBPDHL"
+        },
+        {
+          "itemType": "attachment",
+          "url": "https://journals.asm.org/doi/suppl/10.1128/msystems.00119-23/suppl_file/msystems.00119-23-s0003.png",
+          "title": "msystems.00119-23-s0003.png",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-08-31T04:02:44Z",
+          "dateModified": "2023-08-31T04:02:44Z",
+          "uri": "http://zotero.org/users/152779/items/49S9ZQID",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/49S9ZQID/msystems.00119-23-s0003.png",
+          "select": "zotero://select/library/items/49S9ZQID"
+        },
+        {
+          "itemType": "attachment",
+          "url": "https://journals.asm.org/doi/suppl/10.1128/msystems.00119-23/suppl_file/msystems.00119-23-s0004.png",
+          "title": "msystems.00119-23-s0004.png",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-08-31T04:02:49Z",
+          "dateModified": "2023-08-31T04:02:49Z",
+          "uri": "http://zotero.org/users/152779/items/C4WTJPC8",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/C4WTJPC8/msystems.00119-23-s0004.png",
+          "select": "zotero://select/library/items/C4WTJPC8"
+        },
+        {
+          "itemType": "attachment",
+          "url": "https://journals.asm.org/doi/suppl/10.1128/msystems.00119-23/suppl_file/msystems.00119-23-s0005.pdf",
+          "title": "msystems.00119-23-s0005.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-08-31T04:02:53Z",
+          "dateModified": "2023-08-31T04:02:53Z",
+          "uri": "http://zotero.org/users/152779/items/NRM5DV6X",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/NRM5DV6X/msystems.00119-23-s0005.pdf",
+          "select": "zotero://select/library/items/NRM5DV6X"
+        },
+        {
+          "itemType": "attachment",
+          "url": "https://journals.asm.org/doi/suppl/10.1128/msystems.00119-23/suppl_file/msystems.00119-23-s0006.png",
+          "title": "msystems.00119-23-s0006.png",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-08-31T04:02:57Z",
+          "dateModified": "2023-08-31T04:02:57Z",
+          "uri": "http://zotero.org/users/152779/items/XFCSW4ZA",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/XFCSW4ZA/msystems.00119-23-s0006.png",
+          "select": "zotero://select/library/items/XFCSW4ZA"
+        },
+        {
+          "itemType": "attachment",
+          "url": "https://journals.asm.org/doi/suppl/10.1128/msystems.00119-23/suppl_file/msystems.00119-23-s0007.png",
+          "title": "msystems.00119-23-s0007.png",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-08-31T04:03:02Z",
+          "dateModified": "2023-08-31T04:03:02Z",
+          "uri": "http://zotero.org/users/152779/items/65YNCU5M",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/65YNCU5M/msystems.00119-23-s0007.png",
+          "select": "zotero://select/library/items/65YNCU5M"
+        },
+        {
+          "itemType": "attachment",
+          "url": "https://journals.asm.org/doi/suppl/10.1128/msystems.00119-23/suppl_file/msystems.00119-23-s0008.png",
+          "title": "msystems.00119-23-s0008.png",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-08-31T04:03:06Z",
+          "dateModified": "2023-08-31T04:03:06Z",
+          "uri": "http://zotero.org/users/152779/items/HHSB57ZJ",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/HHSB57ZJ/msystems.00119-23-s0008.png",
+          "select": "zotero://select/library/items/HHSB57ZJ"
+        },
+        {
+          "itemType": "attachment",
+          "url": "https://journals.asm.org/doi/suppl/10.1128/msystems.00119-23/suppl_file/msystems.00119-23-s0009.png",
+          "title": "msystems.00119-23-s0009.png",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-08-31T04:03:08Z",
+          "dateModified": "2023-08-31T04:03:08Z",
+          "uri": "http://zotero.org/users/152779/items/RYVXWDQ9",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/RYVXWDQ9/msystems.00119-23-s0009.png",
+          "select": "zotero://select/library/items/RYVXWDQ9"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Supplementary_Tables-mSystems.xlsx",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-11-14T23:07:03Z",
+          "dateModified": "2023-11-14T23:07:03Z",
+          "uri": "http://zotero.org/users/152779/items/3VBNYQDG",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/3VBNYQDG/Supplementary_Tables-mSystems.xlsx",
+          "select": "zotero://select/library/items/3VBNYQDG"
         }
       ],
       "notes": [],
-      "citationKey": "kronen_Evidence_2023",
+      "citationKey": "kronenEvidencePutativeIsoprene2023",
       "itemKey": "N74LK53V",
       "libraryID": 1,
       "select": "zotero://select/library/items/N74LK53V"
@@ -1224,7 +2492,7 @@
           "type": 1
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2021-01-12T23:46:36Z",
       "dateModified": "2022-11-05T08:27:54Z",
       "uri": "http://zotero.org/users/152779/items/RY2PVW5F",
@@ -1232,35 +2500,38 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0016706120326690-mmc1.docx",
           "title": "1-s2.0-S0016706120326690-mmc1.doc",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2021-01-12T23:47:50Z",
           "dateModified": "2021-01-12T23:47:50Z",
           "uri": "http://zotero.org/users/152779/items/HQLKLERV",
-          "path": "/home/xabi/Zotero/storage/HQLKLERV/1-s2.0-S0016706120326690-mmc1.doc",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/HQLKLERV/1-s2.0-S0016706120326690-mmc1.doc",
           "select": "zotero://select/library/items/HQLKLERV"
         },
         {
           "itemType": "attachment",
+          "url": "https://pdf.sciencedirectassets.com/271789/1-s2.0-S0016706120X00243/1-s2.0-S0016706120326690/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQD2Kdc5F0HAxuSbpMQIL5ZNWtEnd3YcwmeAQtC7uQjquwIgKWn4cOvAItiK04kC2SiKzb00EvG38zRseIpKeUVVQekqvQMIyP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDPP7FGPmcuZZIq2M0CqRA6OXgiwLks8olkbZwUj6JVzC0hXrd4%2FDo1ItVaYa5knPtDenv29wln2lZuTuOZIYYS3OXrmM%2BB%2FugJs43WObV8jcFvUDPUnovBi55p0uAeJtDtpeTeUMrvEhZMo3tuD%2F1YFMIVT48e7Ckl8ULVSilzbpe3MojnvVRciCUZw%2FhN9yAEQTaqK2q4tl5Lgo8Z0bueGG1nJXjMooxyGglam9TqQEnrPgB1DP8UJdJ7Av%2B2briuZpGmq065Kd5ciEhM0m1V1St7K%2F15fna9zMxo3B4fOwDtyzidieiKe6PW1tflrV9YsAEw7m3%2B8PwDMx5rIpiOaX%2BTn4bLG4EgKFma6H7yJp%2BUeVUfaLeyV6z%2BAx3l1CU3xUKXEnbw%2BY5dV%2Fbeb6NbvS0pAXC%2FW1JOFhqxtpCDSwY5FBxSi1vTrpmHYgUdetPyWjpnTuPoIiA0NnMj4mTiZmmciO6HTpj6zDD7nC3mgZMjhan5XArn7lr%2BwqpgxouFS92S9PNLlr%2Ff0jW6WtktLOry0%2FBQ1fOS%2FKjkyfStHUMK3P%2BP8FOusBItbMl7%2By7EIQ7sJOAWM853vldz2jlSPl8Qt8Kq9WrgM%2FDC%2BEgq498y8RYWszUowGTctx68o19Rj3BxLA%2BTmlILVxpldrKnIFGx50%2BT0K27pBFIH%2FXa9jQhqoWAnm1oQ1G%2Fq5ggFOzelzOPnuDnMV6UnN5jfTG5WEeA2uXHPTk0YYb6Cbn8BeZ%2FhqYlv7Owvzo3y%2Bn%2F3Mtg9xN3RCksvHr6%2BxvP6l%2FCxUOMkxtSkkQ8Els8%2B9Yx58KI%2BZxBolU48H7%2BKRDYIdexLn7%2Bo8eSdTkCMSC20znZXDNgBn94wXWyaI6tunnwLeiRsE3g%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20210112T234636Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYUEYQQWCG%2F20210112%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=0b7f512171052b77a7294b1f29fc2174b3747b7674acb90f5994c103e151509f&hash=b6cc814054de71fddc638a8b6ee50425beb5b9d4c0529a7cf3fa51611e4ed589&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0016706120326690&tid=spdf-490fc336-d1a0-41fe-bcb6-b6333324178d&sid=610517f919bb704eaa69bbf307111b16aca0gxrqa&type=client",
           "title": "Machado de Lima et al_2021_Biocrust cyanobacterial composition, diversity, and environmental drivers in.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2021-01-12T23:46:38Z",
           "dateModified": "2021-01-12T23:46:39Z",
           "uri": "http://zotero.org/users/152779/items/9RNWMWX8",
-          "path": "/home/xabi/Zotero/storage/9RNWMWX8/Machado de Lima et al_2021_Biocrust cyanobacterial composition, diversity, and environmental drivers in.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/9RNWMWX8/Machado de Lima et al_2021_Biocrust cyanobacterial composition, diversity, and environmental drivers in.pdf",
           "select": "zotero://select/library/items/9RNWMWX8"
         },
         {
           "itemType": "attachment",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0016706120326690?dgcid=coauthor",
           "title": "ScienceDirect Snapshot",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2021-01-12T23:46:42Z",
           "dateModified": "2021-01-12T23:46:42Z",
           "uri": "http://zotero.org/users/152779/items/QGCWIHLH",
-          "path": "/home/xabi/Zotero/storage/QGCWIHLH/S0016706120326690.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/QGCWIHLH/S0016706120326690.html",
           "select": "zotero://select/library/items/QGCWIHLH"
         }
       ],
@@ -1269,6 +2540,122 @@
       "itemKey": "RY2PVW5F",
       "libraryID": 1,
       "select": "zotero://select/library/items/RY2PVW5F"
+    },
+    {
+      "key": "AKQA2ETG",
+      "version": 30472,
+      "itemType": "journalArticle",
+      "url": "https://www.nature.com/articles/s41598-025-94011-3",
+      "rights": "2025 The Author(s)",
+      "volume": "15",
+      "issue": "1",
+      "pages": "10281",
+      "publicationTitle": "Scientific Reports",
+      "ISSN": "2045-2322",
+      "date": "2025 Mar 25",
+      "extra": "Publisher: Nature Publishing Group",
+      "journalAbbreviation": "Sci Rep",
+      "DOI": "10.1038/s41598-025-94011-3",
+      "accessDate": "2025-03-26T02:34:48Z",
+      "libraryCatalog": "www.nature.com",
+      "language": "en",
+      "abstractNote": "Molecular profiling of inner ear neurons has broadened the classification of the primary afferents that support neural coding for hearing and balance. To extend spatiotemporal characterization of auditory and vestibular neuron diversity, we established a transgenic reporter mouse model (Prphp-mCherry), where elements of the peripherin promoter (Prphp) drive expression of the mCherry fluorescent reporter. Type III intermediate filament protein peripherin expression is a marker for type II spiral ganglion neurons (SGN) that innervate the cochlear outer hair cells, and the small diameter ‘bouton’ vestibular ganglion neurons (VGN) innervating the type II vestibular hair cells. Using Nanopore genome sequencing, the integration site of the transgene construct was identified within the class III metabotropic glutamate receptor 8 gene (Grm8, chromosome 6). Use of CUBIC / PEGASOS clearing of early postnatal to adult inner ear tissues enabled in situ 3D spatial localization of a dispersed population of cochlear mCherry + ve SGN, with highest expression and density in the hook (high frequency encoding) basal region. Of these mCherry + ve SGN, type II SGN (peripherin-immunopositive) were all co-labeled in the basal region, but the majority of the overall mCherry-delineated SGN auditory subpopulation were type I SGN innervating inner hair cells. In the VGN, mCherry + ve neurons represented ~ 15% of the adult population, dispersed as a small diameter subpopulation throughout both the inferior and superior VGN regions. These findings resolve heterogeneous type I and type II cochlear SGN subpopulations, particularly in the structurally complex hook region, and further differentiate vestibular primary afferents across postnatal development.",
+      "title": "Developmental differentiation of mouse inner ear neuron subpopulations resolved with a peripherin-promoter reporter within the Grm8 locus",
+      "creators": [
+        {
+          "firstName": "Lily J.",
+          "lastName": "Pearson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jeremy L.",
+          "lastName": "Pinyon",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jennie M. E.",
+          "lastName": "Cederholm",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Georg",
+          "lastName": "von Jonquieres",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Florence",
+          "lastName": "Bartlett",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Fabien",
+          "lastName": "Delerue",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Lars M.",
+          "lastName": "Ittner",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gary D.",
+          "lastName": "Housley",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Auditory system",
+          "type": 1
+        },
+        {
+          "tag": "Development of the nervous system",
+          "type": 1
+        },
+        {
+          "tag": "Neural circuits",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-03-26T02:34:48Z",
+      "dateModified": "2025-12-01T05:51:50Z",
+      "uri": "http://zotero.org/users/152779/items/AKQA2ETG",
+      "itemID": 14885,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "41598_2025_94011_MOESM3_ESM",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-03-26T02:40:58Z",
+          "dateModified": "2025-03-26T02:40:58Z",
+          "uri": "http://zotero.org/users/152779/items/GC8G6SGA",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/GC8G6SGA/41598_2025_94011_MOESM3_ESM.pdf",
+          "select": "zotero://select/library/items/GC8G6SGA"
+        },
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-03-26T02:37:33Z",
+          "dateModified": "2025-03-26T02:37:33Z",
+          "uri": "http://zotero.org/users/152779/items/YGCTVYQ6",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/YGCTVYQ6/Pearson et al. - 2025 - Developmental differentiation of mouse inner ear neuron subpopulations resolved with a peripherin-pr.pdf",
+          "select": "zotero://select/library/items/YGCTVYQ6"
+        }
+      ],
+      "notes": [],
+      "citationKey": "pearsonDevelopmentalDifferentiationMouse2025",
+      "itemKey": "AKQA2ETG",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/AKQA2ETG"
     },
     {
       "key": "GR9DR3SE",
@@ -1332,7 +2719,7 @@
           "tag": "Trichoderma longibrachiatum"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2012-05-09T04:42:16Z",
       "dateModified": "2022-11-05T08:27:13Z",
       "uri": "http://zotero.org/users/152779/items/GR9DR3SE",
@@ -1340,24 +2727,26 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "http://www.springerlink.com/content/v53241j1x6014780/fulltext.pdf",
           "title": "Rosales et al. - 2012 - Isolation of novel benzo[a]anthracene-degrading mi.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2012-05-09T04:42:16Z",
           "dateModified": "2013-02-27T03:17:54Z",
           "uri": "http://zotero.org/users/152779/items/QU2V8CWA",
-          "path": "/home/xabi/Zotero/storage/QU2V8CWA/Rosales et al. - 2012 - Isolation of novel benzo[a]anthracene-degrading mi.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/QU2V8CWA/Rosales et al. - 2012 - Isolation of novel benzo[a]anthracene-degrading mi.pdf",
           "select": "zotero://select/library/items/QU2V8CWA"
         },
         {
           "itemType": "attachment",
+          "url": "http://www.springerlink.com/content/v53241j1x6014780/abstract/",
           "title": "SpringerLink Snapshot",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2012-05-09T04:42:36Z",
           "dateModified": "2012-05-09T04:42:36Z",
           "uri": "http://zotero.org/users/152779/items/ZTXNTJ3X",
-          "path": "/home/xabi/Zotero/storage/ZTXNTJ3X/abstract.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/ZTXNTJ3X/abstract.html",
           "select": "zotero://select/library/items/ZTXNTJ3X"
         }
       ],
@@ -1625,7 +3014,7 @@
           "type": 1
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2020-12-22T03:53:56Z",
       "dateModified": "2022-11-05T08:27:57Z",
       "uri": "http://zotero.org/users/152779/items/ZNAAZU53",
@@ -1633,24 +3022,26 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "https://www.mdpi.com/2075-1729/10/12/362/pdf",
           "title": "Selbmann et al. - 2020 - Shed Light in the DaRk LineagES of the Fungal Tree.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-12-22T03:54:03Z",
           "dateModified": "2020-12-22T03:54:51Z",
           "uri": "http://zotero.org/users/152779/items/4AS9QH6L",
-          "path": "/home/xabi/Zotero/storage/4AS9QH6L/Selbmann et al. - 2020 - Shed Light in the DaRk LineagES of the Fungal Tree.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/4AS9QH6L/Selbmann et al. - 2020 - Shed Light in the DaRk LineagES of the Fungal Tree.pdf",
           "select": "zotero://select/library/items/4AS9QH6L"
         },
         {
           "itemType": "attachment",
+          "url": "https://www.mdpi.com/2075-1729/10/12/362",
           "title": "Snapshot",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2020-12-22T03:54:07Z",
           "dateModified": "2020-12-22T03:54:07Z",
           "uri": "http://zotero.org/users/152779/items/KUP4BYZ6",
-          "path": "/home/xabi/Zotero/storage/KUP4BYZ6/362.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/KUP4BYZ6/362.html",
           "select": "zotero://select/library/items/KUP4BYZ6"
         }
       ],
@@ -1662,7 +3053,7 @@
     },
     {
       "key": "S2G7WKCW",
-      "version": 20868,
+      "version": 22452,
       "itemType": "journalArticle",
       "url": "https://www.frontiersin.org/articles/10.3389/fmed.2022.788992",
       "volume": "9",
@@ -1672,7 +3063,7 @@
       "date": "2022 Jul 19",
       "extra": "0 citations (Crossref) [2022-11-05]\ntex.ids= tavakoli_interplay_2021",
       "journalAbbreviation": "Front Med",
-      "DOI": "10.3389/fmed.2022.788992",
+      "DOI": "10/gskdk2",
       "accessDate": "2022-07-20T01:41:45Z",
       "libraryCatalog": "Frontiers",
       "language": "en",
@@ -1706,9 +3097,13 @@
         }
       ],
       "tags": [],
-      "relations": [],
+      "relations": {
+        "dc:replaces": [
+          "http://zotero.org/users/152779/items/Y69RB8UH"
+        ]
+      },
       "dateAdded": "2021-05-17T00:23:34Z",
-      "dateModified": "2022-11-05T08:27:51Z",
+      "dateModified": "2023-08-07T04:06:12Z",
       "uri": "http://zotero.org/users/152779/items/S2G7WKCW",
       "itemID": 12835,
       "attachments": [
@@ -1716,27 +3111,28 @@
           "itemType": "attachment",
           "title": "data sheet 1.doc",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2022-07-20T01:44:10Z",
           "dateModified": "2022-07-20T01:44:10Z",
           "uri": "http://zotero.org/users/152779/items/NPGBHU3E",
-          "path": "/home/xabi/Zotero/storage/NPGBHU3E/data sheet 1.doc",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/NPGBHU3E/data sheet 1.doc",
           "select": "zotero://select/library/items/NPGBHU3E"
         },
         {
           "itemType": "attachment",
+          "url": "https://www.frontiersin.org/articles/10.3389/fmed.2022.788992/pdf",
           "title": "Tavakoli et al_2022_The Interplay Between Use of Biological Therapies, Psychological State, and the.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2022-07-20T01:41:59Z",
           "dateModified": "2022-07-20T01:42:01Z",
           "uri": "http://zotero.org/users/152779/items/CTNXR8HU",
-          "path": "/home/xabi/Zotero/storage/CTNXR8HU/Tavakoli et al_2022_The Interplay Between Use of Biological Therapies, Psychological State, and the.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/CTNXR8HU/Tavakoli et al_2022_The Interplay Between Use of Biological Therapies, Psychological State, and the.pdf",
           "select": "zotero://select/library/items/CTNXR8HU"
         }
       ],
       "notes": [],
-      "citationKey": "tavakoli_Interplay_2022",
+      "citationKey": "tavakoliInterplayUseBiological2022",
       "itemKey": "S2G7WKCW",
       "libraryID": 1,
       "select": "zotero://select/library/items/S2G7WKCW"
@@ -1815,25 +3211,24 @@
           "tag": "selected"
         }
       ],
-      "relations": [
-        "http://zotero.org/users/152779/items/5QDATTTK"
-      ],
+      "relations": {
+        "dc:replaces": [
+          "http://zotero.org/users/152779/items/HP3VHCDZ",
+          "http://zotero.org/users/152779/items/R6WAJ8G2"
+        ],
+        "dc:relation": [
+          "http://zotero.org/users/152779/items/5QDATTTK"
+        ]
+      },
       "dateAdded": "2013-04-10T07:16:09Z",
       "dateModified": "2023-02-24T03:38:34Z",
       "uri": "http://zotero.org/users/152779/items/HKGGWN7P",
       "itemID": 3039,
       "attachments": [
         {
-          "key": "7VIVCJT9",
-          "version": 11629,
           "itemType": "attachment",
           "url": "http://www.ncbi.nlm.nih.gov/pubmed/25143478",
-          "accessDate": "2014-11-25T07:37:16Z",
           "title": "PubMed entry",
-          "parentItem": "HKGGWN7P",
-          "linkMode": "linked_url",
-          "contentType": "text/html",
-          "charset": "",
           "tags": [
             {
               "tag": "#duplicate_attachments"
@@ -1842,51 +3237,55 @@
           "relations": {},
           "dateAdded": "2014-11-25T07:37:16Z",
           "dateModified": "2018-10-07T23:37:00Z",
-          "uri": "http://zotero.org/users/152779/items/7VIVCJT9"
+          "uri": "http://zotero.org/users/152779/items/7VIVCJT9",
+          "select": "zotero://select/library/items/7VIVCJT9"
         },
         {
           "itemType": "attachment",
+          "url": "http://www.mycologia.org/content/106/6/1073.full",
           "title": "Snapshot",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2014-11-25T07:37:16Z",
           "dateModified": "2018-04-13T07:46:05Z",
           "uri": "http://zotero.org/users/152779/items/B6CZ54HV",
-          "path": "/home/xabi/Zotero/storage/B6CZ54HV/1073.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/B6CZ54HV/1073.html",
           "select": "zotero://select/library/items/B6CZ54HV"
         },
         {
           "itemType": "attachment",
+          "url": "http://www.mycologia.org/content/106/6/1073.full.pdf",
           "title": "Vázquez-Campos et al. - 2014 - Fodinomyces uranophilus gen. nov. sp. nov. and Con.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2014-11-25T07:37:16Z",
           "dateModified": "2018-04-13T07:46:06Z",
           "uri": "http://zotero.org/users/152779/items/MKJGEG5Z",
-          "path": "/home/xabi/Zotero/storage/MKJGEG5Z/Vázquez-Campos et al. - 2014 - Fodinomyces uranophilus gen. nov. sp. nov. and Con.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/MKJGEG5Z/Vázquez-Campos et al. - 2014 - Fodinomyces uranophilus gen. nov. sp. nov. and Con.pdf",
           "select": "zotero://select/library/items/MKJGEG5Z"
         },
         {
           "itemType": "attachment",
+          "url": "http://www.mycologia.org.wwwproxy0.library.unsw.edu.au/content/early/2014/08/19/14-013.full.pdf",
           "title": "Vázquez-Campos et al. - 2014 - Fodinomyces uranophilus online.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2014-08-24T15:20:39Z",
           "dateModified": "2018-04-13T07:46:06Z",
           "uri": "http://zotero.org/users/152779/items/EUW6G3JS",
-          "path": "/home/xabi/Zotero/storage/EUW6G3JS/Vázquez-Campos et al. - 2014 - Fodinomyces uranophilus online.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/EUW6G3JS/Vázquez-Campos et al. - 2014 - Fodinomyces uranophilus online.pdf",
           "select": "zotero://select/library/items/EUW6G3JS"
         },
         {
@@ -1897,11 +3296,11 @@
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2014-04-16T04:36:52Z",
           "dateModified": "2018-04-13T07:45:05Z",
           "uri": "http://zotero.org/users/152779/items/KZKBZHGQ",
-          "path": "/home/xabi/Zotero/storage/KZKBZHGQ/Vázquez-Campos et al. - Fodinomyces uranophilus - Mycologia no figs.docx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/KZKBZHGQ/Vázquez-Campos et al. - Fodinomyces uranophilus - Mycologia no figs.docx",
           "select": "zotero://select/library/items/KZKBZHGQ"
         },
         {
@@ -1912,11 +3311,11 @@
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2014-01-17T02:09:05Z",
           "dateModified": "2018-04-13T07:45:55Z",
           "uri": "http://zotero.org/users/152779/items/6HIH5IIC",
-          "path": "/home/xabi/Zotero/storage/6HIH5IIC/Vázquez-Campos et al. - Fodinomyces uranophilus - Mycologia.docx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/6HIH5IIC/Vázquez-Campos et al. - Fodinomyces uranophilus - Mycologia.docx",
           "select": "zotero://select/library/items/6HIH5IIC"
         },
         {
@@ -1927,11 +3326,11 @@
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2014-01-13T01:51:23Z",
           "dateModified": "2018-04-13T07:45:55Z",
           "uri": "http://zotero.org/users/152779/items/A9F4AM2R",
-          "path": "/home/xabi/Zotero/storage/A9F4AM2R/Vázquez-Campos et al. - Fodinomyces uranophilus gen. nov. sp. nov. .pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/A9F4AM2R/Vázquez-Campos et al. - Fodinomyces uranophilus gen. nov. sp. nov. .pdf",
           "select": "zotero://select/library/items/A9F4AM2R"
         }
       ],
@@ -1940,115 +3339,6 @@
       "itemKey": "HKGGWN7P",
       "libraryID": 1,
       "select": "zotero://select/library/items/HKGGWN7P"
-    },
-    {
-      "key": "5PZSI9VB",
-      "version": 20868,
-      "itemType": "journalArticle",
-      "url": "https://www.frontiersin.org/article/10.3389/fmicb.2021.732575",
-      "rights": "© 2019, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial 4.0 International), CC BY-NC 4.0, as described at http://creativecommons.org/licenses/by-nc/4.0/",
-      "volume": "12",
-      "pages": "732575",
-      "publicationTitle": "Frontiers in Microbiology",
-      "ISSN": "1664-302X",
-      "date": "2021 Oct 18",
-      "extra": "2 citations (Crossref) [2022-11-05]\ntex.ids= vazquez-campos_genomic_2021-1",
-      "journalAbbreviation": "Front Microbiol",
-      "DOI": "10.3389/fmicb.2021.732575",
-      "accessDate": "2019-08-13T23:34:30Z",
-      "libraryCatalog": "Frontiers",
-      "language": "en",
-      "abstractNote": "<p>During the 1960s, small quantities of radioactive materials were co-disposed with chemical waste at the Little Forest Legacy Site (LFLS, Sydney, Australia). The microbial function and population dynamics during a rainfall event using shotgun metagenomics has been previously investigated. This revealed a broad abundance of candidate and potentially undescribed taxa in this iron-rich, radionuclide-contaminated environment. Here, applying genome-based metagenomic methods, we recovered 37 refined archaeal bins (≥50% completeness, ≤10% redundancy) from 10 different major lineages. They were, for the most part, included in 4 proposed lineages within the DPANN supergroup (LFWA-I to IV) and <i>Methanoperedenaceae</i>. The new <i>Methanoperedens</i> spp. bins, together with previously published data, suggests a potentially widespread ability to use nitrate (or nitrite) and metal ions as electron acceptors during the anaerobic oxidation of methane by <i>Methanoperedens</i> spp. While most of the new DPANN lineages show reduced genomes with limited central metabolism typical of other DPANN, the candidate species from the proposed LFWA-III lineage show some unusual features not often present in DPANN genomes, i.e. a more comprehensive central metabolism and anabolic capabilities.While there is still some uncertainty about the capabilities of LFW-121_3 and closely related archaea for the biosynthesis of nucleotides de novo and amino acids, it is to date the most promising candidate to be a <i>bona fide</i> free-living DPANN archaeon.</p>",
-      "title": "Genomic insights into the <i>Archaea</i> inhabiting an Australian radioactive legacy site",
-      "creators": [
-        {
-          "firstName": "Xabier",
-          "lastName": "Vázquez-Campos",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Andrew S.",
-          "lastName": "Kinsela",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Mark W.",
-          "lastName": "Bligh",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Timothy E.",
-          "lastName": "Payne",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Marc R.",
-          "lastName": "Wilkins",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "T. David",
-          "lastName": "Waite",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [],
-      "relations": [],
-      "dateAdded": "2021-07-21T02:56:02Z",
-      "dateModified": "2022-11-05T08:27:54Z",
-      "uri": "http://zotero.org/users/152779/items/5PZSI9VB",
-      "itemID": 12388,
-      "attachments": [
-        {
-          "itemType": "attachment",
-          "title": "Data_Sheet_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-11-22T22:40:51Z",
-          "dateModified": "2022-11-22T22:41:13Z",
-          "uri": "http://zotero.org/users/152779/items/KB5JQHR3",
-          "path": "/home/xabi/Zotero/storage/KB5JQHR3/Data_Sheet_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.PDF",
-          "select": "zotero://select/library/items/KB5JQHR3"
-        },
-        {
-          "itemType": "attachment",
-          "title": "Image_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.PDF",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-11-22T22:42:12Z",
-          "dateModified": "2022-11-22T22:42:15Z",
-          "uri": "http://zotero.org/users/152779/items/MGF9CEA6",
-          "path": "/home/xabi/Zotero/storage/MGF9CEA6/Image_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.PDF",
-          "select": "zotero://select/library/items/MGF9CEA6"
-        },
-        {
-          "itemType": "attachment",
-          "title": "Table_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.XLSX",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2022-11-22T22:41:20Z",
-          "dateModified": "2022-11-22T22:41:20Z",
-          "uri": "http://zotero.org/users/152779/items/QNP7884L",
-          "path": "/home/xabi/Zotero/storage/QNP7884L/Table_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.XLSX",
-          "select": "zotero://select/library/items/QNP7884L"
-        },
-        {
-          "itemType": "attachment",
-          "title": "Vázquez-Campos et al_2021_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy.pdf",
-          "tags": [],
-          "relations": [],
-          "dateAdded": "2021-10-20T23:35:47Z",
-          "dateModified": "2021-10-21T00:10:26Z",
-          "uri": "http://zotero.org/users/152779/items/VUAP4Y5C",
-          "path": "/home/xabi/Zotero/storage/VUAP4Y5C/Vázquez-Campos et al_2021_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy.pdf",
-          "select": "zotero://select/library/items/VUAP4Y5C"
-        }
-      ],
-      "notes": [],
-      "citationKey": "vazquez-campos_Genomic_2021",
-      "itemKey": "5PZSI9VB",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/5PZSI9VB"
     },
     {
       "key": "7Z8NHJ66",
@@ -2114,10 +3404,12 @@
           "tag": "shotgun metagenomics"
         }
       ],
-      "relations": [
-        "http://zotero.org/users/152779/items/JTKCRS3Z",
-        "http://zotero.org/users/152779/items/PKWQGQBC"
-      ],
+      "relations": {
+        "dc:relation": [
+          "http://zotero.org/users/152779/items/JTKCRS3Z",
+          "http://zotero.org/users/152779/items/PKWQGQBC"
+        ]
+      },
       "dateAdded": "2016-12-30T06:20:21Z",
       "dateModified": "2022-11-05T08:28:00Z",
       "uri": "http://zotero.org/users/152779/items/7Z8NHJ66",
@@ -2127,22 +3419,23 @@
           "itemType": "attachment",
           "title": "Vázquez-Campos et al_2017_Response of microbial community function to fluctuating geochemical conditions.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2017-09-01T03:02:58Z",
           "dateModified": "2020-06-22T00:15:34Z",
           "uri": "http://zotero.org/users/152779/items/KLXVEZQD",
-          "path": "/home/xabi/Zotero/storage/KLXVEZQD/Vázquez-Campos et al_2017_Response of microbial community function to fluctuating geochemical conditions.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/KLXVEZQD/Vázquez-Campos et al_2017_Response of microbial community function to fluctuating geochemical conditions.pdf",
           "select": "zotero://select/library/items/KLXVEZQD"
         },
         {
           "itemType": "attachment",
+          "url": "http://aem.asm.org/content/suppl/2017/08/08/AEM.00729-17.DCSupplemental/zam999118017s1.pdf",
           "title": "zam999118017s1.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2017-09-01T03:03:30Z",
           "dateModified": "2020-06-22T00:15:39Z",
           "uri": "http://zotero.org/users/152779/items/LX4VHH5W",
-          "path": "/home/xabi/Zotero/storage/LX4VHH5W/zam999118017s1.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/LX4VHH5W/zam999118017s1.pdf",
           "select": "zotero://select/library/items/LX4VHH5W"
         }
       ],
@@ -2224,9 +3517,11 @@
           "tag": "selected"
         }
       ],
-      "relations": [
-        "http://zotero.org/users/152779/items/5QDATTTK"
-      ],
+      "relations": {
+        "dc:relation": [
+          "http://zotero.org/users/152779/items/5QDATTTK"
+        ]
+      },
       "dateAdded": "2013-02-27T03:18:29Z",
       "dateModified": "2023-02-24T03:38:34Z",
       "uri": "http://zotero.org/users/152779/items/ZUPR9C8B",
@@ -2234,92 +3529,98 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "http://pubs.acs.org/doi/abs/10.1021/acs.est.5b01342",
           "title": "ACS Full Text Snapshot",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2015-06-25T06:45:26Z",
           "dateModified": "2018-04-13T07:46:14Z",
           "uri": "http://zotero.org/users/152779/items/5UCBRG9S",
-          "path": "/home/xabi/Zotero/storage/5UCBRG9S/acs.est.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/5UCBRG9S/acs.est.html",
           "select": "zotero://select/library/items/5UCBRG9S"
         },
         {
           "itemType": "attachment",
+          "url": "http://pubs.acs.org/doi/suppl/10.1021/acs.est.5b01342/suppl_file/es5b01342_si_001.pdf",
           "title": "es5b01342_si_001.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2015-07-22T04:42:00Z",
           "dateModified": "2018-04-13T07:46:19Z",
           "uri": "http://zotero.org/users/152779/items/PB3EGKU5",
-          "path": "/home/xabi/Zotero/storage/PB3EGKU5/es5b01342_si_001.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/PB3EGKU5/es5b01342_si_001.pdf",
           "select": "zotero://select/library/items/PB3EGKU5"
         },
         {
           "itemType": "attachment",
+          "url": "http://pubs.acs.org/doi/full/10.1021/acs.est.5b01342",
           "title": "Uranium Binding Mechanisms of the Acid-Tolerant Fungus Coniochaeta fodinicola - Environmental Science & Technology (ACS Publications)",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2015-07-22T04:48:08Z",
           "dateModified": "2018-04-13T07:46:19Z",
           "uri": "http://zotero.org/users/152779/items/5JA7KNC2",
-          "path": "/home/xabi/Zotero/storage/5JA7KNC2/acs.est.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/5JA7KNC2/acs.est.html",
           "select": "zotero://select/library/items/5JA7KNC2"
         },
         {
           "itemType": "attachment",
+          "url": "http://pubs.acs.org/doi/pdfplus/10.1021/acs.est.5b01342",
           "title": "Vázquez-Campos et al. - 2015 - Uranium binding mechanisms just accepted.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2015-06-25T06:45:23Z",
           "dateModified": "2018-04-13T07:46:14Z",
           "uri": "http://zotero.org/users/152779/items/M5MKBZUE",
-          "path": "/home/xabi/Zotero/storage/M5MKBZUE/Vázquez-Campos et al. - 2015 - Uranium binding mechanisms just accepted.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/M5MKBZUE/Vázquez-Campos et al. - 2015 - Uranium binding mechanisms just accepted.pdf",
           "select": "zotero://select/library/items/M5MKBZUE"
         },
         {
           "itemType": "attachment",
+          "url": "http://pubs.acs.org/doi/pdf/10.1021/acs.est.5b01342",
           "title": "Vázquez-Campos et al. - 2015 - Uranium binding mechanisms of the acid-tolerant fu.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2015-07-22T04:38:43Z",
           "dateModified": "2018-04-13T07:46:19Z",
           "uri": "http://zotero.org/users/152779/items/UV72343K",
-          "path": "/home/xabi/Zotero/storage/UV72343K/Vázquez-Campos et al. - 2015 - Uranium binding mechanisms of the acid-tolerant fu.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/UV72343K/Vázquez-Campos et al. - 2015 - Uranium binding mechanisms of the acid-tolerant fu.pdf",
           "select": "zotero://select/library/items/UV72343K"
         },
         {
           "itemType": "attachment",
+          "url": "http://pubs.acs.org/doi/pdfplus/10.1021/acs.est.5b01342",
           "title": "Vázquez-Campos et al. - 2015 - Uranium binding mechanisms with links.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2015-07-22T04:38:48Z",
           "dateModified": "2018-04-13T07:46:14Z",
           "uri": "http://zotero.org/users/152779/items/FTNZZS6E",
-          "path": "/home/xabi/Zotero/storage/FTNZZS6E/Vázquez-Campos et al. - 2015 - Uranium binding mechanisms with links.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/FTNZZS6E/Vázquez-Campos et al. - 2015 - Uranium binding mechanisms with links.pdf",
           "select": "zotero://select/library/items/FTNZZS6E"
         }
       ],
@@ -2388,9 +3689,11 @@
           "tag": "low-grade ore"
         }
       ],
-      "relations": [
-        "http://zotero.org/users/152779/items/EM72J9GI"
-      ],
+      "relations": {
+        "dc:relation": [
+          "http://zotero.org/users/152779/items/EM72J9GI"
+        ]
+      },
       "dateAdded": "2016-11-11T04:40:11Z",
       "dateModified": "2022-11-05T08:27:59Z",
       "uri": "http://zotero.org/users/152779/items/25JH23SD",
@@ -2398,54 +3701,57 @@
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "http://www.sciencedirect.com/science/article/pii/S0304386X16301682/pdfft?md5=05f430e56c67f17b2ff763bd33efcfc4&pid=1-s2.0-S0304386X16301682-main.pdf",
           "title": "just_accepted",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2016-11-11T04:40:11Z",
           "dateModified": "2018-04-13T07:46:48Z",
           "uri": "http://zotero.org/users/152779/items/FHE6R6PW",
-          "path": "/home/xabi/Zotero/storage/FHE6R6PW/just_accepted.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/FHE6R6PW/just_accepted.pdf",
           "select": "zotero://select/library/items/FHE6R6PW"
         },
         {
           "itemType": "attachment",
           "title": "mmc1.docx",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2017-03-27T22:34:46Z",
           "dateModified": "2017-03-27T22:34:46Z",
           "uri": "http://zotero.org/users/152779/items/MI7RGETB",
-          "path": "/home/xabi/Zotero/storage/MI7RGETB/mmc1.docx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/MI7RGETB/mmc1.docx",
           "select": "zotero://select/library/items/MI7RGETB"
         },
         {
           "itemType": "attachment",
+          "url": "http://www.sciencedirect.com/science/article/pii/S0304386X16301682",
           "title": "ScienceDirect Snapshot",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2016-11-11T04:40:11Z",
           "dateModified": "2016-11-11T04:40:11Z",
           "uri": "http://zotero.org/users/152779/items/9WGWBMKW",
-          "path": "/home/xabi/Zotero/storage/9WGWBMKW/S0304386X16301682.html",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/9WGWBMKW/S0304386X16301682.html",
           "select": "zotero://select/library/items/9WGWBMKW"
         },
         {
           "itemType": "attachment",
+          "url": "http://www.sciencedirect.com/science/article/pii/S0304386X16301682/pdfft?md5=05f430e56c67f17b2ff763bd33efcfc4&pid=1-s2.0-S0304386X16301682-main.pdf",
           "title": "Vázquez-Campos et al. - 2017 - Uranium extraction from a low-grade, stockpiled, n.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2017-03-27T22:33:51Z",
           "dateModified": "2018-04-13T07:46:48Z",
           "uri": "http://zotero.org/users/152779/items/EGJ35I9M",
-          "path": "/home/xabi/Zotero/storage/EGJ35I9M/Vázquez-Campos et al. - 2017 - Uranium extraction from a low-grade, stockpiled, n.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/EGJ35I9M/Vázquez-Campos et al. - 2017 - Uranium extraction from a low-grade, stockpiled, n.pdf",
           "select": "zotero://select/library/items/EGJ35I9M"
         }
       ],
@@ -2456,8 +3762,122 @@
       "select": "zotero://select/library/items/25JH23SD"
     },
     {
+      "key": "5PZSI9VB",
+      "version": 22452,
+      "itemType": "journalArticle",
+      "url": "https://www.frontiersin.org/article/10.3389/fmicb.2021.732575",
+      "rights": "© 2019, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial 4.0 International), CC BY-NC 4.0, as described at http://creativecommons.org/licenses/by-nc/4.0/",
+      "volume": "12",
+      "pages": "732575",
+      "publicationTitle": "Frontiers in Microbiology",
+      "ISSN": "1664-302X",
+      "date": "2021 Oct 18",
+      "extra": "2 citations (Crossref) [2022-11-05]\ntex.ids= vazquez-campos_genomic_2021-1",
+      "journalAbbreviation": "Front Microbiol",
+      "DOI": "10/gm6g2r",
+      "accessDate": "2019-08-13T23:34:30Z",
+      "libraryCatalog": "Frontiers",
+      "language": "en",
+      "abstractNote": "<p>During the 1960s, small quantities of radioactive materials were co-disposed with chemical waste at the Little Forest Legacy Site (LFLS, Sydney, Australia). The microbial function and population dynamics during a rainfall event using shotgun metagenomics has been previously investigated. This revealed a broad abundance of candidate and potentially undescribed taxa in this iron-rich, radionuclide-contaminated environment. Here, applying genome-based metagenomic methods, we recovered 37 refined archaeal bins (≥50% completeness, ≤10% redundancy) from 10 different major lineages. They were, for the most part, included in 4 proposed lineages within the DPANN supergroup (LFWA-I to IV) and <i>Methanoperedenaceae</i>. The new <i>Methanoperedens</i> spp. bins, together with previously published data, suggests a potentially widespread ability to use nitrate (or nitrite) and metal ions as electron acceptors during the anaerobic oxidation of methane by <i>Methanoperedens</i> spp. While most of the new DPANN lineages show reduced genomes with limited central metabolism typical of other DPANN, the candidate species from the proposed LFWA-III lineage show some unusual features not often present in DPANN genomes, i.e. a more comprehensive central metabolism and anabolic capabilities.While there is still some uncertainty about the capabilities of LFW-121_3 and closely related archaea for the biosynthesis of nucleotides de novo and amino acids, it is to date the most promising candidate to be a <i>bona fide</i> free-living DPANN archaeon.</p>",
+      "title": "Genomic insights into the <i>Archaea</i> inhabiting an Australian radioactive legacy site",
+      "creators": [
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andrew S.",
+          "lastName": "Kinsela",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mark W.",
+          "lastName": "Bligh",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Timothy E.",
+          "lastName": "Payne",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marc R.",
+          "lastName": "Wilkins",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "T. David",
+          "lastName": "Waite",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {
+        "dc:replaces": [
+          "http://zotero.org/users/152779/items/U9V7TNAR"
+        ]
+      },
+      "dateAdded": "2021-07-21T02:56:02Z",
+      "dateModified": "2023-08-07T04:06:12Z",
+      "uri": "http://zotero.org/users/152779/items/5PZSI9VB",
+      "itemID": 12388,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Data_Sheet_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2022-11-22T22:40:51Z",
+          "dateModified": "2022-11-22T22:41:13Z",
+          "uri": "http://zotero.org/users/152779/items/KB5JQHR3",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/KB5JQHR3/Data_Sheet_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.PDF",
+          "select": "zotero://select/library/items/KB5JQHR3"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Image_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2022-11-22T22:42:12Z",
+          "dateModified": "2022-11-22T22:42:15Z",
+          "uri": "http://zotero.org/users/152779/items/MGF9CEA6",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/MGF9CEA6/Image_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.PDF",
+          "select": "zotero://select/library/items/MGF9CEA6"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Table_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.XLSX",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2022-11-22T22:41:20Z",
+          "dateModified": "2022-11-22T22:41:20Z",
+          "uri": "http://zotero.org/users/152779/items/QNP7884L",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/QNP7884L/Table_1_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site.XLSX",
+          "select": "zotero://select/library/items/QNP7884L"
+        },
+        {
+          "itemType": "attachment",
+          "url": "https://www.frontiersin.org/articles/10.3389/fmicb.2021.732575/pdf",
+          "title": "Vázquez-Campos et al_2021_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2021-10-20T23:35:47Z",
+          "dateModified": "2021-10-21T00:10:26Z",
+          "uri": "http://zotero.org/users/152779/items/VUAP4Y5C",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/VUAP4Y5C/Vázquez-Campos et al_2021_Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy.pdf",
+          "select": "zotero://select/library/items/VUAP4Y5C"
+        }
+      ],
+      "notes": [],
+      "citationKey": "vazquez-camposGenomicInsightsArchaea2021",
+      "itemKey": "5PZSI9VB",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/5PZSI9VB"
+    },
+    {
       "key": "JIYX4V4F",
-      "version": 21444,
+      "version": 30485,
       "itemType": "journalArticle",
       "url": "https://www.nature.com/articles/s41396-018-0208-8",
       "volume": "12",
@@ -2503,166 +3923,172 @@
       ],
       "tags": [
         {
-          "tag": "shotgun metagenomics"
-        },
-        {
           "tag": "functional analysis"
         },
         {
           "tag": "microbial mats"
         },
         {
+          "tag": "paper of the month"
+        },
+        {
           "tag": "Shark Bay"
         },
         {
+          "tag": "shotgun metagenomics"
+        },
+        {
           "tag": "stromatolites"
-        },
-        {
-          "tag": "selected"
-        },
-        {
-          "tag": "paper of the month"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2018-01-15T23:27:18Z",
-      "dateModified": "2023-05-22T06:55:51Z",
+      "dateModified": "2025-12-01T06:32:29Z",
       "uri": "http://zotero.org/users/152779/items/JIYX4V4F",
       "itemID": 3080,
       "attachments": [
         {
           "itemType": "attachment",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41396-018-0208-8/MediaObjects/41396_2018_208_MOESM1_ESM.tif",
           "title": "41396_2018_208_MOESM1_ESM.tiff",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2018-07-08T23:15:58Z",
           "dateModified": "2018-10-07T23:37:58Z",
           "uri": "http://zotero.org/users/152779/items/4EGVBB57",
-          "path": "/home/xabi/Zotero/storage/4EGVBB57/41396_2018_208_MOESM1_ESM.tiff",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/4EGVBB57/41396_2018_208_MOESM1_ESM.tiff",
           "select": "zotero://select/library/items/4EGVBB57"
         },
         {
           "itemType": "attachment",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41396-018-0208-8/MediaObjects/41396_2018_208_MOESM3_ESM.xlsx",
           "title": "41396_2018_208_MOESM3_ESM.xlsx",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2018-07-08T23:16:03Z",
           "dateModified": "2018-10-07T23:37:58Z",
           "uri": "http://zotero.org/users/152779/items/SVWYEDQV",
-          "path": "/home/xabi/Zotero/storage/SVWYEDQV/41396_2018_208_MOESM3_ESM.xlsx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/SVWYEDQV/41396_2018_208_MOESM3_ESM.xlsx",
           "select": "zotero://select/library/items/SVWYEDQV"
         },
         {
           "itemType": "attachment",
-          "title": "41396_2018_208_MOESM4_ESM.xlsx",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41396-018-0208-8/MediaObjects/41396_2018_208_MOESM4_ESM.doc",
+          "title": "41396_2018_208_MOESM4_ESM.docx",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2018-07-08T23:16:11Z",
-          "dateModified": "2018-10-07T23:37:58Z",
+          "dateModified": "2024-03-04T00:47:18Z",
           "uri": "http://zotero.org/users/152779/items/ZEGHZKAZ",
-          "path": "/home/xabi/Zotero/storage/ZEGHZKAZ/41396_2018_208_MOESM4_ESM.xlsx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/ZEGHZKAZ/41396_2018_208_MOESM4_ESM.docx",
           "select": "zotero://select/library/items/ZEGHZKAZ"
         },
         {
           "itemType": "attachment",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41396-018-0208-8/MediaObjects/41396_2018_208_MOESM5_ESM.xlsx",
           "title": "41396_2018_208_MOESM5_ESM.xlsx",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2018-07-08T23:16:13Z",
           "dateModified": "2018-10-07T23:37:58Z",
           "uri": "http://zotero.org/users/152779/items/48HAWV9A",
-          "path": "/home/xabi/Zotero/storage/48HAWV9A/41396_2018_208_MOESM5_ESM.xlsx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/48HAWV9A/41396_2018_208_MOESM5_ESM.xlsx",
           "select": "zotero://select/library/items/48HAWV9A"
         },
         {
           "itemType": "attachment",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41396-018-0208-8/MediaObjects/41396_2018_208_MOESM6_ESM.xlsx",
           "title": "41396_2018_208_MOESM6_ESM.xlsx",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2018-07-08T23:16:17Z",
           "dateModified": "2018-10-07T23:37:58Z",
           "uri": "http://zotero.org/users/152779/items/DC9KBXHR",
-          "path": "/home/xabi/Zotero/storage/DC9KBXHR/41396_2018_208_MOESM6_ESM.xlsx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/DC9KBXHR/41396_2018_208_MOESM6_ESM.xlsx",
           "select": "zotero://select/library/items/DC9KBXHR"
         },
         {
           "itemType": "attachment",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41396-018-0208-8/MediaObjects/41396_2018_208_MOESM7_ESM.xlsx",
           "title": "41396_2018_208_MOESM7_ESM.xlsx",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2018-07-08T23:16:19Z",
           "dateModified": "2018-10-07T23:37:58Z",
           "uri": "http://zotero.org/users/152779/items/3PMT637U",
-          "path": "/home/xabi/Zotero/storage/3PMT637U/41396_2018_208_MOESM7_ESM.xlsx",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/3PMT637U/41396_2018_208_MOESM7_ESM.xlsx",
           "select": "zotero://select/library/items/3PMT637U"
         },
         {
           "itemType": "attachment",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41396-018-0208-8/MediaObjects/41396_2018_208_MOESM8_ESM.tif",
           "title": "41396_2018_208_MOESM8_ESM.tiff",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2018-07-08T23:16:24Z",
           "dateModified": "2018-10-07T23:37:58Z",
           "uri": "http://zotero.org/users/152779/items/LKGDFSYN",
-          "path": "/home/xabi/Zotero/storage/LKGDFSYN/41396_2018_208_MOESM8_ESM.tiff",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/LKGDFSYN/41396_2018_208_MOESM8_ESM.tiff",
           "select": "zotero://select/library/items/LKGDFSYN"
         },
         {
           "itemType": "attachment",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41396-018-0208-8/MediaObjects/41396_2018_208_MOESM10_ESM.tif",
           "title": "41396_2018_208_MOESM10_ESM.tiff",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2018-07-08T23:16:27Z",
           "dateModified": "2018-10-07T23:37:58Z",
           "uri": "http://zotero.org/users/152779/items/33AUB6FU",
-          "path": "/home/xabi/Zotero/storage/33AUB6FU/41396_2018_208_MOESM10_ESM.tiff",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/33AUB6FU/41396_2018_208_MOESM10_ESM.tiff",
           "select": "zotero://select/library/items/33AUB6FU"
         },
         {
           "itemType": "attachment",
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41396-018-0208-8/MediaObjects/41396_2018_208_MOESM11_ESM.tif",
           "title": "41396_2018_208_MOESM11_ESM.tiff",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2018-07-08T23:16:31Z",
           "dateModified": "2018-10-07T23:37:58Z",
           "uri": "http://zotero.org/users/152779/items/QYLFR7ED",
-          "path": "/home/xabi/Zotero/storage/QYLFR7ED/41396_2018_208_MOESM11_ESM.tiff",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/QYLFR7ED/41396_2018_208_MOESM11_ESM.tiff",
           "select": "zotero://select/library/items/QYLFR7ED"
         },
         {
@@ -2673,26 +4099,27 @@
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2018-01-15T23:33:16Z",
           "dateModified": "2018-10-07T23:37:49Z",
           "uri": "http://zotero.org/users/152779/items/YH86ZMKK",
-          "path": "/home/xabi/Zotero/storage/YH86ZMKK/accepted.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/YH86ZMKK/accepted.pdf",
           "select": "zotero://select/library/items/YH86ZMKK"
         },
         {
           "itemType": "attachment",
+          "url": "https://www.nature.com/articles/s41396-018-0208-8.pdf",
           "title": "Wong et al. - 2018 - Disentangling the drivers of functional complexity.pdf",
           "tags": [
             {
               "tag": "#duplicate_attachments"
             }
           ],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2018-07-08T23:15:04Z",
           "dateModified": "2018-10-07T23:37:58Z",
           "uri": "http://zotero.org/users/152779/items/S32WILCJ",
-          "path": "/home/xabi/Zotero/storage/S32WILCJ/Wong et al. - 2018 - Disentangling the drivers of functional complexity.pdf",
+          "path": "/mnt/xabi/File_share/xabi/Zotero/storage/S32WILCJ/Wong et al. - 2018 - Disentangling the drivers of functional complexity.pdf",
           "select": "zotero://select/library/items/S32WILCJ"
         }
       ],
