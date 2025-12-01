@@ -514,12 +514,12 @@ create_PUB_object <- function(data_location,
     tidyr::separate(date,
                     into = c("year", "month", "day"),
                     sep = " ", extra = "merge", remove = FALSE) %>%
-    dplyr::arrange(dplyr::desc(lubridate::ymd(date)))%>%
-    dplyr::mutate_all(~ ifelse(is.na(.), 'N/A', .)) %>%
+    dplyr::arrange(dplyr::desc(year), dplyr::desc(factor(month, levels = month.abb))) %>%
     dplyr::group_by(year) %>%
     dplyr::mutate(count = 1:dplyr::n()) %>%
     dplyr::ungroup() %>%
-    dplyr::mutate(timeline = dplyr::case_when(count != 1 ~ "N/A", TRUE ~ as.character(year)))
+    dplyr::mutate(timeline = dplyr::case_when(count != 1 ~ "N/A", TRUE ~ as.character(year)),
+                  day = stringr::str_replace(day, "-", "--"))
   
   ## preprints (only if there is some current ones)
   if(length(pub[["preprints"]]) != 0){
@@ -545,12 +545,12 @@ create_PUB_object <- function(data_location,
       tidyr::separate(date,
                       into = c("year", "month", "day"),
                       sep = " ", extra = "merge", remove = FALSE) %>%
-      dplyr::arrange(dplyr::desc(lubridate::ymd(date)))%>%
-      dplyr::mutate_all(~ ifelse(is.na(.), 'N/A', .)) %>%
+      dplyr::arrange(dplyr::desc(year), dplyr::desc(factor(month, levels = month.abb))) %>%
       dplyr::group_by(year) %>%
       dplyr::mutate(count = 1:dplyr::n()) %>%
       dplyr::ungroup() %>%
-      dplyr::mutate(timeline = dplyr::case_when(count != 1 ~ "N/A", TRUE ~ as.character(year)))
+      dplyr::mutate(timeline = dplyr::case_when(count != 1 ~ "N/A", TRUE ~ as.character(year)),
+                    day = stringr::str_replace(day, "-", "--"))
   }
   
 
