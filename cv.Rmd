@@ -190,13 +190,15 @@ CV$teaching %<>% print_section('workshops', glue_template = "teaching")
 
 ## Supervision {data-icon=user-pen #subtitle_super}
 
+```{r aside_supervision}
+CV %<>% print_text_block_aside("supervision")
+```
+
+
 ```{r supervision}
 CV$supervision %<>% print_section('formal', glue_template = "supervision")
 ```
 
-```{r aside_supervision}
-CV %<>% print_text_block_aside("supervision")
-```
 
 
 Grants {data-icon=hand-holding-dollar}
