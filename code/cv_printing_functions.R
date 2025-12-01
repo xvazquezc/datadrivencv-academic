@@ -338,7 +338,8 @@ create_PUB_object <- function(data_location,
   for (i in 1:length(pub_types)) {
     file_path <- paste0(data_location, pub_types[[i]], ".json")
     if (file.exists(file_path)) {
-      pub[[pubtype_fix[[i]]]] <- jsonlite::read_json(file_path, simplifyVector = T)$items
+      pub[[pubtype_fix[[i]]]] <- jsonlite::read_json(file_path, simplifyVector = T)$items %>% 
+        dplyr::select(!starts_with("relations"))
     }
   }
   
@@ -531,7 +532,7 @@ create_PUB_object <- function(data_location,
         description_bullets = NA,
         doi = paste0("<a href=\'https://doi.org/", DOI, "\'><i class=\'ai ai-doi\'></i></a>"),
         journal_numbers = archiveID,
-        journal = publisher,
+        journal = repository,
         tags = sapply(.$tag, function(x) paste(x[!is.na(x)], collapse = "-")),
         authors = ifelse(stringr::str_detect(tags, "cofirst"), 
                          paste(
