@@ -17,7 +17,7 @@ output:
   pagedown::html_resume:
     keep_md: FALSE
     css: 
-      - 'css/fontawesome-free-6.2.1-web/css/all.min.css'
+      - 'css/fontawesome-free-7.1.0-web/css/all.min.css'
       - 'resume'
       - 'css/dd_cv.css'
       - 'https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css'
@@ -33,7 +33,7 @@ knitr::opts_chunk$set(
 )
 
 library(magrittr) # For the pipe
-library(fontawesome)
+#library(fontawesome)
 source("code/cv_printing_functions.R")
 
 # Read in all data and initialize a CV printer object
