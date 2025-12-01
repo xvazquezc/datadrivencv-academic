@@ -92,6 +92,10 @@ body {
   color: #444;
 }
 
+bold, strong {
+  font-weight: 500;
+}
+
 /* Give headers playfair font */
 h1,
 h2,
