@@ -188,6 +188,50 @@
       "select": "zotero://select/library/items/F2KP4VBM"
     },
     {
+      "key": "KRBN9MVE",
+      "version": 30499,
+      "itemType": "journalArticle",
+      "volume": "pbm00060.R1",
+      "publicationTitle": "Bergey's Manual of Systematics of Archaea and Bacteria",
+      "date": "2025",
+      "journalAbbreviation": "Bergey's Manual of Systematics of Archaea and Bacteria",
+      "title": "<i>Dormibacteria</i>",
+      "creators": [
+        {
+          "firstName": "Belinda C.",
+          "lastName": "Ferrari",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Timothy J.",
+          "lastName": "Williams",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ji",
+          "lastName": "Mukan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xabier",
+          "lastName": "Vázquez-Campos",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-12-01T23:30:27Z",
+      "dateModified": "2025-12-01T23:34:58Z",
+      "uri": "http://zotero.org/users/152779/items/KRBN9MVE",
+      "itemID": 15680,
+      "attachments": [],
+      "notes": [],
+      "citationKey": "ferrariDormibacteria2025",
+      "itemKey": "KRBN9MVE",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/KRBN9MVE"
+    },
+    {
       "key": "B9ELIWLC",
       "version": 30478,
       "itemType": "journalArticle",
